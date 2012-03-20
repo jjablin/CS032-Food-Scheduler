@@ -7,14 +7,6 @@ public class UserAccount extends NullAccount {
 
   private static final long serialVersionUID = 7526471155622776147L;
 
-  // http://en.wikipedia.org/wiki/List_of_food_allergies -
-  //  a list of food allergies.
-  public enum Allergy {
-    CORN, FRUIT, GARLIC, OATS, MILK, PEANUT, FISH,
-      SHELLFISH, SOY, TREE_NUT, WHEAT, EGG, MSG,
-      SULPHITES
-  };
-
   String _username;
   String _password;
   Set<String> _likes;
@@ -58,11 +50,13 @@ public class UserAccount extends NullAccount {
   }
 
   public void addDislike(String dislike) {
-    _dislikes.add(dislike);
+    if(!_likes.contains(dislike))
+      _dislikes.add(dislike);
   }
 
   public void addLike(String like) {
-    _likes.add(like);
+    if(!_dislikes.contains(like))
+      _likes.add(like);
   }
 
   public void clearAllergies() {
@@ -77,15 +71,15 @@ public class UserAccount extends NullAccount {
     _likes.clear();
   }
 
-  public Set getAllergies() {
+  public Set< Allergy > getAllergies() {
     return _allergies;
   }
 
-  public Set getDislikes() {
+  public Set< String > getDislikes() {
     return _dislikes;
   }
 
-  public Set getLikes() {
+  public Set< String > getLikes() {
     return _likes;
   }
 
@@ -114,7 +108,8 @@ public class UserAccount extends NullAccount {
   }
 
   public void setPassword(String password) {
-    _password = password;
+    if(password.length() > 0)
+      _password = password;
   }
 
   public String toString() {
