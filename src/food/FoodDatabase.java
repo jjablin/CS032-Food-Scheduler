@@ -38,10 +38,11 @@ public class FoodDatabase {
 
   public void createDishesTable() {
     ArrayList< DatabaseVariable > variables = new ArrayList< DatabaseVariable >();
-    variables.add(new DatabaseVariable(DatabaseType.STRING, "name"));
     variables.add(new DatabaseVariable(DatabaseType.DATE, "date"));
+    variables.add(new DatabaseVariable(DatabaseType.STRING, "location"));
     variables.add(new DatabaseVariable(DatabaseType.STRING, "meal"));
-        variables.add(new DatabaseVariable(DatabaseType.STRING, "dish"));
+    variables.add(new DatabaseVariable(DatabaseType.STRING, "name"));
+        variables.add(new DatabaseVariable(DatabaseType.SERIALIZABLE, "dish"));
     createTable("dishes", variables);
   }
 
@@ -49,17 +50,20 @@ public class FoodDatabase {
     int result;
     StringBuilder cmd = new StringBuilder();
     cmd.append("insert into ");
-    cmd.append("dishes(name, date, meal) values(?, ?, ?, ?)");
+    cmd.append("dishes(date, location, meal, name, dish) ");
+    cmd.append("values(?, ?, ?, ?, ?)");
     PreparedStatement pstmt = null;
     try {
       pstmt = _conn.prepareStatement(cmd.toString());
-      pstmt.setString(1, dish.getName());
-      pstmt.setDate(2, new java.sql.Date(dish.getDate().getTime()));
+      pstmt.setDate(1, new java.sql.Date(dish.getDate().getTime()));
+      pstmt.setString(2, dish.getLocation().toString());
       pstmt.setString(3, dish.getMeal().toString());
+      pstmt.setString(4, dish.getName());
 
-      // Serialize UserAccount object.
+
+      // Serialize Dish object.
       Pack pack = new Pack(dish);
-      pstmt.setBinaryStream(4, pack.getStream(), pack.getLength());
+      pstmt.setBinaryStream(5, pack.getStream(), pack.getLength());
       result = pstmt.executeUpdate();
       pstmt.close();
     } catch(SQLException sqle) {
@@ -87,18 +91,256 @@ public class FoodDatabase {
     return addDish(dish);
   }
 
-  public ResultSet getDish(Dish dish) {
+  public ResultSet getDishes(Dish dish) {
     StringBuilder cmd = new StringBuilder();
-    cmd.append("select dish from users where name='");
+    cmd.append("select dish from dishes where name='");
     cmd.append(dish.getName());
     cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
 
-    try {
-      Statement stmt = _conn.createStatement();
-      return stmt.executeQuery(cmd.toString());
-    } catch(SQLException sqle) {
-      throw new IllegalStateException("Failed attempting to query database.");
-    }
+  public ResultSet getDishes(java.util.Date date) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(Location location) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where location='");
+    cmd.append(location.getName());
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(Meal meal) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where meal='");
+    cmd.append(meal.toString());
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(java.util.Date date, Location location) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("' and location='");
+    cmd.append(location.getName());
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(Location location, java.util.Date date) {
+    return getDishes(date, location);
+  }
+
+  public ResultSet getDishes(java.util.Date date, Meal meal) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("' and meal='");
+    cmd.append(meal.toString());
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(Meal meal, java.util.Date date) {
+    return getDishes(date, meal);
+  }
+
+  public ResultSet getDishes(java.util.Date date, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("' and name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(String name, java.util.Date date) {
+    return getDishes(date, name);
+  }
+
+  public ResultSet getDishes(Location location, Meal meal) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where location='");
+    cmd.append(location.getName());
+    cmd.append("' and meal='");
+    cmd.append(meal.toString());
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(Meal meal, Location location) {
+    return getDishes(location, meal);
+  }
+
+  public ResultSet getDishes(Location location, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where location='");
+    cmd.append(location.getName());
+    cmd.append("' and name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(String name, Location location) {
+    return getDishes(location, name);
+  }
+
+  public ResultSet getDishes(Meal meal, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where meal='");
+    cmd.append(meal.toString());
+    cmd.append("' and name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(String name, Meal meal) {
+    return getDishes(meal, name);
+  }
+
+  public ResultSet getDishes(java.util.Date date, Location location, Meal meal) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("' and location='");
+    cmd.append(location.getName());
+    cmd.append("' and meal='");
+    cmd.append(meal.toString());
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(java.util.Date date, Meal meal, Location location) {
+    return getDishes(date, location, meal);
+  }
+
+  public ResultSet getDishes(Meal meal, java.util.Date date, Location location) {
+    return getDishes(date, location, meal);
+  }
+
+  public ResultSet getDishes(Meal meal, Location location, java.util.Date date) {
+    return getDishes(date, location, meal);
+  }
+
+  public ResultSet getDishes(Location location, Meal meal, java.util.Date date) {
+    return getDishes(date, location, meal);
+  }
+
+  public ResultSet getDishes(Location location, java.util.Date date, Meal meal) {
+    return getDishes(date, location, meal);
+  }
+
+  public ResultSet getDishes(java.util.Date date, Location location, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("' and location='");
+    cmd.append(location.getName());
+    cmd.append("' and name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(java.util.Date date, String name, Location location) {
+    return getDishes(date, location, name);
+  }
+
+  public ResultSet getDishes(String name, java.util.Date date, Location location) {
+    return getDishes(date, location, name);
+  }
+
+  public ResultSet getDishes(String name, Location location, java.util.Date date) {
+    return getDishes(date, location, name);
+  }
+
+  public ResultSet getDishes(Location location, String name, java.util.Date date) {
+    return getDishes(date, location, name);
+  }
+
+  public ResultSet getDishes(Location location, java.util.Date date, String name) {
+    return getDishes(date, location, name);
+  }
+
+  public ResultSet getDishes(java.util.Date date, Meal meal, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append("' and meal='");
+    cmd.append(meal.toString());
+    cmd.append("' and name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(java.util.Date date, String name, Meal meal) {
+    return getDishes(date, meal, name);
+  }
+
+  public ResultSet getDishes(String name, java.util.Date date, Meal meal) {
+    return getDishes(date, meal, name);
+  }
+
+  public ResultSet getDishes(String name, Meal meal, java.util.Date date) {
+    return getDishes(date, meal, name);
+  }
+
+  public ResultSet getDishes(Meal meal, String name, java.util.Date date) {
+    return getDishes(date, meal, name);
+  }
+
+  public ResultSet getDishes(Meal meal, java.util.Date date, String name) {
+    return getDishes(date, meal, name);
+  }
+
+  public ResultSet getDishes(Location location, Meal meal, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where location='");
+    cmd.append(location.getName());
+    cmd.append("' and meal='");
+    cmd.append(meal.toString());
+    cmd.append("' and name='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeSelect(cmd.toString());
+  }
+
+  public ResultSet getDishes(Location location, String name, Meal meal) {
+    return getDishes(location, meal, name);
+  }
+
+  public ResultSet getDishes(String name, Location location, Meal meal) {
+    return getDishes(location, meal, name);
+  }
+
+  public ResultSet getDishes(String name, Meal meal, Location location) {
+    return getDishes(location, meal, name);
+  }
+
+  public ResultSet getDishes(Meal meal, String name, Location location) {
+    return getDishes(location, meal, name);
+  }
+
+  public ResultSet getDishes(Meal meal, Location location, String name) {
+    return getDishes(location, meal, name);
   }
 
   public void createUsersTable() {
@@ -135,27 +377,24 @@ public class FoodDatabase {
     return result > 0;
   }
 
+  public Account getUser(String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select account from users where username='");
+    cmd.append(name);
+    cmd.append("'");
+    return executeGetUserCommand(cmd.toString());
+  }
+
   public Account getUser(UserAccount account) {
+    if(!account.isValid())
+      return account;
+
     StringBuilder cmd = new StringBuilder();
     cmd.append("select account from users where username='");
     cmd.append(account.getUsername());
     cmd.append("'");
-
-    try {
-      Statement stmt = _conn.createStatement();
-      ResultSet resultSet = stmt.executeQuery(cmd.toString());
-
-      if(!resultSet.next())
-        return new NullAccount();
-
-      UserAccount result = (UserAccount)resultSet.getObject(1);
-
-      // Check if password is correct.
-      return (result.getPassword().equals(account.getPassword())) ?
-        result : new NullAccount();
-    } catch(SQLException sqle) {
-      throw new IllegalStateException("Failed attempting to query database.");
-    }
+    Account result = executeGetUserCommand(cmd.toString());
+    return result.isValid() ? checkPassword((UserAccount)result, account) : result;
   }
 
   public boolean updateUser(UserAccount account) {
@@ -196,6 +435,10 @@ public class FoodDatabase {
     writeCSV("users", filename);
   }
 
+  public void writeDishesCSV(String filename) {
+    writeCSV("dishes", filename);
+  }
+
   // FROM tablename, TO filename
   void writeCSV(String tablename, String filename) {
     StringBuilder cmd = new StringBuilder();
@@ -222,8 +465,36 @@ public class FoodDatabase {
       try {
         stmt.close();
       } catch(Throwable ignore) {
+        System.out.println("test555");
       }
     }
     return result;
+  }
+
+  ResultSet executeSelect(String cmd) {
+    try {
+      Statement stmt = _conn.createStatement();
+      return stmt.executeQuery(cmd.toString());
+    } catch(SQLException sqle) {
+      throw new IllegalStateException("Failed attempting to query database.");
+    }
+  }
+
+  Account executeGetUserCommand(String cmd) {
+    try {
+      ResultSet resultSet = executeSelect(cmd.toString());
+      if(!resultSet.next())
+        return new NullAccount();
+
+      return (Account)resultSet.getObject(1);
+    } catch(SQLException sqle) {
+      throw new IllegalStateException("Failed attempting to query database.");
+    }
+  }
+
+  Account checkPassword(UserAccount test, UserAccount master) {
+    // Check if password is correct.
+    return (test.isValid() && test.getPassword().equals(master.getPassword())) ?
+      test : new NullAccount();
   }
 }

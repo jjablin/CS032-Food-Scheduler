@@ -2,8 +2,9 @@ package tests;
 
 import food.*;
 import java.io.*;
-import junit.framework.*;
+import java.sql.*;
 import java.util.*;
+import junit.framework.*;
 
 public class FoodDatabaseTest extends TestCase {
 
@@ -47,6 +48,7 @@ public class FoodDatabaseTest extends TestCase {
       db.close();
       assertTrue(true);
     } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
       assertTrue(false);
     }
   }
@@ -55,14 +57,15 @@ public class FoodDatabaseTest extends TestCase {
     try {
       FoodDatabase db = new FoodDatabase("test/tests/testdb");
       db.createUsersTable();
-      db.writeUsersCSV("test/tests/testGoodDatabaseEmptyTable.test");
-      compare("test/tests/testGoodDatabaseEmptyTable.test",
-              "test/tests/testGoodDatabaseEmptyTable.master");
-      deleteFile("test/tests/testGoodDatabaseEmptyTable.test");
+      db.writeUsersCSV("test/tests/testGoodDatabaseEmptyUsersTable.test");
+      compare("test/tests/testGoodDatabaseEmptyUsersTable.test",
+              "test/tests/testGoodDatabaseEmptyUsersTable.master");
+      deleteFile("test/tests/testGoodDatabaseEmptyUsersTable.test");
       db.clear();
       db.close();
       assertTrue(true);
     } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
       assertTrue(false);
     }
   }
@@ -91,19 +94,20 @@ public class FoodDatabaseTest extends TestCase {
       db.removeUser(phil);
       db.removeUser(bob);
 
-      db.writeUsersCSV("test/tests/testGoodDatabaseTable.test");
-      compare("test/tests/testGoodDatabaseTable.test",
-              "test/tests/testGoodDatabaseEmptyTable.master");
-      deleteFile("test/tests/testGoodDatabaseTable.test");
+      db.writeUsersCSV("test/tests/testGoodDatabaseUsersTable.test");
+      compare("test/tests/testGoodDatabaseUsersTable.test",
+              "test/tests/testGoodDatabaseEmptyUsersTable.master");
+      deleteFile("test/tests/testGoodDatabaseUsersTable.test");
       db.clear();
       db.close();
       assertTrue(true);
     } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
       assertTrue(false);
     }
   }
 
-  public void testGoodDatabaseQueryingUsersTable() {
+  public void testGoodDatabaseQueryingUsersTableWithName() {
     try {
       FoodDatabase db = new FoodDatabase("test/tests/testdb");
       db.createUsersTable();
@@ -131,6 +135,7 @@ public class FoodDatabaseTest extends TestCase {
       db.close();
       assertTrue(true);
     } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
       assertTrue(false);
     }
   }
@@ -159,6 +164,548 @@ public class FoodDatabaseTest extends TestCase {
       db.close();
       assertTrue(true);
     } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseEmptyDishesTable() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+      db.writeDishesCSV("test/tests/testGoodDatabaseEmptyDishesTable.test");
+      compare("test/tests/testGoodDatabaseEmptyDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseEmptyDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseDishesTable() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDish() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello);
+      try {
+        result.next();
+
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getName());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDate() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithLocation() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getLocation());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithMeal() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getMeal());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDateAndLocation() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getLocation(), jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDateAndMeal() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getMeal(), jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDateAndName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getName(), jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithLocationAndMeal() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getMeal(), jello.getLocation());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithLocationAndName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getName(), jello.getLocation());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithMealAndName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getName(), jello.getMeal());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDateAndLocationAndMeal() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getLocation(), jello.getMeal(),
+                                      jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDateAndLocationAndName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getLocation(), jello.getName(),
+                                      jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithDateAndMealAndName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getName(), jello.getMeal(), jello.getDate());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseQueryingDishesTableWithLocationAndMealAndName() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      ResultSet result = db.getDishes(jello.getName(), jello.getMeal(),
+                                      jello.getLocation());
+      try {
+        result.next();
+        assertTrue(result.getObject(1).toString().equals(jello.toString()));
+      } catch(SQLException sqle) {
+        assertTrue(false);
+      }
+
+      db.removeDish(jello);
+
+      db.writeDishesCSV("test/tests/testGoodDatabaseDishesTable.test");
+      compare("test/tests/testGoodDatabaseDishesTable.test",
+              "test/tests/testGoodDatabaseEmptyDishesTable.master");
+      deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
       assertTrue(false);
     }
   }
