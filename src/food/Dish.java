@@ -35,6 +35,22 @@ public class Dish implements Serializable {
     return _name;
   }
 
+  public void setDate(java.util.Date date) {
+    _date = date;
+  }
+
+  public void setLocation(Location location) {
+    _location = location;
+  }
+
+  public void setMeal(Meal meal) {
+    _meal = meal;
+  }
+
+  public void setName(String name) {
+    _name = name;
+  }
+
   public String toString() {
     return getName() + ", " +
       getDate().toString() + ", " +

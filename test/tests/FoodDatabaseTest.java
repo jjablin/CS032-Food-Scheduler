@@ -153,12 +153,12 @@ public class FoodDatabaseTest extends TestCase {
       db.addUser(rick);
 
       // Update username.
-      UserAccount newEmily = new UserAccount("emilie", "123");
-      assertTrue(db.updateUser(newEmily));
+      emily.setUsername(new String("emilie"));
+      assertTrue(db.updateUser(emily));
 
       // Update password.
-      UserAccount newRick = new UserAccount("rick", "password");
-      assertTrue(db.updateUser(newRick));
+      rick.setPassword(new String("password"));
+      assertTrue(db.updateUser(rick));
 
       db.clear();
       db.close();
@@ -701,6 +701,41 @@ public class FoodDatabaseTest extends TestCase {
       compare("test/tests/testGoodDatabaseDishesTable.test",
               "test/tests/testGoodDatabaseEmptyDishesTable.master");
       deleteFile("test/tests/testGoodDatabaseDishesTable.test");
+      db.clear();
+      db.close();
+      assertTrue(true);
+    } catch(IllegalStateException ise) {
+      System.err.println(ise.getMessage());
+      assertTrue(false);
+    }
+  }
+
+  public void testGoodDatabaseUpdatingDishesTable() {
+    try {
+      FoodDatabase db = new FoodDatabase("test/tests/testdb");
+      db.createDishesTable();
+
+      // Create a dish.
+      Dish jello = new Dish();
+
+      db.addDish(jello);
+
+      // Update date.
+      jello.setDate(new java.util.Date());
+      assertTrue(db.updateDish(jello));
+
+      // Update location.
+      jello.setLocation(new Location("mars"));
+      assertTrue(db.updateDish(jello));
+
+      // Update meal.
+      jello.setMeal(Meal.LUNCH);
+      assertTrue(db.updateDish(jello));
+
+      // Update name.
+      jello.setName("green jello");
+      assertTrue(db.updateDish(jello));
+
       db.clear();
       db.close();
       assertTrue(true);
