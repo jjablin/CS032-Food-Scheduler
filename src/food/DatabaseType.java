@@ -1,15 +1,15 @@
 package food;
 
 public enum DatabaseType {
-  STRING, SERIALIZABLE;
+  DATE, SERIALIZABLE, STRING;
 
   public String toString() {
     String type = super.toString();
-    if(type.equals("STRING"))
-      return "varchar_casesensitive(255)";
-    else if(type.equals("SERIALIZABLE"))
+    if(type.equals("SERIALIZABLE"))
       return "other";
+    else if(type.equals("STRING"))
+      return "varchar_casesensitive(255)";
     else
-      return "unknown";
+      return type;
   }
 }

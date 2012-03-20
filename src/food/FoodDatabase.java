@@ -36,6 +36,71 @@ public class FoodDatabase {
     executeCommand(cmd.toString());
   }
 
+  public void createDishesTable() {
+    ArrayList< DatabaseVariable > variables = new ArrayList< DatabaseVariable >();
+    variables.add(new DatabaseVariable(DatabaseType.STRING, "name"));
+    variables.add(new DatabaseVariable(DatabaseType.DATE, "date"));
+    variables.add(new DatabaseVariable(DatabaseType.STRING, "meal"));
+        variables.add(new DatabaseVariable(DatabaseType.STRING, "dish"));
+    createTable("dishes", variables);
+  }
+
+  public boolean addDish(Dish dish) {
+    int result;
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("insert into ");
+    cmd.append("dishes(name, date, meal) values(?, ?, ?, ?)");
+    PreparedStatement pstmt = null;
+    try {
+      pstmt = _conn.prepareStatement(cmd.toString());
+      pstmt.setString(1, dish.getName());
+      pstmt.setDate(2, new java.sql.Date(dish.getDate().getTime()));
+      pstmt.setString(3, dish.getMeal().toString());
+
+      // Serialize UserAccount object.
+      Pack pack = new Pack(dish);
+      pstmt.setBinaryStream(4, pack.getStream(), pack.getLength());
+      result = pstmt.executeUpdate();
+      pstmt.close();
+    } catch(SQLException sqle) {
+      throw new IllegalStateException("Problems executing pstmt: " +
+                                      sqle.getMessage());
+    } finally {
+      try {
+        pstmt.close();
+      } catch(Throwable ignore) {
+      }
+    }
+    return result > 0;
+  }
+
+  public boolean removeDish(Dish dish) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("delete from dishes where name='");
+    cmd.append(dish.getName());
+    cmd.append("'");
+    return executeCommand(cmd.toString());
+  }
+
+  public boolean updateDish(Dish dish) {
+    removeDish(dish);
+    return addDish(dish);
+  }
+
+  public ResultSet getDish(Dish dish) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from users where name='");
+    cmd.append(dish.getName());
+    cmd.append("'");
+
+    try {
+      Statement stmt = _conn.createStatement();
+      return stmt.executeQuery(cmd.toString());
+    } catch(SQLException sqle) {
+      throw new IllegalStateException("Failed attempting to query database.");
+    }
+  }
+
   public void createUsersTable() {
     ArrayList< DatabaseVariable > variables = new ArrayList< DatabaseVariable >();
     variables.add(new DatabaseVariable(DatabaseType.STRING, "username"));
