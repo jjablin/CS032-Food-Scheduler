@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="instructionLabel" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="carbLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="proteinLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fatLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="carbGramsField" max="32767" attributes="1"/>
+                                  <Component id="proteinGramsField" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="fatGramsField" alignment="0" min="-2" pref="56" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="gramLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="gramLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="gramLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="totalCalsLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="1">
+                              <Component id="eq2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="proteinCalsField" max="32767" attributes="1"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="eq1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fatCalsField" min="-2" pref="69" max="-2" attributes="1"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="eq3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="totalCalsField" alignment="0" pref="69" max="32767" attributes="0"/>
+                                  <Component id="carbCalsField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="calLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="calLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="calLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="toPlannerButton" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="instructionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gramLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fatGramsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="eq1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fatCalsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="calLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="proteinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="proteinGramsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gramLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="eq2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="proteinCalsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="calLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="carbLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="carbGramsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gramLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="eq3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="carbCalsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="calLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="totalCalsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="totalCalsField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="toPlannerButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="instructionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter your dietary goals in grams or calories per day:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fatLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fat:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fatGramsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fatGramsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gramLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="grams"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="proteinLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Protein:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="proteinGramsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="proteinGramsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="carbLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carbohydrates:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="carbGramsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carbGramsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gramLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="grams"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="gramLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="grams"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fatCalsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fatCalsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="proteinCalsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="proteinCalsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eq1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eq2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eq3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="carbCalsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carbCalsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="calLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calories"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="calLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calories"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="calLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calories"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalCalsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Calories:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="totalCalsField">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="totalCalsFieldFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="toPlannerButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Return to Meal Planner"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toPlannerButtonMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

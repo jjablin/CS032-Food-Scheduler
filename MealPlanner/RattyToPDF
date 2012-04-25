@@ -1,0 +1,12 @@
+    #!/bin/bash
+    clear
+    if [ -z "$1" ] 
+      then
+	echo "no argument supplied"
+      else
+    	curl -s http://www.brown.edu/Student_Services/Food_Services/menus/$1/ref.pdf > /ltmp/ratty.pdf;
+    	pdftotext /ltmp/ratty.pdf /ltmp/ratty.txt;
+    	rm /ltmp/ratty.pdf;
+     fi
+    
+

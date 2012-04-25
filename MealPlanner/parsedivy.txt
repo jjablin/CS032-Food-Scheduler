@@ -1,0 +1,12375 @@
+
+BEEF NOODLE SOUP
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 40.4
+fat: 0.8
+sat fat: 0.2
+Chol: 15.9
+Sodium: 32.2
+Carbs: 5.2
+Fiber: 0.4
+Protein: 3.1
+BEEF NOODLE SOUP
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 40.4
+fat: 0.8
+sat fat: 0.2
+Chol: 15.9
+Sodium: 32.2
+Carbs: 5.2
+Fiber: 0.4
+Protein: 3.1
+VEGAN CHICKPEA SOUP
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 105.8
+fat: 4.6
+sat fat: 0.5
+Chol: 0.0
+Sodium: 489.4
+Carbs: 12.8
+Fiber: 0.3
+Protein: 4.2
+BREADED CHICKEN FINGERS
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CHICKEN CAESAR WRAP
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 11
+Calories : 740.8
+fat: 37.8
+sat fat: 11.6
+Chol: 140.4
+Sodium: 1376.1
+Carbs: 38.2
+Fiber: 1.2
+Protein: 62.3
+IVY FISH SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 152.0
+fat: 14.7
+sat fat: 2.2
+Chol: 7.3
+Sodium: 417.5
+Carbs: 4.3
+Fiber: 1.2
+Protein: 1.0
+IVY ANGELL POCKET SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 7.480
+Calories : 547.4
+fat: 13.9
+sat fat: 1.7
+Chol: 0.0
+Sodium: 735.9
+Carbs: 88.5
+Fiber: 1.8
+Protein: 16.6
+IVY BACON-LETTUCE-TOMATO SAND
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 404.3
+fat: 23.2
+sat fat: 5.2
+Chol: 36.9
+Sodium: 806.5
+Carbs: 32.3
+Fiber: 1.1
+Protein: 15.8
+IVY BUFFALO CHICKEN WRAP
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 523.5
+fat: 17.3
+sat fat: 4.8
+Chol: 99.8
+Sodium: 765.2
+Carbs: 46.6
+Fiber: 0.6
+Protein: 42.3
+IVY CHARLESFIELD SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 518.8
+fat: 18.1
+sat fat: 8.7
+Chol: 79.9
+Sodium: 1269.3
+Carbs: 50.9
+Fiber: 3.5
+Protein: 40.0
+IVY CHICKEN SALAD SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 639.6
+fat: 35.8
+sat fat: 5.6
+Chol: 66.3
+Sodium: 1171.6
+Carbs: 49.4
+Fiber: 3.5
+Protein: 28.3
+IVY GRILLED AM CHEESE SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 111.7
+fat: 9.2
+sat fat: 6.0
+Chol: 22.5
+Sodium: 615.5
+Carbs: 1.8
+Fiber: 0.1
+Protein: 6.2
+IVY GRILLED CHEESE&TOMATO SAND
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 446.3
+fat: 21.3
+sat fat: 12.7
+Chol: 44.8
+Sodium: 1587.9
+Carbs: 43.9
+Fiber: 3.7
+Protein: 21.7
+IVY GRILLED CHEESEBURGER
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 5.320
+Calories : 353.7
+fat: 14.5
+sat fat: 6.1
+Chol: 76.0
+Sodium: 723.7
+Carbs: 25.5
+Fiber: 0.0
+Protein: 30.1
+IVY GRILLED CHICKEN SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): Sandwich
+Calories : 443.8
+fat: 9.5
+sat fat: 1.5
+Chol: 71.4
+Sodium: 1152.7
+Carbs: 57.7
+Fiber: 3.1
+Protein: 30.8
+IVY GRILLED FRANKFURT ON BUN
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 5.090
+Calories : 252.4
+fat: 14.7
+sat fat: 5.0
+Chol: 22.6
+Sodium: 719.3
+Carbs: 23.0
+Fiber: 0.0
+Protein: 8.8
+IVY GRILLED HAM & CHEESE SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY GRILLED HAMBURGER REG
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4.320
+Calories : 284.1
+fat: 8.5
+sat fat: 2.2
+Chol: 61.1
+Sodium: 385.5
+Carbs: 25.0
+Fiber: 0.0
+Protein: 26.2
+IVY ROOM TURKEY & GOUDA (SIDNEY FRAN
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): each
+Calories : 448.1
+fat: 18.0
+sat fat: 5.9
+Chol: 48.3
+Sodium: 1347.7
+Carbs: 39.0
+Fiber: 0.9
+Protein: 31.0
+IVY SHAVED STK & CHS SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4.500
+Calories : 429.6
+fat: 14.0
+sat fat: 9.0
+Chol: 44.5
+Sodium: 747.2
+Carbs: 41.1
+Fiber: 0.4
+Protein: 33.3
+IVY SLICED HAM SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 10.420
+Calories : 399.1
+fat: 6.0
+sat fat: 0.6
+Chol: 51.5
+Sodium: 1473.1
+Carbs: 57.1
+Fiber: 3.3
+Protein: 27.5
+IVY SLICED ROAST BEEF SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 542.7
+fat: 20.8
+sat fat: 4.2
+Chol: 57.5
+Sodium: 962.5
+Carbs: 54.4
+Fiber: 3.3
+Protein: 36.0
+IVY SLICED TURKEY BREAST SAND
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 508.4
+fat: 18.3
+sat fat: 2.4
+Chol: 40.4
+Sodium: 1425.0
+Carbs: 53.5
+Fiber: 3.3
+Protein: 32.6
+IVY SPICY CHICKEN SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 10
+Calories : 512.1
+fat: 30.6
+sat fat: 5.5
+Chol: 21.2
+Sodium: 767.3
+Carbs: 48.0
+Fiber: 2.6
+Protein: 10.4
+IVY TUNAFISH SALAD SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 717.0
+fat: 38.9
+sat fat: 6.3
+Chol: 86.5
+Sodium: 1501.6
+Carbs: 50.7
+Fiber: 3.2
+Protein: 43.2
+IVY WATERMAN SANDWICH
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 600.2
+fat: 28.0
+sat fat: 9.0
+Chol: 72.8
+Sodium: 1565.0
+Carbs: 48.0
+Fiber: 3.0
+Protein: 38.4
+Sauces for Chicken Fingers
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SAVORY CHICKEN STEW
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 368.0
+fat: 23.4
+sat fat: 14.0
+Chol: 136.0
+Sodium: 196.6
+Carbs: 13.0
+Fiber: 2.9
+Protein: 21.7
+STIR FRY - VEGAN VEGETABLES W/TOFU
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 9
+Calories : 200.3
+fat: 9.1
+sat fat: 1.2
+Chol: 0.0
+Sodium: 305.9
+Carbs: 21.7
+Fiber: 4.2
+Protein: 9.8
+TURKEY CRANBERRY MAYONNAI
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 11.250
+Calories : 393.8
+fat: 17.3
+sat fat: 2.4
+Chol: 35.8
+Sodium: 640.3
+Carbs: 35.1
+Fiber: 0.6
+Protein: 24.8
+VEGGIE PATTIES ORIGINAL
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BROCCOLI SPEARS W/LEMON
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 29.0
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 28.1
+Carbs: 5.7
+Fiber: 2.2
+Protein: 2.4
+FRENCH FRIED ONION RINGS
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIES CURLEY IVY ROOM
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+PARSLIED RICE
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 155.6
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 200.0
+Carbs: 33.7
+Fiber: 0.5
+Protein: 3.2
+SWEET POTATO FRIES
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY RM ASST FRESH WHOLE F
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 7.020
+Calories : 13.0
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.2
+Carbs: 3.4
+Fiber: 0.5
+Protein: 0.1
+AFRICAN HONEY BREAD
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 2040.6
+fat: 50.8
+sat fat: 29.7
+Chol: 221.3
+Sodium: 1927.5
+Carbs: 345.5
+Fiber: 11.0
+Protein: 49.0
+APPLE PIE
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 2742.5
+fat: 144.0
+sat fat: 57.4
+Chol: 145.6
+Sodium: 1947.6
+Carbs: 342.3
+Fiber: 16.5
+Protein: 27.4
+BARS RASPBERRY CRUMBLE '06
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 528.4
+fat: 20.6
+sat fat: 4.5
+Chol: 39.3
+Sodium: 518.9
+Carbs: 76.8
+Fiber: 4.0
+Protein: 10.7
+CAKE YELLOW LAYER '06
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): ~CAKE
+Calories : 9444.9
+fat: 441.6
+sat fat: 159.7
+Chol: 431.4
+Sodium: 8767.6
+Carbs: 1309.5
+Fiber: 0.0
+Protein: 76.0
+CHOCOLATE BROWNIE PARFAIT W/NUTS
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SERVING
+Calories : 131.9
+fat: 7.5
+sat fat: 3.8
+Chol: 34.7
+Sodium: 88.8
+Carbs: 12.5
+Fiber: 0.2
+Protein: 2.9
+COOKIES ASST HM '06
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): COOKIE
+Calories : 144.1
+fat: 5.4
+sat fat: 0.8
+Chol: 6.5
+Sodium: 56.0
+Carbs: 21.8
+Fiber: 1.4
+Protein: 2.8
+LIME JELLO
+Ivy Room
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4.560
+Calories : 121.8
+fat: 4.9
+sat fat: 3.3
+Chol: 20.5
+Sodium: 86.5
+Carbs: 17.2
+Fiber: 0.0
+Protein: 1.4
+POTAGE WATERCRESS
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 89.7
+fat: 1.6
+sat fat: 0.9
+Chol: 4.0
+Sodium: 31.8
+Carbs: 17.3
+Fiber: 1.7
+Protein: 2.0
+VEGAN FAGIOLI SOUP
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 200.5
+fat: 3.0
+sat fat: 0.4
+Chol: 0.0
+Sodium: 1278.3
+Carbs: 38.6
+Fiber: 5.8
+Protein: 10.4
+BREADED CHICKEN FINGERS
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CHICKEN CAESAR WRAP
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 11
+Calories : 740.8
+fat: 37.8
+sat fat: 11.6
+Chol: 140.4
+Sodium: 1376.1
+Carbs: 38.2
+Fiber: 1.2
+Protein: 62.3
+IVY FISH SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 152.0
+fat: 14.7
+sat fat: 2.2
+Chol: 7.3
+Sodium: 417.5
+Carbs: 4.3
+Fiber: 1.2
+Protein: 1.0
+IVY ANGELL POCKET SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 7.480
+Calories : 547.4
+fat: 13.9
+sat fat: 1.7
+Chol: 0.0
+Sodium: 735.9
+Carbs: 88.5
+Fiber: 1.8
+Protein: 16.6
+IVY BACON-LETTUCE-TOMATO SAND
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 404.3
+fat: 23.2
+sat fat: 5.2
+Chol: 36.9
+Sodium: 806.5
+Carbs: 32.3
+Fiber: 1.1
+Protein: 15.8
+IVY BUFFALO CHICKEN WRAP
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 523.5
+fat: 17.3
+sat fat: 4.8
+Chol: 99.8
+Sodium: 765.2
+Carbs: 46.6
+Fiber: 0.6
+Protein: 42.3
+IVY CHARLESFIELD SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 518.8
+fat: 18.1
+sat fat: 8.7
+Chol: 79.9
+Sodium: 1269.3
+Carbs: 50.9
+Fiber: 3.5
+Protein: 40.0
+IVY CHICKEN SALAD SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 639.6
+fat: 35.8
+sat fat: 5.6
+Chol: 66.3
+Sodium: 1171.6
+Carbs: 49.4
+Fiber: 3.5
+Protein: 28.3
+IVY GRILLED AM CHEESE SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 111.7
+fat: 9.2
+sat fat: 6.0
+Chol: 22.5
+Sodium: 615.5
+Carbs: 1.8
+Fiber: 0.1
+Protein: 6.2
+IVY GRILLED CHEESE&TOMATO SAND
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 446.3
+fat: 21.3
+sat fat: 12.7
+Chol: 44.8
+Sodium: 1587.9
+Carbs: 43.9
+Fiber: 3.7
+Protein: 21.7
+IVY GRILLED CHEESEBURGER
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 5.320
+Calories : 353.7
+fat: 14.5
+sat fat: 6.1
+Chol: 76.0
+Sodium: 723.7
+Carbs: 25.5
+Fiber: 0.0
+Protein: 30.1
+IVY GRILLED CHICKEN SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): Sandwich
+Calories : 443.8
+fat: 9.5
+sat fat: 1.5
+Chol: 71.4
+Sodium: 1152.7
+Carbs: 57.7
+Fiber: 3.1
+Protein: 30.8
+IVY GRILLED FRANKFURT ON BUN
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 5.090
+Calories : 252.4
+fat: 14.7
+sat fat: 5.0
+Chol: 22.6
+Sodium: 719.3
+Carbs: 23.0
+Fiber: 0.0
+Protein: 8.8
+IVY GRILLED HAM & CHEESE SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY GRILLED HAMBURGER REG
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4.320
+Calories : 284.1
+fat: 8.5
+sat fat: 2.2
+Chol: 61.1
+Sodium: 385.5
+Carbs: 25.0
+Fiber: 0.0
+Protein: 26.2
+IVY ROOM TURKEY & GOUDA (SIDNEY FRAN
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): each
+Calories : 448.1
+fat: 18.0
+sat fat: 5.9
+Chol: 48.3
+Sodium: 1347.7
+Carbs: 39.0
+Fiber: 0.9
+Protein: 31.0
+IVY SHAVED STK & CHS SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4.500
+Calories : 429.6
+fat: 14.0
+sat fat: 9.0
+Chol: 44.5
+Sodium: 747.2
+Carbs: 41.1
+Fiber: 0.4
+Protein: 33.3
+IVY SLICED HAM SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 10.420
+Calories : 399.1
+fat: 6.0
+sat fat: 0.6
+Chol: 51.5
+Sodium: 1473.1
+Carbs: 57.1
+Fiber: 3.3
+Protein: 27.5
+IVY SLICED ROAST BEEF SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 542.7
+fat: 20.8
+sat fat: 4.2
+Chol: 57.5
+Sodium: 962.5
+Carbs: 54.4
+Fiber: 3.3
+Protein: 36.0
+IVY SLICED TURKEY BREAST SAND
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 508.4
+fat: 18.3
+sat fat: 2.4
+Chol: 40.4
+Sodium: 1425.0
+Carbs: 53.5
+Fiber: 3.3
+Protein: 32.6
+IVY SPICY CHICKEN SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 10
+Calories : 512.1
+fat: 30.6
+sat fat: 5.5
+Chol: 21.2
+Sodium: 767.3
+Carbs: 48.0
+Fiber: 2.6
+Protein: 10.4
+IVY TUNAFISH SALAD SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 717.0
+fat: 38.9
+sat fat: 6.3
+Chol: 86.5
+Sodium: 1501.6
+Carbs: 50.7
+Fiber: 3.2
+Protein: 43.2
+IVY WATERMAN SANDWICH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 600.2
+fat: 28.0
+sat fat: 9.0
+Chol: 72.8
+Sodium: 1565.0
+Carbs: 48.0
+Fiber: 3.0
+Protein: 38.4
+Sauces for Chicken Fingers
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TURKEY CRANBERRY MAYONNAI
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 11.250
+Calories : 393.8
+fat: 17.3
+sat fat: 2.4
+Chol: 35.8
+Sodium: 640.3
+Carbs: 35.1
+Fiber: 0.6
+Protein: 24.8
+VEGAN GARDEN CHILI
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 217.4
+fat: 8.3
+sat fat: 0.7
+Chol: 0.0
+Sodium: 476.9
+Carbs: 24.9
+Fiber: 1.6
+Protein: 8.8
+VEGGIE PATTIES ORIGINAL
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BASMATI RICE PILAF
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 133.0
+fat: 1.1
+sat fat: 0.2
+Chol: 0.0
+Sodium: 242.2
+Carbs: 26.8
+Fiber: 1.0
+Protein: 3.0
+FRENCH FRIED ONION RINGS
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIES CURLEY IVY ROOM
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SAVORY SPINACH
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 23.9
+fat: 0.5
+sat fat: 0.0
+Chol: 0.0
+Sodium: 61.1
+Carbs: 3.5
+Fiber: 2.4
+Protein: 3.0
+SWEET POTATO FRIES
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY RM ASST FRESH WHOLE F
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 7.020
+Calories : 13.0
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.2
+Carbs: 3.4
+Fiber: 0.5
+Protein: 0.1
+CARROT CAKE MIX; CR CHEESE FROST
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 376.1
+fat: 16.6
+sat fat: 6.4
+Chol: 42.2
+Sodium: 439.4
+Carbs: 52.5
+Fiber: 0.0
+Protein: 3.3
+CHEESECAKE NEW YORK STYLE PLAIN
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.75
+Calories : 364.6
+fat: 24.2
+sat fat: 14.2
+Chol: 134.9
+Sodium: 182.6
+Carbs: 28.0
+Fiber: 0.0
+Protein: 6.1
+CHERRY JELLO
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4.560
+Calories : 77.8
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 97.3
+Carbs: 18.5
+Fiber: 0.0
+Protein: 1.6
+COOKIES ASST HM '06
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): COOKIE
+Calories : 144.1
+fat: 5.4
+sat fat: 0.8
+Chol: 6.5
+Sodium: 56.0
+Carbs: 21.8
+Fiber: 1.4
+Protein: 2.8
+ITALIAN BREAD
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 134.8
+fat: 1.0
+sat fat: 0.3
+Chol: 0.5
+Sodium: 248.7
+Carbs: 27.0
+Fiber: 0.9
+Protein: 3.8
+PIE CUSTARD ('08)
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6.940
+Calories : 3132.0
+fat: 129.5
+sat fat: 53.3
+Chol: 1231.4
+Sodium: 3183.9
+Carbs: 375.9
+Fiber: 3.0
+Protein: 110.2
+VANILLA PUDDING
+Ivy Room
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CHICKEN SOUP W/TORTELLINI
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 80.5
+fat: 1.9
+sat fat: 0.8
+Chol: 16.9
+Sodium: 85.9
+Carbs: 9.1
+Fiber: 0.2
+Protein: 6.6
+VEGETARIAN CHILI AND CHEESE SOUP
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 125.5
+fat: 7.3
+sat fat: 3.5
+Chol: 17.8
+Sodium: 487.0
+Carbs: 10.7
+Fiber: 1.6
+Protein: 5.8
+BREADED CHICKEN FINGERS
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CHICKEN CAESAR WRAP
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 11
+Calories : 740.8
+fat: 37.8
+sat fat: 11.6
+Chol: 140.4
+Sodium: 1376.1
+Carbs: 38.2
+Fiber: 1.2
+Protein: 62.3
+IVY FISH SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 152.0
+fat: 14.7
+sat fat: 2.2
+Chol: 7.3
+Sodium: 417.5
+Carbs: 4.3
+Fiber: 1.2
+Protein: 1.0
+IVY ANGELL POCKET SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7.480
+Calories : 547.4
+fat: 13.9
+sat fat: 1.7
+Chol: 0.0
+Sodium: 735.9
+Carbs: 88.5
+Fiber: 1.8
+Protein: 16.6
+IVY BACON-LETTUCE-TOMATO SAND
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 404.3
+fat: 23.2
+sat fat: 5.2
+Chol: 36.9
+Sodium: 806.5
+Carbs: 32.3
+Fiber: 1.1
+Protein: 15.8
+IVY BUFFALO CHICKEN WRAP
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 523.5
+fat: 17.3
+sat fat: 4.8
+Chol: 99.8
+Sodium: 765.2
+Carbs: 46.6
+Fiber: 0.6
+Protein: 42.3
+IVY CHARLESFIELD SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 518.8
+fat: 18.1
+sat fat: 8.7
+Chol: 79.9
+Sodium: 1269.3
+Carbs: 50.9
+Fiber: 3.5
+Protein: 40.0
+IVY CHICKEN SALAD SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 639.6
+fat: 35.8
+sat fat: 5.6
+Chol: 66.3
+Sodium: 1171.6
+Carbs: 49.4
+Fiber: 3.5
+Protein: 28.3
+IVY GRILLED AM CHEESE SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 111.7
+fat: 9.2
+sat fat: 6.0
+Chol: 22.5
+Sodium: 615.5
+Carbs: 1.8
+Fiber: 0.1
+Protein: 6.2
+IVY GRILLED CHEESE&TOMATO SAND
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 446.3
+fat: 21.3
+sat fat: 12.7
+Chol: 44.8
+Sodium: 1587.9
+Carbs: 43.9
+Fiber: 3.7
+Protein: 21.7
+IVY GRILLED CHEESEBURGER
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 5.320
+Calories : 353.7
+fat: 14.5
+sat fat: 6.1
+Chol: 76.0
+Sodium: 723.7
+Carbs: 25.5
+Fiber: 0.0
+Protein: 30.1
+IVY GRILLED CHICKEN SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): Sandwich
+Calories : 443.8
+fat: 9.5
+sat fat: 1.5
+Chol: 71.4
+Sodium: 1152.7
+Carbs: 57.7
+Fiber: 3.1
+Protein: 30.8
+IVY GRILLED FRANKFURT ON BUN
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 5.090
+Calories : 252.4
+fat: 14.7
+sat fat: 5.0
+Chol: 22.6
+Sodium: 719.3
+Carbs: 23.0
+Fiber: 0.0
+Protein: 8.8
+IVY GRILLED HAM & CHEESE SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY GRILLED HAMBURGER REG
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4.320
+Calories : 284.1
+fat: 8.5
+sat fat: 2.2
+Chol: 61.1
+Sodium: 385.5
+Carbs: 25.0
+Fiber: 0.0
+Protein: 26.2
+IVY ROOM TURKEY & GOUDA (SIDNEY FRAN
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): each
+Calories : 448.1
+fat: 18.0
+sat fat: 5.9
+Chol: 48.3
+Sodium: 1347.7
+Carbs: 39.0
+Fiber: 0.9
+Protein: 31.0
+IVY SHAVED STK & CHS SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4.500
+Calories : 429.6
+fat: 14.0
+sat fat: 9.0
+Chol: 44.5
+Sodium: 747.2
+Carbs: 41.1
+Fiber: 0.4
+Protein: 33.3
+IVY SLICED HAM SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 10.420
+Calories : 399.1
+fat: 6.0
+sat fat: 0.6
+Chol: 51.5
+Sodium: 1473.1
+Carbs: 57.1
+Fiber: 3.3
+Protein: 27.5
+IVY SLICED ROAST BEEF SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 542.7
+fat: 20.8
+sat fat: 4.2
+Chol: 57.5
+Sodium: 962.5
+Carbs: 54.4
+Fiber: 3.3
+Protein: 36.0
+IVY SLICED TURKEY BREAST SAND
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 508.4
+fat: 18.3
+sat fat: 2.4
+Chol: 40.4
+Sodium: 1425.0
+Carbs: 53.5
+Fiber: 3.3
+Protein: 32.6
+IVY SPICY CHICKEN SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 10
+Calories : 512.1
+fat: 30.6
+sat fat: 5.5
+Chol: 21.2
+Sodium: 767.3
+Carbs: 48.0
+Fiber: 2.6
+Protein: 10.4
+IVY TUNAFISH SALAD SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 717.0
+fat: 38.9
+sat fat: 6.3
+Chol: 86.5
+Sodium: 1501.6
+Carbs: 50.7
+Fiber: 3.2
+Protein: 43.2
+IVY WATERMAN SANDWICH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 600.2
+fat: 28.0
+sat fat: 9.0
+Chol: 72.8
+Sodium: 1565.0
+Carbs: 48.0
+Fiber: 3.0
+Protein: 38.4
+Sauces for Chicken Fingers
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TACOS WITH LETTUCE & TOMATO
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7
+Calories : 420.8
+fat: 22.9
+sat fat: 9.5
+Chol: 75.1
+Sodium: 654.0
+Carbs: 27.1
+Fiber: 1.1
+Protein: 26.4
+TURKEY CRANBERRY MAYONNAI
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 11.250
+Calories : 393.8
+fat: 17.3
+sat fat: 2.4
+Chol: 35.8
+Sodium: 640.3
+Carbs: 35.1
+Fiber: 0.6
+Protein: 24.8
+VEGAN JAMAICAN JERK TEMPEH
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 190.7
+fat: 8.9
+sat fat: 1.4
+Chol: 0.0
+Sodium: 396.3
+Carbs: 14.8
+Fiber: 0.6
+Protein: 12.9
+VEGGIE PATTIES ORIGINAL
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIED ONION RINGS
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIES CURLEY IVY ROOM
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPANISH RICE
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 134.7
+fat: 3.3
+sat fat: 0.5
+Chol: 0.0
+Sodium: 251.9
+Carbs: 23.6
+Fiber: 1.0
+Protein: 2.5
+SWEET POTATO FRIES
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+WHOLE KERNEL CORN
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 94.1
+fat: 1.1
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 21.9
+Fiber: 2.4
+Protein: 2.9
+IVY RM ASST FRESH WHOLE F
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7.020
+Calories : 13.0
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.2
+Carbs: 3.4
+Fiber: 0.5
+Protein: 0.1
+BUTTERSCOTCH PUDDING
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 2.500
+Calories : 62.4
+fat: 4.6
+sat fat: 2.8
+Chol: 18.5
+Sodium: 32.2
+Carbs: 3.3
+Fiber: 0.0
+Protein: 1.7
+CHOCOLATE CAKE
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 565.9
+fat: 17.9
+sat fat: 4.4
+Chol: 15.9
+Sodium: 611.7
+Carbs: 101.7
+Fiber: 0.0
+Protein: 6.0
+COOKIES ASST HM '06
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): COOKIE
+Calories : 144.1
+fat: 5.4
+sat fat: 0.8
+Chol: 6.5
+Sodium: 56.0
+Carbs: 21.8
+Fiber: 1.4
+Protein: 2.8
+CREAM CHEESE BROWNIES
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 2.75
+Calories : 315.4
+fat: 15.9
+sat fat: 7.0
+Chol: 62.1
+Sodium: 202.0
+Carbs: 40.6
+Fiber: 0.3
+Protein: 3.3
+ORANGE JELLO FRUITED CT-5
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4.870
+Calories : 83.7
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 88.0
+Carbs: 20.2
+Fiber: 0.3
+Protein: 1.5
+RASPBERRY TURNOVER '09
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4.500
+Calories : 364.4
+fat: 19.4
+sat fat: 4.9
+Chol: 16.0
+Sodium: 107.8
+Carbs: 45.3
+Fiber: 0.0
+Protein: 3.6
+SQUASH ROLLS
+Ivy Room
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 1945.1
+fat: 46.4
+sat fat: 27.8
+Chol: 122.5
+Sodium: 751.1
+Carbs: 332.5
+Fiber: 9.5
+Protein: 42.7
+SPANISH ONION SOUP
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 58.4
+fat: 3.7
+sat fat: 1.3
+Chol: 4.2
+Sodium: 217.8
+Carbs: 5.6
+Fiber: 0.7
+Protein: 0.7
+VEGETARIAN CARROT GINGER SOUP W/HON
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 54.8
+fat: 0.6
+sat fat: 0.1
+Chol: 0.0
+Sodium: 41.0
+Carbs: 12.3
+Fiber: 1.9
+Protein: 0.7
+BREADED CHICKEN FINGERS
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CHICKEN CAESAR WRAP
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 11
+Calories : 740.8
+fat: 37.8
+sat fat: 11.6
+Chol: 140.4
+Sodium: 1376.1
+Carbs: 38.2
+Fiber: 1.2
+Protein: 62.3
+CREAMY PARMESAN PRIMAVERA
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 774.8
+fat: 21.2
+sat fat: 11.8
+Chol: 69.0
+Sodium: 167.4
+Carbs: 120.6
+Fiber: 1.4
+Protein: 23.0
+HOT TURKEY SAND. W/GRAVY
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7
+Calories : 234.6
+fat: 4.5
+sat fat: 1.1
+Chol: 70.3
+Sodium: 197.5
+Carbs: 25.5
+Fiber: 0.2
+Protein: 21.7
+IVY FISH SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 152.0
+fat: 14.7
+sat fat: 2.2
+Chol: 7.3
+Sodium: 417.5
+Carbs: 4.3
+Fiber: 1.2
+Protein: 1.0
+IVY ANGELL POCKET SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7.480
+Calories : 547.4
+fat: 13.9
+sat fat: 1.7
+Chol: 0.0
+Sodium: 735.9
+Carbs: 88.5
+Fiber: 1.8
+Protein: 16.6
+IVY BACON-LETTUCE-TOMATO SAND
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 404.3
+fat: 23.2
+sat fat: 5.2
+Chol: 36.9
+Sodium: 806.5
+Carbs: 32.3
+Fiber: 1.1
+Protein: 15.8
+IVY BUFFALO CHICKEN WRAP
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 523.5
+fat: 17.3
+sat fat: 4.8
+Chol: 99.8
+Sodium: 765.2
+Carbs: 46.6
+Fiber: 0.6
+Protein: 42.3
+IVY CHARLESFIELD SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 518.8
+fat: 18.1
+sat fat: 8.7
+Chol: 79.9
+Sodium: 1269.3
+Carbs: 50.9
+Fiber: 3.5
+Protein: 40.0
+IVY CHICKEN SALAD SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 639.6
+fat: 35.8
+sat fat: 5.6
+Chol: 66.3
+Sodium: 1171.6
+Carbs: 49.4
+Fiber: 3.5
+Protein: 28.3
+IVY GRILLED AM CHEESE SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 111.7
+fat: 9.2
+sat fat: 6.0
+Chol: 22.5
+Sodium: 615.5
+Carbs: 1.8
+Fiber: 0.1
+Protein: 6.2
+IVY GRILLED CHEESE&TOMATO SAND
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 446.3
+fat: 21.3
+sat fat: 12.7
+Chol: 44.8
+Sodium: 1587.9
+Carbs: 43.9
+Fiber: 3.7
+Protein: 21.7
+IVY GRILLED CHEESEBURGER
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 5.320
+Calories : 353.7
+fat: 14.5
+sat fat: 6.1
+Chol: 76.0
+Sodium: 723.7
+Carbs: 25.5
+Fiber: 0.0
+Protein: 30.1
+IVY GRILLED CHICKEN SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): Sandwich
+Calories : 443.8
+fat: 9.5
+sat fat: 1.5
+Chol: 71.4
+Sodium: 1152.7
+Carbs: 57.7
+Fiber: 3.1
+Protein: 30.8
+IVY GRILLED FRANKFURT ON BUN
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 5.090
+Calories : 252.4
+fat: 14.7
+sat fat: 5.0
+Chol: 22.6
+Sodium: 719.3
+Carbs: 23.0
+Fiber: 0.0
+Protein: 8.8
+IVY GRILLED HAM & CHEESE SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY GRILLED HAMBURGER REG
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4.320
+Calories : 284.1
+fat: 8.5
+sat fat: 2.2
+Chol: 61.1
+Sodium: 385.5
+Carbs: 25.0
+Fiber: 0.0
+Protein: 26.2
+IVY ROOM TURKEY & GOUDA (SIDNEY FRAN
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): each
+Calories : 448.1
+fat: 18.0
+sat fat: 5.9
+Chol: 48.3
+Sodium: 1347.7
+Carbs: 39.0
+Fiber: 0.9
+Protein: 31.0
+IVY SHAVED STK & CHS SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4.500
+Calories : 429.6
+fat: 14.0
+sat fat: 9.0
+Chol: 44.5
+Sodium: 747.2
+Carbs: 41.1
+Fiber: 0.4
+Protein: 33.3
+IVY SLICED HAM SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 10.420
+Calories : 399.1
+fat: 6.0
+sat fat: 0.6
+Chol: 51.5
+Sodium: 1473.1
+Carbs: 57.1
+Fiber: 3.3
+Protein: 27.5
+IVY SLICED ROAST BEEF SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 542.7
+fat: 20.8
+sat fat: 4.2
+Chol: 57.5
+Sodium: 962.5
+Carbs: 54.4
+Fiber: 3.3
+Protein: 36.0
+IVY SLICED TURKEY BREAST SAND
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 508.4
+fat: 18.3
+sat fat: 2.4
+Chol: 40.4
+Sodium: 1425.0
+Carbs: 53.5
+Fiber: 3.3
+Protein: 32.6
+IVY SPICY CHICKEN SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 10
+Calories : 512.1
+fat: 30.6
+sat fat: 5.5
+Chol: 21.2
+Sodium: 767.3
+Carbs: 48.0
+Fiber: 2.6
+Protein: 10.4
+IVY TUNAFISH SALAD SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 717.0
+fat: 38.9
+sat fat: 6.3
+Chol: 86.5
+Sodium: 1501.6
+Carbs: 50.7
+Fiber: 3.2
+Protein: 43.2
+IVY WATERMAN SANDWICH
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 600.2
+fat: 28.0
+sat fat: 9.0
+Chol: 72.8
+Sodium: 1565.0
+Carbs: 48.0
+Fiber: 3.0
+Protein: 38.4
+Sauces for Chicken Fingers
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TURKEY CRANBERRY MAYONNAI
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 11.250
+Calories : 393.8
+fat: 17.3
+sat fat: 2.4
+Chol: 35.8
+Sodium: 640.3
+Carbs: 35.1
+Fiber: 0.6
+Protein: 24.8
+VEGGIE PATTIES ORIGINAL
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BROCCOLI SPEARS
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 29.0
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 28.1
+Carbs: 5.7
+Fiber: 2.2
+Protein: 2.4
+FRENCH FRIED ONION RINGS
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIES CURLEY IVY ROOM
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+MASHED POTATOES
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 102.6
+fat: 1.1
+sat fat: 0.5
+Chol: 2.9
+Sodium: 277.3
+Carbs: 21.1
+Fiber: 1.8
+Protein: 2.4
+SWEET POTATO FRIES
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY RM ASST FRESH WHOLE F
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7.020
+Calories : 13.0
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.2
+Carbs: 3.4
+Fiber: 0.5
+Protein: 0.1
+CHEESECAKE OREO '06
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 230.8
+fat: 16.5
+sat fat: 8.8
+Chol: 109.3
+Sodium: 111.5
+Carbs: 28.6
+Fiber: 0.0
+Protein: 4.1
+COOKIES ASST HM '06
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): COOKIE
+Calories : 144.1
+fat: 5.4
+sat fat: 0.8
+Chol: 6.5
+Sodium: 56.0
+Carbs: 21.8
+Fiber: 1.4
+Protein: 2.8
+GRANOLA BREAD
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 2.400
+Calories : 84.2
+fat: 2.2
+sat fat: 0.4
+Chol: 1.2
+Sodium: 117.8
+Carbs: 13.9
+Fiber: 0.6
+Protein: 2.0
+LEMON JELLO
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4.560
+Calories : 77.8
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 97.3
+Carbs: 18.5
+Fiber: 0.0
+Protein: 1.6
+MAGIC BARS
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.25
+Calories : 355.4
+fat: 23.4
+sat fat: 9.0
+Chol: 10.6
+Sodium: 324.6
+Carbs: 35.4
+Fiber: 0.5
+Protein: 4.7
+Passion fruit yogurt parfaits
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): GOBLET
+Calories : 359.0
+fat: 4.6
+sat fat: 2.4
+Chol: 2.4
+Sodium: 47.8
+Carbs: 77.8
+Fiber: 5.3
+Protein: 6.4
+PIE PECAN CT-8
+Ivy Room
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4.980
+Calories : 5863.9
+fat: 306.0
+sat fat: 57.8
+Chol: 916.0
+Sodium: 1761.6
+Carbs: 645.3
+Fiber: 25.0
+Protein: 59.6
+NEW ENGLAND CLAM CHOWDER
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 146.6
+fat: 3.1
+sat fat: 1.4
+Chol: 30.9
+Sodium: 400.7
+Carbs: 17.2
+Fiber: 1.0
+Protein: 11.7
+VEGETARIAN JAPANESE NOODLE SOUP
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 41.8
+fat: 1.8
+sat fat: 0.2
+Chol: 8.4
+Sodium: 150.0
+Carbs: 4.9
+Fiber: 0.3
+Protein: 1.2
+BREADED CHICKEN FINGERS
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CHICKEN CAESAR WRAP
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 11
+Calories : 740.8
+fat: 37.8
+sat fat: 11.6
+Chol: 140.4
+Sodium: 1376.1
+Carbs: 38.2
+Fiber: 1.2
+Protein: 62.3
+IVY FISH SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 152.0
+fat: 14.7
+sat fat: 2.2
+Chol: 7.3
+Sodium: 417.5
+Carbs: 4.3
+Fiber: 1.2
+Protein: 1.0
+IVY ANGELL POCKET SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 7.480
+Calories : 547.4
+fat: 13.9
+sat fat: 1.7
+Chol: 0.0
+Sodium: 735.9
+Carbs: 88.5
+Fiber: 1.8
+Protein: 16.6
+IVY BACON-LETTUCE-TOMATO SAND
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 404.3
+fat: 23.2
+sat fat: 5.2
+Chol: 36.9
+Sodium: 806.5
+Carbs: 32.3
+Fiber: 1.1
+Protein: 15.8
+IVY BUFFALO CHICKEN WRAP
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 523.5
+fat: 17.3
+sat fat: 4.8
+Chol: 99.8
+Sodium: 765.2
+Carbs: 46.6
+Fiber: 0.6
+Protein: 42.3
+IVY CHARLESFIELD SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 518.8
+fat: 18.1
+sat fat: 8.7
+Chol: 79.9
+Sodium: 1269.3
+Carbs: 50.9
+Fiber: 3.5
+Protein: 40.0
+IVY CHICKEN SALAD SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 639.6
+fat: 35.8
+sat fat: 5.6
+Chol: 66.3
+Sodium: 1171.6
+Carbs: 49.4
+Fiber: 3.5
+Protein: 28.3
+IVY GRILLED AM CHEESE SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 111.7
+fat: 9.2
+sat fat: 6.0
+Chol: 22.5
+Sodium: 615.5
+Carbs: 1.8
+Fiber: 0.1
+Protein: 6.2
+IVY GRILLED CHEESE&TOMATO SAND
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5
+Calories : 446.3
+fat: 21.3
+sat fat: 12.7
+Chol: 44.8
+Sodium: 1587.9
+Carbs: 43.9
+Fiber: 3.7
+Protein: 21.7
+IVY GRILLED CHEESEBURGER
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5.320
+Calories : 353.7
+fat: 14.5
+sat fat: 6.1
+Chol: 76.0
+Sodium: 723.7
+Carbs: 25.5
+Fiber: 0.0
+Protein: 30.1
+IVY GRILLED FRANKFURT ON BUN
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5.090
+Calories : 252.4
+fat: 14.7
+sat fat: 5.0
+Chol: 22.6
+Sodium: 719.3
+Carbs: 23.0
+Fiber: 0.0
+Protein: 8.8
+IVY GRILLED HAM & CHEESE SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+IVY GRILLED HAMBURGER REG
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4.320
+Calories : 284.1
+fat: 8.5
+sat fat: 2.2
+Chol: 61.1
+Sodium: 385.5
+Carbs: 25.0
+Fiber: 0.0
+Protein: 26.2
+IVY ROOM TURKEY & GOUDA (SIDNEY FRAN
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): each
+Calories : 448.1
+fat: 18.0
+sat fat: 5.9
+Chol: 48.3
+Sodium: 1347.7
+Carbs: 39.0
+Fiber: 0.9
+Protein: 31.0
+IVY SHAVED STK & CHS SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4.500
+Calories : 429.6
+fat: 14.0
+sat fat: 9.0
+Chol: 44.5
+Sodium: 747.2
+Carbs: 41.1
+Fiber: 0.4
+Protein: 33.3
+IVY SLICED HAM SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 10.420
+Calories : 399.1
+fat: 6.0
+sat fat: 0.6
+Chol: 51.5
+Sodium: 1473.1
+Carbs: 57.1
+Fiber: 3.3
+Protein: 27.5
+IVY SLICED ROAST BEEF SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 542.7
+fat: 20.8
+sat fat: 4.2
+Chol: 57.5
+Sodium: 962.5
+Carbs: 54.4
+Fiber: 3.3
+Protein: 36.0
+IVY SLICED TURKEY BREAST SAND
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 10.670
+Calories : 508.4
+fat: 18.3
+sat fat: 2.4
+Chol: 40.4
+Sodium: 1425.0
+Carbs: 53.5
+Fiber: 3.3
+Protein: 32.6
+IVY SPICY CHICKEN SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 10
+Calories : 512.1
+fat: 30.6
+sat fat: 5.5
+Chol: 21.2
+Sodium: 767.3
+Carbs: 48.0
+Fiber: 2.6
+Protein: 10.4
+IVY TUNAFISH SALAD SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 717.0
+fat: 38.9
+sat fat: 6.3
+Chol: 86.5
+Sodium: 1501.6
+Carbs: 50.7
+Fiber: 3.2
+Protein: 43.2
+IVY WATERMAN SANDWICH
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SANDWICH
+Calories : 600.2
+fat: 28.0
+sat fat: 9.0
+Chol: 72.8
+Sodium: 1565.0
+Carbs: 48.0
+Fiber: 3.0
+Protein: 38.4
+MANICOTTI PIEDMONTESE
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 382.8
+fat: 20.1
+sat fat: 0.8
+Chol: 7.9
+Sodium: 577.8
+Carbs: 30.3
+Fiber: 0.1
+Protein: 19.9
+Sauces for Chicken Fingers
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TURKEY CRANBERRY MAYONNAI
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 11.250
+Calories : 393.8
+fat: 17.3
+sat fat: 2.4
+Chol: 35.8
+Sodium: 640.3
+Carbs: 35.1
+Fiber: 0.6
+Protein: 24.8
+VEGGIE PATTIES ORIGINAL
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIED ONION RINGS
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIES CURLEY IVY ROOM
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+RICE WITH PEAS AND CORIAN
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 159.6
+fat: 0.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 198.7
+Carbs: 33.6
+Fiber: 1.2
+Protein: 3.8
+SWEET POTATO FRIES
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+WHOLE GREEN BEANS FZ
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 21.4
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.8
+Carbs: 4.9
+Fiber: 2.3
+Protein: 1.1
+IVY RM ASST FRESH WHOLE F
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 7.020
+Calories : 13.0
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.2
+Carbs: 3.4
+Fiber: 0.5
+Protein: 0.1
+BREAD PUDDING
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6.350
+Calories : 226.5
+fat: 4.6
+sat fat: 1.2
+Chol: 111.1
+Sodium: 385.3
+Carbs: 36.4
+Fiber: 0.2
+Protein: 10.5
+COOKIES ASST HM '06
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): COOKIE
+Calories : 144.1
+fat: 5.4
+sat fat: 0.8
+Chol: 6.5
+Sodium: 56.0
+Carbs: 21.8
+Fiber: 1.4
+Protein: 2.8
+DOUBLE LAYER YELLOW CAKE
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5.350
+Calories : 417.9
+fat: 12.6
+sat fat: 3.5
+Chol: 21.9
+Sodium: 700.4
+Carbs: 70.5
+Fiber: 0.0
+Protein: 6.1
+FOCACCIA W/ROSEMARY
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 172.2
+fat: 5.2
+sat fat: 0.7
+Chol: 0.0
+Sodium: 167.8
+Carbs: 27.1
+Fiber: 1.0
+Protein: 3.7
+PIE BLUEBERRY CT-8
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5.540
+Calories : 3536.5
+fat: 143.0
+sat fat: 56.5
+Chol: 102.1
+Sodium: 2033.3
+Carbs: 533.3
+Fiber: 24.4
+Protein: 23.9
+RASPBERRY JELLO
+Ivy Room
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4.560
+Calories : 109.4
+fat: 9.7
+sat fat: 6.5
+Chol: 40.3
+Sodium: 9.0
+Carbs: 3.0
+Fiber: 0.0
+Protein: 0.1
+
+BAGELS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+BAGELS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+Egg Bar VW
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 5oz
+Calories : 203.9
+fat: 12.7
+sat fat: 4.8
+Chol: 376.6
+Sodium: 502.0
+Carbs: 4.4
+Fiber: 0.5
+Protein: 17.6
+FRIED EGGS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED BREAKFAST SAUSAGE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 151.4
+fat: 11.5
+sat fat: 3.1
+Chol: 55.6
+Sodium: 306.2
+Carbs: 0.0
+Fiber: 0.0
+Protein: 11.2
+HARD BOILED EGGS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+PANCAKES
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+TATER TOTS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+CORN MUFFINS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): MUFFIN
+Calories : 294.7
+fat: 12.4
+sat fat: 0.5
+Chol: 7.6
+Sodium: 303.3
+Carbs: 41.4
+Fiber: 0.0
+Protein: 4.9
+POTATO VEGETABLE CHOWDER
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 116.4
+fat: 2.9
+sat fat: 1.4
+Chol: 8.3
+Sodium: 68.5
+Carbs: 18.5
+Fiber: 2.3
+Protein: 4.1
+VEGETARIAN JAPANESE NOODLE SOUP
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 41.8
+fat: 1.8
+sat fat: 0.2
+Chol: 8.4
+Sodium: 150.0
+Carbs: 4.9
+Fiber: 0.3
+Protein: 1.2
+CAVATINI
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 384.8
+fat: 19.2
+sat fat: 6.9
+Chol: 37.8
+Sodium: 1007.0
+Carbs: 33.9
+Fiber: 1.5
+Protein: 19.9
+CUBAN BLACK BEANS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 141.7
+fat: 5.5
+sat fat: 0.7
+Chol: 0.0
+Sodium: 653.0
+Carbs: 18.3
+Fiber: 1.5
+Protein: 5.5
+HAMBURGER ON A BUN
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+Italian Marinated Chicken
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 210.2
+fat: 7.3
+sat fat: 1.4
+Chol: 89.6
+Sodium: 483.1
+Carbs: 1.6
+Fiber: 0.0
+Protein: 32.8
+Peanut butter sandwich bar vw
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): sandwich
+Calories : 446.5
+fat: 16.7
+sat fat: 3.0
+Chol: 0.0
+Sodium: 554.1
+Carbs: 64.5
+Fiber: 1.9
+Protein: 13.8
+SLICED AMERICAN CHEESE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TUNA SALAD
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 315.6
+fat: 22.0
+sat fat: 3.7
+Chol: 76.1
+Sodium: 682.4
+Carbs: 0.3
+Fiber: 0.1
+Protein: 31.5
+VEGAN STUFFED RED PEPPER W/BROWN RI
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 179.4
+fat: 5.9
+sat fat: 0.6
+Chol: 0.0
+Sodium: 453.3
+Carbs: 26.7
+Fiber: 2.7
+Protein: 4.8
+VEGGIE PATTIES ORIGINAL
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH FRIED POTATOES
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+POTATO SALAD
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4OZ
+Calories : 180.2
+fat: 10.4
+sat fat: 1.6
+Chol: 5.1
+Sodium: 334.8
+Carbs: 20.1
+Fiber: 2.0
+Protein: 1.7
+VEGAN BROWN RICE PILAF
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+ZUCCHINI & ONIONS SAUTE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 25.6
+fat: 1.0
+sat fat: 0.1
+Chol: 0.0
+Sodium: 1.2
+Carbs: 4.0
+Fiber: 1.1
+Protein: 0.7
+Mexican Salad Bar VW
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+COCONUT COOKIES
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 1.280
+Calories : 164.5
+fat: 9.4
+sat fat: 3.6
+Chol: 13.4
+Sodium: 98.1
+Carbs: 18.9
+Fiber: 0.6
+Protein: 1.7
+POTATO VEGETABLE CHOWDER
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 116.4
+fat: 2.9
+sat fat: 1.4
+Chol: 8.3
+Sodium: 68.5
+Carbs: 18.5
+Fiber: 2.3
+Protein: 4.1
+VEGETARIAN JAPANESE NOODLE SOUP
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 41.8
+fat: 1.8
+sat fat: 0.2
+Chol: 8.4
+Sodium: 150.0
+Carbs: 4.9
+Fiber: 0.3
+Protein: 1.2
+BASIL TOMATO CREAM SAUCE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 121.6
+fat: 7.7
+sat fat: 4.7
+Chol: 25.3
+Sodium: 193.0
+Carbs: 7.3
+Fiber: 0.4
+Protein: 6.5
+Chicken Teriyaki 1/4 cut
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6.100
+Calories : 393.5
+fat: 21.5
+sat fat: 6.0
+Chol: 139.3
+Sodium: 862.4
+Carbs: 2.7
+Fiber: 0.1
+Protein: 44.2
+CUBAN BLACK BEANS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 141.7
+fat: 5.5
+sat fat: 0.7
+Chol: 0.0
+Sodium: 653.0
+Carbs: 18.3
+Fiber: 1.5
+Protein: 5.5
+SLICED AMERICAN CHEESE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+STIR FRY - MEDITERRANEAN SALMON
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 381.1
+fat: 8.2
+sat fat: 2.2
+Chol: 28.4
+Sodium: 553.8
+Carbs: 57.8
+Fiber: 4.4
+Protein: 16.9
+STIR FRY - VEG MEDITERRANEAN MEDLEY
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 339.4
+fat: 7.6
+sat fat: 1.8
+Chol: 9.1
+Sodium: 701.1
+Carbs: 57.2
+Fiber: 6.2
+Protein: 10.6
+SWEET AND SOUR TOFU
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 248.2
+fat: 9.6
+sat fat: 1.0
+Chol: 0.0
+Sodium: 640.3
+Carbs: 31.7
+Fiber: 1.2
+Protein: 8.9
+TUNA SALAD
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 315.6
+fat: 22.0
+sat fat: 3.7
+Chol: 76.1
+Sodium: 682.4
+Carbs: 0.3
+Fiber: 0.1
+Protein: 31.5
+CAULIFLOWER, PEPPER, & GREEN BEAN
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 30.6
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 14.0
+Carbs: 6.5
+Fiber: 2.8
+Protein: 1.7
+CHINESE FRIED RICE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 136.9
+fat: 2.6
+sat fat: 0.5
+Chol: 40.9
+Sodium: 309.6
+Carbs: 23.1
+Fiber: 1.1
+Protein: 4.6
+GREEK STYLE ASPARAGUS
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 43.9
+fat: 2.4
+sat fat: 0.3
+Chol: 0.0
+Sodium: 86.1
+Carbs: 4.7
+Fiber: 1.5
+Protein: 1.5
+PENNE
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 342.0
+fat: 3.7
+sat fat: 0.6
+Chol: 0.0
+Sodium: 2.1
+Carbs: 63.7
+Fiber: 3.7
+Protein: 12.0
+POTATO SALAD
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4OZ
+Calories : 180.2
+fat: 10.4
+sat fat: 1.6
+Chol: 5.1
+Sodium: 334.8
+Carbs: 20.1
+Fiber: 2.0
+Protein: 1.7
+VEGAN BROWN RICE PILAF
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+Mexican Salad Bar VW
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+AFRICAN HONEY BREAD
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 2040.6
+fat: 50.8
+sat fat: 29.7
+Chol: 221.3
+Sodium: 1927.5
+Carbs: 345.5
+Fiber: 11.0
+Protein: 49.0
+BROWNIES CAPPUCCINO NO NUTS '06
+VW
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): BROWNIE
+Calories : 272.2
+fat: 16.7
+sat fat: 10.1
+Chol: 67.1
+Sodium: 78.0
+Carbs: 29.6
+Fiber: 1.1
+Protein: 2.6
+BAGELS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+Egg Bar VW
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 5oz
+Calories : 203.9
+fat: 12.7
+sat fat: 4.8
+Chol: 376.6
+Sodium: 502.0
+Carbs: 4.4
+Fiber: 0.5
+Protein: 17.6
+FRENCH TOAST
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SLICED BACON
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HARD BOILED EGGS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+SCRAMBLED EGGS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+ROASTED RED POTATOES W/SHALLOTS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 81.8
+fat: 2.9
+sat fat: 0.4
+Chol: 0.0
+Sodium: 62.8
+Carbs: 13.3
+Fiber: 1.3
+Protein: 1.3
+STRAWBERRY BREAD
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 191.2
+fat: 9.1
+sat fat: 0.8
+Chol: 22.3
+Sodium: 169.0
+Carbs: 25.1
+Fiber: 0.8
+Protein: 2.1
+CHICKEN VEGETABLE SOUP
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 65.3
+fat: 0.9
+sat fat: 0.2
+Chol: 31.2
+Sodium: 37.4
+Carbs: 8.6
+Fiber: 0.4
+Protein: 5.6
+VEGAN ROASTED BUTTERNUT SOUP W/
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 63.8
+fat: 0.7
+sat fat: 0.1
+Chol: 0.0
+Sodium: 49.4
+Carbs: 14.9
+Fiber: 2.5
+Protein: 1.2
+BBQ NAVY BEANS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 251.2
+fat: 3.7
+sat fat: 0.3
+Chol: 0.0
+Sodium: 1195.8
+Carbs: 43.9
+Fiber: 0.4
+Protein: 10.1
+CHICKEN SALAD COLD PLATE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 266.5
+fat: 20.4
+sat fat: 3.3
+Chol: 59.4
+Sodium: 415.1
+Carbs: 0.9
+Fiber: 0.5
+Protein: 18.6
+GRILLED ROTISSERIE CHICKEN
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 183.6
+fat: 4.8
+sat fat: 1.2
+Chol: 89.6
+Sodium: 78.1
+Carbs: 0.0
+Fiber: 0.0
+Protein: 32.7
+HAMBURGER ON A BUN
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+Peanut butter sandwich bar vw
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): sandwich
+Calories : 446.5
+fat: 16.7
+sat fat: 3.0
+Chol: 0.0
+Sodium: 554.1
+Carbs: 64.5
+Fiber: 1.9
+Protein: 13.8
+SLICED AMERICAN CHEESE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TACOS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4.880
+Calories : 281.1
+fat: 11.8
+sat fat: 3.3
+Chol: 38.2
+Sodium: 428.4
+Carbs: 24.9
+Fiber: 0.8
+Protein: 17.5
+VEGAN BURRITO
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 367.0
+fat: 11.7
+sat fat: 2.5
+Chol: 0.0
+Sodium: 737.3
+Carbs: 53.2
+Fiber: 1.2
+Protein: 12.0
+VEGGIE PATTIES ORIGINAL
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+ANTIPASTO MACARONI SALAD
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 354.0
+fat: 16.3
+sat fat: 3.8
+Chol: 8.2
+Sodium: 220.7
+Carbs: 42.2
+Fiber: 0.5
+Protein: 10.2
+CORN & SWEET PEPPER SAUTE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 103.6
+fat: 2.9
+sat fat: 1.0
+Chol: 3.2
+Sodium: 72.3
+Carbs: 19.9
+Fiber: 2.4
+Protein: 2.9
+FRENCH FRIES KRINKLE CUT
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN BROWN RICE PILAF
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+VEGAN REFRIED BEANS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+Mexican Salad Bar VW
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+BUTTERSCOTCH COOKIES
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ~1.25
+Calories : 169.9
+fat: 9.2
+sat fat: 4.7
+Chol: 16.3
+Sodium: 73.3
+Carbs: 20.5
+Fiber: 0.2
+Protein: 1.3
+CHICKEN VEGETABLE SOUP
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 65.3
+fat: 0.9
+sat fat: 0.2
+Chol: 31.2
+Sodium: 37.4
+Carbs: 8.6
+Fiber: 0.4
+Protein: 5.6
+VEGAN ROASTED BUTTERNUT SOUP W/
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 63.8
+fat: 0.7
+sat fat: 0.1
+Chol: 0.0
+Sodium: 49.4
+Carbs: 14.9
+Fiber: 2.5
+Protein: 1.2
+BASIL TOMATO CREAM SAUCE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 121.6
+fat: 7.7
+sat fat: 4.7
+Chol: 25.3
+Sodium: 193.0
+Carbs: 7.3
+Fiber: 0.4
+Protein: 6.5
+BBQ NAVY BEANS
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 251.2
+fat: 3.7
+sat fat: 0.3
+Chol: 0.0
+Sodium: 1195.8
+Carbs: 43.9
+Fiber: 0.4
+Protein: 10.1
+CHICKEN SALAD COLD PLATE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 266.5
+fat: 20.4
+sat fat: 3.3
+Chol: 59.4
+Sodium: 415.1
+Carbs: 0.9
+Fiber: 0.5
+Protein: 18.6
+PIZZA RUSTICA W/SPINACH
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 361.7
+fat: 23.8
+sat fat: 10.2
+Chol: 55.1
+Sodium: 438.5
+Carbs: 26.4
+Fiber: 0.9
+Protein: 11.3
+ROTISSERIE STYLE CHICKEN
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 286.2
+fat: 11.1
+sat fat: 3.1
+Chol: 118.1
+Sodium: 819.0
+Carbs: 2.0
+Fiber: 0.6
+Protein: 42.4
+SLICED AMERICAN CHEESE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+Tortellini Italiano
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 376.3
+fat: 11.4
+sat fat: 4.4
+Chol: 28.8
+Sodium: 933.5
+Carbs: 54.7
+Fiber: 4.0
+Protein: 15.0
+Tortellini Italiano with Sausage
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 399.0
+fat: 15.2
+sat fat: 5.6
+Chol: 36.1
+Sodium: 1054.3
+Carbs: 49.6
+Fiber: 3.6
+Protein: 16.9
+ANTIPASTO MACARONI SALAD
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 354.0
+fat: 16.3
+sat fat: 3.8
+Chol: 8.2
+Sodium: 220.7
+Carbs: 42.2
+Fiber: 0.5
+Protein: 10.2
+CAULIFLOWER AU GRATIN
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 76.5
+fat: 3.4
+sat fat: 1.7
+Chol: 9.3
+Sodium: 216.9
+Carbs: 8.1
+Fiber: 1.4
+Protein: 3.4
+GREEN PEAS, FROZEN
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 73.5
+fat: 0.4
+sat fat: 0.1
+Chol: 0.0
+Sodium: 4.5
+Carbs: 13.1
+Fiber: 4.6
+Protein: 4.9
+LINGUINI
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 766.5
+fat: 5.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 153.9
+Fiber: 0.0
+Protein: 26.3
+STEAK FRIES
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 110.2
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 270.4
+Carbs: 19.6
+Fiber: 1.9
+Protein: 1.9
+VEGAN BROWN RICE PILAF
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+Mexican Salad Bar VW
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+BARS RASPBERRY CRUMBLE '06
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 528.4
+fat: 20.6
+sat fat: 4.5
+Chol: 39.3
+Sodium: 518.9
+Carbs: 76.8
+Fiber: 4.0
+Protein: 10.7
+ITALIAN BREAD
+VW
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 134.8
+fat: 1.0
+sat fat: 0.3
+Chol: 0.5
+Sodium: 248.7
+Carbs: 27.0
+Fiber: 0.9
+Protein: 3.8
+BAGELS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+CHOURICO RECIPE
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+Egg Bar VW
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 5oz
+Calories : 203.9
+fat: 12.7
+sat fat: 4.8
+Chol: 376.6
+Sodium: 502.0
+Carbs: 4.4
+Fiber: 0.5
+Protein: 17.6
+FRIED EGGS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+HARD BOILED EGGS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+PANCAKES
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+LYONNAISE POTATOES
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.800
+Calories : 124.8
+fat: 3.8
+sat fat: 0.3
+Chol: 0.0
+Sodium: 171.1
+Carbs: 21.1
+Fiber: 2.0
+Protein: 1.8
+APPLE CHOP CHOPS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 273.2
+fat: 5.9
+sat fat: 1.3
+Chol: 27.0
+Sodium: 214.5
+Carbs: 50.5
+Fiber: 1.2
+Protein: 5.4
+CATERING CRUDITE PLATTER - REGULAR
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 2oz
+Calories : 12.0
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 19.0
+Carbs: 2.5
+Fiber: 0.8
+Protein: 0.6
+CHICKEN SOUP W/TORTELLINI
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 80.5
+fat: 1.9
+sat fat: 0.8
+Chol: 16.9
+Sodium: 85.9
+Carbs: 9.1
+Fiber: 0.2
+Protein: 6.6
+VEGAN MUSHROOM BARLEY SOUP
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 43.9
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 22.2
+Carbs: 9.4
+Fiber: 1.6
+Protein: 1.8
+BUFFALO WINGS V.W.
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7
+Calories : 572.5
+fat: 38.3
+sat fat: 10.2
+Chol: 136.2
+Sodium: 1037.9
+Carbs: 20.4
+Fiber: 0.7
+Protein: 34.6
+Caesar Salad Pizza
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): piece
+Calories : 244.9
+fat: 17.3
+sat fat: 4.9
+Chol: 13.4
+Sodium: 620.8
+Carbs: 14.5
+Fiber: 1.6
+Protein: 8.7
+HAM SALAD
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 142.4
+fat: 9.8
+sat fat: 2.3
+Chol: 34.8
+Sodium: 817.6
+Carbs: 3.1
+Fiber: 0.3
+Protein: 10.1
+HAMBURGER ON A BUN
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+Italian Marinated Chicken
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 210.2
+fat: 7.3
+sat fat: 1.4
+Chol: 89.6
+Sodium: 483.1
+Carbs: 1.6
+Fiber: 0.0
+Protein: 32.8
+RED POTATO FRITATA
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6.450
+Calories : 204.7
+fat: 9.9
+sat fat: 4.0
+Chol: 254.3
+Sodium: 262.3
+Carbs: 16.8
+Fiber: 1.9
+Protein: 12.4
+SLICED AMERICAN CHEESE
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN GARDEN CHILI
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 217.4
+fat: 8.3
+sat fat: 0.7
+Chol: 0.0
+Sodium: 476.9
+Carbs: 24.9
+Fiber: 1.6
+Protein: 8.8
+VEGGIE PATTIES ORIGINAL
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+STEAK FRIES
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 110.2
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 270.4
+Carbs: 19.6
+Fiber: 1.9
+Protein: 1.9
+VEGAN BROWN RICE PILAF
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+VERMONT POTATO SALAD
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 178.7
+fat: 12.3
+sat fat: 2.0
+Chol: 30.8
+Sodium: 233.3
+Carbs: 15.3
+Fiber: 1.6
+Protein: 2.2
+Mexican Salad Bar VW
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+CHOCOLATE KRINKLES COOKIES, NO NUTS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ~1.25
+Calories : 133.2
+fat: 4.3
+sat fat: 0.8
+Chol: 11.6
+Sodium: 70.2
+Carbs: 22.5
+Fiber: 0.2
+Protein: 1.5
+CHICKEN SOUP W/TORTELLINI
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 80.5
+fat: 1.9
+sat fat: 0.8
+Chol: 16.9
+Sodium: 85.9
+Carbs: 9.1
+Fiber: 0.2
+Protein: 6.6
+VEGAN MUSHROOM BARLEY SOUP
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 43.9
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 22.2
+Carbs: 9.4
+Fiber: 1.6
+Protein: 1.8
+BASIL TOMATO CREAM SAUCE
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 121.6
+fat: 7.7
+sat fat: 4.7
+Chol: 25.3
+Sodium: 193.0
+Carbs: 7.3
+Fiber: 0.4
+Protein: 6.5
+Broccoli Pasta Alfredo
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 660.3
+fat: 43.0
+sat fat: 27.4
+Chol: 169.3
+Sodium: 390.5
+Carbs: 47.9
+Fiber: 1.6
+Protein: 12.0
+CHICKEN BROCCOLI PASTA ALFREDO
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 604.4
+fat: 36.1
+sat fat: 22.5
+Chol: 174.4
+Sodium: 346.7
+Carbs: 38.4
+Fiber: 1.3
+Protein: 23.7
+HAM SALAD
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 142.4
+fat: 9.8
+sat fat: 2.3
+Chol: 34.8
+Sodium: 817.6
+Carbs: 3.1
+Fiber: 0.3
+Protein: 10.1
+ROAST BEEF AU JUS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 240.0
+fat: 7.2
+sat fat: 2.6
+Chol: 102.1
+Sodium: 81.1
+Carbs: 0.6
+Fiber: 0.1
+Protein: 40.5
+SLICED AMERICAN CHEESE
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+VEGAN GARDEN CHILI
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 217.4
+fat: 8.3
+sat fat: 0.7
+Chol: 0.0
+Sodium: 476.9
+Carbs: 24.9
+Fiber: 1.6
+Protein: 8.8
+VEGAN VEGETABLE COUSCOUS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 534.3
+fat: 5.3
+sat fat: 0.7
+Chol: 0.0
+Sodium: 126.7
+Carbs: 102.2
+Fiber: 7.0
+Protein: 17.4
+FRESH WHOLE GREEN BEANS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3oz
+Calories : 26.7
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 5.2
+Carbs: 6.1
+Fiber: 2.9
+Protein: 1.6
+GLAZED CARROTS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.5
+sat fat: 0.1
+Chol: 0.0
+Sodium: 184.5
+Carbs: 12.2
+Fiber: 0.0
+Protein: 0.6
+Mashed Red Bliss Potatoes w/garlic
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 105.7
+fat: 1.2
+sat fat: 0.5
+Chol: 2.9
+Sodium: 281.0
+Carbs: 21.6
+Fiber: 1.9
+Protein: 2.5
+ROTINI
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 636.9
+fat: 4.9
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 127.3
+Fiber: 0.0
+Protein: 21.7
+VEGAN BROWN RICE PILAF
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+VERMONT POTATO SALAD
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 178.7
+fat: 12.3
+sat fat: 2.0
+Chol: 30.8
+Sodium: 233.3
+Carbs: 15.3
+Fiber: 1.6
+Protein: 2.2
+Mexican Salad Bar VW
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+SQUASH ROLLS
+VW
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 1945.1
+fat: 46.4
+sat fat: 27.8
+Chol: 122.5
+Sodium: 751.1
+Carbs: 332.5
+Fiber: 9.5
+Protein: 42.7
+BAGELS
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+CANADIAN BACON
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 52.9
+fat: 2.4
+sat fat: 0.8
+Chol: 16.6
+Sodium: 441.8
+Carbs: 0.4
+Fiber: 0.0
+Protein: 6.9
+Egg Bar VW
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 5oz
+Calories : 203.9
+fat: 12.7
+sat fat: 4.8
+Chol: 376.6
+Sodium: 502.0
+Carbs: 4.4
+Fiber: 0.5
+Protein: 17.6
+FRENCH TOAST
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+HARD BOILED EGGS
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+SCRAMBLED EGGS
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+PAPRIKA BREAKFAST POTATOES
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 213.4
+fat: 12.5
+sat fat: 1.0
+Chol: 0.0
+Sodium: 5.9
+Carbs: 23.2
+Fiber: 2.2
+Protein: 2.1
+CRANBERRY MUFFINS
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): Each
+Calories : 202.2
+fat: 5.3
+sat fat: 0.0
+Chol: 7.4
+Sodium: 294.4
+Carbs: 35.0
+Fiber: 0.8
+Protein: 4.1
+CHICKEN MULLIGATAWNY SOUP
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 166.9
+fat: 6.5
+sat fat: 3.6
+Chol: 37.5
+Sodium: 81.8
+Carbs: 15.2
+Fiber: 0.5
+Protein: 11.0
+VEGAN EGGPLANT SOUP
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 62.5
+fat: 3.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 153.8
+Carbs: 7.4
+Fiber: 1.1
+Protein: 1.1
+CHICKEN & BROCCOLI SALAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 298.2
+fat: 24.3
+sat fat: 3.9
+Chol: 55.2
+Sodium: 348.8
+Carbs: 2.4
+Fiber: 0.8
+Protein: 16.9
+GRILLED SANTA FE CHICKEN
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 183.6
+fat: 4.8
+sat fat: 1.2
+Chol: 89.6
+Sodium: 78.1
+Carbs: 0.0
+Fiber: 0.0
+Protein: 32.7
+HAMBURGER ON A BUN
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+Peanut butter sandwich bar vw
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): sandwich
+Calories : 446.5
+fat: 16.7
+sat fat: 3.0
+Chol: 0.0
+Sodium: 554.1
+Carbs: 64.5
+Fiber: 1.9
+Protein: 13.8
+SLICED AMERICAN CHEESE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+STUFFED SHELLS W/MEATLESS SAUCE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8.400
+Calories : 336.4
+fat: 17.5
+sat fat: 0.2
+Chol: 0.0
+Sodium: 606.8
+Carbs: 27.5
+Fiber: 0.1
+Protein: 17.1
+TURKEY CUTLET
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4.750
+Calories : 367.0
+fat: 4.4
+sat fat: 1.2
+Chol: 113.2
+Sodium: 591.7
+Carbs: 40.7
+Fiber: 1.3
+Protein: 38.1
+VEGAN RED BEANS CREOLE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 175.3
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 578.6
+Carbs: 29.1
+Fiber: 1.1
+Protein: 11.9
+VEGGIE PATTIES ORIGINAL
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+MACARONI SALAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 440.8
+fat: 21.4
+sat fat: 4.1
+Chol: 17.5
+Sodium: 368.0
+Carbs: 51.4
+Fiber: 0.2
+Protein: 11.0
+SEASONED CURLEY FRENCH FRIES
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 109.9
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 269.6
+Carbs: 19.5
+Fiber: 1.9
+Protein: 1.9
+VEGAN BROWN RICE PILAF
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+ZUCCHINI & SUMMER SQUASH
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 17.0
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 0.9
+Carbs: 3.7
+Fiber: 1.2
+Protein: 0.8
+Mexican Salad Bar VW
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+COOKIES MILK & WHITE CHOCOLATE, No Nut
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): ~1.25
+Calories : 161.6
+fat: 7.1
+sat fat: 2.0
+Chol: 14.5
+Sodium: 164.0
+Carbs: 23.7
+Fiber: 0.3
+Protein: 2.1
+ANTIPASTO BAR VW
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 452.5
+fat: 22.5
+sat fat: 9.1
+Chol: 53.4
+Sodium: 1515.7
+Carbs: 39.8
+Fiber: 1.6
+Protein: 21.8
+CHICKEN MULLIGATAWNY SOUP
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 166.9
+fat: 6.5
+sat fat: 3.6
+Chol: 37.5
+Sodium: 81.8
+Carbs: 15.2
+Fiber: 0.5
+Protein: 11.0
+VEGAN EGGPLANT SOUP
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 62.5
+fat: 3.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 153.8
+Carbs: 7.4
+Fiber: 1.1
+Protein: 1.1
+BASIL TOMATO CREAM SAUCE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 121.6
+fat: 7.7
+sat fat: 4.7
+Chol: 25.3
+Sodium: 193.0
+Carbs: 7.3
+Fiber: 0.4
+Protein: 6.5
+CHICKEN & BROCCOLI SALAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 298.2
+fat: 24.3
+sat fat: 3.9
+Chol: 55.2
+Sodium: 348.8
+Carbs: 2.4
+Fiber: 0.8
+Protein: 16.9
+CHICKEN CAESAR SALAD WRAP
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): sandwich
+Calories : 470.9
+fat: 21.5
+sat fat: 5.1
+Chol: 56.8
+Sodium: 781.2
+Carbs: 38.6
+Fiber: 1.3
+Protein: 31.1
+SLICED AMERICAN CHEESE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+VEGAN RED BEANS CREOLE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 175.3
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 578.6
+Carbs: 29.1
+Fiber: 1.1
+Protein: 11.9
+VEGETARIAN SUB
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8.200
+Calories : 322.3
+fat: 10.9
+sat fat: 4.4
+Chol: 20.8
+Sodium: 612.4
+Carbs: 42.9
+Fiber: 1.6
+Protein: 17.1
+MACARONI SALAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 440.8
+fat: 21.4
+sat fat: 4.1
+Chol: 17.5
+Sodium: 368.0
+Carbs: 51.4
+Fiber: 0.2
+Protein: 11.0
+MACARONI SHELLS
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 753.0
+fat: 5.5
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 151.1
+Fiber: 0.0
+Protein: 25.8
+NEW POTATO SALAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 156.8
+fat: 6.5
+sat fat: 4.4
+Chol: 24.1
+Sodium: 368.2
+Carbs: 20.4
+Fiber: 1.9
+Protein: 4.4
+VEGAN BROWN RICE PILAF
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+CAJUN CORN SALAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 165.2
+fat: 13.5
+sat fat: 1.9
+Chol: 1.1
+Sodium: 158.5
+Carbs: 11.3
+Fiber: 1.9
+Protein: 1.7
+Mexican Salad Bar VW
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+SOUTHWESTERN COLE SLAW
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 180.5
+fat: 12.5
+sat fat: 1.1
+Chol: 5.4
+Sodium: 369.8
+Carbs: 15.2
+Fiber: 1.5
+Protein: 1.2
+FRENCH PEAR PIE
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6.530
+Calories : 514.0
+fat: 24.7
+sat fat: 9.9
+Chol: 30.1
+Sodium: 307.6
+Carbs: 67.4
+Fiber: 0.9
+Protein: 5.4
+PUEBLO BREAD
+VW
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 1.800
+Calories : 123.5
+fat: 1.2
+sat fat: 0.1
+Chol: 0.0
+Sodium: 115.8
+Carbs: 24.2
+Fiber: 0.9
+Protein: 3.3
+BAGELS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+Egg Bar VW
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5oz
+Calories : 203.9
+fat: 12.7
+sat fat: 4.8
+Chol: 376.6
+Sodium: 502.0
+Carbs: 4.4
+Fiber: 0.5
+Protein: 17.6
+FRIED EGGS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SLICED BACON
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HARD BOILED EGGS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+PANCAKES
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+HOME FRIES FRZ
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 198.3
+fat: 10.4
+sat fat: 4.1
+Chol: 0.0
+Sodium: 66.1
+Carbs: 25.6
+Fiber: 1.8
+Protein: 2.9
+BROCCOLI CHEESE SOUP
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 79.1
+fat: 3.2
+sat fat: 1.7
+Chol: 9.5
+Sodium: 76.1
+Carbs: 9.9
+Fiber: 1.4
+Protein: 3.9
+RST CORN CHOWDER W/BN&POT
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 127.0
+fat: 4.8
+sat fat: 2.5
+Chol: 13.3
+Sodium: 68.4
+Carbs: 18.3
+Fiber: 1.6
+Protein: 3.6
+BREADED CHICKEN FINGERS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HAMBURGER ON A BUN
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+Peanut butter sandwich bar vw
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): sandwich
+Calories : 446.5
+fat: 16.7
+sat fat: 3.0
+Chol: 0.0
+Sodium: 554.1
+Carbs: 64.5
+Fiber: 1.9
+Protein: 13.8
+SEAFOOD SALAD
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 221.4
+fat: 18.5
+sat fat: 2.8
+Chol: 65.4
+Sodium: 342.7
+Carbs: 1.3
+Fiber: 0.6
+Protein: 11.7
+SLICED AMERICAN CHEESE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN LENTIL STEW
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 176.8
+fat: 3.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 33.2
+Carbs: 30.0
+Fiber: 8.7
+Protein: 8.5
+VEGAN NUGGETS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 47.6
+fat: 1.4
+sat fat: 0.0
+Chol: 0.0
+Sodium: 129.3
+Carbs: 6.8
+Fiber: 1.4
+Protein: 4.1
+VEGGIE PATTIES ORIGINAL
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+LEMONY ORZO SALAD
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 85.6
+fat: 2.5
+sat fat: 0.7
+Chol: 2.7
+Sodium: 159.8
+Carbs: 13.0
+Fiber: 1.1
+Protein: 3.2
+SUGAR SNAP PEAS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 70.7
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 4.4
+Carbs: 12.6
+Fiber: 4.4
+Protein: 4.7
+VEGAN RICE PILAF
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 165.4
+fat: 0.4
+sat fat: 0.1
+Chol: 0.0
+Sodium: 4.6
+Carbs: 35.9
+Fiber: 0.6
+Protein: 3.4
+VEGETARIAN BAKED BEANS
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+Mexican Salad Bar VW
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+COOKIES RASPBERRY SWIRLS '06
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1.280
+Calories : 122.8
+fat: 3.3
+sat fat: 0.6
+Chol: 5.2
+Sodium: 59.8
+Carbs: 22.3
+Fiber: 0.4
+Protein: 1.2
+RST CORN CHOWDER W/BN&POT
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 127.0
+fat: 4.8
+sat fat: 2.5
+Chol: 13.3
+Sodium: 68.4
+Carbs: 18.3
+Fiber: 1.6
+Protein: 3.6
+VEGETARIAN CREAM OF BROCCOLI SOUP
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 134.4
+fat: 5.8
+sat fat: 3.3
+Chol: 21.7
+Sodium: 531.0
+Carbs: 14.1
+Fiber: 0.8
+Protein: 6.2
+BASIL TOMATO CREAM SAUCE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 121.6
+fat: 7.7
+sat fat: 4.7
+Chol: 25.3
+Sodium: 193.0
+Carbs: 7.3
+Fiber: 0.4
+Protein: 6.5
+GRILLED MUSTARD CHICKEN
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 5.640
+Calories : 188.9
+fat: 4.3
+sat fat: 1.1
+Chol: 89.6
+Sodium: 249.0
+Carbs: 1.3
+Fiber: 0.0
+Protein: 33.2
+SEAFOOD SALAD
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 221.4
+fat: 18.5
+sat fat: 2.8
+Chol: 65.4
+Sodium: 342.7
+Carbs: 1.3
+Fiber: 0.6
+Protein: 11.7
+SLICED AMERICAN CHEESE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED DELI HAM
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+STIR FRIED - VEG ASIAN VEGETABLES
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 66.6
+fat: 1.8
+sat fat: 0.2
+Chol: 0.0
+Sodium: 377.1
+Carbs: 11.2
+Fiber: 3.8
+Protein: 2.4
+Stir Fried Tofu
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 162.1
+fat: 11.5
+sat fat: 1.5
+Chol: 0.0
+Sodium: 180.5
+Carbs: 3.6
+Fiber: 1.5
+Protein: 11.6
+STIR FRY - ASIAN VEGGIE + BEEF
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 163.1
+fat: 6.9
+sat fat: 2.0
+Chol: 23.9
+Sodium: 312.5
+Carbs: 8.4
+Fiber: 2.8
+Protein: 16.5
+TOASTED RAVIOLI WITH ITALIAN SALSA
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 275.9
+fat: 8.4
+sat fat: 0.6
+Chol: 0.0
+Sodium: 478.5
+Carbs: 38.8
+Fiber: 1.2
+Protein: 13.3
+VEGAN LENTIL STEW
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 176.8
+fat: 3.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 33.2
+Carbs: 30.0
+Fiber: 8.7
+Protein: 8.5
+FRESH VEGETABLE MELANGE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 22.8
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 22.1
+Carbs: 5.1
+Fiber: 1.7
+Protein: 1.0
+LEMONY ORZO SALAD
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 85.6
+fat: 2.5
+sat fat: 0.7
+Chol: 2.7
+Sodium: 159.8
+Carbs: 13.0
+Fiber: 1.1
+Protein: 3.2
+PARSLIED RICE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 155.6
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 200.0
+Carbs: 33.7
+Fiber: 0.5
+Protein: 3.2
+SAUTEED SPINACH W/GARLIC
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 50.3
+fat: 3.6
+sat fat: 0.5
+Chol: 0.0
+Sodium: 66.4
+Carbs: 3.5
+Fiber: 1.8
+Protein: 2.5
+VEGAN TOMATO RICE PILAF
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 133.4
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 6.8
+Carbs: 28.9
+Fiber: 0.7
+Protein: 2.9
+WHOLE WHEAT PENNE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+Mexican Salad Bar VW
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 108.1
+fat: 7.6
+sat fat: 1.9
+Chol: 23.4
+Sodium: 245.7
+Carbs: 6.2
+Fiber: 1.2
+Protein: 4.8
+FOCACCIA W/ROSEMARY
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 172.2
+fat: 5.2
+sat fat: 0.7
+Chol: 0.0
+Sodium: 167.8
+Carbs: 27.1
+Fiber: 1.0
+Protein: 3.7
+POUND CAKE
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 238.3
+fat: 9.8
+sat fat: 3.6
+Chol: 44.3
+Sodium: 70.9
+Carbs: 34.6
+Fiber: 0.3
+Protein: 2.9
+STRAWBERRY TOPPING
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1.600
+Calories : 35.8
+fat: 0.0
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.8
+Carbs: 9.3
+Fiber: 0.8
+Protein: 0.2
+WHIPPED CREAM
+VW
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): Ounce
+Calories : 104.1
+fat: 9.7
+sat fat: 6.5
+Chol: 40.5
+Sodium: 0.0
+Carbs: 1.6
+Fiber: 0.0
+Protein: 0.0
+
+BAGELS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+BAGELS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+BLUEBERRY PANCAKES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4.670
+Calories : 156.6
+fat: 1.5
+sat fat: 0.0
+Chol: 4.6
+Sodium: 435.7
+Carbs: 31.7
+Fiber: 0.5
+Protein: 4.7
+EGG WHITE OMELET
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SLICED BACON
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HARD BOILED EGGS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+OATMEAL
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 93.0
+fat: 1.9
+sat fat: 0.3
+Chol: 0.0
+Sodium: 0.0
+Carbs: 16.7
+Fiber: 0.0
+Protein: 3.1
+OMELETTE BAR
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+HOME FRIED RED POTATOES W/ ONION
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 94.2
+fat: 0.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 250.8
+Carbs: 20.8
+Fiber: 2.1
+Protein: 1.8
+CORN MUFFINS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): MUFFIN
+Calories : 294.7
+fat: 12.4
+sat fat: 0.5
+Chol: 7.6
+Sodium: 303.3
+Carbs: 41.4
+Fiber: 0.0
+Protein: 4.9
+BEEF NOODLE SOUP
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 40.4
+fat: 0.8
+sat fat: 0.2
+Chol: 15.9
+Sodium: 32.2
+Carbs: 5.2
+Fiber: 0.4
+Protein: 3.1
+VEGAN CHICKPEA SOUP
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 105.8
+fat: 4.6
+sat fat: 0.5
+Chol: 0.0
+Sodium: 489.4
+Carbs: 12.8
+Fiber: 0.3
+Protein: 4.2
+ALFREDO SAUCE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHEESE PIZZA '04
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 148.7
+fat: 3.9
+sat fat: 1.5
+Chol: 6.5
+Sodium: 331.5
+Carbs: 22.5
+Fiber: 0.7
+Protein: 6.3
+EGG WHITE OMELET
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED BREAKFAST SAUSAGE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 151.4
+fat: 11.5
+sat fat: 3.1
+Chol: 55.6
+Sodium: 306.2
+Carbs: 0.0
+Fiber: 0.0
+Protein: 11.2
+HAMBURGER ON A BUN
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HARD BOILED EGGS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+OMELETTE BAR
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SAVORY CHICKEN STEW
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 368.0
+fat: 23.4
+sat fat: 14.0
+Chol: 136.0
+Sodium: 196.6
+Carbs: 13.0
+Fiber: 2.9
+Protein: 21.7
+SLICED AMERICAN CHEESE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MOZZARELLA
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED ROAST BEEF
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+STIR FRY - VEGETARIAN CHINESE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 78.0
+fat: 0.4
+sat fat: 0.1
+Chol: 0.0
+Sodium: 196.3
+Carbs: 15.5
+Fiber: 3.9
+Protein: 3.3
+VEGAN NAVY BEAN-RED PEPPER CASSEROL
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 222.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 128.6
+Carbs: 40.3
+Fiber: 14.7
+Protein: 10.8
+VEGAN PATTIES W/ BUN
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BROCCOLI SPEARS W/LEMON
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 29.0
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 28.1
+Carbs: 5.7
+Fiber: 2.2
+Protein: 2.4
+FRENCH FRIED POTATOES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 129.2
+fat: 3.2
+sat fat: 0.6
+Chol: 0.0
+Sodium: 317.0
+Carbs: 22.9
+Fiber: 2.2
+Protein: 2.2
+HOME FRIED RED POTATOES W/ ONION
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 94.2
+fat: 0.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 250.8
+Carbs: 20.8
+Fiber: 2.1
+Protein: 1.8
+PARSLIED RICE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 155.6
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 200.0
+Carbs: 33.7
+Fiber: 0.5
+Protein: 3.2
+SPINACH FETTUCCINI
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 866.4
+fat: 5.9
+sat fat: 0.2
+Chol: 0.0
+Sodium: 81.0
+Carbs: 162.0
+Fiber: 0.0
+Protein: 28.3
+VEGETABLE EGG ROLLS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+WHOLE WHEAT PENNE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+COCONUT COOKIES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 1.280
+Calories : 164.5
+fat: 9.4
+sat fat: 3.6
+Chol: 13.4
+Sodium: 98.1
+Carbs: 18.9
+Fiber: 0.6
+Protein: 1.7
+DELI SANDWICH BREAD BAR
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+MULTI-GRAIN BREAD
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 226.1
+fat: 3.2
+sat fat: 0.5
+Chol: 4.0
+Sodium: 114.5
+Carbs: 42.1
+Fiber: 3.1
+Protein: 7.6
+WHEAT DINNER ROLLS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+BEEF NOODLE SOUP
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 40.4
+fat: 0.8
+sat fat: 0.2
+Chol: 15.9
+Sodium: 32.2
+Carbs: 5.2
+Fiber: 0.4
+Protein: 3.1
+VEGAN CHICKPEA SOUP
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 105.8
+fat: 4.6
+sat fat: 0.5
+Chol: 0.0
+Sodium: 489.4
+Carbs: 12.8
+Fiber: 0.3
+Protein: 4.2
+ALFREDO SAUCE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHEESE PIZZA '04
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 148.7
+fat: 3.9
+sat fat: 1.5
+Chol: 6.5
+Sodium: 331.5
+Carbs: 22.5
+Fiber: 0.7
+Protein: 6.3
+GRILLED CHEESE ON WHEAT
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 413.9
+fat: 20.8
+sat fat: 12.6
+Chol: 45.0
+Sodium: 1418.5
+Carbs: 37.9
+Fiber: 2.8
+Protein: 20.3
+GRILLED CHEESE ON WHITE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 431.5
+fat: 19.4
+sat fat: 12.4
+Chol: 45.0
+Sodium: 1517.2
+Carbs: 44.7
+Fiber: 1.8
+Protein: 21.0
+HAMBURGER ON A BUN
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+SLICED AMERICAN CHEESE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MOZZARELLA
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED ROAST BEEF
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+STIR FRY - PASTA W/BEEF
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 225.6
+fat: 4.9
+sat fat: 1.8
+Chol: 21.2
+Sodium: 34.2
+Carbs: 26.1
+Fiber: 1.7
+Protein: 18.0
+STIR FRY - VEGETARIAN CHINESE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 78.0
+fat: 0.4
+sat fat: 0.1
+Chol: 0.0
+Sodium: 196.3
+Carbs: 15.5
+Fiber: 3.9
+Protein: 3.3
+VEGAN GARDEN CHILI
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 217.4
+fat: 8.3
+sat fat: 0.7
+Chol: 0.0
+Sodium: 476.9
+Carbs: 24.9
+Fiber: 1.6
+Protein: 8.8
+VEGAN PATTIES W/ BUN
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BAKED POTATOES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 220.0
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 31.8
+Carbs: 48.6
+Fiber: 5.2
+Protein: 6.0
+CARROTS IN PARSLEY SAUCE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 58.7
+fat: 3.8
+sat fat: 0.6
+Chol: 0.0
+Sodium: 86.3
+Carbs: 6.0
+Fiber: 1.5
+Protein: 0.6
+FRENCH FRIED POTATOES
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 129.2
+fat: 3.2
+sat fat: 0.6
+Chol: 0.0
+Sodium: 317.0
+Carbs: 22.9
+Fiber: 2.2
+Protein: 2.2
+PEAS WITH PEARL ONIONS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 61.1
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 4.1
+Carbs: 11.4
+Fiber: 3.7
+Protein: 3.7
+SPINACH FETTUCCINI
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 866.4
+fat: 5.9
+sat fat: 0.2
+Chol: 0.0
+Sodium: 81.0
+Carbs: 162.0
+Fiber: 0.0
+Protein: 28.3
+VEGAN BROWN RICE PILAF
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+VEGETABLE EGG ROLLS
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+WHOLE WHEAT PENNE
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+AFRICAN HONEY BREAD
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 2040.6
+fat: 50.8
+sat fat: 29.7
+Chol: 221.3
+Sodium: 1927.5
+Carbs: 345.5
+Fiber: 11.0
+Protein: 49.0
+DELI SANDWICH BREAD BAR
+Ratty
+Tue Apr 23 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+BAGELS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+BANANA PANCAKES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4.670
+Calories : 169.3
+fat: 1.3
+sat fat: 0.1
+Chol: 3.9
+Sodium: 372.2
+Carbs: 36.3
+Fiber: 1.3
+Protein: 4.5
+EGG WHITE OMELET
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED BREAKFAST SAUSAGE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 151.4
+fat: 11.5
+sat fat: 3.1
+Chol: 55.6
+Sodium: 306.2
+Carbs: 0.0
+Fiber: 0.0
+Protein: 11.2
+HARD BOILED EGGS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+OATMEAL
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 93.0
+fat: 1.9
+sat fat: 0.3
+Chol: 0.0
+Sodium: 0.0
+Carbs: 16.7
+Fiber: 0.0
+Protein: 3.1
+OMELETTE BAR
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+PAPRIKA BREAKFAST POTATOES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 213.4
+fat: 12.5
+sat fat: 1.0
+Chol: 0.0
+Sodium: 5.9
+Carbs: 23.2
+Fiber: 2.2
+Protein: 2.1
+STRAWBERRY BREAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 191.2
+fat: 9.1
+sat fat: 0.8
+Chol: 22.3
+Sodium: 169.0
+Carbs: 25.1
+Fiber: 0.8
+Protein: 2.1
+POTAGE WATERCRESS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 89.7
+fat: 1.6
+sat fat: 0.9
+Chol: 4.0
+Sodium: 31.8
+Carbs: 17.3
+Fiber: 1.7
+Protein: 2.0
+VEGAN FAGIOLI SOUP
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 200.5
+fat: 3.0
+sat fat: 0.4
+Chol: 0.0
+Sodium: 1278.3
+Carbs: 38.6
+Fiber: 5.8
+Protein: 10.4
+ALFREDO SAUCE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+APRICOT BEEF W/SESAME NOODLES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 328.0
+fat: 4.8
+sat fat: 1.5
+Chol: 8.3
+Sodium: 372.9
+Carbs: 54.9
+Fiber: 1.5
+Protein: 15.6
+ARTICHOKE PEPPER CALZONE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 325.9
+fat: 9.3
+sat fat: 4.0
+Chol: 71.4
+Sodium: 723.0
+Carbs: 47.4
+Fiber: 2.6
+Protein: 14.0
+BBQ CHICKEN PIZZA '04
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): slice
+Calories : 207.1
+fat: 4.6
+sat fat: 2.1
+Chol: 22.7
+Sodium: 517.3
+Carbs: 28.4
+Fiber: 0.8
+Protein: 12.6
+BBQ NAVY BEANS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 251.2
+fat: 3.7
+sat fat: 0.3
+Chol: 0.0
+Sodium: 1195.8
+Carbs: 43.9
+Fiber: 0.4
+Protein: 10.1
+BRUSCHETTA BAR
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+EGG WHITE OMELET
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED BREAKFAST SAUSAGE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 151.4
+fat: 11.5
+sat fat: 3.1
+Chol: 55.6
+Sodium: 306.2
+Carbs: 0.0
+Fiber: 0.0
+Protein: 11.2
+HAMBURGER ON A BUN
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HARD BOILED EGGS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+OMELETTE BAR
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SLICED AMERICAN CHEESE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED DELI HAM
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MUENSTER
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+SPICY BLACK BEAN VEGGIE PATTY
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN TOFU HOT DOGS W/BUN
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.200
+Calories : 24.5
+fat: 1.0
+sat fat: 0.2
+Chol: 0.0
+Sodium: 122.5
+Carbs: 0.8
+Fiber: 1.0
+Protein: 3.3
+ASIAN VEGETABLES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 54.4
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 245.8
+Carbs: 11.9
+Fiber: 4.0
+Protein: 2.6
+FRIED RICE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 127.0
+fat: 0.6
+sat fat: 0.1
+Chol: 0.0
+Sodium: 256.9
+Carbs: 26.4
+Fiber: 0.6
+Protein: 3.1
+ITALIAN COUSCOUS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 457.1
+fat: 6.2
+sat fat: 0.6
+Chol: 0.0
+Sodium: 256.4
+Carbs: 83.6
+Fiber: 5.4
+Protein: 13.8
+PAPRIKA BREAKFAST POTATOES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 213.4
+fat: 12.5
+sat fat: 1.0
+Chol: 0.0
+Sodium: 5.9
+Carbs: 23.2
+Fiber: 2.2
+Protein: 2.1
+SAVORY SPINACH
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 23.9
+fat: 0.5
+sat fat: 0.0
+Chol: 0.0
+Sodium: 61.1
+Carbs: 3.5
+Fiber: 2.4
+Protein: 3.0
+SEASONED CURLEY FRENCH FRIES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 109.9
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 269.6
+Carbs: 19.5
+Fiber: 1.9
+Protein: 1.9
+TRI COLOR BOW TIES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 866.4
+fat: 5.9
+sat fat: 0.2
+Chol: 0.0
+Sodium: 182.3
+Carbs: 162.0
+Fiber: 0.0
+Protein: 28.3
+VEGAN BROWN RICE PILAF
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+WHOLE WHEAT PENNE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+QUINOA BLACK BEAN SALAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SALAD BAR REF CYCLE 2
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+BUTTERSCOTCH COOKIES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ~1.25
+Calories : 169.9
+fat: 9.2
+sat fat: 4.7
+Chol: 16.3
+Sodium: 73.3
+Carbs: 20.5
+Fiber: 0.2
+Protein: 1.3
+DELI SANDWICH BREAD BAR
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+MULTI-GRAIN BREAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 226.1
+fat: 3.2
+sat fat: 0.5
+Chol: 4.0
+Sodium: 114.5
+Carbs: 42.1
+Fiber: 3.1
+Protein: 7.6
+WHEAT DINNER ROLLS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+POTAGE WATERCRESS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 89.7
+fat: 1.6
+sat fat: 0.9
+Chol: 4.0
+Sodium: 31.8
+Carbs: 17.3
+Fiber: 1.7
+Protein: 2.0
+VEGAN FAGIOLI SOUP
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 200.5
+fat: 3.0
+sat fat: 0.4
+Chol: 0.0
+Sodium: 1278.3
+Carbs: 38.6
+Fiber: 5.8
+Protein: 10.4
+ALFREDO SAUCE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+APRICOT BEEF W/SESAME NOODLES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 328.0
+fat: 4.8
+sat fat: 1.5
+Chol: 8.3
+Sodium: 372.9
+Carbs: 54.9
+Fiber: 1.5
+Protein: 15.6
+BBQ CHICKEN PIZZA '04
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): slice
+Calories : 207.1
+fat: 4.6
+sat fat: 2.1
+Chol: 22.7
+Sodium: 517.3
+Carbs: 28.4
+Fiber: 0.8
+Protein: 12.6
+BRUSCHETTA BAR
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHICKEN & COCONUT CURRY
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 324.3
+fat: 10.9
+sat fat: 5.8
+Chol: 101.8
+Sodium: 287.9
+Carbs: 17.1
+Fiber: 0.7
+Protein: 36.6
+HAMBURGER ON A BUN
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+SLICED AMERICAN CHEESE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED DELI HAM
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MUENSTER
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+SPICY BLACK BEAN VEGGIE PATTY
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN CHANA MASALA
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 215.9
+fat: 7.4
+sat fat: 0.5
+Chol: 0.0
+Sodium: 870.4
+Carbs: 30.9
+Fiber: 1.9
+Protein: 8.9
+ASIAN VEGETABLES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 54.4
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 245.8
+Carbs: 11.9
+Fiber: 4.0
+Protein: 2.6
+BAKED SWEET POTATOES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 5.3oz
+Calories : 164.9
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 11.4
+Carbs: 39.1
+Fiber: 5.5
+Protein: 2.1
+BASMATI RICE PILAF
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 133.0
+fat: 1.1
+sat fat: 0.2
+Chol: 0.0
+Sodium: 242.2
+Carbs: 26.8
+Fiber: 1.0
+Protein: 3.0
+FRIED RICE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 127.0
+fat: 0.6
+sat fat: 0.1
+Chol: 0.0
+Sodium: 256.9
+Carbs: 26.4
+Fiber: 0.6
+Protein: 3.1
+GINGER SUGAR SNAP PEAS AND CARROTS
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 48.6
+fat: 0.7
+sat fat: 0.2
+Chol: 0.0
+Sodium: 232.8
+Carbs: 8.9
+Fiber: 3.1
+Protein: 2.1
+SEASONED CURLEY FRENCH FRIES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 109.9
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 269.6
+Carbs: 19.5
+Fiber: 1.9
+Protein: 1.9
+STEAMED VEGETABLE MELANGE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 21.1
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 17.0
+Carbs: 4.5
+Fiber: 1.6
+Protein: 1.0
+TRI COLOR BOW TIES
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 866.4
+fat: 5.9
+sat fat: 0.2
+Chol: 0.0
+Sodium: 182.3
+Carbs: 162.0
+Fiber: 0.0
+Protein: 28.3
+WHOLE WHEAT PENNE
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+QUINOA BLACK BEAN SALAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SALAD BAR REF CYCLE 2
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+BARS RASPBERRY CRUMBLE '06
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 528.4
+fat: 20.6
+sat fat: 4.5
+Chol: 39.3
+Sodium: 518.9
+Carbs: 76.8
+Fiber: 4.0
+Protein: 10.7
+DELI SANDWICH BREAD BAR
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+ITALIAN BREAD
+Ratty
+Wed Apr 24 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 134.8
+fat: 1.0
+sat fat: 0.3
+Chol: 0.5
+Sodium: 248.7
+Carbs: 27.0
+Fiber: 0.9
+Protein: 3.8
+BAGELS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+CANADIAN BACON
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 52.9
+fat: 2.4
+sat fat: 0.8
+Chol: 16.6
+Sodium: 441.8
+Carbs: 0.4
+Fiber: 0.0
+Protein: 6.9
+EGG WHITE OMELET
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+HARD BOILED EGGS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+OATMEAL
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 93.0
+fat: 1.9
+sat fat: 0.3
+Chol: 0.0
+Sodium: 0.0
+Carbs: 16.7
+Fiber: 0.0
+Protein: 3.1
+OMELETTE BAR
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+PANCAKES-CHOCOLATE CHIP
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 256.9
+fat: 8.3
+sat fat: 4.4
+Chol: 3.9
+Sodium: 371.7
+Carbs: 45.6
+Fiber: 0.0
+Protein: 5.4
+SCRAMBLED EGGS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+LYONNAISE POTATOES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.800
+Calories : 124.8
+fat: 3.8
+sat fat: 0.3
+Chol: 0.0
+Sodium: 171.1
+Carbs: 21.1
+Fiber: 2.0
+Protein: 1.8
+APPLE CHOP CHOPS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 273.2
+fat: 5.9
+sat fat: 1.3
+Chol: 27.0
+Sodium: 214.5
+Carbs: 50.5
+Fiber: 1.2
+Protein: 5.4
+CHICKEN SOUP W/TORTELLINI
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 80.5
+fat: 1.9
+sat fat: 0.8
+Chol: 16.9
+Sodium: 85.9
+Carbs: 9.1
+Fiber: 0.2
+Protein: 6.6
+VEGETARIAN CHILI AND CHEESE SOUP
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 125.5
+fat: 7.3
+sat fat: 3.5
+Chol: 17.8
+Sodium: 487.0
+Carbs: 10.7
+Fiber: 1.6
+Protein: 5.8
+ALFREDO SAUCE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CANADIAN BACON
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 2
+Calories : 52.9
+fat: 2.4
+sat fat: 0.8
+Chol: 16.6
+Sodium: 441.8
+Carbs: 0.4
+Fiber: 0.0
+Protein: 6.9
+EGG WHITE OMELET
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FLAME GRILLED VEGAN PATTY
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+FRIED TOFU
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 112.6
+fat: 5.9
+sat fat: 0.8
+Chol: 0.0
+Sodium: 4.7
+Carbs: 3.5
+Fiber: 1.6
+Protein: 11.5
+HAMBURGER ON A BUN
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HARD BOILED EGGS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+MORI SOBA (NOODLES W/SAUCE)
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 107.5
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 1692.0
+Carbs: 20.4
+Fiber: 0.9
+Protein: 4.4
+OMELETTE BAR
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SLICED AMERICAN CHEESE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED PROVOLONE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 99.5
+fat: 7.5
+sat fat: 4.8
+Chol: 19.6
+Sodium: 248.3
+Carbs: 0.6
+Fiber: 0.0
+Protein: 7.3
+SLICED ROAST BEEF
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SLICES
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+TACOS WITH LETTUCE & TOMATO
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7
+Calories : 420.8
+fat: 22.9
+sat fat: 9.5
+Chol: 75.1
+Sodium: 654.0
+Carbs: 27.1
+Fiber: 1.1
+Protein: 26.4
+VEGETARIAN TACO W/ LET&TOM
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 7
+Calories : 402.1
+fat: 16.1
+sat fat: 7.7
+Chol: 36.9
+Sodium: 706.9
+Carbs: 44.6
+Fiber: 0.8
+Protein: 19.0
+VEGGIE PIZZA '04
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ~2.625
+Calories : 171.4
+fat: 6.1
+sat fat: 1.7
+Chol: 6.9
+Sodium: 275.7
+Carbs: 23.3
+Fiber: 2.2
+Protein: 7.3
+LINGUINI
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 766.5
+fat: 5.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 153.9
+Fiber: 0.0
+Protein: 26.3
+LYONNAISE POTATOES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.800
+Calories : 124.8
+fat: 3.8
+sat fat: 0.3
+Chol: 0.0
+Sodium: 171.1
+Carbs: 21.1
+Fiber: 2.0
+Protein: 1.8
+SPANISH RICE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 134.7
+fat: 3.3
+sat fat: 0.5
+Chol: 0.0
+Sodium: 251.9
+Carbs: 23.6
+Fiber: 1.0
+Protein: 2.5
+STICKY RICE W/EDAMAME BEANS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 115.5
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 1.9
+Carbs: 24.5
+Fiber: 0.8
+Protein: 2.7
+SWEET POTATO FRIES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN REFRIED BEANS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+WHOLE KERNEL CORN
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 94.1
+fat: 1.1
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 21.9
+Fiber: 2.4
+Protein: 2.9
+WHOLE WHEAT PENNE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+CHOCOLATE KRINKLES COOKIES, NO NUTS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ~1.25
+Calories : 133.2
+fat: 4.3
+sat fat: 0.8
+Chol: 11.6
+Sodium: 70.2
+Carbs: 22.5
+Fiber: 0.2
+Protein: 1.5
+DELI SANDWICH BREAD BAR
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+MULTI-GRAIN BREAD
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 226.1
+fat: 3.2
+sat fat: 0.5
+Chol: 4.0
+Sodium: 114.5
+Carbs: 42.1
+Fiber: 3.1
+Protein: 7.6
+WHEAT DINNER ROLLS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+CHICKEN SOUP W/TORTELLINI
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 80.5
+fat: 1.9
+sat fat: 0.8
+Chol: 16.9
+Sodium: 85.9
+Carbs: 9.1
+Fiber: 0.2
+Protein: 6.6
+VEGETARIAN CHILI AND CHEESE SOUP
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 125.5
+fat: 7.3
+sat fat: 3.5
+Chol: 17.8
+Sodium: 487.0
+Carbs: 10.7
+Fiber: 1.6
+Protein: 5.8
+ALFREDO SAUCE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CASTLE HILL INN PORK SPARE RIBS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ~6
+Calories : 461.7
+fat: 31.2
+sat fat: 11.1
+Chol: 120.2
+Sodium: 124.3
+Carbs: 6.6
+Fiber: 0.3
+Protein: 29.2
+FLAME GRILLED VEGAN PATTY
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRIED TOFU
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 112.6
+fat: 5.9
+sat fat: 0.8
+Chol: 0.0
+Sodium: 4.7
+Carbs: 3.5
+Fiber: 1.6
+Protein: 11.5
+GRILLED CHEESE ON WHEAT
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 413.9
+fat: 20.8
+sat fat: 12.6
+Chol: 45.0
+Sodium: 1418.5
+Carbs: 37.9
+Fiber: 2.8
+Protein: 20.3
+GRILLED CHEESE ON WHITE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 431.5
+fat: 19.4
+sat fat: 12.4
+Chol: 45.0
+Sodium: 1517.2
+Carbs: 44.7
+Fiber: 1.8
+Protein: 21.0
+HAMBURGER ON A BUN
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+MORI SOBA (NOODLES W/SAUCE)
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 107.5
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 1692.0
+Carbs: 20.4
+Fiber: 0.9
+Protein: 4.4
+SLICED AMERICAN CHEESE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED PROVOLONE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 99.5
+fat: 7.5
+sat fat: 4.8
+Chol: 19.6
+Sodium: 248.3
+Carbs: 0.6
+Fiber: 0.0
+Protein: 7.3
+SLICED ROAST BEEF
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): SLICES
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+VEGAN JAMAICAN JERK TEMPEH
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 190.7
+fat: 8.9
+sat fat: 1.4
+Chol: 0.0
+Sodium: 396.3
+Carbs: 14.8
+Fiber: 0.6
+Protein: 12.9
+VEGGIE PIZZA '04
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ~2.625
+Calories : 171.4
+fat: 6.1
+sat fat: 1.7
+Chol: 6.9
+Sodium: 275.7
+Carbs: 23.3
+Fiber: 2.2
+Protein: 7.3
+BAKED POTATOES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 220.0
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 31.8
+Carbs: 48.6
+Fiber: 5.2
+Protein: 6.0
+BEETS IN ORANGE SAUCE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3oz
+Calories : 120.1
+fat: 7.0
+sat fat: 2.7
+Chol: 9.7
+Sodium: 228.5
+Carbs: 13.0
+Fiber: 0.3
+Protein: 0.6
+LINGUINI
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 766.5
+fat: 5.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 153.9
+Fiber: 0.0
+Protein: 26.3
+STICKY RICE W/EDAMAME BEANS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 115.5
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 1.9
+Carbs: 24.5
+Fiber: 0.8
+Protein: 2.7
+SWEET POTATO FRIES
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+WHOLE GREEN BEANS FZ
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 21.4
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.8
+Carbs: 4.9
+Fiber: 2.3
+Protein: 1.1
+WHOLE WHEAT PENNE
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+WILD AND WHITE RICE PILAF
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 160.5
+fat: 0.7
+sat fat: 0.2
+Chol: 0.0
+Sodium: 9.2
+Carbs: 34.0
+Fiber: 0.9
+Protein: 3.6
+SALAD BAR REF CYCLE 2
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+DELI SANDWICH BREAD BAR
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+SQUASH ROLLS
+Ratty
+Thu Apr 25 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 1945.1
+fat: 46.4
+sat fat: 27.8
+Chol: 122.5
+Sodium: 751.1
+Carbs: 332.5
+Fiber: 9.5
+Protein: 42.7
+BAGELS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+CHEESE BLINTZES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+EGG WHITE OMELET
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SAUSAGE PATTIES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HARD BOILED EGGS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+OATMEAL
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 93.0
+fat: 1.9
+sat fat: 0.3
+Chol: 0.0
+Sodium: 0.0
+Carbs: 16.7
+Fiber: 0.0
+Protein: 3.1
+OMELETTE BAR
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+HASH BROWNED POTATOES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 124.2
+fat: 1.2
+sat fat: 0.3
+Chol: 0.0
+Sodium: 254.5
+Carbs: 26.7
+Fiber: 2.4
+Protein: 2.3
+CRANBERRY MUFFINS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): Each
+Calories : 202.2
+fat: 5.3
+sat fat: 0.0
+Chol: 7.4
+Sodium: 294.4
+Carbs: 35.0
+Fiber: 0.8
+Protein: 4.1
+SPANISH ONION SOUP
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 58.4
+fat: 3.7
+sat fat: 1.3
+Chol: 4.2
+Sodium: 217.8
+Carbs: 5.6
+Fiber: 0.7
+Protein: 0.7
+VEGETARIAN CARROT GINGER SOUP W/HON
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 54.8
+fat: 0.6
+sat fat: 0.1
+Chol: 0.0
+Sodium: 41.0
+Carbs: 12.3
+Fiber: 1.9
+Protein: 0.7
+ALFREDO SAUCE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHEESE PIZZA '04
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 148.7
+fat: 3.9
+sat fat: 1.5
+Chol: 6.5
+Sodium: 331.5
+Carbs: 22.5
+Fiber: 0.7
+Protein: 6.3
+EGG WHITE OMELET
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SAUSAGE PATTIES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HAMBURGER ON A BUN
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HARD BOILED EGGS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+HOT TURKEY SAND. W/GRAVY
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 7
+Calories : 234.6
+fat: 4.5
+sat fat: 1.1
+Chol: 70.3
+Sodium: 197.5
+Carbs: 25.5
+Fiber: 0.2
+Protein: 21.7
+MEDITERRANEAN TUNA SALAD
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+OMELETTE BAR
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SLICED AMERICAN CHEESE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED DELI HAM
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED SWISS CHEESE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+STIR FRIED - CHICKEN W/NOODLES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 130.7
+fat: 4.3
+sat fat: 0.4
+Chol: 0.0
+Sodium: 45.8
+Carbs: 21.0
+Fiber: 3.6
+Protein: 3.1
+VEGAN NUGGETS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4.80
+Calories : 47.6
+fat: 1.4
+sat fat: 0.0
+Chol: 0.0
+Sodium: 129.3
+Carbs: 6.8
+Fiber: 1.4
+Protein: 4.1
+VEGAN RED BEANS CREOLE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 175.3
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 578.6
+Carbs: 29.1
+Fiber: 1.1
+Protein: 11.9
+VEGGIE PATTIES ORIGINAL
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BROCCOLI SPEARS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 29.0
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 28.1
+Carbs: 5.7
+Fiber: 2.2
+Protein: 2.4
+CHINESE FRIED RICE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 136.9
+fat: 2.6
+sat fat: 0.5
+Chol: 40.9
+Sodium: 309.6
+Carbs: 23.1
+Fiber: 1.1
+Protein: 4.6
+EDAMAME BEANS W/TRI COLORED PEPPER
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 41.9
+fat: 3.2
+sat fat: 0.4
+Chol: 0.0
+Sodium: 59.3
+Carbs: 3.1
+Fiber: 0.7
+Protein: 0.5
+ELBOW MACARONI
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 753.0
+fat: 5.5
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 151.1
+Fiber: 0.0
+Protein: 25.8
+MASHED POTATOES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 102.6
+fat: 1.1
+sat fat: 0.5
+Chol: 2.9
+Sodium: 277.3
+Carbs: 21.1
+Fiber: 1.8
+Protein: 2.4
+SEASONED FRENCH FRIES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN BROWN RICE PILAF
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+WHOLE WHEAT PENNE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+QUINOA BLACK BEAN SALAD
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SALAD BAR REF CYCLE 2
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+COOKIES MILK & WHITE CHOCOLATE, No Nut
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): ~1.25
+Calories : 161.6
+fat: 7.1
+sat fat: 2.0
+Chol: 14.5
+Sodium: 164.0
+Carbs: 23.7
+Fiber: 0.3
+Protein: 2.1
+DELI SANDWICH BREAD BAR
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+MULTI-GRAIN BREAD
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 226.1
+fat: 3.2
+sat fat: 0.5
+Chol: 4.0
+Sodium: 114.5
+Carbs: 42.1
+Fiber: 3.1
+Protein: 7.6
+WHEAT DINNER ROLLS
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+SPANISH ONION SOUP
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 58.4
+fat: 3.7
+sat fat: 1.3
+Chol: 4.2
+Sodium: 217.8
+Carbs: 5.6
+Fiber: 0.7
+Protein: 0.7
+VEGETARIAN CARROT GINGER SOUP W/HON
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 54.8
+fat: 0.6
+sat fat: 0.1
+Chol: 0.0
+Sodium: 41.0
+Carbs: 12.3
+Fiber: 1.9
+Protein: 0.7
+ALFREDO SAUCE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHEESE PIZZA '04
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 148.7
+fat: 3.9
+sat fat: 1.5
+Chol: 6.5
+Sodium: 331.5
+Carbs: 22.5
+Fiber: 0.7
+Protein: 6.3
+CREAMY PARMESAN PRIMAVERA
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 774.8
+fat: 21.2
+sat fat: 11.8
+Chol: 69.0
+Sodium: 167.4
+Carbs: 120.6
+Fiber: 1.4
+Protein: 23.0
+HAMBURGER ON A BUN
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+SALT AND PEPA JERK CHICKE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 323.5
+fat: 14.5
+sat fat: 3.4
+Chol: 118.1
+Sodium: 1084.5
+Carbs: 0.9
+Fiber: 0.3
+Protein: 44.2
+SLICED AMERICAN CHEESE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED DELI HAM
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED SWISS CHEESE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+STIR FRIED - CHICKEN W/NOODLES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 130.7
+fat: 4.3
+sat fat: 0.4
+Chol: 0.0
+Sodium: 45.8
+Carbs: 21.0
+Fiber: 3.6
+Protein: 3.1
+VEGAN RED BEANS CREOLE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 175.3
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 578.6
+Carbs: 29.1
+Fiber: 1.1
+Protein: 11.9
+VEGGIE PATTIES ORIGINAL
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BAKED SWEET POTATOES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 5.3oz
+Calories : 164.9
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 11.4
+Carbs: 39.1
+Fiber: 5.5
+Protein: 2.1
+CHINESE FRIED RICE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 136.9
+fat: 2.6
+sat fat: 0.5
+Chol: 40.9
+Sodium: 309.6
+Carbs: 23.1
+Fiber: 1.1
+Protein: 4.6
+EDAMAME BEANS W/TRI COLORED PEPPER
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 41.9
+fat: 3.2
+sat fat: 0.4
+Chol: 0.0
+Sodium: 59.3
+Carbs: 3.1
+Fiber: 0.7
+Protein: 0.5
+ELBOW MACARONI
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 753.0
+fat: 5.5
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 151.1
+Fiber: 0.0
+Protein: 25.8
+GREEN BEANS W/ TOMATOES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 77.2
+fat: 6.5
+sat fat: 0.9
+Chol: 0.0
+Sodium: 157.8
+Carbs: 4.6
+Fiber: 1.4
+Protein: 1.0
+ITALIAN VEGETABLE SAUTE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 50.2
+fat: 2.5
+sat fat: 0.3
+Chol: 0.0
+Sodium: 27.7
+Carbs: 6.8
+Fiber: 2.0
+Protein: 1.2
+SEASONED FRENCH FRIES
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN BROWN RICE PILAF
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+WHOLE WHEAT PENNE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+QUINOA BLACK BEAN SALAD
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SALAD BAR REF CYCLE 2
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+DELI SANDWICH BREAD BAR
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+FRENCH PEAR PIE
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 6.530
+Calories : 514.0
+fat: 24.7
+sat fat: 9.9
+Chol: 30.1
+Sodium: 307.6
+Carbs: 67.4
+Fiber: 0.9
+Protein: 5.4
+GRANOLA BREAD
+Ratty
+Fri Apr 26 00:00:00 EST 1912
+Portion (oz): 2.400
+Calories : 84.2
+fat: 2.2
+sat fat: 0.4
+Chol: 1.2
+Sodium: 117.8
+Carbs: 13.9
+Fiber: 0.6
+Protein: 2.0
+APPLE PANCAKES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.58oz
+Calories : 137.6
+fat: 1.2
+sat fat: 0.0
+Chol: 4.1
+Sodium: 387.8
+Carbs: 27.8
+Fiber: 0.0
+Protein: 4.1
+BAGELS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+EGG WHITE OMELET
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SLICED BACON
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HARD BOILED EGGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+OATMEAL
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 93.0
+fat: 1.9
+sat fat: 0.3
+Chol: 0.0
+Sodium: 0.0
+Carbs: 16.7
+Fiber: 0.0
+Protein: 3.1
+OMELETTE BAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SCRAMBLED EGGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+ROASTED RED POTATOES W/SHALLOTS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 81.8
+fat: 2.9
+sat fat: 0.4
+Chol: 0.0
+Sodium: 62.8
+Carbs: 13.3
+Fiber: 1.3
+Protein: 1.3
+BANANA BREAD
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 245.5
+fat: 6.2
+sat fat: 0.1
+Chol: 8.4
+Sodium: 336.8
+Carbs: 43.6
+Fiber: 0.0
+Protein: 4.9
+NEW ENGLAND CLAM CHOWDER
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 146.6
+fat: 3.1
+sat fat: 1.4
+Chol: 30.9
+Sodium: 400.7
+Carbs: 17.2
+Fiber: 1.0
+Protein: 11.7
+VEGETARIAN JAPANESE NOODLE SOUP
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 41.8
+fat: 1.8
+sat fat: 0.2
+Chol: 8.4
+Sodium: 150.0
+Carbs: 4.9
+Fiber: 0.3
+Protein: 1.2
+ALFREDO SAUCE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+Curried Tofu with Coconut Ginger Rice
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8.78oz
+Calories : 315.5
+fat: 14.6
+sat fat: 8.2
+Chol: 0.0
+Sodium: 246.8
+Carbs: 34.8
+Fiber: 2.7
+Protein: 10.4
+EGG WHITE OMELET
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+HAMBURGER ON A BUN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HARD BOILED EGGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+HOT PASTRAMI SANDWICH
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 202.1
+fat: 4.5
+sat fat: 1.5
+Chol: 38.6
+Sodium: 800.0
+Carbs: 22.7
+Fiber: 0.0
+Protein: 15.9
+MEDITERRANEAN TUNA SALAD
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+OMELETTE BAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+PESTO PIZZA W/ TOMATO/FR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.40
+Calories : 181.8
+fat: 5.3
+sat fat: 2.7
+Chol: 19.9
+Sodium: 340.6
+Carbs: 24.2
+Fiber: 1.1
+Protein: 8.7
+SLICED AMERICAN CHEESE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED ROAST BEEF
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SLICES
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+TURKEY BREAKFAST SAUSAGE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN LENTIL STEW
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 176.8
+fat: 3.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 33.2
+Carbs: 30.0
+Fiber: 8.7
+Protein: 8.5
+VEGAN PATTIES W/ BUN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGETABLES IN HONEY GINGER SAUCE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 41.5
+fat: 1.2
+sat fat: 0.1
+Chol: 0.0
+Sodium: 42.3
+Carbs: 7.4
+Fiber: 1.6
+Protein: 1.1
+ZUCCHINI FRITTATA
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 281.5
+fat: 16.8
+sat fat: 4.8
+Chol: 433.0
+Sodium: 681.3
+Carbs: 15.2
+Fiber: 1.9
+Protein: 17.3
+FRENCH FRIED ONION RINGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+ROASTED HERB POTATOES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 117.1
+fat: 1.9
+sat fat: 0.2
+Chol: 0.0
+Sodium: 123.9
+Carbs: 23.4
+Fiber: 2.1
+Protein: 2.1
+SLICED FRESH CARROTS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 35.4
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 59.6
+Carbs: 8.3
+Fiber: 2.4
+Protein: 0.8
+SPAGHETTI
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 766.5
+fat: 5.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 157.6
+Fiber: 0.0
+Protein: 26.3
+VEGAN BROWN RICE PILAF
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+VEGAN CURRIED VEGETABLES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 93.2
+fat: 1.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 185.0
+Carbs: 18.2
+Fiber: 3.5
+Protein: 3.0
+WHOLE WHEAT PENNE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+COOKIES RASPBERRY SWIRLS '06
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1.280
+Calories : 122.8
+fat: 3.3
+sat fat: 0.6
+Chol: 5.2
+Sodium: 59.8
+Carbs: 22.3
+Fiber: 0.4
+Protein: 1.2
+DELI SANDWICH BREAD BAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+MULTI-GRAIN BREAD
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): ~PORTIONS
+Calories : 226.1
+fat: 3.2
+sat fat: 0.5
+Chol: 4.0
+Sodium: 114.5
+Carbs: 42.1
+Fiber: 3.1
+Protein: 7.6
+WHEAT DINNER ROLLS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+NEW ENGLAND CLAM CHOWDER
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 146.6
+fat: 3.1
+sat fat: 1.4
+Chol: 30.9
+Sodium: 400.7
+Carbs: 17.2
+Fiber: 1.0
+Protein: 11.7
+VEGETARIAN JAPANESE NOODLE SOUP
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 41.8
+fat: 1.8
+sat fat: 0.2
+Chol: 8.4
+Sodium: 150.0
+Carbs: 4.9
+Fiber: 0.3
+Protein: 1.2
+ALFREDO SAUCE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BACON ROUNDS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BRUSCHETTA BAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+Curried Tofu with Coconut Ginger Rice
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8.78oz
+Calories : 315.5
+fat: 14.6
+sat fat: 8.2
+Chol: 0.0
+Sodium: 246.8
+Carbs: 34.8
+Fiber: 2.7
+Protein: 10.4
+GRILLED CHEESE ON WHEAT
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 413.9
+fat: 20.8
+sat fat: 12.6
+Chol: 45.0
+Sodium: 1418.5
+Carbs: 37.9
+Fiber: 2.8
+Protein: 20.3
+GRILLED CHEESE ON WHITE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 431.5
+fat: 19.4
+sat fat: 12.4
+Chol: 45.0
+Sodium: 1517.2
+Carbs: 44.7
+Fiber: 1.8
+Protein: 21.0
+HAMBURGER ON A BUN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MANICOTTI PIEDMONTESE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 382.8
+fat: 20.1
+sat fat: 0.8
+Chol: 7.9
+Sodium: 577.8
+Carbs: 30.3
+Fiber: 0.1
+Protein: 19.9
+MEDITERRANEAN TUNA SALAD
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+PESTO PIZZA W/ TOMATO/FR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3.40
+Calories : 181.8
+fat: 5.3
+sat fat: 2.7
+Chol: 19.9
+Sodium: 340.6
+Carbs: 24.2
+Fiber: 1.1
+Protein: 8.7
+SLICED AMERICAN CHEESE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED CHEDDAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1
+Calories : 114.2
+fat: 9.4
+sat fat: 6.0
+Chol: 29.8
+Sodium: 176.1
+Carbs: 0.4
+Fiber: 0.0
+Protein: 7.1
+SLICED ROAST BEEF
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): SLICES
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+VEGAN LENTIL STEW
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 176.8
+fat: 3.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 33.2
+Carbs: 30.0
+Fiber: 8.7
+Protein: 8.5
+VEGAN PATTIES W/ BUN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+BAKED POTATOES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 220.0
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 31.8
+Carbs: 48.6
+Fiber: 5.2
+Protein: 6.0
+Butternut Squash with Shallots and Sage
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3oz
+Calories : 50.3
+fat: 1.7
+sat fat: 0.2
+Chol: 0.0
+Sodium: 109.9
+Carbs: 9.2
+Fiber: 1.2
+Protein: 0.8
+FRENCH FRIED ONION RINGS
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+RICE WITH PEAS AND CORIAN
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 159.6
+fat: 0.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 198.7
+Carbs: 33.6
+Fiber: 1.2
+Protein: 3.8
+SPAGHETTI
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 766.5
+fat: 5.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 0.0
+Carbs: 157.6
+Fiber: 0.0
+Protein: 26.3
+VEGAN BROWN RICE PILAF
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+VEGAN CURRIED VEGETABLES
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 93.2
+fat: 1.6
+sat fat: 0.2
+Chol: 0.0
+Sodium: 185.0
+Carbs: 18.2
+Fiber: 3.5
+Protein: 3.0
+VEGETABLES IN HONEY GINGER SAUCE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 41.5
+fat: 1.2
+sat fat: 0.1
+Chol: 0.0
+Sodium: 42.3
+Carbs: 7.4
+Fiber: 1.6
+Protein: 1.1
+WHOLE GREEN BEANS FZ
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 21.4
+fat: 0.1
+sat fat: 0.0
+Chol: 0.0
+Sodium: 0.8
+Carbs: 4.9
+Fiber: 2.3
+Protein: 1.1
+WHOLE WHEAT PENNE
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+DELI SANDWICH BREAD BAR
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+FOCACCIA W/ROSEMARY
+Ratty
+Sat Apr 27 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 172.2
+fat: 5.2
+sat fat: 0.7
+Chol: 0.0
+Sodium: 167.8
+Carbs: 27.1
+Fiber: 1.0
+Protein: 3.7
+BAGELS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+EGG WHITE OMELET
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED BREAKFAST HAM
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HARD BOILED EGGS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+OATMEAL
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 93.0
+fat: 1.9
+sat fat: 0.3
+Chol: 0.0
+Sodium: 0.0
+Carbs: 16.7
+Fiber: 0.0
+Protein: 3.1
+OMELETTE BAR
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+PANCAKES WHEAT CHOC CHIP
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 501.3
+fat: 22.7
+sat fat: 1.6
+Chol: 63.7
+Sodium: 820.4
+Carbs: 66.2
+Fiber: 5.8
+Protein: 12.9
+SCRAMBLED EGGS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+TATER TOTS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SWEET BREAD TWIST
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 149.4
+fat: 5.3
+sat fat: 2.1
+Chol: 13.4
+Sodium: 107.8
+Carbs: 22.5
+Fiber: 0.9
+Protein: 2.8
+CHICKEN GUMBO SOUP
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 74.0
+fat: 3.2
+sat fat: 0.4
+Chol: 11.5
+Sodium: 25.3
+Carbs: 6.0
+Fiber: 1.5
+Protein: 5.4
+VEGAN VEGETABLE SOUP
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 39.6
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 59.7
+Carbs: 8.2
+Fiber: 1.7
+Protein: 1.5
+ALFREDO SAUCE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+BRUSCHETTA BAR
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHEESE PIZZA '04
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 148.7
+fat: 3.9
+sat fat: 1.5
+Chol: 6.5
+Sodium: 331.5
+Carbs: 22.5
+Fiber: 0.7
+Protein: 6.3
+CHINESE BEEF AND PEPPERS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 215.4
+fat: 8.5
+sat fat: 2.5
+Chol: 66.7
+Sodium: 332.5
+Carbs: 7.6
+Fiber: 1.0
+Protein: 25.6
+EGG WHITE OMELET
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+EGGPLANT PARMESAN GRINDER
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 360.6
+fat: 8.1
+sat fat: 2.7
+Chol: 35.5
+Sodium: 1477.4
+Carbs: 59.0
+Fiber: 4.0
+Protein: 14.4
+FRIED EGGS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED BREAKFAST HAM
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+HAMBURGER ON A BUN
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HAMBURGER, GP & ONION PIZZA '04
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): ~3.25
+Calories : 195.1
+fat: 6.6
+sat fat: 2.6
+Chol: 18.8
+Sodium: 364.9
+Carbs: 24.1
+Fiber: 1.0
+Protein: 10.3
+HARD BOILED EGGS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+Italian Marinated Chicken
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): portion
+Calories : 210.2
+fat: 7.3
+sat fat: 1.4
+Chol: 89.6
+Sodium: 483.1
+Carbs: 1.6
+Fiber: 0.0
+Protein: 32.8
+MEDITERRANEAN TUNA SALAD
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+OMELETTE BAR
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+SLICED AMERICAN CHEESE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED DELI HAM
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MOZZARELLA
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+SPICY BLACK BEAN VEGGIE PATTY
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN THREE BEAN CASSEROLE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 204.7
+fat: 5.1
+sat fat: 0.4
+Chol: 0.0
+Sodium: 413.5
+Carbs: 29.2
+Fiber: 3.2
+Protein: 9.5
+BROCCOLI RABE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 54.6
+fat: 2.7
+sat fat: 0.4
+Chol: 0.0
+Sodium: 80.5
+Carbs: 7.0
+Fiber: 3.0
+Protein: 2.2
+JASMINE RICE - STEAMED
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 129.9
+fat: 0.2
+sat fat: 0.1
+Chol: 0.0
+Sodium: 1.3
+Carbs: 28.7
+Fiber: 1.0
+Protein: 2.4
+PAPARDELLE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 289.1
+fat: 5.5
+sat fat: 1.1
+Chol: 86.2
+Sodium: 174.5
+Carbs: 49.5
+Fiber: 0.0
+Protein: 11.1
+PEA PODS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 2.990
+Calories : 71.1
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 2.5
+Carbs: 13.2
+Fiber: 4.7
+Protein: 4.5
+STEAK FRIES
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 110.2
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 270.4
+Carbs: 19.6
+Fiber: 1.9
+Protein: 1.9
+TATER TOTS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+VEGAN BROWN RICE PILAF
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+WHOLE WHEAT PENNE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+QUINOA BLACK BEAN SALAD
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SALAD BAR REF CYCLE 2
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+COOKIES PUMPKIN/WHITE CHOCOLATE '09
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): ~COOKIES
+Calories : 146.1
+fat: 7.6
+sat fat: 2.0
+Chol: 7.3
+Sodium: 72.6
+Carbs: 19.2
+Fiber: 0.3
+Protein: 1.6
+DELI SANDWICH BREAD BAR
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+WHEAT DINNER ROLLS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+CHICKEN GUMBO SOUP
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 74.0
+fat: 3.2
+sat fat: 0.4
+Chol: 11.5
+Sodium: 25.3
+Carbs: 6.0
+Fiber: 1.5
+Protein: 5.4
+VEGAN VEGETABLE SOUP
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 39.6
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 59.7
+Carbs: 8.2
+Fiber: 1.7
+Protein: 1.5
+ALFREDO SAUCE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 446.1
+fat: 43.4
+sat fat: 28.8
+Chol: 178.3
+Sodium: 78.7
+Carbs: 1.2
+Fiber: 0.1
+Protein: 2.8
+ASPARAGUS CUTS & TIPS W/ LEMON
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 15.7
+fat: 0.2
+sat fat: 0.1
+Chol: 0.0
+Sodium: 2.7
+Carbs: 2.8
+Fiber: 1.5
+Protein: 1.6
+BRUSCHETTA BAR
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+CHEESE PIZZA '04
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 148.7
+fat: 3.9
+sat fat: 1.5
+Chol: 6.5
+Sodium: 331.5
+Carbs: 22.5
+Fiber: 0.7
+Protein: 6.3
+CHINESE BEEF AND PEPPERS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 215.4
+fat: 8.5
+sat fat: 2.5
+Chol: 66.7
+Sodium: 332.5
+Carbs: 7.6
+Fiber: 1.0
+Protein: 25.6
+HAMBURGER ON A BUN
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HAMBURGER, GP & ONION PIZZA '04
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): ~3.25
+Calories : 195.1
+fat: 6.6
+sat fat: 2.6
+Chol: 18.8
+Sodium: 364.9
+Carbs: 24.1
+Fiber: 1.0
+Protein: 10.3
+HOT DOG ON A BUN
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MARINATED BEEF W/AU JUS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 230.6
+fat: 14.0
+sat fat: 4.7
+Chol: 72.6
+Sodium: 360.0
+Carbs: 0.9
+Fiber: 0.1
+Protein: 23.8
+MEDITERRANEAN TUNA SALAD
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+SLICED AMERICAN CHEESE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED DELI HAM
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MOZZARELLA
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED TURKEY
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+SPICY BLACK BEAN VEGGIE PATTY
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+TORTELLINI PROVENCALE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 232.8
+fat: 4.6
+sat fat: 2.8
+Chol: 23.5
+Sodium: 299.1
+Carbs: 37.8
+Fiber: 0.4
+Protein: 10.4
+VEGAN THREE BEAN CASSEROLE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 204.7
+fat: 5.1
+sat fat: 0.4
+Chol: 0.0
+Sodium: 413.5
+Carbs: 29.2
+Fiber: 3.2
+Protein: 9.5
+BAKED SWEET POTATOES
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 5.3oz
+Calories : 164.9
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 11.4
+Carbs: 39.1
+Fiber: 5.5
+Protein: 2.1
+JASMINE RICE - STEAMED
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 129.9
+fat: 0.2
+sat fat: 0.1
+Chol: 0.0
+Sodium: 1.3
+Carbs: 28.7
+Fiber: 1.0
+Protein: 2.4
+PAPARDELLE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 289.1
+fat: 5.5
+sat fat: 1.1
+Chol: 86.2
+Sodium: 174.5
+Carbs: 49.5
+Fiber: 0.0
+Protein: 11.1
+PEA PODS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 2.990
+Calories : 71.1
+fat: 0.2
+sat fat: 0.0
+Chol: 0.0
+Sodium: 2.5
+Carbs: 13.2
+Fiber: 4.7
+Protein: 4.5
+STEAK FRIES
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 110.2
+fat: 2.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 270.4
+Carbs: 19.6
+Fiber: 1.9
+Protein: 1.9
+STIR FRIED CARROTS W/ LEMON & DILL
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 94.4
+fat: 7.2
+sat fat: 0.6
+Chol: 0.0
+Sodium: 187.0
+Carbs: 6.9
+Fiber: 2.0
+Protein: 0.7
+VEGAN BROWN RICE PILAF
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+WHOLE WHEAT PENNE
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+QUINOA BLACK BEAN SALAD
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SALAD BAR REF CYCLE 2
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+APPLE SQUARES REG CUT CT-64
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 3.440
+Calories : 292.4
+fat: 15.8
+sat fat: 6.3
+Chol: 11.4
+Sodium: 273.1
+Carbs: 35.2
+Fiber: 0.4
+Protein: 2.4
+DELI SANDWICH BREAD BAR
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+WHEAT DINNER ROLLS
+Ratty
+Sun Apr 28 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
+BAGELS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 487.3
+fat: 2.8
+sat fat: 0.4
+Chol: 0.0
+Sodium: 946.2
+Carbs: 94.6
+Fiber: 4.1
+Protein: 18.6
+EGG WHITE OMELET
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+FRENCH TOAST
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 7.230
+Calories : 364.0
+fat: 7.2
+sat fat: 1.5
+Chol: 158.4
+Sodium: 581.3
+Carbs: 66.6
+Fiber: 0.0
+Protein: 17.1
+FRIED EGGS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3.500
+Calories : 126.8
+fat: 8.8
+sat fat: 2.7
+Chol: 375.2
+Sodium: 124.2
+Carbs: 0.7
+Fiber: 0.0
+Protein: 11.2
+GRILLED SAUSAGE PATTIES
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+GRITS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 73.7
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 72.3
+Carbs: 16.4
+Fiber: 0.0
+Protein: 1.7
+HAMBURGER ON A BUN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HARD BOILED EGGS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 113.0
+fat: 7.9
+sat fat: 2.4
+Chol: 334.3
+Sodium: 110.6
+Carbs: 0.6
+Fiber: 0.0
+Protein: 9.9
+HOT DOG ON A BUN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+OMELETTE BAR
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 276.1
+fat: 19.0
+sat fat: 7.3
+Chol: 548.1
+Sodium: 431.6
+Carbs: 3.8
+Fiber: 0.5
+Protein: 22.6
+PANCAKES
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 207.0
+fat: 1.2
+sat fat: 0.0
+Chol: 4.0
+Sodium: 396.8
+Carbs: 46.3
+Fiber: 0.0
+Protein: 4.0
+PENNE CON BROCCOLI
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 349.8
+fat: 6.1
+sat fat: 2.8
+Chol: 19.3
+Sodium: 360.3
+Carbs: 58.2
+Fiber: 5.1
+Protein: 16.1
+SCRAMBLED EGGS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 163.9
+fat: 10.7
+sat fat: 3.5
+Chol: 422.8
+Sodium: 397.1
+Carbs: 2.3
+Fiber: 0.0
+Protein: 13.6
+SLICED AMERICAN CHEESE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MUENSTER
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED ROAST BEEF
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): SLICES
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+SPICY HERB BAKED CHICKEN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 353.8
+fat: 19.2
+sat fat: 5.3
+Chol: 123.7
+Sodium: 756.3
+Carbs: 3.9
+Fiber: 0.6
+Protein: 39.1
+Stir Fried Tofu
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 162.1
+fat: 11.5
+sat fat: 1.5
+Chol: 0.0
+Sodium: 180.5
+Carbs: 3.6
+Fiber: 1.5
+Protein: 11.6
+VEGAN ITALIAN WHITE BEANS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 180.7
+fat: 1.3
+sat fat: 0.2
+Chol: 0.0
+Sodium: 818.5
+Carbs: 30.2
+Fiber: 0.3
+Protein: 11.0
+VEGAN VEGETABLE CHOW MEIN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 103.2
+fat: 1.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 791.7
+Carbs: 18.7
+Fiber: 1.4
+Protein: 3.5
+CHINESE GREEN BEANS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 39.7
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 56.1
+Carbs: 8.8
+Fiber: 2.1
+Protein: 1.5
+ROASTED YUKON POTATOES W/SHALLOTS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 97.7
+fat: 3.4
+sat fat: 0.5
+Chol: 0.0
+Sodium: 75.0
+Carbs: 15.9
+Fiber: 1.6
+Protein: 1.6
+VEGAN BROWN RICE PILAF
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 149.1
+fat: 1.2
+sat fat: 0.2
+Chol: 0.0
+Sodium: 10.1
+Carbs: 30.9
+Fiber: 2.5
+Protein: 3.5
+WHOLE WHEAT PENNE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+BERRY PATCH COFFEE CAKE C
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 2.150
+Calories : 215.0
+fat: 10.6
+sat fat: 4.0
+Chol: 33.0
+Sodium: 166.4
+Carbs: 26.7
+Fiber: 0.2
+Protein: 3.0
+BEAN AND BACON SOUP
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 72.7
+fat: 2.8
+sat fat: 0.9
+Chol: 8.2
+Sodium: 166.4
+Carbs: 6.2
+Fiber: 0.4
+Protein: 4.5
+VEGETARIAN TOMATO AND RICE SOUP
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 6
+Calories : 101.0
+fat: 2.7
+sat fat: 1.5
+Chol: 9.8
+Sodium: 317.9
+Carbs: 14.6
+Fiber: 0.2
+Protein: 3.9
+BRAISED BEEF TIPS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 263.5
+fat: 11.4
+sat fat: 3.3
+Chol: 90.0
+Sodium: 233.0
+Carbs: 2.7
+Fiber: 0.5
+Protein: 33.5
+BRUSCHETTA BAR
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 36.8
+fat: 2.4
+sat fat: 0.5
+Chol: 1.3
+Sodium: 115.6
+Carbs: 2.9
+Fiber: 0.3
+Protein: 1.4
+GRILLED CHEESE ON WHEAT
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 413.9
+fat: 20.8
+sat fat: 12.6
+Chol: 45.0
+Sodium: 1418.5
+Carbs: 37.9
+Fiber: 2.8
+Protein: 20.3
+GRILLED CHEESE ON WHITE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): SAND
+Calories : 431.5
+fat: 19.4
+sat fat: 12.4
+Chol: 45.0
+Sodium: 1517.2
+Carbs: 44.7
+Fiber: 1.8
+Protein: 21.0
+HAMBURGER ON A BUN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3.600
+Calories : 189.0
+fat: 5.3
+sat fat: 1.3
+Chol: 36.6
+Sodium: 278.9
+Carbs: 18.8
+Fiber: 0.0
+Protein: 16.3
+HOT DOG ON A BUN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3.5oz
+Calories : 259.4
+fat: 17.3
+sat fat: 6.2
+Chol: 28.2
+Sodium: 782.2
+Carbs: 18.1
+Fiber: 0.0
+Protein: 9.0
+MEDITERRANEAN TUNA SALAD
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 259.3
+fat: 23.5
+sat fat: 3.4
+Chol: 27.3
+Sodium: 378.1
+Carbs: 0.9
+Fiber: 0.2
+Protein: 13.0
+SLICED AMERICAN CHEESE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED MUENSTER
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SLICED ROAST BEEF
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): SLICES
+Calories : 117.9
+fat: 5.5
+sat fat: 2.1
+Chol: 35.2
+Sodium: 21.0
+Carbs: 0.0
+Fiber: 0.0
+Protein: 16.1
+SLICED TURKEY
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+SPAGHETTI SAUCE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 58.4
+fat: 2.1
+sat fat: 0.3
+Chol: 0.0
+Sodium: 383.9
+Carbs: 8.3
+Fiber: 0.1
+Protein: 1.6
+Stir Fried Tofu
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4oz
+Calories : 162.1
+fat: 11.5
+sat fat: 1.5
+Chol: 0.0
+Sodium: 180.5
+Carbs: 3.6
+Fiber: 1.5
+Protein: 11.6
+Vegan Cacciatore Pasta
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 6oz
+Calories : 303.8
+fat: 5.0
+sat fat: 0.7
+Chol: 0.0
+Sodium: 371.8
+Carbs: 55.1
+Fiber: 0.7
+Protein: 9.3
+VEGAN ITALIAN WHITE BEANS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8oz
+Calories : 180.7
+fat: 1.3
+sat fat: 0.2
+Chol: 0.0
+Sodium: 818.5
+Carbs: 30.2
+Fiber: 0.3
+Protein: 11.0
+VEGAN VEGETABLE CHOW MEIN
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 103.2
+fat: 1.7
+sat fat: 0.5
+Chol: 0.0
+Sodium: 791.7
+Carbs: 18.7
+Fiber: 1.4
+Protein: 3.5
+BAKED POTATOES
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 220.0
+fat: 0.3
+sat fat: 0.1
+Chol: 0.0
+Sodium: 31.8
+Carbs: 48.6
+Fiber: 5.2
+Protein: 6.0
+CHINESE GREEN BEANS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 39.7
+fat: 0.3
+sat fat: 0.0
+Chol: 0.0
+Sodium: 56.1
+Carbs: 8.8
+Fiber: 2.1
+Protein: 1.5
+FRENCH FRIES KRINKLE CUT
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): null
+Calories : -1.0
+fat: -1.0
+sat fat: -1.0
+Chol: -1.0
+Sodium: -1.0
+Carbs: -1.0
+Fiber: -1.0
+Protein: -1.0
+GLAZED CARROTS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.5
+sat fat: 0.1
+Chol: 0.0
+Sodium: 184.5
+Carbs: 12.2
+Fiber: 0.0
+Protein: 0.6
+QUINOA BLACK BEAN SALAD
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 52.0
+fat: 0.6
+sat fat: 0.0
+Chol: 0.0
+Sodium: 66.1
+Carbs: 9.6
+Fiber: 1.1
+Protein: 2.3
+SAVORY SPINACH
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 3
+Calories : 23.9
+fat: 0.5
+sat fat: 0.0
+Chol: 0.0
+Sodium: 61.1
+Carbs: 3.5
+Fiber: 2.4
+Protein: 3.0
+VEGAN RICE PILAF
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 4
+Calories : 165.4
+fat: 0.4
+sat fat: 0.1
+Chol: 0.0
+Sodium: 4.6
+Carbs: 35.9
+Fiber: 0.6
+Protein: 3.4
+WHOLE WHEAT PENNE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 8
+Calories : 780.5
+fat: 8.6
+sat fat: 0.7
+Chol: 0.0
+Sodium: 0.1
+Carbs: 147.4
+Fiber: 0.0
+Protein: 29.5
+SALAD BAR REF CYCLE 2
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): PORTIONS
+Calories : 99.7
+fat: 7.6
+sat fat: 1.3
+Chol: 4.9
+Sodium: 264.3
+Carbs: 6.4
+Fiber: 0.4
+Protein: 2.4
+APPLE PIE
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): SLICE
+Calories : 2742.5
+fat: 144.0
+sat fat: 57.4
+Chol: 145.6
+Sodium: 1947.6
+Carbs: 342.3
+Fiber: 16.5
+Protein: 27.4
+DELI SANDWICH BREAD BAR
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): 1.770
+Calories : 47.4
+fat: 0.8
+sat fat: 0.2
+Chol: 0.1
+Sodium: 90.1
+Carbs: 8.4
+Fiber: 0.2
+Protein: 1.8
+WHEAT DINNER ROLLS
+Ratty
+Mon Apr 29 00:00:00 EST 1912
+Portion (oz): ROLL
+Calories : 96.7
+fat: 2.2
+sat fat: 0.5
+Chol: 0.0
+Sodium: 120.5
+Carbs: 16.3
+Fiber: 1.3
+Protein: 3.0
