@@ -178,4 +178,24 @@ public class UserAccountTest extends TestCase {
     assertTrue(test.size() == 0);
     assertTrue(account.isValid());
   }
+
+  public void testSimpleUserAccountSetAndGetMarkedDishes() {
+    UserAccount account = new UserAccount("john doe", "123456");
+
+    MarkedDish jello = new MarkedDish(new Dish(), 10);
+
+    account.addMarkedDish(jello);
+    List<MarkedDish> results =
+      account.getMarkedDishes(new Location(new String("earth")),
+                              Meal.LUNCH, // Wrong meal!
+                              jello.getDate());
+    assertTrue(results.size() == 0);
+
+    results =
+      account.getMarkedDishes(new Location(new String("earth")),
+                              Meal.BREAKFAST, // Correct meal!
+                              jello.getDate());
+    assertTrue(results.size() == 1);
+    assertTrue(results.get(0).getName().equals(jello.getName()));
+  }
 }

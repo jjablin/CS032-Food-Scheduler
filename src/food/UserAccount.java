@@ -12,6 +12,7 @@ public class UserAccount extends NullAccount {
   Set<String> _likes;
   Set<String> _dislikes;
   Set<Allergy> _allergies;
+  List<MarkedDish> _dishes;
 
   public UserAccount() {
     super();
@@ -21,6 +22,7 @@ public class UserAccount extends NullAccount {
     _likes = new HashSet<String>();
     _dislikes = new HashSet<String>();
     _allergies = new HashSet<Allergy>();
+    _dishes = new ArrayList<MarkedDish>();
   }
 
   public UserAccount(String username, String password) {
@@ -31,6 +33,7 @@ public class UserAccount extends NullAccount {
     _likes = new HashSet<String>();
     _dislikes = new HashSet<String>();
     _allergies = new HashSet<Allergy>();
+    _dishes = new ArrayList<MarkedDish>();
   }
 
   public UserAccount(String username, String password,
@@ -110,6 +113,20 @@ public class UserAccount extends NullAccount {
   public void setPassword(String password) {
     if(password.length() > 0)
       _password = password;
+  }
+
+  public void addMarkedDish(MarkedDish dish) {
+    _dishes.add(dish);
+  }
+
+  public List<MarkedDish> getMarkedDishes(Location location, Meal meal, Date date) {
+    List<MarkedDish> results = new ArrayList<MarkedDish>();
+
+    for(MarkedDish dish : _dishes)
+      if(dish.getLocation().toString().equals(location.toString()) &&
+         dish.getMeal().equals(meal) && dish.getDate().equals(date))
+        results.add(dish);
+    return results;
   }
 
   public String toString() {
