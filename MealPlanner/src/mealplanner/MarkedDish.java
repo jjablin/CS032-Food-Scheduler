@@ -1,7 +1,7 @@
 package mealplanner;
 
 import java.util.ArrayList;
-import java.util.Date;
+import java.util.Calendar;
 
 public class MarkedDish {
 
@@ -21,7 +21,7 @@ public class MarkedDish {
         _servings = servings;
     }
 
-    public Date getDate()
+    public Calendar getDate()
     {
         return _dish.getDate();
     }

@@ -13,7 +13,7 @@ public enum Day {
     return super.toString();
   }
 
-  public int toInt(Day day) {
+  public static int toInt(Day day) {
       switch(day){
               case MONDAY: return 1;
               case TUESDAY: return 2;

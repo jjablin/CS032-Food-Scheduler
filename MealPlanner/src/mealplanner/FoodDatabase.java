@@ -64,7 +64,7 @@ public class FoodDatabase {
     PreparedStatement pstmt = null;
     try {
       pstmt = _conn.prepareStatement(cmd.toString());
-      pstmt.setDate(1, new java.sql.Date(dish.getDate().getTime()));
+      pstmt.setDate(1, new java.sql.Date(dish.getDate().getTime().getTime()));
       pstmt.setString(2, dish.getLocation().toString());
       pstmt.setString(3, dish.getMeal().toString());
       pstmt.setString(4, dish.getName());
@@ -108,10 +108,10 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(java.util.Date date) {
+  public HashSet getDishes(Calendar date) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
@@ -140,45 +140,45 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(java.util.Date date, Location location) {
+  public HashSet getDishes(Calendar date, Location location) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Location location, java.util.Date date) {
+  public HashSet getDishes(Location location, Calendar date) {
     return getDishes(date, location);
   }
 
-  public HashSet getDishes(java.util.Date date, Meal meal) {
+  public HashSet getDishes(Calendar date, Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and meal='");
     cmd.append(meal.toString());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Meal meal, java.util.Date date) {
+  public HashSet getDishes(Meal meal, Calendar date) {
     return getDishes(date, meal);
   }
 
-  public HashSet getDishes(java.util.Date date, String name) {
+  public HashSet getDishes(Calendar date, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and name='");
     cmd.append(name);
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(String name, java.util.Date date) {
+  public HashSet getDishes(String name, Calendar date) {
     return getDishes(date, name);
   }
 
@@ -224,10 +224,10 @@ public class FoodDatabase {
     return getDishes(meal, name);
   }
 
-  public HashSet getDishes(java.util.Date date, Location location, Meal meal) {
+  public HashSet getDishes(Calendar date, Location location, Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("' and meal='");
@@ -236,30 +236,30 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(java.util.Date date, Meal meal, Location location) {
+  public HashSet getDishes(Calendar date, Meal meal, Location location) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Meal meal, java.util.Date date, Location location) {
+  public HashSet getDishes(Meal meal, Calendar date, Location location) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Meal meal, Location location, java.util.Date date) {
+  public HashSet getDishes(Meal meal, Location location, Calendar date) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Location location, Meal meal, java.util.Date date) {
+  public HashSet getDishes(Location location, Meal meal, Calendar date) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Location location, java.util.Date date, Meal meal) {
+  public HashSet getDishes(Location location, Calendar date, Meal meal) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(java.util.Date date, Location location, String name) {
+  public HashSet getDishes(Calendar date, Location location, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("' and name='");
@@ -268,30 +268,30 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(java.util.Date date, String name, Location location) {
+  public HashSet getDishes(Calendar date, String name, Location location) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(String name, java.util.Date date, Location location) {
+  public HashSet getDishes(String name, Calendar date, Location location) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(String name, Location location, java.util.Date date) {
+  public HashSet getDishes(String name, Location location, Calendar date) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(Location location, String name, java.util.Date date) {
+  public HashSet getDishes(Location location, String name, Calendar date) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(Location location, java.util.Date date, String name) {
+  public HashSet getDishes(Location location, Calendar date, String name) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(java.util.Date date, Meal meal, String name) {
+  public HashSet getDishes(Calendar date, Meal meal, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime()));
+    cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and meal='");
     cmd.append(meal.toString());
     cmd.append("' and name='");
@@ -300,23 +300,23 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(java.util.Date date, String name, Meal meal) {
+  public HashSet getDishes(Calendar date, String name, Meal meal) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(String name, java.util.Date date, Meal meal) {
+  public HashSet getDishes(String name, Calendar date, Meal meal) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(String name, Meal meal, java.util.Date date) {
+  public HashSet getDishes(String name, Meal meal, Calendar date) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(Meal meal, String name, java.util.Date date) {
+  public HashSet getDishes(Meal meal, String name, Calendar date) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(Meal meal, java.util.Date date, String name) {
+  public HashSet getDishes(Meal meal, Calendar date, String name) {
     return getDishes(date, meal, name);
   }
 
@@ -495,10 +495,10 @@ public class FoodDatabase {
   }
 
   Account executeGetUserCommand(String cmd) {
-     HashSet<Account> resultSet = executeSelect(cmd.toString());
-     if(resultSet.isEmpty())
-       return new NullAccount();
-     return (Account)resultSet.iterator().next();
+    HashSet resultSet = executeSelect(cmd.toString());
+    if(resultSet.isEmpty())
+      return new NullAccount();
+    return (Account)resultSet.iterator().next();
   }
 
   Account checkPassword(UserAccount test, UserAccount master) {

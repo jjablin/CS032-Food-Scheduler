@@ -2,7 +2,7 @@ package mealplanner;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Date;
+import java.util.Calendar;
 public class EateryReader {
   private ArrayList<Dish> _dishes;
   private FileInputStream _stream = null;
@@ -41,7 +41,8 @@ public class EateryReader {
     private int readMeals(String eateryname,String filePath){
     Dish curdish;
     Meal curmeal=null;
-    Date curdate = new Date(0,0,0);
+    Calendar curdate = Calendar.getInstance();
+    curdate.set(0, 0, 0); // Initialize date to 0.
     boolean newdate=false;
     boolean nutrerror=false;
     try {
@@ -140,7 +141,7 @@ public class EateryReader {
 				//read in the line that should have the date
 				//use result to check for error and set newdate
 				if((line=_bufread.readLine())!=null){ //this line should have the date
-					Date d = parser.setDate(curdish, line, curdate);
+					Calendar d = parser.setDate(curdish, line, curdate);
 					if(d.equals(curdate)) //if the date returned is the same date, then there was no changed
 						newdate = false;
 					else{ //if the date returned is different, then there is a newdate and curdate should be updated

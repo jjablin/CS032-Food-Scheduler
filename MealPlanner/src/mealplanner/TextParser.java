@@ -1,6 +1,6 @@
 package mealplanner;
 
-import java.util.Date;
+import java.util.Calendar;
 
 
 public class TextParser {
@@ -74,7 +74,9 @@ public class TextParser {
 		return true;
 	}
 	//returns -1 on error, 1 if this is a new date, and 0 if the date is not new
-	public Date setDate(Dish d, String line,Date curdate){
+	public Calendar setDate(Dish d, String line,Calendar curdate){
+          Calendar zeroDate = Calendar.getInstance();
+          zeroDate.set(0, 0, 0);
 		Dish dish =d;
 		String [] parts =line.split("/");
 		if(parts.length < 3){
@@ -82,8 +84,9 @@ public class TextParser {
 			return null;
 		}
 		//note that months are zero indexed for some weird reason
-		Date date = new Date(Integer.valueOf(parts[2]),(Integer.valueOf(parts[0])-1),Integer.valueOf(parts[1]));
-		if(curdate.equals(new Date(0,0,0))){ //the first time through, curdate has not been set
+		Calendar date = Calendar.getInstance();
+                date.set(Integer.valueOf(parts[2]),(Integer.valueOf(parts[0])-1),Integer.valueOf(parts[1]));
+		if(curdate.equals(zeroDate)){ //the first time through, curdate has not been set
 			curdate = date;
 			return curdate; //
 		}else{

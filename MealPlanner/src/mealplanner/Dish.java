@@ -2,11 +2,14 @@ package mealplanner;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Date;
+import java.util.Calendar;
 
 public class Dish implements Serializable{
+
+  private static final long serialVersionUID = 7526471155622776147L;
+
   private Meal _meal;
-  private Date _date;
+  private Calendar _date;
   private Location _location;
 
 	private String _name;
@@ -34,16 +37,16 @@ public class Dish implements Serializable{
 		_protein=-1;
 		_portion=null;
 
-                _meal = null;
-                _date = new Date();
-                _location = null;
+                _meal = new Meal("");
+                _date = Calendar.getInstance();
+                _location = new Location("");
 	}
 
-  public Date getDate() {
+  public Calendar getDate() {
     return _date;
   }
 
-  public void setDate(java.util.Date date) {
+  public void setDate(Calendar date) {
     _date = date;
   }
 

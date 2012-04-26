@@ -12,6 +12,7 @@
 package mealplanner;
 
 import java.awt.Color;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
@@ -399,8 +400,9 @@ public class PlannerMainWindow extends javax.swing.JFrame {
        DinerPanel p = (DinerPanel) dinerTabs.getSelectedComponent();
        p.displayMeal(savedMeal);
        //TODO: get and display the menu
-       Date date = dayToDate();
-       HashSet<Dish> menu = _windowManager.getDatabase().getDishes(date, diningHall, _meal);
+       Calendar now = Calendar.getInstance();
+       now.set(Calendar.DAY_OF_WEEK, Day.toInt(_day));
+       HashSet<Dish> menu = _windowManager.getDatabase().getDishes(now, diningHall, _meal);
     }
 
     //converts _day to a date
@@ -433,7 +435,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-              
+
             }
         });
     }
