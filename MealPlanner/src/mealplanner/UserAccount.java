@@ -122,9 +122,11 @@ public class UserAccount extends NullAccount {
   }
 
   public void addMarkedDish(MarkedDish dish) {
+    Day day = Day.intToDay(dish.getDate().get(Calendar.DAY_OF_WEEK));
     MarkedDishKey mdk = new MarkedDishKey(dish.getLocation(),
-            dish.getMeal(), Day.intToDay(dish.getDate().getDay()));
-      ArrayList markedDishes = _dishes.get(mdk);
+                                          dish.getMeal(),
+                                          day);
+      ArrayList<MarkedDish> markedDishes = _dishes.get(mdk);
       if(markedDishes == null) {
           _dishes.put(mdk, new ArrayList<MarkedDish>());
           markedDishes = _dishes.get(mdk);

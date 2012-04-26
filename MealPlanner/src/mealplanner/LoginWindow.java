@@ -64,11 +64,34 @@ public class LoginWindow extends javax.swing.JFrame {
 
         passwordLabel.setText("Password:");
 
+        // Attempt login when ENTER key is pressed.
+        usernameField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                loginButtonMouseClicked();
+           }
+        });
+
+        // Attempt login when ENTER key is pressed.
+        passwordField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                loginButtonMouseClicked();
+           }
+        });
+
         loginButton.setText("Log in");
         loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                loginButtonMouseClicked(evt);
+                loginButtonMouseClicked();
             }
+        });
+        // Attempt login when ENTER key is pressed.
+        loginButton.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                loginButtonMouseClicked();
+           }
         });
 
         newAccountButton.setText("Create new account");
@@ -76,6 +99,13 @@ public class LoginWindow extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 newAccountButtonMouseClicked(evt);
             }
+        });
+        // Show new account window when ENTER key is pressed.
+        newAccountButton.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                _windowManager.showNewAccountWindow();
+           }
         });
 
         errorLabel.setForeground(java.awt.Color.red);
@@ -142,9 +172,11 @@ public class LoginWindow extends javax.swing.JFrame {
 
     private void newAccountButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_newAccountButtonMouseClicked
          _windowManager.showNewAccountWindow();
-    }//GEN-LAST:event_newAccountButtonMouseClicked
+   }//GEN-LAST:event_newAccountButtonMouseClicked
 
-    private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
+
+
+    private void loginButtonMouseClicked() {//GEN-FIRST:event_loginButtonMouseClicked
         String username = usernameField.getText();
         if(username.isEmpty())
         {
@@ -170,7 +202,7 @@ public class LoginWindow extends javax.swing.JFrame {
          }
          else
            errorLabel.setVisible(true);
-   
+
     }//GEN-LAST:event_loginButtonMouseClicked
 
 
