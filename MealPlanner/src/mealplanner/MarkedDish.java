@@ -6,16 +6,16 @@ import java.util.Date;
 public class MarkedDish {
 
     private static final long serialVersionUID = 7526471155622776147L;
-    double _servings;
+    int _servings;
     private Dish _dish;
 
     public MarkedDish(Dish dish) {
         _dish = dish;
 
-        _servings = 0.0;
+        _servings = 0;
     }
 
-    public MarkedDish(Dish dish, double servings) {
+    public MarkedDish(Dish dish, int servings) {
         _dish = dish;
 
         _servings = servings;
@@ -80,11 +80,11 @@ public class MarkedDish {
         return _dish.getProtein();
     }
 
-    public double getServings() {
+    public int getServings() {
         return _servings;
     }
 
-    public void setServings(double servings) {
+    public void setServings(int servings) {
         _servings = servings;
     }
 }
