@@ -200,8 +200,8 @@ public class EateryReader {
 				_fwriter.newLine();
 				_fwriter.write(_dishes.get(x).getLocation()._name);
 				_fwriter.newLine();
-				_fwriter.write(_dishes.get(x).getDate().toString());
-				_fwriter.newLine();
+                _fwriter.write(_dishes.get(x).getDate().getTime().toString());
+                _fwriter.newLine();
 				_fwriter.write("Portion (oz): "+_dishes.get(x).getPortion());
 				_fwriter.newLine();
 				String cals = _dishes.get(x).getCalories() + "";
