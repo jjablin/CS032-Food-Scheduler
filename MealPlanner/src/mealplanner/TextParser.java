@@ -85,7 +85,10 @@ public class TextParser {
 		}
 		//note that months are zero indexed for some weird reason
 		Calendar date = Calendar.getInstance();
-                date.set(Integer.valueOf(parts[2]),(Integer.valueOf(parts[0])-1),Integer.valueOf(parts[1]));
+
+                //date.set(Integer.valueOf(parts[2]),(Integer.valueOf(parts[0])-1),Integer.valueOf(parts[1]));
+                date.set(Calendar.MONTH, (Integer.valueOf(parts[0])-1));
+                date.set(Calendar.DAY_OF_MONTH, Integer.valueOf(parts[1]));
 		if(curdate.equals(zeroDate)){ //the first time through, curdate has not been set
 			curdate = date;
 			return curdate; //

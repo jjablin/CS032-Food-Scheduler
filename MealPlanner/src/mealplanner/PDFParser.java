@@ -175,6 +175,7 @@ public class PDFParser {
 		}
 		//arraylist will contain null values if there were any errors
 		clearOld();
+        System.out.println(dishes.size());
 		return dishes;
 	}
 }
