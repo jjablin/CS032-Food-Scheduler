@@ -22,9 +22,9 @@ public class PDFParser {
 	public static final String CURL_VW_SHELL = "/CurlVW";
 	public static final String CURL_RATTY_SHELL = "/CurlRatty";
 	//these are the locations of the text files created by the above shell programs
-	public static final String RATTY_PAGE_TXT = "/ltmp/RattyPage.txt";
-	public static final String VW_PAGE_TXT = "/ltmp/VWPage.txt";
-	public static final String IVY_PAGE_TXT = "/ltmp/IvyPage.txt";
+	public static final String RATTY_PAGE_TXT = "/tmp/RattyPage.txt";
+	public static final String VW_PAGE_TXT = "/tmp/VWPage.txt";
+	public static final String IVY_PAGE_TXT = "/tmp/IvyPage.txt";
 	//these are the locations of shell programs that
 	//go to a saved brown dining PDF, convert it to text
 	//and save that text file in ltmp
@@ -32,9 +32,9 @@ public class PDFParser {
 	public static final String VW_TO_PDF = "/RattyToPDF";
 	public static final String IVY_TO_PDF = "/VWToPDF";
 	//
-	public static final String RATTY_TXT ="/ltmp/ratty.txt";
-	public static final String VW_TXT= "/ltmp/vw.txt";
-	public static final String IVY_TXT = "/ltmp/ivy.txt";
+	public static final String RATTY_TXT ="/tmp/ratty.txt";
+	public static final String VW_TXT= "/tmp/vw.txt";
+	public static final String IVY_TXT = "/tmp/ivy.txt";
 	//The names of the dining halls
 	public static final String RATTY = "Ratty";
 	public static final String VW = "VW";
@@ -92,7 +92,7 @@ public class PDFParser {
 	}
 	public ArrayList<Dish> getCurrentEateryInfo(){
 		if(clearOld()==true)
-			System.out.println("old text files found in /ltmp directory. Results may not be valid, please remove text file from /ltmp directory to ensure valid results");
+			System.out.println("old text files found in /tmp directory. Results may not be valid, please remove text file from /ltmp directory to ensure valid results");
 
 		ArrayList<Dish> dishes = new ArrayList<Dish>();
 		String path = null;
@@ -166,9 +166,12 @@ public class PDFParser {
 			//call the eateryreader with the name of the text file that the runcmd created
 			int sucess;
 			EateryReader reader = new EateryReader();
-			dishes.addAll(reader.ReadInEatery(IVY_TXT,IVY_ROOM));
-			dishes.addAll(reader.ReadInEatery(VW_TXT, VW));
-			dishes.addAll(reader.ReadInEatery(RATTY_TXT, RATTY));
+            if(reader.ReadInEatery(IVY_TXT,IVY_ROOM)!=null);
+                dishes.addAll(reader.ReadInEatery(IVY_TXT,IVY_ROOM));
+            if(reader.ReadInEatery(VW_TXT,VW)!=null);
+                dishes.addAll(reader.ReadInEatery(VW_TXT, VW));
+            if(reader.ReadInEatery(RATTY_TXT,VW)!=null);
+                dishes.addAll(reader.ReadInEatery(RATTY_TXT, RATTY));
 		}
 		//arraylist will contain null values if there were any errors
 		clearOld();

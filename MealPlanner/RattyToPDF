@@ -4,9 +4,9 @@
       then
 	echo "no argument supplied"
       else
-    	curl -s http://www.brown.edu/Student_Services/Food_Services/menus/$1/ref.pdf > /ltmp/ratty.pdf;
-    	pdftotext /ltmp/ratty.pdf /ltmp/ratty.txt;
-    	rm /ltmp/ratty.pdf;
+    	curl -s http://www.brown.edu/Student_Services/Food_Services/menus/$1/ref.pdf > /tmp/ratty.pdf;
+    	pdftotext /tmp/ratty.pdf /tmp/ratty.txt;
+    	rm /tmp/ratty.pdf;
      fi
     
 
