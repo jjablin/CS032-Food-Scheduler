@@ -15,13 +15,13 @@ public enum Day {
 
   public static int toInt(Day day) {
       switch(day){
-              case MONDAY: return 1;
-              case TUESDAY: return 2;
-              case WEDNESDAY: return 3;
-              case THURSDAY: return 4;
-              case FRIDAY: return 5;
-              case SATURDAY: return 6;
-              case SUNDAY: return 0;
+              case MONDAY: return 2;
+              case TUESDAY: return 3;
+              case WEDNESDAY: return 4;
+              case THURSDAY: return 5;
+              case FRIDAY: return 6;
+              case SATURDAY: return 0;
+              case SUNDAY: return 1;
       }
       return -1;
   }

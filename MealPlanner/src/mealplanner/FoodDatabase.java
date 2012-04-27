@@ -65,8 +65,8 @@ public class FoodDatabase {
     try {
       pstmt = _conn.prepareStatement(cmd.toString());
       pstmt.setDate(1, new java.sql.Date(dish.getDate().getTime().getTime()));
-      pstmt.setString(2, dish.getLocation().toString());
-      pstmt.setString(3, dish.getMeal().toString());
+      pstmt.setString(2, dish.getLocation().getName());
+      pstmt.setString(3, dish.getMeal().getMeal());
       pstmt.setString(4, dish.getName());
 
 
@@ -127,7 +127,7 @@ public class FoodDatabase {
   public HashSet getDishes(Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
@@ -159,7 +159,7 @@ public class FoodDatabase {
     cmd.append("select dish from dishes where date='");
     cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
@@ -187,7 +187,7 @@ public class FoodDatabase {
     cmd.append("select dish from dishes where location='");
     cmd.append(location.getName());
     cmd.append("' and meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
@@ -213,7 +213,7 @@ public class FoodDatabase {
   public HashSet getDishes(Meal meal, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("' and name='");
     cmd.append(name);
     cmd.append("'");
@@ -231,7 +231,7 @@ public class FoodDatabase {
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("' and meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
@@ -293,7 +293,7 @@ public class FoodDatabase {
     cmd.append("select dish from dishes where date='");
     cmd.append(new java.sql.Date(date.getTime().getTime()));
     cmd.append("' and meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("' and name='");
     cmd.append(name);
     cmd.append("'");
@@ -325,7 +325,7 @@ public class FoodDatabase {
     cmd.append("select dish from dishes where location='");
     cmd.append(location.getName());
     cmd.append("' and meal='");
-    cmd.append(meal.toString());
+    cmd.append(meal.getMeal());
     cmd.append("' and name='");
     cmd.append(name);
     cmd.append("'");
@@ -486,6 +486,7 @@ public class FoodDatabase {
       ResultSet results = stmt.executeQuery(cmd.toString());
       HashSet<Object> resultSet = new HashSet<Object>();
       while(results.next()) {
+          System.out.println("hello");
           resultSet.add(results.getObject(1));
       }
       return resultSet;

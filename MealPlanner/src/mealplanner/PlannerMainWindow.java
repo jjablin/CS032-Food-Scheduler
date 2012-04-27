@@ -8,7 +8,6 @@
  *
  * Created on Apr 23, 2012, 1:18:32 PM
  */
-
 package mealplanner;
 
 import java.awt.Color;
@@ -28,18 +27,50 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     private WindowManager _windowManager;
     private Day _day;
     private Meal _meal;
+    private Location _diningHall;
+    private HashSet<Dish> _menu;
 
     /** Creates new form PlannerMainWindow */
     public PlannerMainWindow(WindowManager wm) {
         _windowManager = wm;
         _meal = new Meal("breakfast");
-        initComponents();
         _day = Day.MONDAY; //this should be the current day
+        _diningHall = new Location("Ratty");
+        System.out.println(_diningHall.toString());
+        System.out.println(_meal.toString());
+        setMeal();
+        System.out.println(_menu.size());
+        initComponents();
         colorDayButtons();
     }
 
-    private void colorDayButtons()
+    //queries the data base for the meal using the current values of _dningHall,
+    //_meal, and day.  sets _meal appropriately
+    private void setMeal()
     {
+        Calendar day = Calendar.getInstance();
+        day.set(Calendar.DAY_OF_WEEK, Day.toInt(_day));
+        day.set(Calendar.HOUR, 0);
+        day.set(Calendar.MINUTE, 0);
+        day.set(Calendar.SECOND, 0);
+        day.set(Calendar.MILLISECOND, 0);
+        HashSet<Dish> menu = _windowManager.getDatabase().getDishes(_diningHall, _meal);
+        _menu = menu;
+    }
+
+    public Meal getMeal() {
+        return _meal;
+    }
+
+    public Day getDay() {
+        return _day;
+    }
+
+    public HashSet<Dish> getMenu() {
+        return _menu;
+    }
+
+    private void colorDayButtons() {
         Color brown = new Color(139, 69, 19);
         Color red = new Color(178, 34, 34);
         monButton.setBackground(brown);
@@ -150,9 +181,9 @@ public class PlannerMainWindow extends javax.swing.JFrame {
             }
         });
 
-        DinerPanel rattyPanel = new DinerPanel(_windowManager);
-        DinerPanel vwPanel = new DinerPanel(_windowManager);
-        DinerPanel ivyRoomPanel = new DinerPanel(_windowManager);
+        DinerPanel rattyPanel = new DinerPanel(_windowManager, this);
+        DinerPanel vwPanel = new DinerPanel(_windowManager, this);
+        DinerPanel ivyRoomPanel = new DinerPanel(_windowManager, this);
 
         dinerTabs.addTab("Ratty", rattyPanel);
         dinerTabs.addTab("V-Dub", vwPanel);
@@ -365,25 +396,27 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_sunButtonMouseClicked
 
     private void breakfastRBStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_breakfastRBStateChanged
-        if(breakfastRB.isSelected())
+        if (breakfastRB.isSelected()) {
             _meal.setMeal("breakfast");
+        }
     }//GEN-LAST:event_breakfastRBStateChanged
 
     private void lunchRBStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_lunchRBStateChanged
-        if(lunchRB.isSelected())
+        if (lunchRB.isSelected()) {
             _meal.setMeal("lunch");
+        }
     }//GEN-LAST:event_lunchRBStateChanged
 
     private void dinnerRBStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_dinnerRBStateChanged
-        if(dinnerRB.isSelected())
+        if (dinnerRB.isSelected()) {
             _meal.setMeal("dinner");
+        }
     }//GEN-LAST:event_dinnerRBStateChanged
 
-    public void onTabChange()
-    {
+    public void onTabChange() {
         int tab = dinerTabs.getSelectedIndex();
         Location diningHall = new Location();
-        switch (tab){
+        switch (tab) {
             case 1:
                 diningHall.setName("Ratty");
                 break;
@@ -395,32 +428,20 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                 break;
         }
 
-       List<MarkedDish> savedMeal =  _windowManager._user.getMarkedDishes(diningHall, _meal, _day);
-       //display the meal
-       DinerPanel p = (DinerPanel) dinerTabs.getSelectedComponent();
-       p.displayMeal(savedMeal);
-       //TODO: get and display the menu
-       Calendar now = Calendar.getInstance();
-       now.set(Calendar.DAY_OF_WEEK, Day.toInt(_day));
-       HashSet<Dish> menu = _windowManager.getDatabase().getDishes(now, diningHall, _meal);
+        List<MarkedDish> savedMeal = _windowManager._user.getMarkedDishes(diningHall, _meal, _day);
+        //display the meal
+        DinerPanel p = (DinerPanel) dinerTabs.getSelectedComponent();
+        p.displayMeal(savedMeal);
+        //get and display the menu
+        setMeal();
+        p.displayMenu();
     }
 
-    //converts _day to a date
-    //TODO: fix this method
-    public Date dayToDate()
-    {
-        Date today = new Date();
-        long time = today.getTime();
-        int todayDay = today.getDay();
-        return new Date();
-    }
-
-    class TabChangeListener implements ChangeListener{
+    class TabChangeListener implements ChangeListener {
 
         private PlannerMainWindow _window;
 
-        public TabChangeListener(PlannerMainWindow window)
-        {
+        public TabChangeListener(PlannerMainWindow window) {
             _window = window;
         }
 
@@ -430,12 +451,12 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     }
 
     /**
-    * @param args the command line arguments
-    */
+     * @param args the command line arguments
+     */
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
 
+            public void run() {
             }
         });
     }
@@ -465,5 +486,4 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     private javax.swing.JButton tueButton;
     private javax.swing.JButton wedButton;
     // End of variables declaration//GEN-END:variables
-
 }

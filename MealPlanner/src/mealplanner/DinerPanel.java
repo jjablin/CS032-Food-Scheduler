@@ -6,7 +6,10 @@
 package mealplanner;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import javax.swing.*;
 
@@ -16,6 +19,8 @@ import javax.swing.*;
  */
 public class DinerPanel extends JSplitPane{
 
+    private PlannerMainWindow _parent;
+
     private JPanel _mealPanel;
     private JPanel _menuPanel;
     private WindowManager _windowManager;
@@ -24,18 +29,18 @@ public class DinerPanel extends JSplitPane{
     private JLabel _mealItemHeading;
     private JLabel _mealServingsHeading;
     private JLabel _menuItemHeading;
-    private JLabel _menuServingsHeading;
     private JScrollPane _mealPane;
     private JScrollPane _menuPane;
     private JPanel _menuDisplay;
 
 
-    public DinerPanel(WindowManager wm)
+    public DinerPanel(WindowManager wm, PlannerMainWindow parent)
     {
         super();
         _windowManager = wm;
+        _parent = parent;
         initComponents();
-        displayMenu(new ArrayList<Dish>());
+        displayMenu();
         displayMeal(new ArrayList<MarkedDish>());
     }
    
@@ -47,7 +52,6 @@ public class DinerPanel extends JSplitPane{
         _mealItemHeading = new JLabel("Item");
         _mealServingsHeading = new JLabel("Servings");
         _menuItemHeading = new JLabel("Item");
-        _menuServingsHeading = new JLabel("Servings");
 
         JViewport mealview = new JViewport();
         _mealPane = new JScrollPane(mealview);
@@ -65,9 +69,10 @@ public class DinerPanel extends JSplitPane{
         JViewport menuview = new JViewport();
         _menuPane = new JScrollPane(menuview);
         _menuDisplay = new JPanel();
+        _menuDisplay.setLayout(new BoxLayout(_menuDisplay, BoxLayout.Y_AXIS));
         menuview.setView(_menuDisplay);
         _menuDisplay.add(_menuItemHeading);
-        _menuDisplay.add(_menuServingsHeading);
+        _menuDisplay.add(Box.createRigidArea(new Dimension(0, 5))); //add some blank space below the label
 
         _menuPanel = new JPanel();
         _menuPanel.setLayout(new BoxLayout(_menuPanel, BoxLayout.Y_AXIS));
@@ -80,14 +85,15 @@ public class DinerPanel extends JSplitPane{
     {
         for(int i = 0; i < meal.size(); i++)
         {
-            JLabel dishLabel = new JLabel(meal.get(i).getName());
-            if(_windowManager._user.getDislikes().contains(meal.get(i).getName()))
+            MarkedDish d = meal.get(i);
+            JLabel dishLabel = new JLabel(d.getName());
+            if(_windowManager._user.getDislikes().contains(d.getName()))
                 dishLabel.setForeground(Color.RED);
-            if(_windowManager._user.getLikes().contains(meal.get(i).getName()))
+            if(_windowManager._user.getLikes().contains(d.getName()))
                 dishLabel.setForeground(Color.GREEN);
             _mealPanel.add(dishLabel);
 
-            int servings = meal.get(i).getServings();
+            int servings = d.getServings();
             SpinnerNumberModel spinnerModel = new SpinnerNumberModel(servings, 0, Integer.MAX_VALUE, 1);
             JSpinner servingsSpinner = new JSpinner(spinnerModel);
             _mealPane.add(servingsSpinner);
@@ -95,19 +101,45 @@ public class DinerPanel extends JSplitPane{
         }
     }
 
-    public void displayMenu(List<Dish> menu)
+    //gets the menu to display from the main window (_parent) and displays the dishes in order:
+    //liked dishes in green at the top, no preference dishes in black in the middle,
+    //and disliked dishes in red at the bottom
+    public void displayMenu()
     {
-        List<Dish> m = new ArrayList<Dish>();
-        m.add(new Dish("dish1"));
-        m.add(new Dish("dish2"));
-
-        for(int i = 0; i < m.size(); i++)
+        HashSet<Dish> menu = _parent.getMenu();
+        ArrayList<Dish> noPreferences = new ArrayList<Dish>();
+        ArrayList<Dish> dislikes = new ArrayList<Dish>();
+        //sort the dishes by preference and display the liked dishes
+        int j = 0;
+        Iterator itr = menu.iterator();
+        while(itr.hasNext())
         {
-            JLabel dishLabel = new JLabel(m.get(i).getName());
-            if(_windowManager._user.getDislikes().contains(m.get(i).getName()))
-                dishLabel.setForeground(Color.RED);
-            if(_windowManager._user.getLikes().contains(m.get(i).getName()))
+            Dish d = (Dish) itr.next();
+            if(_windowManager._user.getDislikes().contains(d.getName()))
+                dislikes.add(d);
+            else if(_windowManager._user.getLikes().contains(d.getName()))
+            {
+                JLabel dishLabel = new JLabel(d.getName());
                 dishLabel.setForeground(Color.GREEN);
+                _menuDisplay.add(dishLabel);
+            }
+            else
+                noPreferences.add(d);
+            j++;
+        }
+        //display the no preference dishes
+        for(int i = 0; i < noPreferences.size(); i++)
+        {
+            Dish d = noPreferences.get(i);
+            JLabel dishLabel = new JLabel(d.getName());
+            _menuDisplay.add(dishLabel);
+        }
+        //display the disliked dishes
+        for(int i = 0; i < dislikes.size(); i++)
+        {
+            Dish d = noPreferences.get(i);
+            JLabel dishLabel = new JLabel(d.getName());
+            dishLabel.setForeground(Color.RED);
             _menuDisplay.add(dishLabel);
         }
     }

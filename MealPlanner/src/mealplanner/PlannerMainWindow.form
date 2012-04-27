@@ -193,7 +193,7 @@
     </Component>
     <Container class="javax.swing.JTabbedPane" name="dinerTabs">
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="DinerPanel rattyPanel = new DinerPanel(_windowManager);&#xa;DinerPanel vwPanel = new DinerPanel(_windowManager);&#xa;DinerPanel ivyRoomPanel = new DinerPanel(_windowManager);&#xa;&#xa;dinerTabs.addTab(&quot;Ratty&quot;, rattyPanel);&#xa;dinerTabs.addTab(&quot;V-Dub&quot;, vwPanel);&#xa;dinerTabs.addTab(&quot;Ivy Room&quot;, ivyRoomPanel);&#xa;&#xa;ChangeListener l = new TabChangeListener(this);&#xa;dinerTabs.addChangeListener(l);"/>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="DinerPanel rattyPanel = new DinerPanel(_windowManager, this);&#xa;DinerPanel vwPanel = new DinerPanel(_windowManager, this);&#xa;DinerPanel ivyRoomPanel = new DinerPanel(_windowManager, this);&#xa;&#xa;dinerTabs.addTab(&quot;Ratty&quot;, rattyPanel);&#xa;dinerTabs.addTab(&quot;V-Dub&quot;, vwPanel);&#xa;dinerTabs.addTab(&quot;Ivy Room&quot;, ivyRoomPanel);&#xa;&#xa;ChangeListener l = new TabChangeListener(this);&#xa;dinerTabs.addChangeListener(l);"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>

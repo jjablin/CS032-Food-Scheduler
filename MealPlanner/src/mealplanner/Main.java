@@ -14,6 +14,7 @@ public class Main {
         fd.createDishesTable();
         //TODO: check if we need to update
         //fd.update();
+        //fd.writeDishesCSV("dishes_table");
         WindowManager wm = new WindowManager(fd);
     }
 
