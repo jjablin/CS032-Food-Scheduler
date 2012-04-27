@@ -89,6 +89,10 @@ public class TextParser {
                 //date.set(Integer.valueOf(parts[2]),(Integer.valueOf(parts[0])-1),Integer.valueOf(parts[1]));
                 date.set(Calendar.MONTH, (Integer.valueOf(parts[0])-1));
                 date.set(Calendar.DAY_OF_MONTH, Integer.valueOf(parts[1]));
+                date.set(Calendar.HOUR, 0);
+                date.set(Calendar.MINUTE, 0);
+                date.set(Calendar.SECOND,0);
+                date.set(Calendar.MILLISECOND,0);
 		if(curdate.equals(zeroDate)){ //the first time through, curdate has not been set
 			curdate = date;
 			return curdate; //
