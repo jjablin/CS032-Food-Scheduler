@@ -8,7 +8,7 @@ package mealplanner;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.Iterator;
 import java.util.List;
 import javax.swing.*;
@@ -43,7 +43,7 @@ public class DinerPanel extends JSplitPane{
         displayMenu();
         displayMeal(new ArrayList<MarkedDish>());
     }
-   
+
 
     private void initComponents()
     {
@@ -106,7 +106,7 @@ public class DinerPanel extends JSplitPane{
     //and disliked dishes in red at the bottom
     public void displayMenu()
     {
-        HashSet<Dish> menu = _parent.getMenu();
+        TreeSet<Dish> menu = _parent.getMenu();
         ArrayList<Dish> noPreferences = new ArrayList<Dish>();
         ArrayList<Dish> dislikes = new ArrayList<Dish>();
         //sort the dishes by preference and display the liked dishes

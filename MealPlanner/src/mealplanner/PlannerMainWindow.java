@@ -13,7 +13,7 @@ package mealplanner;
 import java.awt.Color;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.List;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -28,7 +28,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     private Day _day;
     private Meal _meal;
     private Location _diningHall;
-    private HashSet<Dish> _menu;
+    private TreeSet<Dish> _menu;
 
     /** Creates new form PlannerMainWindow */
     public PlannerMainWindow(WindowManager wm) {
@@ -36,26 +36,19 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         _meal = new Meal("breakfast");
         _day = Day.MONDAY; //this should be the current day
         _diningHall = new Location("Ratty");
-        System.out.println(_diningHall.toString());
-        System.out.println(_meal.toString());
         setMeal();
-        System.out.println(_menu.size());
         initComponents();
         colorDayButtons();
     }
 
-    //queries the data base for the meal using the current values of _dningHall,
+    //queries the data base for the meal using the current values of _diningHall,
     //_meal, and day.  sets _meal appropriately
     private void setMeal()
     {
-        Calendar day = Calendar.getInstance();
-        day.set(Calendar.DAY_OF_WEEK, Day.toInt(_day));
-        day.set(Calendar.HOUR, 0);
-        day.set(Calendar.MINUTE, 0);
-        day.set(Calendar.SECOND, 0);
-        day.set(Calendar.MILLISECOND, 0);
-        HashSet<Dish> menu = _windowManager.getDatabase().getDishes(_diningHall, _meal);
-        _menu = menu;
+      Calendar day = Calendar.getInstance();
+      day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK) - 2));
+      TreeSet<Dish> menu = _windowManager.getDatabase().getDishes(_diningHall, _meal, day);
+      _menu = menu;
     }
 
     public Meal getMeal() {
@@ -66,7 +59,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         return _day;
     }
 
-    public HashSet<Dish> getMenu() {
+    public TreeSet<Dish> getMenu() {
         return _menu;
     }
 

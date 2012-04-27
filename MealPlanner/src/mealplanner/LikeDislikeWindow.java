@@ -17,6 +17,7 @@ import java.awt.GridLayout;
 import java.awt.Panel;
 import java.awt.Checkbox;
 import java.util.HashSet;
+import java.util.TreeSet;
 import javax.swing.JLabel;
 import javax.swing.JViewport;
 
@@ -146,8 +147,8 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
     private void dishFieldKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_dishFieldKeyTyped
         String input = dishField.getText().toUpperCase();
 
-        HashSet<Dish> dishes = _windowManager.getDatabase().getDishes(input);
-        //display the dishes in the resultDisplay        
+        TreeSet<Dish> dishes = _windowManager.getDatabase().getDishes(input);
+        //display the dishes in the resultDisplay
         GridLayout layout = new GridLayout(0,1);
         Panel p = new Panel(layout);
         HashSet<String> names = new HashSet<String>();
@@ -251,7 +252,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
                 noPreferenceBoxClicked(evt);
             }
         });
-        
+
         return p;
     }
 

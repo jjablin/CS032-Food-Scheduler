@@ -47,12 +47,18 @@ public class FoodDatabase {
 
   public void createDishesTable() {
     ArrayList< DatabaseVariable > variables = new ArrayList< DatabaseVariable >();
-    variables.add(new DatabaseVariable(DatabaseType.DATE, "date"));
+    variables.add(new DatabaseVariable(DatabaseType.STRING, "date"));
     variables.add(new DatabaseVariable(DatabaseType.STRING, "location"));
     variables.add(new DatabaseVariable(DatabaseType.STRING, "meal"));
     variables.add(new DatabaseVariable(DatabaseType.STRING, "name"));
         variables.add(new DatabaseVariable(DatabaseType.SERIALIZABLE, "dish"));
     createTable("dishes", variables);
+  }
+
+  public static String CalendarToString(Calendar now) {
+    return new String(now.get(Calendar.MONTH) + "/" +
+                      now.get(Calendar.DATE) + "/" +
+                      now.get(Calendar.YEAR));
   }
 
   public boolean addDish(Dish dish) {
@@ -64,11 +70,10 @@ public class FoodDatabase {
     PreparedStatement pstmt = null;
     try {
       pstmt = _conn.prepareStatement(cmd.toString());
-      pstmt.setDate(1, new java.sql.Date(dish.getDate().getTime().getTime()));
+      pstmt.setString(1, CalendarToString(dish.getDate()));
       pstmt.setString(2, dish.getLocation().getName());
       pstmt.setString(3, dish.getMeal().getMeal());
       pstmt.setString(4, dish.getName());
-
 
       // Serialize Dish object.
       Pack pack = new Pack(dish);
@@ -100,7 +105,7 @@ public class FoodDatabase {
     return addDish(dish);
   }
 
-  public HashSet getDishes(Dish dish) {
+  public TreeSet getDishes(Dish dish) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where name='");
     cmd.append(dish.getName());
@@ -108,15 +113,15 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Calendar date) {
+  public TreeSet getDishes(Calendar date) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Location location) {
+  public TreeSet getDishes(Location location) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where location='");
     cmd.append(location.getName());
@@ -124,7 +129,7 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Meal meal) {
+  public TreeSet getDishes(Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where meal='");
     cmd.append(meal.getMeal());
@@ -132,7 +137,7 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(String name) {
+  public TreeSet getDishes(String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where name='");
     cmd.append(name);
@@ -140,49 +145,49 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Calendar date, Location location) {
+  public TreeSet getDishes(Calendar date, Location location) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Location location, Calendar date) {
+  public TreeSet getDishes(Location location, Calendar date) {
     return getDishes(date, location);
   }
 
-  public HashSet getDishes(Calendar date, Meal meal) {
+  public TreeSet getDishes(Calendar date, Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("' and meal='");
     cmd.append(meal.getMeal());
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Meal meal, Calendar date) {
+  public TreeSet getDishes(Meal meal, Calendar date) {
     return getDishes(date, meal);
   }
 
-  public HashSet getDishes(Calendar date, String name) {
+  public TreeSet getDishes(Calendar date, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("' and name='");
     cmd.append(name);
     cmd.append("'");
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(String name, Calendar date) {
+  public TreeSet getDishes(String name, Calendar date) {
     return getDishes(date, name);
   }
 
-  public HashSet getDishes(Location location, Meal meal) {
+  public TreeSet getDishes(Location location, Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where location='");
     cmd.append(location.getName());
@@ -192,11 +197,11 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Meal meal, Location location) {
+  public TreeSet getDishes(Meal meal, Location location) {
     return getDishes(location, meal);
   }
 
-  public HashSet getDishes(Location location, String name) {
+  public TreeSet getDishes(Location location, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where location='");
     cmd.append(location.getName());
@@ -206,11 +211,11 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(String name, Location location) {
+  public TreeSet getDishes(String name, Location location) {
     return getDishes(location, name);
   }
 
-  public HashSet getDishes(Meal meal, String name) {
+  public TreeSet getDishes(Meal meal, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where meal='");
     cmd.append(meal.getMeal());
@@ -220,14 +225,14 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(String name, Meal meal) {
+  public TreeSet getDishes(String name, Meal meal) {
     return getDishes(meal, name);
   }
 
-  public HashSet getDishes(Calendar date, Location location, Meal meal) {
+  public TreeSet getDishes(Calendar date, Location location, Meal meal) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("' and meal='");
@@ -236,30 +241,30 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Calendar date, Meal meal, Location location) {
+  public TreeSet getDishes(Calendar date, Meal meal, Location location) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Meal meal, Calendar date, Location location) {
+  public TreeSet getDishes(Meal meal, Calendar date, Location location) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Meal meal, Location location, Calendar date) {
+  public TreeSet getDishes(Meal meal, Location location, Calendar date) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Location location, Meal meal, Calendar date) {
+  public TreeSet getDishes(Location location, Meal meal, Calendar date) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Location location, Calendar date, Meal meal) {
+  public TreeSet getDishes(Location location, Calendar date, Meal meal) {
     return getDishes(date, location, meal);
   }
 
-  public HashSet getDishes(Calendar date, Location location, String name) {
+  public TreeSet getDishes(Calendar date, Location location, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("' and location='");
     cmd.append(location.getName());
     cmd.append("' and name='");
@@ -268,30 +273,30 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Calendar date, String name, Location location) {
+  public TreeSet getDishes(Calendar date, String name, Location location) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(String name, Calendar date, Location location) {
+  public TreeSet getDishes(String name, Calendar date, Location location) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(String name, Location location, Calendar date) {
+  public TreeSet getDishes(String name, Location location, Calendar date) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(Location location, String name, Calendar date) {
+  public TreeSet getDishes(Location location, String name, Calendar date) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(Location location, Calendar date, String name) {
+  public TreeSet getDishes(Location location, Calendar date, String name) {
     return getDishes(date, location, name);
   }
 
-  public HashSet getDishes(Calendar date, Meal meal, String name) {
+  public TreeSet getDishes(Calendar date, Meal meal, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
-    cmd.append(new java.sql.Date(date.getTime().getTime()));
+    cmd.append(CalendarToString(date));
     cmd.append("' and meal='");
     cmd.append(meal.getMeal());
     cmd.append("' and name='");
@@ -300,27 +305,27 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Calendar date, String name, Meal meal) {
+  public TreeSet getDishes(Calendar date, String name, Meal meal) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(String name, Calendar date, Meal meal) {
+  public TreeSet getDishes(String name, Calendar date, Meal meal) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(String name, Meal meal, Calendar date) {
+  public TreeSet getDishes(String name, Meal meal, Calendar date) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(Meal meal, String name, Calendar date) {
+  public TreeSet getDishes(Meal meal, String name, Calendar date) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(Meal meal, Calendar date, String name) {
+  public TreeSet getDishes(Meal meal, Calendar date, String name) {
     return getDishes(date, meal, name);
   }
 
-  public HashSet getDishes(Location location, Meal meal, String name) {
+  public TreeSet getDishes(Location location, Meal meal, String name) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where location='");
     cmd.append(location.getName());
@@ -332,23 +337,23 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
-  public HashSet getDishes(Location location, String name, Meal meal) {
+  public TreeSet getDishes(Location location, String name, Meal meal) {
     return getDishes(location, meal, name);
   }
 
-  public HashSet getDishes(String name, Location location, Meal meal) {
+  public TreeSet getDishes(String name, Location location, Meal meal) {
     return getDishes(location, meal, name);
   }
 
-  public HashSet getDishes(String name, Meal meal, Location location) {
+  public TreeSet getDishes(String name, Meal meal, Location location) {
     return getDishes(location, meal, name);
   }
 
-  public HashSet getDishes(Meal meal, String name, Location location) {
+  public TreeSet getDishes(Meal meal, String name, Location location) {
     return getDishes(location, meal, name);
   }
 
-  public HashSet getDishes(Meal meal, Location location, String name) {
+  public TreeSet getDishes(Meal meal, Location location, String name) {
     return getDishes(location, meal, name);
   }
 
@@ -474,20 +479,18 @@ public class FoodDatabase {
       try {
         stmt.close();
       } catch(Throwable ignore) {
-        System.out.println("test555");
       }
     }
     return result;
   }
 
-  HashSet executeSelect(String cmd) {
+  TreeSet executeSelect(String cmd) {
     try {
       Statement stmt = _conn.createStatement();
       ResultSet results = stmt.executeQuery(cmd.toString());
-      HashSet<Object> resultSet = new HashSet<Object>();
+      TreeSet<Object> resultSet = new TreeSet<Object>();
       while(results.next()) {
-          System.out.println("hello");
-          resultSet.add(results.getObject(1));
+        resultSet.add(results.getObject(1));
       }
       return resultSet;
     } catch(SQLException sqle) {
@@ -496,7 +499,7 @@ public class FoodDatabase {
   }
 
   Account executeGetUserCommand(String cmd) {
-    HashSet resultSet = executeSelect(cmd.toString());
+    TreeSet resultSet = executeSelect(cmd.toString());
     if(resultSet.isEmpty())
       return new NullAccount();
     return (Account)resultSet.iterator().next();

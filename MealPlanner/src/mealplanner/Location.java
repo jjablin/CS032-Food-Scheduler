@@ -24,7 +24,7 @@ public class Location implements Serializable {
     _name = name;
   }
 
-    @Override
+  @Override
   public String toString() {
     return _name;
   }

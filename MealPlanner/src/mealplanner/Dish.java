@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-public class Dish implements Serializable{
+public class Dish implements Serializable, Comparable {
 
   private static final long serialVersionUID = 7526471155622776147L;
 
@@ -137,4 +137,7 @@ public class Dish implements Serializable{
 		_protein=prot;
 	}
 
+  public int compareTo(Object obj) {
+    return this.getName().compareTo(((Dish)obj).getName());
+  }
 }
