@@ -56,8 +56,15 @@ public class NewAccountWindow extends javax.swing.JFrame {
         goToLoginButton.setText("Log in");
         goToLoginButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                goToLoginButtonMouseClicked(evt);
+                goToLoginButtonMouseClicked();
             }
+        });
+        // Attempt to go back to login window when ENTER key is pressed.
+        goToLoginButton.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                goToLoginButtonMouseClicked();
+           }
         });
 
         welcomeLabel.setText("Get started with Meal Planner!");
@@ -73,8 +80,15 @@ public class NewAccountWindow extends javax.swing.JFrame {
         createAccountButton.setText("Create Account");
         createAccountButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                createAccountButtonMouseClicked(evt);
+                createAccountButtonMouseClicked();
             }
+        });
+        // Attempt to create a new account when ENTER key is pressed.
+        createAccountButton.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                createAccountButtonMouseClicked();
+           }
         });
 
         usernameError.setForeground(java.awt.Color.red);
@@ -174,11 +188,11 @@ public class NewAccountWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void goToLoginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_goToLoginButtonMouseClicked
+    private void goToLoginButtonMouseClicked() {//GEN-FIRST:event_goToLoginButtonMouseClicked
        _windowManager.showLoginWindow();
     }//GEN-LAST:event_goToLoginButtonMouseClicked
 
-    private void createAccountButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_createAccountButtonMouseClicked
+    private void createAccountButtonMouseClicked() {//GEN-FIRST:event_createAccountButtonMouseClicked
         //hide all error messages and then display them as needed
         usernameError.setVisible(false);
         noPasswordError.setVisible(false);

@@ -9,7 +9,7 @@ package mealplanner;
 import java.util.*;
 
 // A serializable class for storing relevant user information.
-public class UserAccount extends NullAccount {
+public class UserAccount extends NullAccount implements Comparable {
 
   private static final long serialVersionUID = 7526471155622776147L;
 
@@ -146,5 +146,9 @@ public class UserAccount extends NullAccount {
   @Override
   public String toString() {
     return getUsername() + ", " + getPassword();
+  }
+
+  public int compareTo(Object obj) {
+    return this.getUsername().compareTo(((UserAccount)obj).getUsername());
   }
 }
