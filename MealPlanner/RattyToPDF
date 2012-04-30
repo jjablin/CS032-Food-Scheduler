@@ -1,9 +1,6 @@
     #!/bin/bash
-    if [ -z "$1" ] 
-      then
     	curl -s 128.148.128.180/Student_Services/Food_Services/menus/$1/ref.pdf > /tmp/ratty.pdf;
     	pdftotext /tmp/ratty.pdf /tmp/ratty.txt;
     	rm /tmp/ratty.pdf;
-     fi
     
 

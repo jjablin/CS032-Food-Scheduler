@@ -6,6 +6,7 @@
 package mealplanner;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
+import javax.swing.JOptionPane;
 /**
  *
  * @author kpdurfee
@@ -33,24 +35,7 @@ public class Emailer {
             e.printStackTrace();
         }
     }
-    /* //TODO get rid of this as it is only to test
-    public static void main(String[] args) {
-        ArrayList<Dish> dlist = new ArrayList<Dish>();
-        Dish d = new Dish("NEW FOOF MAN");
-        d.setLocation(new Location("Ratty"));
-        Calendar curdate = Calendar.getInstance();
-                curdate.set(Calendar.MONTH, (3));
-                curdate.set(Calendar.DAY_OF_MONTH, 29);
-                curdate.set(Calendar.HOUR, 0);
-                curdate.set(Calendar.MINUTE, 0);
-                curdate.set(Calendar.SECOND,0);
-                curdate.set(Calendar.MILLISECOND,0);
-        d.setDate(curdate);
-        dlist.add(d);
-        Emailer e = new Emailer();
-        e.sendEmail("Durfguy@gmail.com",dlist);
-	}
-     * */
+
     private String GetDay(int day){
         String dayOfWeek=null;
         switch(day){
@@ -88,19 +73,25 @@ public class Emailer {
     public void sendEmail(String userAdress, List<Dish> userlikes){
 
          try{
-             _fwriter.newLine();
-             _fwriter.write("Your Brown Dining information has been updated to provide you with \n");
-             _fwriter.write("details about the current week. The following dishes that you have marked as \n");
-             _fwriter.write("favorites are available this week :");
-             _fwriter.newLine();
-             _fwriter.newLine();
-             _fwriter.newLine();
-
-             for(int x =0;x<userlikes.size();x++){
-                 _fwriter.write(userlikes.get(x).getName() + " is available at the " +userlikes.get(x).getLocation() + " on " + GetDay((userlikes.get(x).getDate().getTime().getDay())));
+             File f = new File(EMAIL_TEXT_FILE);
+             if(f.canWrite() && f.canRead()){
                  _fwriter.newLine();
+                 _fwriter.write("Your Brown Dining information has been updated to provide you with \n");
+                 _fwriter.write("details about the current week. The following dishes that you have marked as \n");
+                 _fwriter.write("favorites are available this week :");
+                 _fwriter.newLine();
+                 _fwriter.newLine();
+                 _fwriter.newLine();
+
+                 for(int x =0;x<userlikes.size();x++){
+                     _fwriter.write(userlikes.get(x).getName() + " is available at the " +userlikes.get(x).getLocation() + " on " + GetDay((userlikes.get(x).getDate().getTime().getDay())));
+                     _fwriter.newLine();
+                 }
+                 _fwriter.flush();
+             }else{
+                 //You don't have the right file permissions
+                 JOptionPane.showMessageDialog(null, "Necessary Read/Write permissions on file " + EMAIL_TEXT_FILE + " not correct. \n Try deleting this file before continuing");
              }
-             _fwriter.flush();
          }catch(Exception e){
 
          }
@@ -116,5 +107,14 @@ public class Emailer {
 		exec.execute(task);
 		return task;
 	}
-
+    public void close(){
+        try{
+        _fwriter.close();
+        _writer.close();
+        }catch(IOException ioe){
+            //IO Exception
+        }catch(Exception e){
+            //Another issue
+        }
+    }
 }

@@ -3,6 +3,7 @@ package mealplanner;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Calendar;
+import javax.swing.JOptionPane;
 
 public class EateryReader {
 
@@ -10,18 +11,10 @@ public class EateryReader {
     private FileInputStream _stream = null;
     private DataInputStream _instream = null;
     private BufferedReader _bufread = null;
-    //these are just to create a file for the C level
-    private FileWriter _writer = null;
-    private BufferedWriter _fwriter;
+
 
     public EateryReader() {
-        //this is just to print to this file
-        try {
-            _writer = new FileWriter("./parsedivy.txt");
-            _fwriter = new BufferedWriter(_writer);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
 
     }
     //call this to create a new eatery by reading in the filepath
@@ -30,10 +23,9 @@ public class EateryReader {
         _dishes = new ArrayList<Dish>();
         int sucess = readMeals(name, filepath);
         if (sucess == -1) {
-            System.out.println("pdf file not converted to text, check URL in shell");
+            JOptionPane.showMessageDialog(null, "Failure to find, create, or parse text file of nutrition information in /tmp directory");
             return null;
         } else if (sucess == 0) {
-            System.out.println("IO Exception during read");
             return null;
         } else {
             return _dishes;
@@ -82,12 +74,6 @@ public class EateryReader {
                 if ((line = _bufread.readLine()) != null) {
                     ingrediants = parser.SetIngrediants(curdish, line);
 
-                //TODO this is for testing purposes
-                //if(ingrediants!=true){
-                //System.out.println("no ingrediants added");
-                //System.out.println(curdish.getName());
-                //}
-
                 } else {
                     break;
                 }
@@ -98,18 +84,14 @@ public class EateryReader {
 
                     //Read in the empty line seperator
                     if ((line = _bufread.readLine()) != null) { //read in an empty line
-                        assert (line.trim().length() == 0); //make sure it is an empty line
+
                     } else {
                         break;
                     }
                     //Read in the next line and make sure it is the nutrition facts header
                     if ((line = _bufread.readLine()) != null) {
                         if (line.compareTo("Nutrition Facts") != 0) {
-                            //TODO there is a problem here
-                            //can I find a way to skip to the next dish?
-                            //maybe go to the next line that says Nutrition Facts, back up, and go from there
-                            System.out.println(curdish.getName());
-                            System.out.println("EXPECTING NUTRITION FACTS LINE BUT ITS NOT HERE");
+                            //this means things are not formatted as expected
                         }
                     } else {
                         break;
@@ -124,8 +106,7 @@ public class EateryReader {
 
                 //read in empty line separator
                 if ((line = _bufread.readLine()) != null) {
-                    //TODO, these asserts should be removed and some error thrown instead?
-                    assert (line.trim().length() == 0); //make sure it is an empty line
+
                 } else {
                     break;
                 }
@@ -138,7 +119,7 @@ public class EateryReader {
 
                 //read in the empty line separator
                 if ((line = _bufread.readLine()) != null) {
-                    assert (line.trim().length() == 0); //make sure it is an empty line
+
                 } else {
                     break;
                 }
@@ -160,7 +141,7 @@ public class EateryReader {
 
                 //read in the empty line separator
                 if ((line = _bufread.readLine()) != null) {
-                    assert (line.trim().length() == 0); //make sure it is an empty line
+
                 } else {
                     break;
                 }
@@ -190,48 +171,14 @@ public class EateryReader {
 
                 //read in the empty line separator
                 if ((line = _bufread.readLine()) != null) {
-                    assert (line.trim().length() == 0); //make sure it is an empty line
+
                 } else {
                     break;
                 }
                 _dishes.add(curdish);
             //move on to the next dish in the text file
             }
-            //*********************************************************************************************
-            //TODO get rid of this
-            //Just printing for C level and testing
-            _fwriter.newLine();
-            for (int x = 0; x < _dishes.size(); x++) {
-                _fwriter.write(_dishes.get(x).getName());
-                _fwriter.newLine();
-                _fwriter.write(_dishes.get(x).getLocation()._name);
-                _fwriter.newLine();
-                _fwriter.write(_dishes.get(x).getDate().getTime().toString());
-                _fwriter.newLine();
-                _fwriter.write("Portion (oz): " + _dishes.get(x).getPortion());
-                _fwriter.newLine();
-                String cals = _dishes.get(x).getCalories() + "";
-                _fwriter.write("Calories : " + cals);
-                _fwriter.newLine();
-                _fwriter.write("fat: " + _dishes.get(x).getFat() + "");
-                _fwriter.newLine();
-                _fwriter.write("sat fat: " + _dishes.get(x).getSaturatedFat());
-                _fwriter.newLine();
-                _fwriter.write("Chol: " + _dishes.get(x).getChol());
-                _fwriter.newLine();
-                _fwriter.write("Sodium: " + _dishes.get(x).getSodium());
-                _fwriter.newLine();
-                _fwriter.write("Carbs: " + _dishes.get(x).getCarbs());
-                _fwriter.newLine();
-                _fwriter.write("Fiber: " + _dishes.get(x).getFiber());
-                _fwriter.newLine();
-                _fwriter.write("Protein: " + _dishes.get(x).getProtein());
-                _fwriter.newLine();
-            }
-
-
-            _fwriter.flush();
-        //***************************************************************************************************
+            
         } catch (FileNotFoundException e) {
             return -1;
         } catch (IOException e) {
@@ -242,8 +189,7 @@ public class EateryReader {
                 try {
                     _instream.close();
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
+
                 }
             }
 
@@ -251,8 +197,7 @@ public class EateryReader {
                 try {
                     _bufread.close();
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
+
                 }
             }
 
@@ -260,8 +205,7 @@ public class EateryReader {
                 try {
                     _stream.close();
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
+
                 }
             }
         }

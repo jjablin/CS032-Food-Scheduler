@@ -1,9 +1,6 @@
     #!/bin/bash
-    if [ -z "$1" ] 
-      then
    	curl -s http://www.brown.edu/Student_Services/Food_Services/menus/$1/vw.pdf > /tmp/vw.pdf;
     	pdftotext /tmp/vw.pdf /tmp/vw.txt;
     	rm /tmp/vw.pdf;
-      fi
     
 
