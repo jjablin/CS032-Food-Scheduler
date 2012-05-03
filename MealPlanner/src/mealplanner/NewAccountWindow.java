@@ -240,7 +240,7 @@ public class NewAccountWindow extends javax.swing.JFrame {
                 {
                     passwordString = passwordString + password[i];
                 }
-                _windowManager._user = new UserAccount(username, passwordString);
+                _windowManager._user = new UserAccount(username, SHAHash.getHash(passwordString));
                 _windowManager.getDatabase().addUser(_windowManager._user);
                 _windowManager.showLikeDislikeWindow();
             }

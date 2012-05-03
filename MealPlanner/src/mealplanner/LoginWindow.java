@@ -194,7 +194,7 @@ public class LoginWindow extends javax.swing.JFrame {
         {
             passwordString = passwordString + password[i];
         }
-        UserAccount account = new UserAccount(username, passwordString);
+        UserAccount account = new UserAccount(username, SHAHash.getHash(passwordString));
         if(_windowManager.getDatabase().getUser(account).isValid())
          {
            _windowManager._user = (UserAccount) _windowManager.getDatabase().getUser(account);
