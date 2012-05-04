@@ -91,6 +91,30 @@ public class NewAccountWindow extends javax.swing.JFrame {
            }
         });
 
+        // Attempt to create new account when the ENTER key is pressed.
+        usernameField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                createAccountButtonMouseClicked();
+           }
+        });
+
+        // Attempt to create new account when the ENTER key is pressed.
+        passwordField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                createAccountButtonMouseClicked();
+           }
+        });
+
+        // Attempt to create new account when the ENTER key is pressed.
+        confirmField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent e) {
+              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
+                createAccountButtonMouseClicked();
+           }
+        });
+
         usernameError.setForeground(java.awt.Color.red);
         usernameError.setText("Error: No username was entered!");
         usernameError.setVisible(false);
