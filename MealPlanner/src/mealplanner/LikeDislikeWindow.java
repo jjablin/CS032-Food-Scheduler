@@ -16,6 +16,7 @@ import java.awt.Component;
 import java.awt.GridLayout;
 import java.awt.Panel;
 import java.awt.Checkbox;
+import java.awt.Cursor;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -32,6 +33,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
 
     /** Creates new form LikeDislikeWindow */
     public LikeDislikeWindow(WindowManager wm) {
+        this.setCursor(Cursor.getDefaultCursor());
         initComponents();
         _windowManager = wm;
         showCurrentPreferences();
@@ -245,7 +247,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
     private void dishFieldKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_dishFieldKeyTyped
         String input = dishField.getText().toUpperCase();
 
-        TreeSet<Dish> dishes = _windowManager.getDatabase().getDishes(input);
+        TreeSet<Dish> dishes = _windowManager.getDatabase().getFuzzyDishes(input);
         //display the dishes in the resultDisplay
         GridLayout layout = new GridLayout(0,1);
         Panel p = new Panel(layout);

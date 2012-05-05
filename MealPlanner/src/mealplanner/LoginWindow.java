@@ -11,7 +11,7 @@
 
 package mealplanner;
 
-import javax.swing.JFrame;
+import java.awt.Cursor;
 
 /**
  *
@@ -64,34 +64,11 @@ public class LoginWindow extends javax.swing.JFrame {
 
         passwordLabel.setText("Password:");
 
-        // Attempt login when ENTER key is pressed.
-        usernameField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                loginButtonMouseClicked();
-           }
-        });
-
-        // Attempt login when ENTER key is pressed.
-        passwordField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                loginButtonMouseClicked();
-           }
-        });
-
         loginButton.setText("Log in");
         loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                loginButtonMouseClicked();
+                loginButtonMouseClicked(evt);
             }
-        });
-        // Attempt login when ENTER key is pressed.
-        loginButton.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                loginButtonMouseClicked();
-           }
         });
 
         newAccountButton.setText("Create new account");
@@ -99,13 +76,6 @@ public class LoginWindow extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 newAccountButtonMouseClicked(evt);
             }
-        });
-        // Show new account window when ENTER key is pressed.
-        newAccountButton.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                _windowManager.showNewAccountWindow();
-           }
         });
 
         errorLabel.setForeground(java.awt.Color.red);
@@ -118,32 +88,24 @@ public class LoginWindow extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(logInLabel)
-                .addContainerGap(240, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(246, Short.MAX_VALUE)
-                .addComponent(newAccountButton)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(newAccountButton, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(loginButton)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addComponent(usernameLabel)
+                                    .addGap(18, 18, 18))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(passwordLabel)
+                                    .addGap(22, 22, 22)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(usernameField)
+                                .addComponent(passwordField, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addComponent(errorLabel)
+                    .addComponent(logInLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 372, Short.MAX_VALUE))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(loginButton)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(usernameLabel)
-                                .addGap(18, 18, 18))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(passwordLabel)
-                                .addGap(22, 22, 22)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(usernameField)
-                            .addComponent(passwordField, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(194, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(errorLabel)
-                .addContainerGap(193, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -176,7 +138,7 @@ public class LoginWindow extends javax.swing.JFrame {
 
 
 
-    private void loginButtonMouseClicked() {//GEN-FIRST:event_loginButtonMouseClicked
+    private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
         String username = usernameField.getText();
         if(username.isEmpty())
         {
@@ -198,6 +160,18 @@ public class LoginWindow extends javax.swing.JFrame {
         if(_windowManager.getDatabase().getUser(account).isValid())
          {
            _windowManager.setUser((UserAccount) _windowManager.getDatabase().getUser(account));
+
+           //update database if necessary
+            java.util.Calendar now = java.util.Calendar.getInstance();
+            java.util.Calendar dbDate = _windowManager.getDatabase().getCurrentDate();
+            int days = now.get(java.util.Calendar.DAY_OF_YEAR) - dbDate.get(java.util.Calendar.DAY_OF_YEAR);
+            if(days > 0){
+                becomeUpdatingWindow();
+                _windowManager.getDatabase().update();
+                Emailer emailer = new Emailer();
+                emailer.sendEmail(_windowManager.getUser().getEmail(), _windowManager.getUser().getLikes());
+            }
+
            _windowManager.showPlannerMainWindow();
          }
          else
@@ -205,6 +179,26 @@ public class LoginWindow extends javax.swing.JFrame {
 
     }//GEN-LAST:event_loginButtonMouseClicked
 
+    private void hideAll()
+    {
+        errorLabel.setVisible(false);
+        logInLabel.setVisible(false);
+        newAccountButton.setVisible(false);
+        passwordField.setVisible(false);
+        passwordLabel.setVisible(false);
+        usernameField.setVisible(false);
+        usernameLabel.setVisible(false);
+    }
+
+    private void becomeUpdatingWindow()
+    {
+        hideAll();
+        setTitle("Meal Planner - Updating");
+        logInLabel.setText("Please wait while we retrieve the menus.");
+        logInLabel.setVisible(true);
+        this.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+        this.paint(this.getGraphics());
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel errorLabel;

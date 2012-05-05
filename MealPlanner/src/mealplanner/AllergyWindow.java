@@ -36,10 +36,6 @@ public class AllergyWindow extends javax.swing.JFrame {
             cornBox.setSelected(true);
         if(allergies.contains(Allergy.EGG))
             eggsBox.setSelected(true);
-        if(allergies.contains(Allergy.FISH))
-            fishBox.setSelected(true);
-        if(allergies.contains(Allergy.FRUIT))
-            fruitBox.setSelected(true);
         if(allergies.contains(Allergy.GARLIC))
             garlicBox.setSelected(true);
         if(allergies.contains(Allergy.MILK))
@@ -50,13 +46,9 @@ public class AllergyWindow extends javax.swing.JFrame {
             oatsBox.setSelected(true);
         if(allergies.contains(Allergy.PEANUT))
             peanutsBox.setSelected(true);
-        if(allergies.contains(Allergy.SHELLFISH))
-            shellfishBox.setSelected(true);
         if(allergies.contains(Allergy.SOY))
             soyBox.setSelected(true);
-        if(allergies.contains(Allergy.SULPHITES))
-            sulphitesBox.setSelected(true);
-        if(allergies.contains(Allergy.TREE_NUT))
+        if(allergies.contains(Allergy.NUT))
             treeNutsBox.setSelected(true);
         if(allergies.contains(Allergy.WHEAT))
             wheatBox.setSelected(true);
@@ -73,29 +65,27 @@ public class AllergyWindow extends javax.swing.JFrame {
 
         instructionLabel = new javax.swing.JLabel();
         cornBox = new javax.swing.JCheckBox();
-        fruitBox = new javax.swing.JCheckBox();
         garlicBox = new javax.swing.JCheckBox();
         oatsBox = new javax.swing.JCheckBox();
         milkBox = new javax.swing.JCheckBox();
         peanutsBox = new javax.swing.JCheckBox();
-        fishBox = new javax.swing.JCheckBox();
-        shellfishBox = new javax.swing.JCheckBox();
         soyBox = new javax.swing.JCheckBox();
         treeNutsBox = new javax.swing.JCheckBox();
         wheatBox = new javax.swing.JCheckBox();
         eggsBox = new javax.swing.JCheckBox();
         msgBox = new javax.swing.JCheckBox();
-        sulphitesBox = new javax.swing.JCheckBox();
         toPlannerButton = new javax.swing.JButton();
         backButton = new javax.swing.JButton();
+        warningLabel1 = new javax.swing.JLabel();
+        warningLabel2 = new javax.swing.JLabel();
+        warningLabel3 = new javax.swing.JLabel();
+        warningLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         instructionLabel.setText("Select your allergies below");
 
         cornBox.setText("Corn");
-
-        fruitBox.setText("Fruit");
 
         garlicBox.setText("Garlic");
 
@@ -105,21 +95,15 @@ public class AllergyWindow extends javax.swing.JFrame {
 
         peanutsBox.setText("Peanuts");
 
-        fishBox.setText("Fish");
-
-        shellfishBox.setText("Shellfish");
-
         soyBox.setText("Soy");
 
-        treeNutsBox.setText("Tree nuts");
+        treeNutsBox.setText("Nuts (other)");
 
         wheatBox.setText("Wheat");
 
         eggsBox.setText("Eggs");
 
         msgBox.setText("MSG");
-
-        sulphitesBox.setText("Sulphites");
 
         toPlannerButton.setText("Go to Meal Planner");
         toPlannerButton.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -135,6 +119,14 @@ public class AllergyWindow extends javax.swing.JFrame {
             }
         });
 
+        warningLabel1.setText("Warning: By continuing to Meal Planner, you");
+
+        warningLabel2.setText("acknowledge that you are aware that not all ");
+
+        warningLabel3.setText("dishes containing allergens will be flagged");
+
+        warningLabel4.setText("in this program.");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -145,27 +137,29 @@ public class AllergyWindow extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(cornBox)
-                            .addComponent(fruitBox)
                             .addComponent(garlicBox)
                             .addComponent(oatsBox)
                             .addComponent(milkBox)
                             .addComponent(peanutsBox)
-                            .addComponent(fishBox))
-                        .addGap(72, 72, 72)
+                            .addComponent(backButton))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(sulphitesBox)
-                            .addComponent(msgBox)
-                            .addComponent(eggsBox)
-                            .addComponent(wheatBox)
-                            .addComponent(treeNutsBox)
-                            .addComponent(soyBox)
-                            .addComponent(shellfishBox)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(72, 72, 72)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(msgBox)
+                                    .addComponent(eggsBox)
+                                    .addComponent(wheatBox)
+                                    .addComponent(soyBox)
+                                    .addComponent(treeNutsBox)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(35, 35, 35)
+                                .addComponent(toPlannerButton))))
                     .addComponent(instructionLabel)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(backButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 115, Short.MAX_VALUE)
-                        .addComponent(toPlannerButton)))
-                .addContainerGap())
+                    .addComponent(warningLabel1)
+                    .addComponent(warningLabel2)
+                    .addComponent(warningLabel3)
+                    .addComponent(warningLabel4))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -173,39 +167,37 @@ public class AllergyWindow extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(instructionLabel)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(cornBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(fruitBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(garlicBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(oatsBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(milkBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(peanutsBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(fishBox))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(shellfishBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(soyBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(treeNutsBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(wheatBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(eggsBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(msgBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(sulphitesBox)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(toPlannerButton)
-                    .addComponent(backButton))
+                    .addComponent(cornBox)
+                    .addComponent(soyBox))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(garlicBox)
+                    .addComponent(treeNutsBox))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(oatsBox)
+                    .addComponent(wheatBox))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(milkBox)
+                    .addComponent(eggsBox))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(peanutsBox)
+                    .addComponent(msgBox))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(warningLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(warningLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(warningLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(warningLabel4)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(backButton)
+                    .addComponent(toPlannerButton))
                 .addContainerGap())
         );
 
@@ -234,14 +226,6 @@ public class AllergyWindow extends javax.swing.JFrame {
             _windowManager.getUser().addAllergy(Allergy.EGG);
         else
             _windowManager.getUser().removeAllergy(Allergy.EGG);
-        if(fishBox.isSelected())
-            _windowManager.getUser().addAllergy(Allergy.FISH);
-        else
-            _windowManager.getUser().removeAllergy(Allergy.FISH);
-        if(fruitBox.isSelected())
-            _windowManager.getUser().addAllergy(Allergy.FRUIT);
-        else
-            _windowManager.getUser().removeAllergy(Allergy.FRUIT);
         if(garlicBox.isSelected())
             _windowManager.getUser().addAllergy(Allergy.GARLIC);
         else
@@ -262,22 +246,14 @@ public class AllergyWindow extends javax.swing.JFrame {
             _windowManager.getUser().addAllergy(Allergy.PEANUT);
         else
             _windowManager.getUser().removeAllergy(Allergy.PEANUT);
-        if(shellfishBox.isSelected())
-            _windowManager.getUser().addAllergy(Allergy.SHELLFISH);
-        else
-            _windowManager.getUser().removeAllergy(Allergy.SHELLFISH);
         if(soyBox.isSelected())
             _windowManager.getUser().addAllergy(Allergy.SOY);
         else
             _windowManager.getUser().removeAllergy(Allergy.SOY);
-        if(sulphitesBox.isSelected())
-            _windowManager.getUser().addAllergy(Allergy.SULPHITES);
-        else
-            _windowManager.getUser().removeAllergy(Allergy.SULPHITES);
         if(treeNutsBox.isSelected())
-            _windowManager.getUser().addAllergy(Allergy.TREE_NUT);
+            _windowManager.getUser().addAllergy(Allergy.NUT);
         else
-            _windowManager.getUser().removeAllergy(Allergy.TREE_NUT);
+            _windowManager.getUser().removeAllergy(Allergy.NUT);
         if(wheatBox.isSelected())
             _windowManager.getUser().addAllergy(Allergy.WHEAT);
         else
@@ -302,19 +278,19 @@ public class AllergyWindow extends javax.swing.JFrame {
     private javax.swing.JButton backButton;
     private javax.swing.JCheckBox cornBox;
     private javax.swing.JCheckBox eggsBox;
-    private javax.swing.JCheckBox fishBox;
-    private javax.swing.JCheckBox fruitBox;
     private javax.swing.JCheckBox garlicBox;
     private javax.swing.JLabel instructionLabel;
     private javax.swing.JCheckBox milkBox;
     private javax.swing.JCheckBox msgBox;
     private javax.swing.JCheckBox oatsBox;
     private javax.swing.JCheckBox peanutsBox;
-    private javax.swing.JCheckBox shellfishBox;
     private javax.swing.JCheckBox soyBox;
-    private javax.swing.JCheckBox sulphitesBox;
     private javax.swing.JButton toPlannerButton;
     private javax.swing.JCheckBox treeNutsBox;
+    private javax.swing.JLabel warningLabel1;
+    private javax.swing.JLabel warningLabel2;
+    private javax.swing.JLabel warningLabel3;
+    private javax.swing.JLabel warningLabel4;
     private javax.swing.JCheckBox wheatBox;
     // End of variables declaration//GEN-END:variables
 

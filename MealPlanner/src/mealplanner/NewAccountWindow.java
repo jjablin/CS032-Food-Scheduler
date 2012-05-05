@@ -11,8 +11,10 @@
 
 package mealplanner;
 
+import java.awt.Cursor;
+import java.awt.FlowLayout;
 import java.awt.event.KeyEvent;
-
+import javax.swing.JLabel;
 
 /**
  *
@@ -86,30 +88,6 @@ public class NewAccountWindow extends javax.swing.JFrame {
             }
         });
 
-        // Attempt to create new account when the ENTER key is pressed.
-        usernameField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                createAccountButtonMouseClicked(null);
-           }
-        });
-
-        // Attempt to create new account when the ENTER key is pressed.
-        passwordField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                createAccountButtonMouseClicked(null);
-           }
-        });
-
-        // Attempt to create new account when the ENTER key is pressed.
-        confirmField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                createAccountButtonMouseClicked(null);
-           }
-        });
-
         usernameError.setForeground(java.awt.Color.red);
         usernameError.setText("Error: No username was entered!");
         usernameError.setVisible(false);
@@ -136,29 +114,12 @@ public class NewAccountWindow extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(welcomeLabel)
-                .addContainerGap(227, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(usernameError)
-                .addContainerGap(208, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(322, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(usernameError)
                     .addComponent(goToLoginButton, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(alreadyUserLabel, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(nameTakenError)
-                .addContainerGap(204, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(noPasswordError)
-                .addContainerGap(211, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(alreadyUserLabel, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(nameTakenError)
+                    .addComponent(noPasswordError)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(confirmLabel)
@@ -169,13 +130,11 @@ public class NewAccountWindow extends javax.swing.JFrame {
                             .addComponent(confirmField)
                             .addComponent(passwordField)
                             .addComponent(usernameField)
-                            .addComponent(createAccountButton, javax.swing.GroupLayout.Alignment.TRAILING))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(notConfirmedError)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(confirmationMatchError))
-                .addContainerGap(116, Short.MAX_VALUE))
+                            .addComponent(createAccountButton, javax.swing.GroupLayout.Alignment.TRAILING)))
+                    .addComponent(notConfirmedError)
+                    .addComponent(confirmationMatchError)
+                    .addComponent(welcomeLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 406, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -283,6 +242,16 @@ public class NewAccountWindow extends javax.swing.JFrame {
 
                 _windowManager.setUser(new UserAccount(username, SHAHash.getHash(passwordString)));
                 _windowManager.getDatabase().addUser(_windowManager.getUser());
+
+                //update database if necessary
+                java.util.Calendar now = java.util.Calendar.getInstance();
+                java.util.Calendar dbDate = _windowManager.getDatabase().getCurrentDate();
+                int days = now.get(java.util.Calendar.DAY_OF_YEAR) - dbDate.get(java.util.Calendar.DAY_OF_YEAR);
+                if(days > 0){
+                    becomeUpdatingWindow();
+                    _windowManager.getDatabase().update();
+                }
+
                 _windowManager.showLikeDislikeWindow();
             }
         }
@@ -291,6 +260,35 @@ public class NewAccountWindow extends javax.swing.JFrame {
             confirmationMatchError.setVisible(true);
         }
     }//GEN-LAST:event_createAccountButtonMouseClicked
+
+    private void hideAll()
+    {
+        alreadyUserLabel.setVisible(false);
+        confirmField.setVisible(false);
+        confirmLabel.setVisible(false);
+        confirmationMatchError.setVisible(false);
+        createAccountButton.setVisible(false);
+        goToLoginButton.setVisible(false);
+        nameTakenError.setVisible(false);
+        noPasswordError.setVisible(false);
+        notConfirmedError.setVisible(false);
+        passwordField.setVisible(false);
+        passwordLabel.setVisible(false);
+        usernameError.setVisible(false);
+        usernameField.setVisible(false);
+        usernameLabel.setVisible(false);
+        welcomeLabel.setVisible(false);
+    }
+
+    private void becomeUpdatingWindow()
+    {
+        hideAll();
+        setTitle("Meal Planner - Updating");
+        welcomeLabel.setText("Please wait while we retrieve the menus.");
+        welcomeLabel.setVisible(true);
+        this.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+        this.paint(this.getGraphics());
+    }
 
     private void goToLoginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_goToLoginButtonMouseClicked
         _windowManager.showLoginWindow();

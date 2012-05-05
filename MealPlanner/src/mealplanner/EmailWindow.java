@@ -50,6 +50,11 @@ public class EmailWindow extends javax.swing.JFrame {
         });
 
         unsubscribeButton.setText("Unsubscribe");
+        unsubscribeButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                unsubscribeButtonMouseClicked(evt);
+            }
+        });
 
         notificationLabel.setForeground(java.awt.Color.red);
         notificationLabel.setText("Error: email addresses do not match!");
@@ -136,7 +141,8 @@ public class EmailWindow extends javax.swing.JFrame {
         }
         else if(email.equals(confirmation))
         {
-            //TODO: sign them up!
+            _windowManager.getUser().setEmail(email);
+            _windowManager.getDatabase().updateUser(_windowManager.getUser());
             notificationLabel.setText("You've been signed up!");
             notificationLabel.setVisible(true);
         }
@@ -150,6 +156,13 @@ public class EmailWindow extends javax.swing.JFrame {
     private void nextButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonMouseClicked
         _windowManager.showAllergyWindow();
     }//GEN-LAST:event_nextButtonMouseClicked
+
+    private void unsubscribeButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_unsubscribeButtonMouseClicked
+        _windowManager.getUser().setEmail("");
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+        notificationLabel.setText("You've been unsubscribed.");
+        notificationLabel.setVisible(true);
+    }//GEN-LAST:event_unsubscribeButtonMouseClicked
 
     /**
     * @param args the command line arguments

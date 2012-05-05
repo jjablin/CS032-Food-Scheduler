@@ -55,13 +55,12 @@ public class FoodDatabase {
     createTable("dishes", variables);
   }
 
-  public static Calendar StringToCalendar(String now) {
-    System.out.println(now);
+  public static Calendar StringToCalendar(String now) {    
     Calendar day = Calendar.getInstance();
-    String[] parts = now.split("-");
-    day.set(Calendar.YEAR, Integer.parseInt(parts[0]));
-    day.set(Calendar.MONTH, Integer.parseInt(parts[1]) - 1);
-    day.set(Calendar.DATE, Integer.parseInt(parts[2]));
+    String[] parts = now.split("/");
+    day.set(Calendar.MONTH, Integer.parseInt(parts[0]));
+    day.set(Calendar.DATE, Integer.parseInt(parts[1]));
+    day.set(Calendar.YEAR, Integer.parseInt(parts[2]));
     return day;
   }
 
@@ -73,9 +72,14 @@ public class FoodDatabase {
 
     StringBuilder cmd = new StringBuilder();
     cmd.append("select max(date) from dishes");
-    executeSelect(cmd.toString()).iterator().next();
-    java.util.Date date = (java.util.Date)executeSelect(cmd.toString()).iterator().next();
-    return StringToCalendar(date.toString());
+    TreeSet resultSet = executeSelect(cmd.toString());
+    String date = new String("01/01/2012");
+    if(!resultSet.isEmpty()) {
+        String max = (String)resultSet.iterator().next();        
+        if(max != null)
+            date = max;
+    }
+    return StringToCalendar(date);
   }
 
   public static String CalendarToString(Calendar now) {
