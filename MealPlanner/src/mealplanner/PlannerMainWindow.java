@@ -11,6 +11,7 @@
 package mealplanner;
 
 import java.awt.Color;
+import java.awt.Cursor;
 import java.util.Calendar;
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -32,6 +33,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
 
     /** Creates new form PlannerMainWindow */
     public PlannerMainWindow(WindowManager wm) {
+        this.setCursor(Cursor.getDefaultCursor());
         _windowManager = wm;
         _meal = new Meal("breakfast");
         _day = Day.MONDAY; //this should be the current day

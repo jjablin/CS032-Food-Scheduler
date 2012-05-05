@@ -12,8 +12,6 @@ public class Main {
         FoodDatabase fd = new FoodDatabase("./database/database");
         fd.createUsersTable();
         fd.createDishesTable();
-        //TODO: check if we need to update
-        //fd.update();
         //fd.writeDishesCSV("dishes_table");
         WindowManager wm = new WindowManager(fd);
     }

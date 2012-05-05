@@ -7,14 +7,12 @@ package mealplanner;
 import java.awt.Color;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.TreeSet;
 import java.util.Iterator;
 import java.util.List;
 import javax.swing.*;
-import javax.swing.JSpinner.DefaultEditor;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
@@ -99,14 +97,37 @@ public class DinerPanel extends JSplitPane {
         ArrayList<MarkedDish> likes = new ArrayList<MarkedDish>();
         ArrayList<MarkedDish> dislikes = new ArrayList<MarkedDish>();
         ArrayList<MarkedDish> noPrefs = new ArrayList<MarkedDish>();
+        ArrayList<MarkedDish> allergies = new ArrayList<MarkedDish>();
         for(int i = 0; i < meal.size(); i++)
         {
             MarkedDish d = meal.get(i);
+
+            //check if it has allergins
+            boolean allergic = false;
+            Iterator<Allergy> allergyItr = _windowManager.getUser().getAllergies().iterator();
+            while (allergyItr.hasNext()) {
+                Allergy next = allergyItr.next();
+                String allergy = next.getName();
+                ArrayList<String> ingredients = d.getIngredients();
+                for(int j = 0; j < ingredients.size(); j++)
+                {
+                    if(ingredients.get(j).contains(allergy))
+                    {
+                        allergic = true;
+                        break;
+                    }
+                }
+            }
+
             if (_windowManager.getUser().getDislikes().contains(d.getName())) {
                 dislikes.add(d);
             }
             else if (_windowManager.getUser().getLikes().contains(d.getName())) {
                 likes.add(d);
+            }
+            else if(allergic)
+            {
+                allergies.add(d);
             }
             else
             {
@@ -171,19 +192,33 @@ public class DinerPanel extends JSplitPane {
         TreeSet<Dish> menu = _parent.getMenu();
         ArrayList<Dish> noPreferences = new ArrayList<Dish>();
         ArrayList<Dish> dislikes = new ArrayList<Dish>();
+        ArrayList<Dish> allergies = new ArrayList<Dish>();
         //sort the dishes by preference and display the liked dishes
         Iterator itr = menu.iterator();
         while (itr.hasNext()) {
             Dish d = (Dish) itr.next();
             //check if it has allergins
             boolean allergic = false;
-            Iterator allergyItr = _windowManager.getUser().getAllergies().iterator();
+            Iterator<Allergy> allergyItr = _windowManager.getUser().getAllergies().iterator();
             while (allergyItr.hasNext()) {
-                if (d.getIngredients().contains(allergyItr.next())) {
-                    allergic = true;
+                Allergy next = allergyItr.next();
+                String allergy = next.getName();
+                ArrayList<String> ingredients = d.getIngredients();
+                for(int i = 0; i < ingredients.size(); i++)
+                {
+                    if(ingredients.get(i).contains(allergy))
+                    {
+                        allergic = true;
+                        break;
+                    }
                 }
             }
-            if (_windowManager.getUser().getDislikes().contains(d.getName()) || allergic) {
+
+            if(allergic)
+            {
+                allergies.add(d);
+            }
+            else if (_windowManager.getUser().getDislikes().contains(d.getName())) {
                 dislikes.add(d);
             } else if (_windowManager.getUser().getLikes().contains(d.getName())) {
                 JLabel dishLabel = new JLabel(d.getName());
@@ -206,6 +241,15 @@ public class DinerPanel extends JSplitPane {
             Dish d = dislikes.get(i);
             JLabel dishLabel = new JLabel(d.getName());
             dishLabel.setForeground(Color.RED);
+            dishLabel.addMouseListener(new DishListener(this));
+            _menuDisplay.add(dishLabel);
+        }
+
+        //display the allergy dishes
+        for (int i = 0; i < allergies.size(); i++) {
+            Dish d = allergies.get(i);
+            JLabel dishLabel = new JLabel(d.getName());
+            dishLabel.setForeground(Color.YELLOW);
             dishLabel.addMouseListener(new DishListener(this));
             _menuDisplay.add(dishLabel);
         }

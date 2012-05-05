@@ -18,6 +18,7 @@ public class UserAccount extends NullAccount implements Comparable {
   Set<String> _likes;
   Set<String> _dislikes;
   Set<Allergy> _allergies;
+  String _email;
   double _fatGoal;
   double _proteinGoal;
   double _carbGoal;
@@ -33,6 +34,7 @@ public class UserAccount extends NullAccount implements Comparable {
     _likes = new HashSet<String>();
     _dislikes = new HashSet<String>();
     _allergies = new HashSet<Allergy>();
+    _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
     _fatGoal = 0;
@@ -49,6 +51,7 @@ public class UserAccount extends NullAccount implements Comparable {
     _likes = new HashSet<String>();
     _dislikes = new HashSet<String>();
     _allergies = new HashSet<Allergy>();
+    _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
     _fatGoal = 0;
@@ -67,12 +70,23 @@ public class UserAccount extends NullAccount implements Comparable {
     _likes = likes;
     _dislikes = dislikes;
     _allergies = allergies;
+    _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
     _fatGoal = 0;
     _proteinGoal = 0;
     _carbGoal = 0;
     _calGoal = 0;
+  }
+
+  public String getEmail()
+  {
+      return _email;
+  }
+
+  public void setEmail(String email)
+  {
+      _email = email;
   }
 
   public double getFatGoal()

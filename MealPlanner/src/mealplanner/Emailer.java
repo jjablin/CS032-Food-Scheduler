@@ -9,9 +9,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
@@ -70,8 +69,12 @@ public class Emailer {
         }
         return dayOfWeek;
     }
-    public void sendEmail(String userAdress, List<Dish> userlikes){
+    public void sendEmail(String userAdress, Set<String> userlikes){
 
+        if(userAdress.isEmpty())
+        {
+            return;
+        }
          try{
              File f = new File(EMAIL_TEXT_FILE);
              if(f.canWrite() && f.canRead()){
@@ -83,8 +86,10 @@ public class Emailer {
                  _fwriter.newLine();
                  _fwriter.newLine();
 
-                 for(int x =0;x<userlikes.size();x++){
-                     _fwriter.write(userlikes.get(x).getName() + " is available at the " +userlikes.get(x).getLocation() + " on " + GetDay((userlikes.get(x).getDate().getTime().getDay())));
+                 Iterator<String> likesItr = userlikes.iterator();
+                 while(likesItr.hasNext()){
+                     String next = likesItr.next();
+                     _fwriter.write(next);
                      _fwriter.newLine();
                  }
                  _fwriter.flush();
@@ -96,7 +101,6 @@ public class Emailer {
 
          }
         ExecutorService thread = Executors.newSingleThreadExecutor();
-        System.out.println("mutt"+" -s "+" Dining Information Update " + userAdress + "<"+EMAIL_TEXT_FILE);
         String[] cmd = {"./Mailer",userAdress};
         RunFuture(thread, cmd);
     }
