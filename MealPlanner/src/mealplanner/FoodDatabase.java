@@ -55,6 +55,29 @@ public class FoodDatabase {
     createTable("dishes", variables);
   }
 
+  public static Calendar StringToCalendar(String now) {
+    System.out.println(now);
+    Calendar day = Calendar.getInstance();
+    String[] parts = now.split("-");
+    day.set(Calendar.YEAR, Integer.parseInt(parts[0]));
+    day.set(Calendar.MONTH, Integer.parseInt(parts[1]) - 1);
+    day.set(Calendar.DATE, Integer.parseInt(parts[2]));
+    return day;
+  }
+
+  public Calendar getCurrentDate() {
+    /* To calculate the number of days since the dishes table has been updated... */
+    //java.util.Calendar now = java.util.Calendar.getInstance();
+    //java.util.Calendar dbDate = fd.getCurrentDate();
+    //int days = now.get(java.util.Calendar.DAY_OF_YEAR) - dbDate.get(java.util.Calendar.DAY_OF_YEAR);
+
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select max(date) from dishes");
+    executeSelect(cmd.toString()).iterator().next();
+    java.util.Date date = (java.util.Date)executeSelect(cmd.toString()).iterator().next();
+    return StringToCalendar(date.toString());
+  }
+
   public static String CalendarToString(Calendar now) {
     return new String(now.get(Calendar.MONTH) + "/" +
                       now.get(Calendar.DATE) + "/" +
