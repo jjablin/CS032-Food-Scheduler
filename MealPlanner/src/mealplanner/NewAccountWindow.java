@@ -11,6 +11,8 @@
 
 package mealplanner;
 
+import java.awt.event.KeyEvent;
+
 
 /**
  *
@@ -49,6 +51,7 @@ public class NewAccountWindow extends javax.swing.JFrame {
         noPasswordError = new javax.swing.JLabel();
         notConfirmedError = new javax.swing.JLabel();
         confirmationMatchError = new javax.swing.JLabel();
+        nameTakenError = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Meal Planner - Create Account");
@@ -56,15 +59,8 @@ public class NewAccountWindow extends javax.swing.JFrame {
         goToLoginButton.setText("Log in");
         goToLoginButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                goToLoginButtonMouseClicked();
+                goToLoginButtonMouseClicked(evt);
             }
-        });
-        // Attempt to go back to login window when ENTER key is pressed.
-        goToLoginButton.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                goToLoginButtonMouseClicked();
-           }
         });
 
         welcomeLabel.setText("Get started with Meal Planner!");
@@ -77,18 +73,17 @@ public class NewAccountWindow extends javax.swing.JFrame {
 
         confirmLabel.setText("Confirm Password:");
 
+        confirmField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                confirmFieldKeyPressed(evt);
+            }
+        });
+
         createAccountButton.setText("Create Account");
         createAccountButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                createAccountButtonMouseClicked();
+                createAccountButtonMouseClicked(evt);
             }
-        });
-        // Attempt to create a new account when ENTER key is pressed.
-        createAccountButton.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent e) {
-              if(e.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER)
-                createAccountButtonMouseClicked();
-           }
         });
 
         usernameError.setForeground(java.awt.Color.red);
@@ -106,6 +101,10 @@ public class NewAccountWindow extends javax.swing.JFrame {
         confirmationMatchError.setForeground(java.awt.Color.red);
         confirmationMatchError.setText("Error: Password and confirmation do not match!");
         confirmationMatchError.setVisible(false);
+
+        nameTakenError.setForeground(java.awt.Color.red);
+        nameTakenError.setText("Error: Username is already in use!");
+        nameTakenError.setVisible(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -127,28 +126,31 @@ public class NewAccountWindow extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(confirmLabel)
-                    .addComponent(passwordLabel)
-                    .addComponent(usernameLabel))
-                .addGap(12, 12, 12)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(confirmField)
-                    .addComponent(passwordField)
-                    .addComponent(usernameField)
-                    .addComponent(createAccountButton, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addContainerGap(182, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(notConfirmedError)
-                .addContainerGap(195, Short.MAX_VALUE))
+                .addComponent(nameTakenError)
+                .addContainerGap(204, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(noPasswordError)
                 .addContainerGap(211, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(confirmationMatchError)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(confirmLabel)
+                            .addComponent(passwordLabel)
+                            .addComponent(usernameLabel))
+                        .addGap(12, 12, 12)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(confirmField)
+                            .addComponent(passwordField)
+                            .addComponent(usernameField)
+                            .addComponent(createAccountButton, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(notConfirmedError)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(confirmationMatchError))
                 .addContainerGap(116, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -158,6 +160,8 @@ public class NewAccountWindow extends javax.swing.JFrame {
                 .addComponent(welcomeLabel)
                 .addGap(11, 11, 11)
                 .addComponent(usernameError)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(nameTakenError)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(noPasswordError)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -178,7 +182,7 @@ public class NewAccountWindow extends javax.swing.JFrame {
                     .addComponent(confirmLabel))
                 .addGap(18, 18, 18)
                 .addComponent(createAccountButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
                 .addComponent(alreadyUserLabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(goToLoginButton)
@@ -188,13 +192,20 @@ public class NewAccountWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void goToLoginButtonMouseClicked() {//GEN-FIRST:event_goToLoginButtonMouseClicked
-       _windowManager.showLoginWindow();
-    }//GEN-LAST:event_goToLoginButtonMouseClicked
+    private void confirmFieldKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_confirmFieldKeyPressed
+        if(evt.getKeyCode() == KeyEvent.VK_ENTER)
+        {
+            createAccountButtonMouseClicked(null);
+        }
+    }//GEN-LAST:event_confirmFieldKeyPressed
 
-    private void createAccountButtonMouseClicked() {//GEN-FIRST:event_createAccountButtonMouseClicked
+    /*
+     * This method does not use evt, so it can be called from other methods and passed null
+     */
+    private void createAccountButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_createAccountButtonMouseClicked
         //hide all error messages and then display them as needed
         usernameError.setVisible(false);
+        nameTakenError.setVisible(false);
         noPasswordError.setVisible(false);
         notConfirmedError.setVisible(false);
         confirmationMatchError.setVisible(false);
@@ -203,6 +214,11 @@ public class NewAccountWindow extends javax.swing.JFrame {
         if(username.isEmpty())
         {
             usernameError.setVisible(true);
+            createAccount = false;
+        }
+        if(_windowManager.getDatabase().getUser(username).isValid())
+        { //an account already exists with this username
+            nameTakenError.setVisible(true);
             createAccount = false;
         }
         char[] password = passwordField.getPassword();
@@ -240,8 +256,8 @@ public class NewAccountWindow extends javax.swing.JFrame {
                 {
                     passwordString = passwordString + password[i];
                 }
-                _windowManager._user = new UserAccount(username, passwordString);
-                _windowManager.getDatabase().addUser(_windowManager._user);
+                _windowManager.setUser(new UserAccount(username, passwordString));
+                _windowManager.getDatabase().addUser(_windowManager.getUser());
                 _windowManager.showLikeDislikeWindow();
             }
         }
@@ -250,6 +266,10 @@ public class NewAccountWindow extends javax.swing.JFrame {
             confirmationMatchError.setVisible(true);
         }
     }//GEN-LAST:event_createAccountButtonMouseClicked
+
+    private void goToLoginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_goToLoginButtonMouseClicked
+        _windowManager.showLoginWindow();
+    }//GEN-LAST:event_goToLoginButtonMouseClicked
 
     /**
     * @param args the command line arguments
@@ -268,6 +288,7 @@ public class NewAccountWindow extends javax.swing.JFrame {
     private javax.swing.JLabel confirmationMatchError;
     private javax.swing.JButton createAccountButton;
     private javax.swing.JButton goToLoginButton;
+    private javax.swing.JLabel nameTakenError;
     private javax.swing.JLabel noPasswordError;
     private javax.swing.JLabel notConfirmedError;
     private javax.swing.JPasswordField passwordField;

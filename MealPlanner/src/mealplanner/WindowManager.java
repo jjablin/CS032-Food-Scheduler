@@ -14,7 +14,7 @@ import javax.swing.JFrame;
 public class WindowManager {
     
     private JFrame _frame;
-    public UserAccount _user;
+    private UserAccount _user;
     private FoodDatabase _database;
 
     public WindowManager(FoodDatabase fd)
@@ -32,6 +32,16 @@ public class WindowManager {
          //center the frame in the middle of the screen
          _frame.setLocationRelativeTo(null);
          _frame.setVisible(true);
+    }
+
+    public UserAccount getUser()
+    {
+        return _user;
+    }
+
+    public void setUser(UserAccount user)
+    {
+        _user = user;
     }
 
     public FoodDatabase getDatabase()
@@ -54,6 +64,12 @@ public class WindowManager {
     public void showLikeDislikeWindow()
     {
         JFrame f = new LikeDislikeWindow(this);
+        switchFrame(f);
+    }
+
+    public void showEmailWindow()
+    {
+        JFrame f = new EmailWindow(this);
         switchFrame(f);
     }
 

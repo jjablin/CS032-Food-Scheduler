@@ -9,25 +9,27 @@ package mealplanner;
  *
  * @author seadams
  */
-public class MarkedDishKey implements Comparable {
+import java.io.Serializable;
+
+public class MarkedDishKey implements Comparable,Serializable {
 
   private Location _location;
   private Meal _meal;
-  private Day _day;
+  private String _date;
 
-  public MarkedDishKey(Location location, Meal meal, Day day) {
+  public MarkedDishKey(Location location, Meal meal, String date) {
     _location = location;
     _meal = meal;
-    _day = day;
+    _date = date;
   }
 
   public int compareTo(Object obj) {
     String objStr = new String(((MarkedDishKey)obj)._location.toString() +
                                ((MarkedDishKey)obj)._meal.toString() +
-                               ((MarkedDishKey)obj)._day.toString());
+                               ((MarkedDishKey)obj)._date);
     String thisStr = new String(_location.toString() +
                                 _meal.toString() +
-                                _day.toString());
+                                _date);
     return thisStr.compareTo(objStr);
   }
 }

@@ -17,9 +17,10 @@ import java.awt.GridLayout;
 import java.awt.Panel;
 import java.awt.Checkbox;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 import java.util.TreeSet;
-import javax.swing.JLabel;
-import javax.swing.JViewport;
+import javax.swing.*;
 
 /**
  *
@@ -33,6 +34,49 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
     public LikeDislikeWindow(WindowManager wm) {
         initComponents();
         _windowManager = wm;
+        showCurrentPreferences();
+    }
+
+    private void showCurrentPreferences()
+    {
+        Set<String> likes = _windowManager.getUser().getLikes();
+        Set<String> dislikes = _windowManager.getUser().getDislikes();
+
+        //clear any old like labels
+        int numLikesLabels = likesPanel.getComponentCount();
+        for(int i = 0; i < numLikesLabels; i++)
+        {
+            likesPanel.remove(0);
+        }
+
+        //display all likes
+        Iterator likesItr = likes.iterator();
+        while(likesItr.hasNext())
+        {
+            String nextLike = (String) likesItr.next();
+            JLabel nextLabel = new JLabel(nextLike);
+            likesPanel.add(nextLabel);
+        }
+
+        //clear any old dislike labels
+        int numDislikesLabels = dislikesPanel.getComponentCount();
+        for(int i = 0; i < numDislikesLabels; i++)
+        {
+            dislikesPanel.remove(0);
+        }
+
+        //display all dislikes
+        Iterator dislikesItr = dislikes.iterator();
+        while(dislikesItr.hasNext())
+        {
+            String nextLike = (String) dislikesItr.next();
+            JLabel nextLabel = new JLabel(nextLike);
+            dislikesPanel.add(nextLabel);
+        }
+
+        //display changes
+        likesPanel.paintAll(likesPanel.getGraphics());
+        dislikesPanel.paintAll(dislikesPanel.getGraphics());
     }
 
     /** This method is called from within the constructor to
@@ -51,11 +95,17 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         resultDisplay = new javax.swing.JScrollPane();
         clearDislikesButton = new javax.swing.JButton();
         clearLikesButton = new javax.swing.JButton();
-        toAllergiesButton = new javax.swing.JButton();
+        nextButton = new javax.swing.JButton();
+        likesLabel = new javax.swing.JLabel();
+        dislikesLabel = new javax.swing.JLabel();
+        likesPane = new javax.swing.JScrollPane();
+        likesPanel = new javax.swing.JPanel();
+        dislikesPane = new javax.swing.JScrollPane();
+        dislikesPanel = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        instructionLabel.setText("Search for and enter you likes and dislikes below");
+        instructionLabel.setText("Search for and enter your likes and dislikes below");
         instructionLabel.setAlignmentY(this.CENTER_ALIGNMENT);
 
         dishLabel.setText("Dish:");
@@ -82,12 +132,46 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
             }
         });
 
-        toAllergiesButton.setText("Go to Allergy Preferences");
-        toAllergiesButton.addMouseListener(new java.awt.event.MouseAdapter() {
+        nextButton.setText("Next");
+        nextButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                toAllergiesButtonMouseClicked(evt);
+                nextButtonMouseClicked(evt);
             }
         });
+
+        likesLabel.setText("Likes:");
+
+        dislikesLabel.setText("Dislikes:");
+
+        javax.swing.GroupLayout likesPanelLayout = new javax.swing.GroupLayout(likesPanel);
+        likesPanel.setLayout(likesPanelLayout);
+        likesPanelLayout.setHorizontalGroup(
+            likesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 162, Short.MAX_VALUE)
+        );
+        likesPanelLayout.setVerticalGroup(
+            likesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 262, Short.MAX_VALUE)
+        );
+
+        likesPanel.setLayout(new BoxLayout(likesPanel, BoxLayout.Y_AXIS));
+
+        likesPane.setViewportView(likesPanel);
+
+        javax.swing.GroupLayout dislikesPanelLayout = new javax.swing.GroupLayout(dislikesPanel);
+        dislikesPanel.setLayout(dislikesPanelLayout);
+        dislikesPanelLayout.setHorizontalGroup(
+            dislikesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 159, Short.MAX_VALUE)
+        );
+        dislikesPanelLayout.setVerticalGroup(
+            dislikesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 262, Short.MAX_VALUE)
+        );
+
+        dislikesPanel.setLayout(new BoxLayout(dislikesPanel, BoxLayout.Y_AXIS));
+
+        dislikesPane.setViewportView(dislikesPanel);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -95,6 +179,14 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(clearLikesButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(clearDislikesButton))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap(881, Short.MAX_VALUE)
+                        .addComponent(nextButton))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(50, 50, 50)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -105,18 +197,18 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
                             .addComponent(instructionLabel)))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(searchResultsLabel))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(resultDisplay, javax.swing.GroupLayout.DEFAULT_SIZE, 569, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(clearLikesButton)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(resultDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(searchResultsLabel))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(clearDislikesButton))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(410, Short.MAX_VALUE)
-                        .addComponent(toAllergiesButton)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(likesLabel)
+                            .addComponent(likesPane, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(dislikesLabel)
+                            .addComponent(dislikesPane, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -129,15 +221,21 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
                     .addComponent(dishLabel)
                     .addComponent(dishField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(searchResultsLabel)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(searchResultsLabel)
+                    .addComponent(likesLabel)
+                    .addComponent(dislikesLabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(resultDisplay, javax.swing.GroupLayout.DEFAULT_SIZE, 252, Short.MAX_VALUE)
-                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(dislikesPane, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
+                    .addComponent(likesPane, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
+                    .addComponent(resultDisplay, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(clearDislikesButton)
                     .addComponent(clearLikesButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(toAllergiesButton)
+                .addComponent(nextButton)
                 .addContainerGap())
         );
 
@@ -166,7 +264,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
 }//GEN-LAST:event_dishFieldKeyTyped
 
     private void clearLikesButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearLikesButtonMouseClicked
-        _windowManager._user.clearLikes(); //clears the user object's likes
+        _windowManager.getUser().clearLikes(); //clears the user object's likes
         //update the window to show the likes have been cleared
          JViewport v = resultDisplay.getViewport();
         Component [] c = v.getComponents(); //returns the panel containing panels made by toComponent()
@@ -182,11 +280,11 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
                 noPrefBox.setState(true);
             }
         }
-
+        showCurrentPreferences();
     }//GEN-LAST:event_clearLikesButtonMouseClicked
 
     private void clearDislikesButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearDislikesButtonMouseClicked
-        _windowManager._user.clearDislikes(); //clears the user object's dislikes
+        _windowManager.getUser().clearDislikes(); //clears the user object's dislikes
         //update the window to show the dislikes have been cleared
          JViewport v = resultDisplay.getViewport();
         Component [] c = v.getComponents(); //returns the panel containing panels made by toComponent()
@@ -202,12 +300,13 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
                 noPrefBox.setState(true);
             }
         }
+        showCurrentPreferences();
     }//GEN-LAST:event_clearDislikesButtonMouseClicked
 
-    private void toAllergiesButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_toAllergiesButtonMouseClicked
-        _windowManager.getDatabase().updateUser(_windowManager._user);
-        _windowManager.showAllergyWindow();
-    }//GEN-LAST:event_toAllergiesButtonMouseClicked
+    private void nextButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonMouseClicked
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+        _windowManager.showEmailWindow();
+}//GEN-LAST:event_nextButtonMouseClicked
 
     private Component toComponent(String dish)
     {
@@ -223,11 +322,11 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         p.add(likeBox);
         p.add(dislikeBox);
         p.add(noPreferenceBox);
-        if(_windowManager._user.getLikes().contains(dish))
+        if(_windowManager.getUser().getLikes().contains(dish))
         {
             likeBox.setState(true);
         }
-        else if(_windowManager._user.getDislikes().contains(dish))
+        else if(_windowManager.getUser().getDislikes().contains(dish))
         {
             dislikeBox.setState(true);
         }
@@ -261,8 +360,13 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         Panel p = (Panel) evt.getComponent().getParent();
         JLabel l = (JLabel) p.getComponent(0);
         String dishName = l.getText();
-        _windowManager._user.removeDislike(dishName); //must remove from dislikes before adding to likes bcs of implementation in UserAccount
-        _windowManager._user.addLike(dishName);
+        if(! _windowManager.getUser().getLikes().contains(dishName))
+        {
+            _windowManager.getUser().removeDislike(dishName);
+            //must remove from dislikes before adding to likes bcs of implementation in UserAccount
+            _windowManager.getUser().addLike(dishName);
+            showCurrentPreferences();
+        }
     }
 
     private void dislikeBoxClicked(java.awt.event.MouseEvent evt)
@@ -270,8 +374,13 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         Panel p = (Panel) evt.getComponent().getParent();
         JLabel l = (JLabel) p.getComponent(0);
         String dishName = l.getText();
-        _windowManager._user.removeLike(dishName);//must remove from likes before adding to likes bcs of implementation in UserAccount
-        _windowManager._user.addDislike(dishName);
+        if(! _windowManager.getUser().getDislikes().contains(dishName))
+        {
+            _windowManager.getUser().removeLike(dishName);//must remove from likes before adding to likes bcs of implementation in UserAccount
+            _windowManager.getUser().addDislike(dishName);
+            dislikesPanel.add(new JLabel(dishName));
+            showCurrentPreferences();
+        }
     }
 
     private void noPreferenceBoxClicked(java.awt.event.MouseEvent evt)
@@ -279,8 +388,9 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         Panel p = (Panel) evt.getComponent().getParent();
         JLabel l = (JLabel) p.getComponent(0);
         String dishName = l.getText();
-        _windowManager._user.removeDislike(dishName);
-        _windowManager._user.removeLike(dishName);
+        _windowManager.getUser().removeDislike(dishName);
+        _windowManager.getUser().removeLike(dishName);
+        showCurrentPreferences();
     }
 
     /**
@@ -298,10 +408,16 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
     private javax.swing.JButton clearLikesButton;
     private javax.swing.JTextField dishField;
     private javax.swing.JLabel dishLabel;
+    private javax.swing.JLabel dislikesLabel;
+    private javax.swing.JScrollPane dislikesPane;
+    private javax.swing.JPanel dislikesPanel;
     private javax.swing.JLabel instructionLabel;
+    private javax.swing.JLabel likesLabel;
+    private javax.swing.JScrollPane likesPane;
+    private javax.swing.JPanel likesPanel;
+    private javax.swing.JButton nextButton;
     private javax.swing.JScrollPane resultDisplay;
     private javax.swing.JLabel searchResultsLabel;
-    private javax.swing.JButton toAllergiesButton;
     // End of variables declaration//GEN-END:variables
 
 }

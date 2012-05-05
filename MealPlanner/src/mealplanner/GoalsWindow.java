@@ -21,8 +21,45 @@ public class GoalsWindow extends javax.swing.JFrame {
 
     /** Creates new form GoalsWindow */
     public GoalsWindow(WindowManager wm) {
-        initComponents();
         _windowManager = wm;
+        initComponents();
+        displayValues();
+    }
+
+    private void displayValues()
+    {
+        double fatGrams = _windowManager.getUser().getFatGoal();
+        fatGramsField.setText(Double.toString(fatGrams));
+        fatCalsField.setText(Double.toString(fatGramsToCals(fatGrams)));
+
+        double proteinGrams = _windowManager.getUser().getProteinGoal();
+        proteinGramsField.setText(Double.toString(proteinGrams));
+        proteinCalsField.setText(Double.toString(proteinGramsToCals(proteinGrams)));
+
+        double carbGrams = _windowManager.getUser().getCarbGoal();
+        carbGramsField.setText(Double.toString(carbGrams));
+        carbCalsField.setText(Double.toString(carbGramsToCals(carbGrams)));
+
+        double totalCals = _windowManager.getUser().getCalGoal();
+        totalCalsField.setText(Double.toString(totalCals));
+    }
+
+    public double fatGramsToCals(double grams)
+    {
+        double calsPerGram = 9; //http://en.wikipedia.org/wiki/Food_energy
+        return grams * calsPerGram;
+    }
+
+    public double proteinGramsToCals(double grams)
+    {
+        double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
+        return grams * calsPerGram;
+    }
+
+    public double carbGramsToCals(double grams)
+    {
+        double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
+        return grams * calsPerGram;
     }
 
     /** This method is called from within the constructor to
@@ -96,10 +133,20 @@ public class GoalsWindow extends javax.swing.JFrame {
                 fatCalsFieldFocusLost(evt);
             }
         });
+        fatCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+            public void propertyChange(java.beans.PropertyChangeEvent evt) {
+                fatCalsFieldPropertyChange(evt);
+            }
+        });
 
         proteinCalsField.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 proteinCalsFieldFocusLost(evt);
+            }
+        });
+        proteinCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+            public void propertyChange(java.beans.PropertyChangeEvent evt) {
+                proteinCalsFieldPropertyChange(evt);
             }
         });
 
@@ -114,6 +161,11 @@ public class GoalsWindow extends javax.swing.JFrame {
                 carbCalsFieldFocusLost(evt);
             }
         });
+        carbCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+            public void propertyChange(java.beans.PropertyChangeEvent evt) {
+                carbCalsFieldPropertyChange(evt);
+            }
+        });
 
         calLabel1.setText("Calories");
 
@@ -126,6 +178,11 @@ public class GoalsWindow extends javax.swing.JFrame {
         totalCalsField.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 totalCalsFieldFocusLost(evt);
+            }
+        });
+        totalCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+            public void propertyChange(java.beans.PropertyChangeEvent evt) {
+                totalCalsFieldPropertyChange(evt);
             }
         });
 
@@ -228,7 +285,7 @@ public class GoalsWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void toPlannerButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_toPlannerButtonMouseClicked
-       //_windowManager._user.setGoals();
+       //_windowManager.getUser().setGoals();
         _windowManager.showPlannerMainWindow();
     }//GEN-LAST:event_toPlannerButtonMouseClicked
 
@@ -241,8 +298,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         catch(NumberFormatException e){
             grams = 0; //assume a value of zero if the input can not be parsed to a double
         }
-        double calsPerGram = 9; //http://en.wikipedia.org/wiki/Food_energy
-        double cals = calsPerGram * grams;
+        double cals = fatGramsToCals(grams);
         fatCalsField.setText(Double.toString(cals));
         updateTotalCals();
     }//GEN-LAST:event_fatGramsFieldFocusLost
@@ -256,8 +312,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         catch(NumberFormatException e){
             grams = 0; //assume a value of zero if the input can not be parsed to a double
         }
-        double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
-        double cals = calsPerGram * grams;
+        double cals = proteinGramsToCals(grams);
         proteinCalsField.setText(Double.toString(cals));
         updateTotalCals();
     }//GEN-LAST:event_proteinGramsFieldFocusLost
@@ -271,8 +326,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         catch(NumberFormatException e){
             grams = 0; //assume a value of zero if the input can not be parsed to a double
         }
-        double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
-        double cals = calsPerGram * grams;
+        double cals = carbGramsToCals(grams);
         carbCalsField.setText(Double.toString(cals));
         updateTotalCals();
     }//GEN-LAST:event_carbGramsFieldFocusLost
@@ -351,6 +405,30 @@ public class GoalsWindow extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_totalCalsFieldFocusLost
 
+    private void fatCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_fatCalsFieldPropertyChange
+        double fatCals = getFatCals();
+        _windowManager.getUser().setFatGoal(fatCals);
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+    }//GEN-LAST:event_fatCalsFieldPropertyChange
+
+    private void proteinCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_proteinCalsFieldPropertyChange
+        double proteinCals = getProteinCals();
+        _windowManager.getUser().setProteinGoal(proteinCals);
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+    }//GEN-LAST:event_proteinCalsFieldPropertyChange
+
+    private void carbCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_carbCalsFieldPropertyChange
+        double carbCals = getCarbCals();
+        _windowManager.getUser().setCarbGoal(carbCals);
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+    }//GEN-LAST:event_carbCalsFieldPropertyChange
+
+    private void totalCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_totalCalsFieldPropertyChange
+        double totalCals = getTotalCals();
+        _windowManager.getUser().setCalGoal(totalCals);
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+    }//GEN-LAST:event_totalCalsFieldPropertyChange
+
     //returns the double representation of the value of the text in fatCalsField
     //if it can not be parsed to a double, returns 0
     private double getFatCals()
@@ -391,6 +469,18 @@ public class GoalsWindow extends javax.swing.JFrame {
             carbCals = 0;
         }
         return carbCals;
+    }
+
+    private double getTotalCals()
+    {
+        String calsString = totalCalsField.getText();
+        double cals;
+        try{
+            cals = Double.parseDouble(calsString);
+        } catch(NumberFormatException e){
+            cals = 0;
+        }
+        return cals;
     }
 
     //updates the total Calories field with the total from the other 3 calorie fields

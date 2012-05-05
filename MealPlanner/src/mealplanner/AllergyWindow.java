@@ -31,7 +31,7 @@ public class AllergyWindow extends javax.swing.JFrame {
 
     private void selectAllergies()
     {
-        Set<Allergy> allergies = _windowManager._user.getAllergies();
+        Set<Allergy> allergies = _windowManager.getUser().getAllergies();
         if(allergies.contains(Allergy.CORN))
             cornBox.setSelected(true);
         if(allergies.contains(Allergy.EGG))
@@ -214,74 +214,77 @@ public class AllergyWindow extends javax.swing.JFrame {
 
     private void backButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_backButtonMouseClicked
         saveAllergies();
-         _windowManager.getDatabase().updateUser(_windowManager._user);
+         _windowManager.getDatabase().updateUser(_windowManager.getUser());
         _windowManager.showLikeDislikeWindow();
     }//GEN-LAST:event_backButtonMouseClicked
 
     private void toPlannerButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_toPlannerButtonMouseClicked
         saveAllergies();
-         _windowManager.getDatabase().updateUser(_windowManager._user);
+         _windowManager.getDatabase().updateUser(_windowManager.getUser());
         _windowManager.showPlannerMainWindow();
     }//GEN-LAST:event_toPlannerButtonMouseClicked
 
     private void saveAllergies()
     {
         if(cornBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.CORN);
+            _windowManager.getUser().addAllergy(Allergy.CORN);
         else
-            _windowManager._user.removeAllergy(Allergy.CORN);
+            _windowManager.getUser().removeAllergy(Allergy.CORN);
         if(eggsBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.EGG);
+            _windowManager.getUser().addAllergy(Allergy.EGG);
         else
-            _windowManager._user.removeAllergy(Allergy.EGG);
+            _windowManager.getUser().removeAllergy(Allergy.EGG);
         if(fishBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.FISH);
+            _windowManager.getUser().addAllergy(Allergy.FISH);
         else
-            _windowManager._user.removeAllergy(Allergy.FISH);
+            _windowManager.getUser().removeAllergy(Allergy.FISH);
         if(fruitBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.FRUIT);
+            _windowManager.getUser().addAllergy(Allergy.FRUIT);
         else
-            _windowManager._user.removeAllergy(Allergy.FRUIT);
+            _windowManager.getUser().removeAllergy(Allergy.FRUIT);
         if(garlicBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.GARLIC);
+            _windowManager.getUser().addAllergy(Allergy.GARLIC);
         else
-            _windowManager._user.removeAllergy(Allergy.GARLIC);
+            _windowManager.getUser().removeAllergy(Allergy.GARLIC);
         if(milkBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.MILK);
+            _windowManager.getUser().addAllergy(Allergy.MILK);
         else
-            _windowManager._user.removeAllergy(Allergy.MILK);
+            _windowManager.getUser().removeAllergy(Allergy.MILK);
         if(msgBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.MSG);
+            _windowManager.getUser().addAllergy(Allergy.MSG);
         else
-            _windowManager._user.removeAllergy(Allergy.MSG);
+            _windowManager.getUser().removeAllergy(Allergy.MSG);
         if(oatsBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.OATS);
+            _windowManager.getUser().addAllergy(Allergy.OATS);
         else
-            _windowManager._user.removeAllergy(Allergy.OATS);
+            _windowManager.getUser().removeAllergy(Allergy.OATS);
         if(peanutsBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.PEANUT);
+            _windowManager.getUser().addAllergy(Allergy.PEANUT);
         else
-            _windowManager._user.removeAllergy(Allergy.PEANUT);
+            _windowManager.getUser().removeAllergy(Allergy.PEANUT);
         if(shellfishBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.SHELLFISH);
+            _windowManager.getUser().addAllergy(Allergy.SHELLFISH);
         else
-            _windowManager._user.removeAllergy(Allergy.SHELLFISH);
+            _windowManager.getUser().removeAllergy(Allergy.SHELLFISH);
         if(soyBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.SOY);
+            _windowManager.getUser().addAllergy(Allergy.SOY);
         else
-            _windowManager._user.removeAllergy(Allergy.SOY);
+            _windowManager.getUser().removeAllergy(Allergy.SOY);
         if(sulphitesBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.SULPHITES);
+            _windowManager.getUser().addAllergy(Allergy.SULPHITES);
         else
-            _windowManager._user.removeAllergy(Allergy.SULPHITES);
+            _windowManager.getUser().removeAllergy(Allergy.SULPHITES);
         if(treeNutsBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.TREE_NUT);
+            _windowManager.getUser().addAllergy(Allergy.TREE_NUT);
         else
-            _windowManager._user.removeAllergy(Allergy.TREE_NUT);
+            _windowManager.getUser().removeAllergy(Allergy.TREE_NUT);
         if(wheatBox.isSelected())
-            _windowManager._user.addAllergy(Allergy.WHEAT);
+            _windowManager.getUser().addAllergy(Allergy.WHEAT);
         else
-            _windowManager._user.removeAllergy(Allergy.WHEAT);
+            _windowManager.getUser().removeAllergy(Allergy.WHEAT);
+
+        //save user to database
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }
 
     /**

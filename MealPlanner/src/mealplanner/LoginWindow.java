@@ -197,7 +197,7 @@ public class LoginWindow extends javax.swing.JFrame {
         UserAccount account = new UserAccount(username, passwordString);
         if(_windowManager.getDatabase().getUser(account).isValid())
          {
-           _windowManager._user = (UserAccount) _windowManager.getDatabase().getUser(account);
+           _windowManager.setUser((UserAccount) _windowManager.getDatabase().getUser(account));
            _windowManager.showPlannerMainWindow();
          }
          else

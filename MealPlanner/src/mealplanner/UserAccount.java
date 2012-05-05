@@ -18,7 +18,12 @@ public class UserAccount extends NullAccount implements Comparable {
   Set<String> _likes;
   Set<String> _dislikes;
   Set<Allergy> _allergies;
+  double _fatGoal;
+  double _proteinGoal;
+  double _carbGoal;
+  double _calGoal;
   Map< MarkedDishKey, ArrayList<MarkedDish>> _dishes;
+  Map< String, Location > _selectedLocations; // Key is concatenation of Date and Meal.
 
   public UserAccount() {
     super();
@@ -29,6 +34,11 @@ public class UserAccount extends NullAccount implements Comparable {
     _dislikes = new HashSet<String>();
     _allergies = new HashSet<Allergy>();
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
+    _selectedLocations = new TreeMap< String, Location >();
+    _fatGoal = 0;
+    _proteinGoal = 0;
+    _carbGoal = 0;
+    _calGoal = 0;
   }
 
   public UserAccount(String username, String password) {
@@ -40,6 +50,11 @@ public class UserAccount extends NullAccount implements Comparable {
     _dislikes = new HashSet<String>();
     _allergies = new HashSet<Allergy>();
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
+    _selectedLocations = new TreeMap< String, Location >();
+    _fatGoal = 0;
+    _proteinGoal = 0;
+    _carbGoal = 0;
+    _calGoal = 0;
   }
 
   public UserAccount(String username, String password,
@@ -52,6 +67,64 @@ public class UserAccount extends NullAccount implements Comparable {
     _likes = likes;
     _dislikes = dislikes;
     _allergies = allergies;
+    _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
+    _selectedLocations = new TreeMap< String, Location >();
+    _fatGoal = 0;
+    _proteinGoal = 0;
+    _carbGoal = 0;
+    _calGoal = 0;
+  }
+
+  public double getFatGoal()
+  {
+      return _fatGoal;
+  }
+
+  public double getProteinGoal()
+  {
+      return _proteinGoal;
+  }
+
+  public double getCarbGoal()
+  {
+      return _carbGoal;
+  }
+
+  public double getCalGoal()
+  {
+      return _calGoal;
+  }
+
+  public void setFatGoal(double goal)
+  {
+      _fatGoal = goal;
+  }
+
+  public void setProteinGoal(double goal)
+  {
+      _proteinGoal = goal;
+  }
+
+  public void setCarbGoal(double goal)
+  {
+      _carbGoal = goal;
+  }
+
+  public void setCalGoal(double goal)
+  {
+      _calGoal = goal;
+  }
+
+  public void setSelectedLocation(Calendar date, Meal meal, Location location) {
+    String key = new String(FoodDatabase.CalendarToString(date) + meal.getMeal());
+    _selectedLocations.put(key, location);
+  }
+
+  public Location getSelectedLocation(Calendar date, Meal meal) {
+      String key = new String(FoodDatabase.CalendarToString(date) + meal.getMeal());
+      if(!_selectedLocations.containsKey(key))
+          return new Location("");
+      return _selectedLocations.get(key);
   }
 
   public void addAllergy(Allergy allergy) {
@@ -122,10 +195,10 @@ public class UserAccount extends NullAccount implements Comparable {
   }
 
   public void addMarkedDish(MarkedDish dish) {
-    Day day = Day.intToDay(dish.getDate().get(Calendar.DAY_OF_WEEK));
+      //Day day = Day.intToDay(dish.getDate().get(Calendar.DAY_OF_WEEK) - 2);
     MarkedDishKey mdk = new MarkedDishKey(dish.getLocation(),
                                           dish.getMeal(),
-                                          day);
+                                          FoodDatabase.CalendarToString(dish.getDate()));
       ArrayList<MarkedDish> markedDishes = _dishes.get(mdk);
       if(markedDishes == null) {
           _dishes.put(mdk, new ArrayList<MarkedDish>());
@@ -134,8 +207,24 @@ public class UserAccount extends NullAccount implements Comparable {
       markedDishes.add(dish);
   }
 
-  public List<MarkedDish> getMarkedDishes(Location location, Meal meal, Day day) {
-      ArrayList<MarkedDish> dishes = _dishes.get(new MarkedDishKey(location, meal, day));
+  public void removeMarkedDish(Dish dish) {
+    MarkedDishKey mdk = new MarkedDishKey(dish.getLocation(),
+                                          dish.getMeal(),
+                                          FoodDatabase.CalendarToString(dish.getDate()));
+    ArrayList<MarkedDish> markedDishes = _dishes.get(mdk);
+    for(int i = 0, e = markedDishes.size(); i < e; ++i) {
+        if(markedDishes.get(i).getDish().getName().equals(dish.getName())) {
+            markedDishes.remove(i);
+            break;
+        }
+    }
+    _dishes.put(mdk, markedDishes);
+  }
+
+
+  public List<MarkedDish> getMarkedDishes(Location location, Meal meal, Calendar date) {
+      ArrayList<MarkedDish> dishes = _dishes.get(new MarkedDishKey(location, meal,
+                                    FoodDatabase.CalendarToString(date)));
       if(dishes == null)
       {
           return new ArrayList<MarkedDish>();

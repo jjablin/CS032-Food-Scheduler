@@ -2,8 +2,9 @@ package mealplanner;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.io.Serializable;
 
-public class MarkedDish {
+public class MarkedDish implements Serializable {
 
     private static final long serialVersionUID = 7526471155622776147L;
     int _servings;
@@ -19,6 +20,10 @@ public class MarkedDish {
         _dish = dish;
 
         _servings = servings;
+    }
+
+    public Dish getDish() {
+        return _dish;
     }
 
     public Calendar getDate()
