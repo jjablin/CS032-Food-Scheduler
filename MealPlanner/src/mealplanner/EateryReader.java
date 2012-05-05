@@ -21,14 +21,18 @@ public class EateryReader {
 
     public ArrayList<Dish> ReadInEatery(String filepath, String name) {
         _dishes = new ArrayList<Dish>();
-        int sucess = readMeals(name, filepath);
-        if (sucess == -1) {
-            JOptionPane.showMessageDialog(null, "Failure to find, create, or parse text file of nutrition information in /tmp directory");
+        try{
+            int sucess = readMeals(name, filepath);
+            if (sucess == -1) {
+                JOptionPane.showMessageDialog(null, "Failure to find, create, or parse text file of nutrition information in /tmp directory");
+                return null;
+            } else if (sucess == 0) {
+                return null;
+            } else {
+                return _dishes;
+            }
+        }catch(Exception e){
             return null;
-        } else if (sucess == 0) {
-            return null;
-        } else {
-            return _dishes;
         }
 
     }

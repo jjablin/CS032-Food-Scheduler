@@ -1,1 +1,75 @@
-Welcome to the git repository for Jamie, Kyle, and Sky's CS032 Final Project.
+**************************************************************************************
+Program: MealPlanner
+Course: CS032
+**************************************************************************************
+
+**************************************************************************************
+Kyle Durfee
+Sky Adams
+Jamie jablin
+**************************************************************************************
+
+**************************************************************************************
+Important Notes:
+**************************************************************************************
+This program should be run on a linux machine, otherwise it may not operate as expected.
+
+Only one program can access the database at a time, so opening two programs
+will result in problems querying the database.
+
+The information given by this program can only be as accurate as the information posted
+online by the brown dining agency. 
+
+This program flags potential allergen problems, but is in no way all inclusive. Users
+should always be aware that any food may contain allergens whether or not the dish is
+flagged by the program and act accordingly.
+
+**************************************************************************************
+Testing
+**************************************************************************************
+The part of the program that updates the current meal option/ nutrition information
+ahs been tested both manually and with automated tests. Because of the nature of this
+part of the program the automated testing is limited. Brown University currently uses a
+program that generates PDFs for them, and so PDFs containing meal information should
+always follow the same format (with a few small, handled exceptions).
+
+In some circumstances Brown Dining provides incomplete information for the 
+nutrition facts of some items. When this is the case the nutrition facts for 
+an item are populated with the value of (-1) so alert the front end that the
+information is N/A.
+
+Automated Testing:
+The automated testing requires 5 pre made text files. The automated testing is 
+a JUnit test in a file called PDFParserTest.java. This JUnit test tests 
+the functionality of the PDFParser and asserts that when run normally
+it returns dishes. It also checks that the EateryReader behaves as expected
+when asked to read from files formatted in a number of different ways, catching
+when Brown dining leaves out nutrition information or ingrediants. It also 
+ensures that the program doesn't break with nonsense files to read from
+or if files do not exist.Note that when run this JUnit file should have a
+popup box appear for one of the test cases.
+
+Manual Testing:
+The PDFParser, Emailer, and EateryReader were all checked together as well
+as being tested individually by adding temporary main methods.
+
+The PDFParser has been manually checked in the following circumstances
+-when given invalid URLs
+-incomplete nutritional information
+-empty or missing ingrediants
+-when a shell file is unavailable or the user does not have the
+	neccessary permissions on that shell file.
+-old files from a previous update / user generated files are already
+	present in the temporary directory
+
+The emailer has also been checked, but is essentially just using mutt in the
+shell. If an invalid email address is given the email simply will not be sent
+to the user. If the email address is valid but wrong, the program will attempt
+to send an email to whatever address is given as there is no way to know.
+
+Within the EateryReader object a text file was created and printed to with meal information
+for weeks prior to the handin of this project. This text file was juxtaposed with the online
+PDF information for the week and compared to ensure that the information had been parsed
+accurately. An example of such a text file can be found at
+CS032-Food-Scheduler/MealPlanner/parsedivy.txt
+

@@ -45,7 +45,7 @@ public class PDFParser {
 	public void close(){
 		clearOld();
 	}
-	public boolean clearOld(){
+	private boolean clearOld(){
 		boolean returnval = false;
 		if(deleteFile(RATTY_PAGE_TXT)==false)
 			returnval= true;
@@ -62,7 +62,7 @@ public class PDFParser {
 
 		return returnval;
 	}
-	public boolean deleteFile(String path){
+	private boolean deleteFile(String path){
 		File file = new File(path);
 		if(file.exists()){
 			if(file.canWrite() && file.canRead()){
@@ -76,7 +76,7 @@ public class PDFParser {
 	}
 	//given a string array and an executor, create a runCmd in a future, then tell the executor to execute
 	//that future and return the instance of the future so the caller can keep track of it
-	public FutureTask<String> RunFuture(Executor exec, String[] commands){
+	private FutureTask<String> RunFuture(Executor exec, String[] commands){
 		Callable<String> callable = new RunCmd(commands);
 		FutureTask<String> task = new FutureTask<String>(callable);
 		exec.execute(task);
