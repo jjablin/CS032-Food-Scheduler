@@ -10,7 +10,6 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-//TODO could probably just be a method within the PDF Parser
 
 public class MenuFinder {
 	private Pattern _pat1;

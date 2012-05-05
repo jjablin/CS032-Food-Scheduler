@@ -1,8 +1,6 @@
 package mealplanner;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.Callable;
@@ -11,7 +9,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
-import java.util.concurrent.ThreadPoolExecutor;
+import javax.swing.JOptionPane;
 
 
 public class PDFParser {
@@ -43,12 +41,6 @@ public class PDFParser {
 	/**
 	 * @param args
 	 */
-	//TODO this is only so I can run this myself, the backend will just call getCurrentEateryInfo
-	public static void main(String[] args) {
-		PDFParser parse = new PDFParser();
-		ArrayList<Dish> results = parse.getCurrentEateryInfo();
-		System.out.println("Done");
-	}
 
 	public void close(){
 		clearOld();
@@ -73,7 +65,7 @@ public class PDFParser {
 	public boolean deleteFile(String path){
 		File file = new File(path);
 		if(file.exists()){
-			if(file.canWrite()){
+			if(file.canWrite() && file.canRead()){
 				return file.delete();
 			}else
 				return false;
@@ -91,8 +83,8 @@ public class PDFParser {
 		return task;
 	}
 	public ArrayList<Dish> getCurrentEateryInfo(){
-		if(clearOld()==true)
-			System.out.println("old text files found in /tmp directory. Results may not be valid, please remove text file from /ltmp directory to ensure valid results");
+		if(clearOld()==true) //there are files of the same name that we couldn't delete / modify
+            JOptionPane.showMessageDialog(null, "old text files found in /tmp directory. Results may not be valid, please remove text file from /ltmp directory to ensure valid results");
 
 		ArrayList<Dish> dishes = new ArrayList<Dish>();
 		String path = null;
@@ -122,24 +114,32 @@ public class PDFParser {
 
 			//Now wait for all the text files to be created (for the futures to return
 
-			try {//TODO check for null return values and do something if this is the case
-				taskIvyMenu.get();
-				taskRattyMenu.get();
-				taskVWMenu.get();
+			try {
+				String ivyResult;
+                String rattyResult;
+                String vwResult;
+
+                ivyResult = taskIvyMenu.get();
+				rattyResult = taskRattyMenu.get();
+				vwResult = taskVWMenu.get();
+
+                //there was an error curling the webpage of the given address
+                if(ivyResult.equals("Done")!=true ||rattyResult.equals("Done")!=true|| vwResult.equals("Done")!=true ){
+                    JOptionPane.showMessageDialog(null, "Error creating text files of webpage. Check that shell exectuables are in the correct \n directory and that user has appropriate permissions");
+                }
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				//
 			} catch (ExecutionException e) {
-				e.printStackTrace();
+				//
 			}
 			//now figure out what menu needs to be looked at using a menufinder object
 			MenuFinder mFinder = new MenuFinder();
 			String RattyPath = mFinder.getMenu(RATTY_PAGE_TXT);
 			String VWPath = mFinder.getMenu(VW_PAGE_TXT);
 			String IvyPath = mFinder.getMenu(IVY_PAGE_TXT);
-			//TODO check to make sure none of the calls to mfinder above returned null
 
 			//now get the PDFs off the internet and convert them to a saved text file that can be parsed
-			taskIvy = RunFuture(_pool,new String[] {path+IVY_TO_PDF,IvyPath});
+            taskIvy = RunFuture(_pool,new String[] {path+IVY_TO_PDF,IvyPath});
 
 			taskRatty= RunFuture(_pool,new String[] {path+RATTY_TO_PDF,RattyPath});
 
@@ -147,20 +147,19 @@ public class PDFParser {
 
 
 			try {
-				//wait for all three to finish
-				String ret = taskIvy.get();
-				if (!ret.equals("Done"))
-					System.out.println(ret);
-				ret = taskRatty.get();
-				if (!ret.equals("Done"))
-					System.out.println(ret);
-				ret = taskVW.get();
-				if (!ret.equals("Done"))
-					System.out.println(ret);
+				String ivyret = taskIvy.get();
+					
+				String rattyret = taskRatty.get();
+					
+				String vwret = taskVW.get();
+                //some error in getting PDFs and creating text files out of them
+				if (!vwret.equals("Done") || !ivyret.equals("Done") || !rattyret.equals("Done") ){
+                    JOptionPane.showMessageDialog(null, "Error creating text files from online PDFs to parse. Check that shell exectuables are in the correct \n directory and that user has appropriate permissions");
+                }
 			} catch (InterruptedException e2) {
-				System.out.println("interrupted exception when running PDF to text shells");
+				//
 			} catch (ExecutionException e2) {
-				System.out.println("Execution Error when running PDF to text shells");
+				//
 			}
 
 			//call the eateryreader with the name of the text file that the runcmd created
@@ -173,7 +172,7 @@ public class PDFParser {
             if(reader.ReadInEatery(RATTY_TXT,VW)!=null);
                 dishes.addAll(reader.ReadInEatery(RATTY_TXT, RATTY));
 		}
-		//arraylist will contain null values if there were any errors
+		//arraylist will contain null values or be empty if there were errors, that's fine
 		clearOld();
 		return dishes;
 	}

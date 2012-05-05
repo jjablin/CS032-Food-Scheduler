@@ -1,12 +1,6 @@
     #!/bin/bash
-    clear
-    if [ -z "$1" ] 
-      then
-	echo "no argument supplied"
-      else
-    	curl -s http://www.brown.edu/Student_Services/Food_Services/menus/$1/ref.pdf > /tmp/ratty.pdf;
+    	curl -s 128.148.128.180/Student_Services/Food_Services/menus/$1/ref.pdf > /tmp/ratty.pdf;
     	pdftotext /tmp/ratty.pdf /tmp/ratty.txt;
     	rm /tmp/ratty.pdf;
-     fi
     
 

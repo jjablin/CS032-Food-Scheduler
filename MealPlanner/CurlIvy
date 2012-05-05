@@ -1,3 +1,2 @@
     #!/bin/bash
-    clear
-        curl http://www.brown.edu/Student_Services/Food_Services/eateries/ivyroom.php > /tmp/IvyPage.txt
+        curl 128.148.128.180/Student_Services/Food_Services/eateries/ivyroom.php > /tmp/IvyPage.txt

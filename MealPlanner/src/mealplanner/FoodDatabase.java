@@ -145,6 +145,14 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(Calendar date, Location location) {
     StringBuilder cmd = new StringBuilder();
     cmd.append("select dish from dishes where date='");
@@ -183,8 +191,22 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(Calendar date, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(CalendarToString(date));
+    cmd.append("' and name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(String name, Calendar date) {
     return getDishes(date, name);
+  }
+
+  public TreeSet getFuzzyDishes(String name, Calendar date) {
+    return getFuzzyDishes(date, name);
   }
 
   public TreeSet getDishes(Location location, Meal meal) {
@@ -211,8 +233,22 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(Location location, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where location='");
+    cmd.append(location.getName());
+    cmd.append("' and name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(String name, Location location) {
     return getDishes(location, name);
+  }
+
+  public TreeSet getFuzzyDishes(String name, Location location) {
+    return getFuzzyDishes(location, name);
   }
 
   public TreeSet getDishes(Meal meal, String name) {
@@ -225,8 +261,22 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(Meal meal, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where meal='");
+    cmd.append(meal.getMeal());
+    cmd.append("' and name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(String name, Meal meal) {
     return getDishes(meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(String name, Meal meal) {
+    return getFuzzyDishes(meal, name);
   }
 
   public TreeSet getDishes(Calendar date, Location location, Meal meal) {
@@ -273,24 +323,56 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(Calendar date, Location location, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(CalendarToString(date));
+    cmd.append("' and location='");
+    cmd.append(location.getName());
+    cmd.append("' and name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(Calendar date, String name, Location location) {
     return getDishes(date, location, name);
+  }
+
+  public TreeSet getFuzzyDishes(Calendar date, String name, Location location) {
+    return getFuzzyDishes(date, location, name);
   }
 
   public TreeSet getDishes(String name, Calendar date, Location location) {
     return getDishes(date, location, name);
   }
 
+  public TreeSet getFuzzyDishes(String name, Calendar date, Location location) {
+    return getFuzzyDishes(date, location, name);
+  }
+
   public TreeSet getDishes(String name, Location location, Calendar date) {
     return getDishes(date, location, name);
+  }
+
+  public TreeSet getFuzzyDishes(String name, Location location, Calendar date) {
+    return getFuzzyDishes(date, location, name);
   }
 
   public TreeSet getDishes(Location location, String name, Calendar date) {
     return getDishes(date, location, name);
   }
 
+  public TreeSet getFuzzyDishes(Location location, String name, Calendar date) {
+    return getFuzzyDishes(date, location, name);
+  }
+
   public TreeSet getDishes(Location location, Calendar date, String name) {
     return getDishes(date, location, name);
+  }
+
+  public TreeSet getFuzzyDishes(Location location, Calendar date, String name) {
+    return getFuzzyDishes(date, location, name);
   }
 
   public TreeSet getDishes(Calendar date, Meal meal, String name) {
@@ -305,24 +387,56 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(Calendar date, Meal meal, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where date='");
+    cmd.append(CalendarToString(date));
+    cmd.append("' and meal='");
+    cmd.append(meal.getMeal());
+    cmd.append("' and name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(Calendar date, String name, Meal meal) {
     return getDishes(date, meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(Calendar date, String name, Meal meal) {
+    return getFuzzyDishes(date, meal, name);
   }
 
   public TreeSet getDishes(String name, Calendar date, Meal meal) {
     return getDishes(date, meal, name);
   }
 
+  public TreeSet getFuzzyDishes(String name, Calendar date, Meal meal) {
+    return getFuzzyDishes(date, meal, name);
+  }
+
   public TreeSet getDishes(String name, Meal meal, Calendar date) {
     return getDishes(date, meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(String name, Meal meal, Calendar date) {
+    return getFuzzyDishes(date, meal, name);
   }
 
   public TreeSet getDishes(Meal meal, String name, Calendar date) {
     return getDishes(date, meal, name);
   }
 
+  public TreeSet getFuzzyDishes(Meal meal, String name, Calendar date) {
+    return getFuzzyDishes(date, meal, name);
+  }
+
   public TreeSet getDishes(Meal meal, Calendar date, String name) {
     return getDishes(date, meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(Meal meal, Calendar date, String name) {
+    return getFuzzyDishes(date, meal, name);
   }
 
   public TreeSet getDishes(Location location, Meal meal, String name) {
@@ -337,23 +451,55 @@ public class FoodDatabase {
     return executeSelect(cmd.toString());
   }
 
+  public TreeSet getFuzzyDishes(Location location, Meal meal, String name) {
+    StringBuilder cmd = new StringBuilder();
+    cmd.append("select dish from dishes where location='");
+    cmd.append(location.getName());
+    cmd.append("' and meal='");
+    cmd.append(meal.getMeal());
+    cmd.append("' and name like '%");
+    cmd.append(name);
+    cmd.append("%'");
+    return executeSelect(cmd.toString());
+  }
+
   public TreeSet getDishes(Location location, String name, Meal meal) {
     return getDishes(location, meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(Location location, String name, Meal meal) {
+    return getFuzzyDishes(location, meal, name);
   }
 
   public TreeSet getDishes(String name, Location location, Meal meal) {
     return getDishes(location, meal, name);
   }
 
+  public TreeSet getFuzzyDishes(String name, Location location, Meal meal) {
+    return getFuzzyDishes(location, meal, name);
+  }
+
   public TreeSet getDishes(String name, Meal meal, Location location) {
     return getDishes(location, meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(String name, Meal meal, Location location) {
+    return getFuzzyDishes(location, meal, name);
   }
 
   public TreeSet getDishes(Meal meal, String name, Location location) {
     return getDishes(location, meal, name);
   }
 
+  public TreeSet getFuzzyDishes(Meal meal, String name, Location location) {
+    return getFuzzyDishes(location, meal, name);
+  }
+
   public TreeSet getDishes(Meal meal, Location location, String name) {
+    return getDishes(location, meal, name);
+  }
+
+  public TreeSet getFuzzyDishes(Meal meal, Location location, String name) {
     return getDishes(location, meal, name);
   }
 
