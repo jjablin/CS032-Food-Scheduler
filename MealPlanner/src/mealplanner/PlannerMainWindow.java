@@ -49,8 +49,8 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     private void setMenu()
     {
       Calendar day = Calendar.getInstance();
-      day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK) - 2));
-      System.out.println(day.getTime());
+      if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_day))
+        day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK)));
       TreeSet<Dish> menu = _windowManager.getDatabase().getDishes(_diningHall, _meal, day);
       _menu = menu;
     }
