@@ -11,6 +11,8 @@
 
 package mealplanner;
 
+import java.text.DecimalFormat;
+
 /**
  *
  * @author seadams
@@ -60,6 +62,24 @@ public class GoalsWindow extends javax.swing.JFrame {
     {
         double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
         return grams * calsPerGram;
+    }
+
+    public double fatCalsToGrams(double cals)
+    {
+        double gramsPerCal = 1.0 /9;
+        return cals * gramsPerCal;
+    }
+
+    public double proteinCalsToGrams(double cals)
+    {
+        double gramsPerCal = 1.0 /4;
+        return cals * gramsPerCal;
+    }
+
+    public double carbCalsToGrams(double cals)
+    {
+        double gramsPerCal = 1.0 /4;
+        return cals * gramsPerCal;
     }
 
     /** This method is called from within the constructor to
@@ -133,20 +153,10 @@ public class GoalsWindow extends javax.swing.JFrame {
                 fatCalsFieldFocusLost(evt);
             }
         });
-        fatCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
-            public void propertyChange(java.beans.PropertyChangeEvent evt) {
-                fatCalsFieldPropertyChange(evt);
-            }
-        });
 
         proteinCalsField.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 proteinCalsFieldFocusLost(evt);
-            }
-        });
-        proteinCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
-            public void propertyChange(java.beans.PropertyChangeEvent evt) {
-                proteinCalsFieldPropertyChange(evt);
             }
         });
 
@@ -161,11 +171,6 @@ public class GoalsWindow extends javax.swing.JFrame {
                 carbCalsFieldFocusLost(evt);
             }
         });
-        carbCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
-            public void propertyChange(java.beans.PropertyChangeEvent evt) {
-                carbCalsFieldPropertyChange(evt);
-            }
-        });
 
         calLabel1.setText("Calories");
 
@@ -178,11 +183,6 @@ public class GoalsWindow extends javax.swing.JFrame {
         totalCalsField.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 totalCalsFieldFocusLost(evt);
-            }
-        });
-        totalCalsField.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
-            public void propertyChange(java.beans.PropertyChangeEvent evt) {
-                totalCalsFieldPropertyChange(evt);
             }
         });
 
@@ -285,7 +285,6 @@ public class GoalsWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void toPlannerButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_toPlannerButtonMouseClicked
-       //_windowManager.getUser().setGoals();
         _windowManager.showPlannerMainWindow();
     }//GEN-LAST:event_toPlannerButtonMouseClicked
 
@@ -297,10 +296,22 @@ public class GoalsWindow extends javax.swing.JFrame {
         }
         catch(NumberFormatException e){
             grams = 0; //assume a value of zero if the input can not be parsed to a double
+            fatGramsField.setText("0");
+        }
+        if(grams < 0)
+        {
+            grams = 0;
+            fatGramsField.setText("0");
         }
         double cals = fatGramsToCals(grams);
-        fatCalsField.setText(Double.toString(cals));
+        DecimalFormat format = new DecimalFormat("#.#");
+        fatCalsField.setText(format.format(cals));
         updateTotalCals();
+
+        //update the database
+        String formatedGrams = format.format(grams);
+        _windowManager.getUser().setFatGoal(Double.parseDouble(formatedGrams));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_fatGramsFieldFocusLost
 
     private void proteinGramsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_proteinGramsFieldFocusLost
@@ -311,10 +322,23 @@ public class GoalsWindow extends javax.swing.JFrame {
         }
         catch(NumberFormatException e){
             grams = 0; //assume a value of zero if the input can not be parsed to a double
+            proteinGramsField.setText("0");
+        }
+        if(grams < 0)
+        {
+            grams = 0;
+            proteinGramsField.setText("0");
         }
         double cals = proteinGramsToCals(grams);
-        proteinCalsField.setText(Double.toString(cals));
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(cals);
+        proteinCalsField.setText(formatedCals);
         updateTotalCals();
+
+        //update database
+        String formatedGrams = format.format(grams);
+        _windowManager.getUser().setProteinGoal(Double.parseDouble(formatedGrams));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_proteinGramsFieldFocusLost
 
     private void carbGramsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carbGramsFieldFocusLost
@@ -325,55 +349,62 @@ public class GoalsWindow extends javax.swing.JFrame {
         }
         catch(NumberFormatException e){
             grams = 0; //assume a value of zero if the input can not be parsed to a double
+            carbGramsField.setText("0");
+        }
+        if(grams < 0)
+        {
+            grams = 0;
+            carbGramsField.setText("0");
         }
         double cals = carbGramsToCals(grams);
-        carbCalsField.setText(Double.toString(cals));
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(cals);
+        carbCalsField.setText(formatedCals);
         updateTotalCals();
+
+        //update the database
+        String formatedGrams = format.format(grams);
+        _windowManager.getUser().setCarbGoal(Double.parseDouble(formatedGrams));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_carbGramsFieldFocusLost
 
     private void fatCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_fatCalsFieldFocusLost
-        String calsString = fatCalsField.getText();
-        double cals;
-        try{
-            cals = Double.parseDouble(calsString);
-        }
-        catch(NumberFormatException e){
-            cals = 0; //assume a value of zero if the input can not be parsed to a double
-        }
-        double gramsPerCal = 1.0/9; //http://en.wikipedia.org/wiki/Food_energy
-        double grams = gramsPerCal * cals;
-        fatGramsField.setText(Double.toString(grams));
+        double cals = getFatCals();
+        double grams = fatCalsToGrams(cals);
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedGrams = format.format(grams);
+        fatGramsField.setText(formatedGrams);
         updateTotalCals();
+
+        //update the datadase
+        _windowManager.getUser().setFatGoal(Double.parseDouble(formatedGrams));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_fatCalsFieldFocusLost
 
     private void proteinCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_proteinCalsFieldFocusLost
-        String calsString = proteinCalsField.getText();
-        double cals;
-        try{
-            cals = Double.parseDouble(calsString);
-        }
-        catch(NumberFormatException e){
-            cals = 0; //assume a value of zero if the input can not be parsed to a double
-        }
-        double gramsPerCal = 1.0/4; //http://en.wikipedia.org/wiki/Food_energy
-        double grams = gramsPerCal * cals;
-        proteinGramsField.setText(Double.toString(grams));
+        double cals = getProteinCals();
+        double grams = proteinCalsToGrams(cals);
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedGrams = format.format(grams);
+        proteinGramsField.setText(formatedGrams);
         updateTotalCals();
+
+        //update database
+        _windowManager.getUser().setProteinGoal(Double.parseDouble(formatedGrams));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_proteinCalsFieldFocusLost
 
     private void carbCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carbCalsFieldFocusLost
-        String calsString = carbCalsField.getText();
-        double cals;
-        try{
-            cals = Double.parseDouble(calsString);
-        }
-        catch(NumberFormatException e){
-            cals = 0; //assume a value of zero if the input can not be parsed to a double
-        }
-        double gramsPerCal = 1.0/4; //http://en.wikipedia.org/wiki/Food_energy
-        double grams = gramsPerCal * cals;
-        carbGramsField.setText(Double.toString(grams));
+        double cals = getCarbCals();
+        double grams = carbCalsToGrams(cals);
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedGrams = format.format(grams);
+        carbGramsField.setText(formatedGrams);
         updateTotalCals();
+
+        //update the database
+        _windowManager.getUser().setCarbGoal(Double.parseDouble(formatedGrams));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_carbCalsFieldFocusLost
 
     //if the total calories does not equal the sum of the other 3 calorie boxes,
@@ -382,55 +413,26 @@ public class GoalsWindow extends javax.swing.JFrame {
     //if the total calories can not be parsed, sets total calories to the sum of
     //the other 3 calorie boxes
     private void totalCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_totalCalsFieldFocusLost
-        String totalCalsString = totalCalsField.getText();
-        double totalCals;
-        try{
-            totalCals = Double.parseDouble(totalCalsString);
-        } catch (NumberFormatException e){
-            updateTotalCals(); //set totalCals to the sum of the other 3 calorie fields
-            return;
-        }
+        double totalCals = getTotalCals();
 
         double calorieSum = getFatCals() + getProteinCals() + getCarbCals();
 
         if(totalCals != calorieSum)
         {
             double oneThirdCals = totalCals / 3;
-            fatCalsField.setText(Double.toString(oneThirdCals));
-            fatCalsFieldFocusLost(null); //updates the grams field
-            proteinCalsField.setText(Double.toString(oneThirdCals));
+            DecimalFormat format = new DecimalFormat("#.#");
+            String formated = format.format(oneThirdCals);
+            fatCalsField.setText(formated);
+            fatCalsFieldFocusLost(null); //updates the grams field as well
+            proteinCalsField.setText(formated);
             proteinCalsFieldFocusLost(null);
-            carbCalsField.setText(Double.toString(oneThirdCals));
+            carbCalsField.setText(formated);
             carbCalsFieldFocusLost(null);
         }
     }//GEN-LAST:event_totalCalsFieldFocusLost
 
-    private void fatCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_fatCalsFieldPropertyChange
-        double fatCals = getFatCals();
-        _windowManager.getUser().setFatGoal(fatCals);
-        _windowManager.getDatabase().updateUser(_windowManager.getUser());
-    }//GEN-LAST:event_fatCalsFieldPropertyChange
-
-    private void proteinCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_proteinCalsFieldPropertyChange
-        double proteinCals = getProteinCals();
-        _windowManager.getUser().setProteinGoal(proteinCals);
-        _windowManager.getDatabase().updateUser(_windowManager.getUser());
-    }//GEN-LAST:event_proteinCalsFieldPropertyChange
-
-    private void carbCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_carbCalsFieldPropertyChange
-        double carbCals = getCarbCals();
-        _windowManager.getUser().setCarbGoal(carbCals);
-        _windowManager.getDatabase().updateUser(_windowManager.getUser());
-    }//GEN-LAST:event_carbCalsFieldPropertyChange
-
-    private void totalCalsFieldPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_totalCalsFieldPropertyChange
-        double totalCals = getTotalCals();
-        _windowManager.getUser().setCalGoal(totalCals);
-        _windowManager.getDatabase().updateUser(_windowManager.getUser());
-    }//GEN-LAST:event_totalCalsFieldPropertyChange
-
     //returns the double representation of the value of the text in fatCalsField
-    //if it can not be parsed to a double, returns 0
+    //if it can not be parsed to a double or is a negative value, returns 0 and sets the text to 0
     private double getFatCals()
     {
         String fatCalsString = fatCalsField.getText();
@@ -439,12 +441,20 @@ public class GoalsWindow extends javax.swing.JFrame {
             fatCals = Double.parseDouble(fatCalsString);
         } catch(NumberFormatException e){
             fatCals = 0;
+            fatCalsField.setText("0");
         }
-        return fatCals;
+        if(fatCals < 0)
+        {
+            fatCals = 0;
+            fatCalsField.setText("0");
+        }
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(fatCals);
+        return Double.parseDouble(formatedCals);
     }
 
     //returns the double representation of the value of the text in proteinCalsField
-    //if it can not be parsed to a double, returns 0
+    //if it can not be parsed to a double or is less than 0, returns 0
     private double getProteinCals()
     {
         String proteinCalsString = proteinCalsField.getText();
@@ -453,12 +463,20 @@ public class GoalsWindow extends javax.swing.JFrame {
             proteinCals = Double.parseDouble(proteinCalsString);
         } catch (NumberFormatException e){
             proteinCals = 0;
+            proteinCalsField.setText("0");
         }
-        return proteinCals;
+        if(proteinCals < 0)
+        {
+            proteinCals = 0;
+            proteinCalsField.setText("0");
+        }
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(proteinCals);
+        return Double.parseDouble(formatedCals);
     }
 
     //returns the double representation of the value of the text in carbCalsField
-    //if it can not be parsed to a double, returns 0
+    //if it can not be parsed to a double or is a negative value, returns 0
     private double getCarbCals()
     {
         String carbCalsString = carbCalsField.getText();
@@ -467,8 +485,16 @@ public class GoalsWindow extends javax.swing.JFrame {
             carbCals = Double.parseDouble(carbCalsString);
         } catch(NumberFormatException e){
             carbCals = 0;
+            carbCalsField.setText("0");
         }
-        return carbCals;
+        if(carbCals < 0)
+        {
+            carbCals = 0;
+            carbCalsField.setText("0");
+        }
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(carbCals);
+        return Double.parseDouble(formatedCals);
     }
 
     private double getTotalCals()
@@ -479,15 +505,29 @@ public class GoalsWindow extends javax.swing.JFrame {
             cals = Double.parseDouble(calsString);
         } catch(NumberFormatException e){
             cals = 0;
+            totalCalsField.setText("0");
         }
-        return cals;
+        if(cals < 0)
+        {
+            cals = 0;
+            totalCalsField.setText("0");
+        }
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(cals);
+        return Double.parseDouble(formatedCals);
     }
 
     //updates the total Calories field with the total from the other 3 calorie fields
     private void updateTotalCals()
     {
         double totalCals = getFatCals() + getProteinCals() + getCarbCals();
-        totalCalsField.setText(Double.toString(totalCals));
+        DecimalFormat format = new DecimalFormat("#.#");
+        String formatedCals = format.format(totalCals);
+        totalCalsField.setText(formatedCals);
+
+        //update the database
+        _windowManager.getUser().setCalGoal(Double.parseDouble(formatedCals));
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }
 
     /**

@@ -28,32 +28,36 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="cornBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="fruitBox" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="garlicBox" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="oatsBox" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="milkBox" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="peanutsBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="fishBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="backButton" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="sulphitesBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="msgBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="eggsBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="wheatBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="treeNutsBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="soyBox" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="shellfishBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="msgBox" min="-2" max="-2" attributes="0"/>
+                                  <Component id="eggsBox" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wheatBox" min="-2" max="-2" attributes="0"/>
+                                  <Component id="soyBox" min="-2" max="-2" attributes="0"/>
+                                  <Component id="treeNutsBox" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="toPlannerButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
                   <Component id="instructionLabel" min="-2" max="-2" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="backButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="115" max="32767" attributes="0"/>
-                      <Component id="toPlannerButton" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="warningLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="warningLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="warningLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="warningLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -63,42 +67,42 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="instructionLabel" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="cornBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="fruitBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="garlicBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="oatsBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="milkBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="peanutsBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="fishBox" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="shellfishBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="soyBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="treeNutsBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="wheatBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="eggsBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="msgBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="sulphitesBox" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="24" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="toPlannerButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cornBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="soyBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="garlicBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="treeNutsBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="oatsBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wheatBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="milkBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="eggsBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="peanutsBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="msgBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="warningLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="warningLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="warningLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="warningLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="backButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="toPlannerButton" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -114,11 +118,6 @@
     <Component class="javax.swing.JCheckBox" name="cornBox">
       <Properties>
         <Property name="text" type="java.lang.String" value="Corn"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="fruitBox">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Fruit"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="garlicBox">
@@ -141,16 +140,6 @@
         <Property name="text" type="java.lang.String" value="Peanuts"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JCheckBox" name="fishBox">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Fish"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="shellfishBox">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Shellfish"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JCheckBox" name="soyBox">
       <Properties>
         <Property name="text" type="java.lang.String" value="Soy"/>
@@ -158,7 +147,7 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="treeNutsBox">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Tree nuts"/>
+        <Property name="text" type="java.lang.String" value="Nuts (other)"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="wheatBox">
@@ -176,11 +165,6 @@
         <Property name="text" type="java.lang.String" value="MSG"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JCheckBox" name="sulphitesBox">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Sulphites"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JButton" name="toPlannerButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Go to Meal Planner"/>
@@ -196,6 +180,26 @@
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="backButtonMouseClicked"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="warningLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Warning: By continuing to Meal Planner, you"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="warningLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="acknowledge that you are aware that not all "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="warningLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="dishes containing allergens will be flagged"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="warningLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="in this program."/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

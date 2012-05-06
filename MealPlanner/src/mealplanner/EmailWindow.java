@@ -33,6 +33,7 @@ public class EmailWindow extends javax.swing.JFrame {
         notificationLabel = new javax.swing.JLabel();
         nextButton = new javax.swing.JButton();
         instructionLabel2 = new javax.swing.JLabel();
+        backButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -69,6 +70,13 @@ public class EmailWindow extends javax.swing.JFrame {
 
         instructionLabel2.setText("dishes are on the menu, enter your email below.");
 
+        backButton.setText("Back");
+        backButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                backButtonMouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -90,11 +98,11 @@ public class EmailWindow extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(unsubscribeButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(signUpButton)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(311, Short.MAX_VALUE)
-                .addComponent(nextButton)
+                        .addComponent(signUpButton))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(backButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 257, Short.MAX_VALUE)
+                        .addComponent(nextButton)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -119,7 +127,9 @@ public class EmailWindow extends javax.swing.JFrame {
                     .addComponent(unsubscribeButton)
                     .addComponent(signUpButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
-                .addComponent(nextButton)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(nextButton)
+                    .addComponent(backButton))
                 .addContainerGap())
         );
 
@@ -164,6 +174,10 @@ public class EmailWindow extends javax.swing.JFrame {
         notificationLabel.setVisible(true);
     }//GEN-LAST:event_unsubscribeButtonMouseClicked
 
+    private void backButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_backButtonMouseClicked
+        _windowManager.showLikeDislikeWindow();
+    }//GEN-LAST:event_backButtonMouseClicked
+
     /**
     * @param args the command line arguments
     */
@@ -176,6 +190,7 @@ public class EmailWindow extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton backButton;
     private javax.swing.JTextField confirmEmailField;
     private javax.swing.JLabel confirmEmailLabel;
     private javax.swing.JTextField emailField;

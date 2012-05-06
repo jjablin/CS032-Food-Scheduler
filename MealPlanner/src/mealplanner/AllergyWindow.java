@@ -207,7 +207,7 @@ public class AllergyWindow extends javax.swing.JFrame {
     private void backButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_backButtonMouseClicked
         saveAllergies();
          _windowManager.getDatabase().updateUser(_windowManager.getUser());
-        _windowManager.showLikeDislikeWindow();
+        _windowManager.showEmailWindow();
     }//GEN-LAST:event_backButtonMouseClicked
 
     private void toPlannerButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_toPlannerButtonMouseClicked

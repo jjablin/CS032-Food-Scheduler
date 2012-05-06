@@ -11,7 +11,7 @@ public class FoodDatabase {
 
   public FoodDatabase(String fileURL) {
     _fileURL = fileURL;
-    String url = "jdbc:h2:" + _fileURL;
+    String url = "jdbc:h2:" + _fileURL + ";AUTO_SERVER=TRUE";
     try {
       DriverManager.registerDriver(new org.h2.Driver());
       _conn = DriverManager.getConnection(url, "sa", "sa");
@@ -55,7 +55,7 @@ public class FoodDatabase {
     createTable("dishes", variables);
   }
 
-  public static Calendar StringToCalendar(String now) {    
+  public static Calendar StringToCalendar(String now) {
     Calendar day = Calendar.getInstance();
     String[] parts = now.split("/");
     day.set(Calendar.MONTH, Integer.parseInt(parts[0]));
@@ -75,7 +75,7 @@ public class FoodDatabase {
     TreeSet resultSet = executeSelect(cmd.toString());
     String date = new String("01/01/2012");
     if(!resultSet.isEmpty()) {
-        String max = (String)resultSet.iterator().next();        
+        String max = (String)resultSet.iterator().next();
         if(max != null)
             date = max;
     }
@@ -83,9 +83,11 @@ public class FoodDatabase {
   }
 
   public static String CalendarToString(Calendar now) {
-    return new String(now.get(Calendar.MONTH) + "/" +
-                      now.get(Calendar.DATE) + "/" +
-                      now.get(Calendar.YEAR));
+    String month = Integer.toString(now.get(Calendar.MONTH));
+    if(month.length() == 1) month = "0" + month;
+    String date = Integer.toString(now.get(Calendar.DATE));
+    if(date.length() == 1) date = "0" + date;
+    return new String(month + "/" + date + "/" + now.get(Calendar.YEAR));
   }
 
   public boolean addDish(Dish dish) {

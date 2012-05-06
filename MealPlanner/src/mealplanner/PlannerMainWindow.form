@@ -31,7 +31,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <Component id="toGoalsButton" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="709" max="32767" attributes="0"/>
+              <EmptySpace pref="810" max="32767" attributes="0"/>
               <Component id="toPreferencesButton" min="-2" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
@@ -40,8 +40,9 @@
                   <Component id="breakfastRB" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="lunchRB" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="dinnerRB" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="selectMealButton" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="monButton" min="-2" max="-2" attributes="0"/>
@@ -60,9 +61,44 @@
                   </Group>
                   <Component id="dinerTabs" max="32767" attributes="1"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="progressLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="totalFatLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="calsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="servingLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="servingSizeValLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="dishnameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="progressLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="satFatLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cholesterolLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cholesterolValLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="totalFatValLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="satFatValLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="caloriesValLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="totalCarbsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sodiumLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="fiberLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="totalProteinLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="proteinValLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="fiberValLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sodiumValLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="totalCarbValLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="totalCalsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -70,16 +106,17 @@
                           <Component id="carbsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="fatLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="fatProgressBar" alignment="0" pref="126" max="32767" attributes="0"/>
-                          <Component id="proteinProgressBar" alignment="1" pref="126" max="32767" attributes="0"/>
-                          <Component id="carbsProgressBar" alignment="1" pref="126" max="32767" attributes="0"/>
-                          <Component id="calsProgressBar" alignment="0" pref="126" max="32767" attributes="0"/>
+                          <Component id="fatProgressBar" alignment="0" pref="267" max="32767" attributes="0"/>
+                          <Component id="proteinProgressBar" alignment="1" pref="267" max="32767" attributes="0"/>
+                          <Component id="carbsProgressBar" alignment="1" pref="267" max="32767" attributes="0"/>
+                          <Component id="calsProgressBar" alignment="0" pref="267" max="32767" attributes="0"/>
                       </Group>
                   </Group>
+                  <Component id="logOutButton" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -101,7 +138,7 @@
                           <Component id="sunButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="1">
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="toPreferencesButton" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="toGoalsButton" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -119,30 +156,103 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="fatProgressBar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="proteinProgressBar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="carbsProgressBar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="calsProgressBar" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="fatLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="proteinLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="carbsLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="totalCalsLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="dishnameLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="servingLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="servingSizeValLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="calsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="caloriesValLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="totalFatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="totalFatValLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="satFatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="satFatValLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cholesterolLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cholesterolValLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace pref="104" max="32767" attributes="0"/>
+                                  <Component id="selectMealButton" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="fatLabel" min="-2" max="-2" attributes="0"/>
-                                  <Component id="fatProgressBar" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="proteinLabel" min="-2" max="-2" attributes="0"/>
-                                  <Component id="proteinProgressBar" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="carbsLabel" min="-2" max="-2" attributes="0"/>
-                                  <Component id="carbsProgressBar" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="totalCalsLabel" min="-2" max="-2" attributes="0"/>
-                                  <Component id="calsProgressBar" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="64" pref="64" max="64" attributes="0"/>
+                                      <Component id="totalProteinLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="sodiumLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="totalCarbsLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="fiberLabel" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="1">
+                                              <Component id="sodiumValLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="totalCarbValLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="fiberValLabel" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="proteinValLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
                   </Group>
               </Group>
               <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="410" max="32767" attributes="0"/>
+              <Component id="logOutButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -169,7 +279,7 @@
         <Property name="text" type="java.lang.String" value="Breakfast"/>
       </Properties>
       <Events>
-        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="breakfastRBStateChanged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="breakfastRBMouseClicked"/>
       </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="breakfastRB.setSelected(true);"/>
@@ -180,7 +290,7 @@
         <Property name="text" type="java.lang.String" value="Lunch"/>
       </Properties>
       <Events>
-        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="lunchRBStateChanged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lunchRBMouseClicked"/>
       </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="dinnerRB">
@@ -188,7 +298,7 @@
         <Property name="text" type="java.lang.String" value="Dinner"/>
       </Properties>
       <Events>
-        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="dinnerRBStateChanged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="dinnerRBMouseClicked"/>
       </Events>
     </Component>
     <Container class="javax.swing.JTabbedPane" name="dinerTabs">
@@ -286,6 +396,174 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="calsProgressBar">
+    </Component>
+    <Component class="javax.swing.JButton" name="selectMealButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Select Meal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="selectMealButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dishnameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dishname"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="dishnameLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="servingLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serving Size:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="servingLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="calsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calories:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="calsLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalFatLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Fat:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="totalFatLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="satFatLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Saturated Fat:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satFatLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cholesterolLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cholesterol:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="cholesterolLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="servingSizeValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0g"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="servingSizeValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="caloriesValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="caloriesValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalFatValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0g"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="totalFatValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="satFatValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0g"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="satFatValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sodiumLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sodium:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sodiumLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalCarbsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Carbohydrate:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="totalCarbsLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fiberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fiber:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="fiberLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalCarbValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0g"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="totalCarbValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sodiumValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0mg"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="sodiumValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fiberValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0g"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="fiberValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cholesterolValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0mg"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="cholesterolValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalProteinLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Protein:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="totalProteinLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="proteinValLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0g"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="proteinValLabel.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="logOutButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Log out"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="logOutButtonMouseClicked"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

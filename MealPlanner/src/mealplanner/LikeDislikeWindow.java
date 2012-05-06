@@ -12,11 +12,11 @@
 package mealplanner;
 
 import java.awt.CheckboxGroup;
-import java.awt.Component;
-import java.awt.GridLayout;
-import java.awt.Panel;
 import java.awt.Checkbox;
 import java.awt.Cursor;
+import java.awt.event.AdjustmentEvent;
+import java.awt.event.AdjustmentListener;
+import java.awt.event.KeyEvent;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -77,8 +77,8 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         }
 
         //display changes
-        likesPanel.paintAll(likesPanel.getGraphics());
-        dislikesPanel.paintAll(dislikesPanel.getGraphics());
+        likesPane.paintAll(likesPane.getGraphics());
+        dislikesPane.paintAll(dislikesPane.getGraphics());
     }
 
     /** This method is called from within the constructor to
@@ -95,6 +95,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         dishField = new javax.swing.JTextField();
         searchResultsLabel = new javax.swing.JLabel();
         resultDisplay = new javax.swing.JScrollPane();
+        resultPanel = new javax.swing.JPanel();
         clearDislikesButton = new javax.swing.JButton();
         clearLikesButton = new javax.swing.JButton();
         nextButton = new javax.swing.JButton();
@@ -113,12 +114,19 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         dishLabel.setText("Dish:");
 
         dishField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                dishFieldKeyTyped(evt);
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                dishFieldKeyPressed(evt);
             }
         });
 
         searchResultsLabel.setText("Search results:");
+
+        resultPanel.setLayout(new javax.swing.BoxLayout(resultPanel, javax.swing.BoxLayout.Y_AXIS));
+        resultDisplay.setViewportView(resultPanel);
+
+        AdjustmentListener listener = new ScrollListener();
+        resultDisplay.getHorizontalScrollBar().addAdjustmentListener(listener);
+        resultDisplay.getVerticalScrollBar().addAdjustmentListener(listener);
 
         clearDislikesButton.setText("Clear all dislikes");
         clearDislikesButton.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -244,36 +252,15 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void dishFieldKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_dishFieldKeyTyped
-        String input = dishField.getText().toUpperCase();
-
-        TreeSet<Dish> dishes = _windowManager.getDatabase().getFuzzyDishes(input);
-        //display the dishes in the resultDisplay
-        GridLayout layout = new GridLayout(0,1);
-        Panel p = new Panel(layout);
-        HashSet<String> names = new HashSet<String>();
-        for(Dish dish: dishes)
-        {
-            if(!names.contains(dish.getName())) {
-              names.add(dish.getName());
-              Component c = toComponent(dish.getName());
-              p.add(c);
-            }
-        }
-        //show the new components
-        resultDisplay.setViewportView(p);
-        resultDisplay.validate();
-}//GEN-LAST:event_dishFieldKeyTyped
-
+    //if the key pressed is enter, displays the menu items which contain the
+    //entered text in their name
     private void clearLikesButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearLikesButtonMouseClicked
         _windowManager.getUser().clearLikes(); //clears the user object's likes
+
         //update the window to show the likes have been cleared
-         JViewport v = resultDisplay.getViewport();
-        Component [] c = v.getComponents(); //returns the panel containing panels made by toComponent()
-        Panel topLevelPanel = (Panel) c[0];
-        for(int i = 0; i < topLevelPanel.getComponentCount(); i++)
+        for(int i = 0; i < resultPanel.getComponentCount(); i++)
         {
-            Panel p = (Panel) topLevelPanel.getComponent(i);
+            JPanel p = (JPanel) resultPanel.getComponent(i);
             Checkbox likeBox = (Checkbox) p.getComponent(1);
             Checkbox noPrefBox = (Checkbox) p.getComponent(3);
             if(likeBox.getState())
@@ -287,13 +274,11 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
 
     private void clearDislikesButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearDislikesButtonMouseClicked
         _windowManager.getUser().clearDislikes(); //clears the user object's dislikes
-        //update the window to show the dislikes have been cleared
-         JViewport v = resultDisplay.getViewport();
-        Component [] c = v.getComponents(); //returns the panel containing panels made by toComponent()
-        Panel topLevelPanel = (Panel) c[0];
-        for(int i = 0; i < topLevelPanel.getComponentCount(); i++)
+
+        //update the window to show the likes have been cleared
+        for(int i = 0; i < resultPanel.getComponentCount(); i++)
         {
-            Panel p = (Panel) topLevelPanel.getComponent(i);
+            JPanel p = (JPanel) resultPanel.getComponent(i);
             Checkbox dislikeBox = (Checkbox) p.getComponent(2);
             Checkbox noPrefBox = (Checkbox) p.getComponent(3);
             if(dislikeBox.getState())
@@ -310,29 +295,53 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         _windowManager.showEmailWindow();
 }//GEN-LAST:event_nextButtonMouseClicked
 
-    private Component toComponent(String dish)
+    private void dishFieldKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_dishFieldKeyPressed
+        if(evt.getKeyCode() == KeyEvent.VK_ENTER)
+        {
+            //get the dishes to display
+            String input = dishField.getText().toUpperCase();
+            TreeSet<Dish> dishes = _windowManager.getDatabase().getFuzzyDishes(input);
+
+            //clear any old dishes
+            int numOldDishes = resultPanel.getComponentCount();
+            for(int i = 0; i < numOldDishes; i++)
+            {
+                resultPanel.remove(0);
+            }
+
+
+            //display the dishes
+            HashSet<String> names = new HashSet<String>();
+            for(Dish dish: dishes)
+            {
+                if(!names.contains(dish.getName())) {
+                  names.add(dish.getName());
+                  addDishToResultDisplay(dish.getName());
+                }
+            }
+            //show the new components
+            resultDisplay.revalidate();
+            this.paintAll(this.getGraphics());
+        }
+    }//GEN-LAST:event_dishFieldKeyPressed
+
+    private void addDishToResultDisplay(String dishName)
     {
-        JLabel l = new JLabel();
-        l.setText(dish);
+        JLabel l = new JLabel(dishName);
         CheckboxGroup group = new CheckboxGroup();
         Checkbox likeBox = new Checkbox("Like", false, group);
         Checkbox dislikeBox = new Checkbox("Dislike", false, group);
         Checkbox noPreferenceBox = new Checkbox("No preference", true, group);
-        GridLayout layout = new GridLayout(1,3); //1 row, 3 columns
-        Panel p = new Panel(layout);
-        p.add(l);
-        p.add(likeBox);
-        p.add(dislikeBox);
-        p.add(noPreferenceBox);
-        if(_windowManager.getUser().getLikes().contains(dish))
+        if(_windowManager.getUser().getLikes().contains(dishName))
         {
             likeBox.setState(true);
         }
-        else if(_windowManager.getUser().getDislikes().contains(dish))
+        else if(_windowManager.getUser().getDislikes().contains(dishName))
         {
             dislikeBox.setState(true);
         }
 
+        //add mouse listeners to the check boxes
         likeBox.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -354,12 +363,20 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
             }
         });
 
-        return p;
+        JPanel p = new JPanel();
+        //add components to p
+        p.add(l);
+        p.add(likeBox);
+        p.add(dislikeBox);
+        p.add(noPreferenceBox);
+
+        //add p to resultPanel
+        resultPanel.add(p);
     }
 
     private void likeBoxClicked(java.awt.event.MouseEvent evt)
     {
-        Panel p = (Panel) evt.getComponent().getParent();
+        JPanel p = (JPanel) evt.getComponent().getParent();
         JLabel l = (JLabel) p.getComponent(0);
         String dishName = l.getText();
         if(! _windowManager.getUser().getLikes().contains(dishName))
@@ -373,7 +390,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
 
     private void dislikeBoxClicked(java.awt.event.MouseEvent evt)
     {
-        Panel p = (Panel) evt.getComponent().getParent();
+        JPanel p = (JPanel) evt.getComponent().getParent();
         JLabel l = (JLabel) p.getComponent(0);
         String dishName = l.getText();
         if(! _windowManager.getUser().getDislikes().contains(dishName))
@@ -387,12 +404,24 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
 
     private void noPreferenceBoxClicked(java.awt.event.MouseEvent evt)
     {
-        Panel p = (Panel) evt.getComponent().getParent();
+        JPanel p = (JPanel) evt.getComponent().getParent();
         JLabel l = (JLabel) p.getComponent(0);
         String dishName = l.getText();
         _windowManager.getUser().removeDislike(dishName);
         _windowManager.getUser().removeLike(dishName);
         showCurrentPreferences();
+    }
+
+    class ScrollListener implements AdjustmentListener {
+
+
+        public ScrollListener() {
+            
+        }
+
+        public void adjustmentValueChanged(AdjustmentEvent e) {
+            resultDisplay.revalidate();
+        }
     }
 
     /**
@@ -419,6 +448,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
     private javax.swing.JPanel likesPanel;
     private javax.swing.JButton nextButton;
     private javax.swing.JScrollPane resultDisplay;
+    private javax.swing.JPanel resultPanel;
     private javax.swing.JLabel searchResultsLabel;
     // End of variables declaration//GEN-END:variables
 

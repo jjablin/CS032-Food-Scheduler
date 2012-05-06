@@ -19,9 +19,9 @@ public class UserAccount extends NullAccount implements Comparable {
   Set<String> _dislikes;
   Set<Allergy> _allergies;
   String _email;
-  double _fatGoal;
-  double _proteinGoal;
-  double _carbGoal;
+  double _fatGoal;//stored in grams
+  double _proteinGoal; //stored in grams
+  double _carbGoal; //stored in grams
   double _calGoal;
   Map< MarkedDishKey, ArrayList<MarkedDish>> _dishes;
   Map< String, Location > _selectedLocations; // Key is concatenation of Date and Meal.
@@ -73,10 +73,10 @@ public class UserAccount extends NullAccount implements Comparable {
     _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
-    _fatGoal = 0;
-    _proteinGoal = 0;
-    _carbGoal = 0;
-    _calGoal = 0;
+    _fatGoal = 0; 
+    _proteinGoal = 0; 
+    _carbGoal = 0; 
+    _calGoal = 0; 
   }
 
   public String getEmail()
@@ -226,13 +226,16 @@ public class UserAccount extends NullAccount implements Comparable {
                                           dish.getMeal(),
                                           FoodDatabase.CalendarToString(dish.getDate()));
     ArrayList<MarkedDish> markedDishes = _dishes.get(mdk);
-    for(int i = 0, e = markedDishes.size(); i < e; ++i) {
-        if(markedDishes.get(i).getDish().getName().equals(dish.getName())) {
-            markedDishes.remove(i);
-            break;
+    if(markedDishes != null)
+    {
+        for(int i = 0, e = markedDishes.size(); i < e; ++i) {
+            if(markedDishes.get(i).getDish().getName().equals(dish.getName())) {
+                markedDishes.remove(i);
+                break;
+            }
         }
+        _dishes.put(mdk, markedDishes);
     }
-    _dishes.put(mdk, markedDishes);
   }
 
 

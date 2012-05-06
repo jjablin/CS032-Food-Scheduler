@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
@@ -24,7 +24,17 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="clearLikesButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="clearDislikesButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="881" max="32767" attributes="0"/>
+                      <Component id="nextButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -37,21 +47,21 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="searchResultsLabel" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="resultDisplay" alignment="0" min="-2" pref="536" max="-2" attributes="0"/>
+                          <Component id="searchResultsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="resultDisplay" pref="569" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="likesLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="likesPane" min="-2" pref="164" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="clearLikesButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="clearDislikesButton" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="410" max="32767" attributes="0"/>
-                      <Component id="toAllergiesButton" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="dislikesLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="dislikesPane" min="-2" pref="161" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -69,16 +79,24 @@
                   <Component id="dishField" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="searchResultsLabel" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="searchResultsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="likesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dislikesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="resultDisplay" pref="252" max="32767" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dislikesPane" pref="264" max="32767" attributes="0"/>
+                  <Component id="likesPane" pref="264" max="32767" attributes="0"/>
+                  <Component id="resultDisplay" alignment="0" pref="264" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="clearDislikesButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="clearLikesButton" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="toAllergiesButton" min="-2" max="-2" attributes="0"/>
+              <Component id="nextButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -87,7 +105,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="instructionLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Search for and enter you likes and dislikes below"/>
+        <Property name="text" type="java.lang.String" value="Search for and enter your likes and dislikes below"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="instructionLabel.setAlignmentY(this.CENTER_ALIGNMENT);"/>
@@ -100,7 +118,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="dishField">
       <Events>
-        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="dishFieldKeyTyped"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="dishFieldKeyPressed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="searchResultsLabel">
@@ -109,8 +127,19 @@
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="resultDisplay">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="AdjustmentListener listener = new ScrollListener();&#xa;resultDisplay.getHorizontalScrollBar().addAdjustmentListener(listener);&#xa;resultDisplay.getVerticalScrollBar().addAdjustmentListener(listener);"/>
+      </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="resultPanel">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+            <Property name="axis" type="int" value="1"/>
+          </Layout>
+        </Container>
+      </SubComponents>
     </Container>
     <Component class="javax.swing.JButton" name="clearDislikesButton">
       <Properties>
@@ -128,13 +157,71 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="clearLikesButtonMouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="toAllergiesButton">
+    <Component class="javax.swing.JButton" name="nextButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Go to Allergy Preferences"/>
+        <Property name="text" type="java.lang.String" value="Next"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toAllergiesButtonMouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="nextButtonMouseClicked"/>
       </Events>
     </Component>
+    <Component class="javax.swing.JLabel" name="likesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Likes:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dislikesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dislikes:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="likesPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="likesPanel">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="likesPanel.setLayout(new BoxLayout(likesPanel, BoxLayout.Y_AXIS));"/>
+          </AuxValues>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="162" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="262" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="dislikesPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="dislikesPanel">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_LayoutCodePost" type="java.lang.String" value="dislikesPanel.setLayout(new BoxLayout(dislikesPanel, BoxLayout.Y_AXIS));"/>
+          </AuxValues>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="159" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="262" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>
