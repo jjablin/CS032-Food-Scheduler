@@ -89,7 +89,7 @@ public class Emailer {
                  Iterator<String> likesItr = userlikes.iterator();
                  while(likesItr.hasNext()){
                      String next = likesItr.next();
-                     _fwriter.write(next);
+                     _fwriter.write(next.toLowerCase());
                      _fwriter.newLine();
                  }
                  _fwriter.flush();
