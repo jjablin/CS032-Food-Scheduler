@@ -47,7 +47,7 @@ public class Emailer {
                  _fwriter.newLine();
                  _fwriter.write("Your Brown Dining information has been updated to provide you with \n");
                  _fwriter.write("details about the current week. The following dishes that you have marked as \n");
-                 _fwriter.write("favorites are available this week :");
+                 _fwriter.write("favorites are available this week and will be highlighted in green when/where they are available :");
                  _fwriter.newLine();
                  _fwriter.newLine();
                  _fwriter.newLine();
