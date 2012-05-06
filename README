@@ -14,8 +14,7 @@ Important Notes:
 **************************************************************************************
 This program should be run on a linux machine, otherwise it may not operate as expected.
 
-Only one program can access the database at a time, so opening two programs
-will result in problems querying the database.
+Only one program can access the database at a time, so running two programs simultaneously on the same machine will not work
 
 The information given by this program can only be as accurate as the information posted
 online by the brown dining agency. 
@@ -23,6 +22,10 @@ online by the brown dining agency.
 This program flags potential allergen problems, but is in no way all inclusive. Users
 should always be aware that any food may contain allergens whether or not the dish is
 flagged by the program and act accordingly.
+
+**************************************************************************************
+Running the Program
+**************************************************************************************
 
 **************************************************************************************
 Testing
@@ -67,9 +70,7 @@ shell. If an invalid email address is given the email simply will not be sent
 to the user. If the email address is valid but wrong, the program will attempt
 to send an email to whatever address is given as there is no way to know.
 
-Within the EateryReader object a text file was created and printed to with meal information
-for weeks prior to the handin of this project. This text file was juxtaposed with the online
-PDF information for the week and compared to ensure that the information had been parsed
-accurately. An example of such a text file can be found at
+Within the EateryReader object a text file was created and printed with meal information
+for weeks prior to the handin of this project. This text file was juxtaposed with the online PDF information for the week and compared to ensure that the information had been parsedaccurately. An example of such a text file can be found at the following location:
 CS032-Food-Scheduler/MealPlanner/parsedivy.txt
 
