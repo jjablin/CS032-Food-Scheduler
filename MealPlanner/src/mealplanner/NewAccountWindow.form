@@ -25,52 +25,31 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="welcomeLabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="227" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="usernameError" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="208" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="322" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="usernameError" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="goToLoginButton" alignment="1" min="-2" max="-2" attributes="0"/>
                   <Component id="alreadyUserLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameTakenError" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="noPasswordError" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="confirmLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="passwordLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="usernameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="confirmField" max="32767" attributes="1"/>
+                          <Component id="passwordField" alignment="0" max="32767" attributes="1"/>
+                          <Component id="usernameField" alignment="0" max="32767" attributes="1"/>
+                          <Component id="createAccountButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="notConfirmedError" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="confirmationMatchError" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="welcomeLabel" alignment="0" pref="406" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="confirmLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="passwordLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="usernameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="confirmField" max="32767" attributes="1"/>
-                  <Component id="passwordField" alignment="0" max="32767" attributes="1"/>
-                  <Component id="usernameField" alignment="0" max="32767" attributes="1"/>
-                  <Component id="createAccountButton" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace pref="182" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="notConfirmedError" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="195" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="noPasswordError" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="211" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="confirmationMatchError" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="116" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -81,6 +60,8 @@
               <Component id="welcomeLabel" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
               <Component id="usernameError" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="nameTakenError" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="noPasswordError" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -104,7 +85,7 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="createAccountButton" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="62" max="32767" attributes="0"/>
+              <EmptySpace pref="67" max="32767" attributes="0"/>
               <Component id="alreadyUserLabel" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="goToLoginButton" min="-2" max="-2" attributes="0"/>
@@ -152,6 +133,9 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="confirmField">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="confirmFieldKeyPressed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="createAccountButton">
       <Properties>
@@ -203,6 +187,17 @@
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="confirmationMatchError.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameTakenError">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Error: Username is already in use!"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="nameTakenError.setVisible(false);"/>
       </AuxValues>
     </Component>
   </SubComponents>

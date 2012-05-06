@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.io.Serializable;
 
-public class MarkedDish implements Serializable {
+public class MarkedDish implements Serializable{
 
     private static final long serialVersionUID = 7526471155622776147L;
     int _servings;

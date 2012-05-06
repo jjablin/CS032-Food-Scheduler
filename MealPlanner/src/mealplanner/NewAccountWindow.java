@@ -246,6 +246,8 @@ public class NewAccountWindow extends javax.swing.JFrame {
                 //update database if necessary
                 java.util.Calendar now = java.util.Calendar.getInstance();
                 java.util.Calendar dbDate = _windowManager.getDatabase().getCurrentDate();
+                System.out.println(now.getTime());
+                System.out.println(dbDate.getTime());
                 int days = now.get(java.util.Calendar.DAY_OF_YEAR) - dbDate.get(java.util.Calendar.DAY_OF_YEAR);
                 if(days > 0){
                     becomeUpdatingWindow();

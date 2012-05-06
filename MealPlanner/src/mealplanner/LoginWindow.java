@@ -12,6 +12,7 @@
 package mealplanner;
 
 import java.awt.Cursor;
+import java.awt.event.KeyEvent;
 
 /**
  *
@@ -61,6 +62,12 @@ public class LoginWindow extends javax.swing.JFrame {
         logInLabel.setText("Log in to Meal Planner!");
 
         usernameLabel.setText("Username:");
+
+        passwordField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                passwordFieldKeyPressed(evt);
+            }
+        });
 
         passwordLabel.setText("Password:");
 
@@ -137,7 +144,7 @@ public class LoginWindow extends javax.swing.JFrame {
    }//GEN-LAST:event_newAccountButtonMouseClicked
 
 
-
+//this can be (and is) called with evt as null because evt is not used.
     private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
         String username = usernameField.getText();
         if(username.isEmpty())
@@ -178,6 +185,13 @@ public class LoginWindow extends javax.swing.JFrame {
            errorLabel.setVisible(true);
 
     }//GEN-LAST:event_loginButtonMouseClicked
+
+    private void passwordFieldKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_passwordFieldKeyPressed
+        if(evt.getKeyCode() == KeyEvent.VK_ENTER)
+        {
+            loginButtonMouseClicked(null);
+        }
+    }//GEN-LAST:event_passwordFieldKeyPressed
 
     private void hideAll()
     {

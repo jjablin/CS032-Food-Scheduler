@@ -5,16 +5,22 @@
 package mealplanner;
 
 import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.event.FocusEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.TreeSet;
 import java.util.Iterator;
 import java.util.List;
 import javax.swing.*;
+import javax.swing.JSpinner.DefaultEditor;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import javax.swing.text.DefaultFormatter;
 
 public class DinerPanel extends JSplitPane {
 
@@ -46,6 +52,7 @@ public class DinerPanel extends JSplitPane {
         displayMeal(savedMeal);
     }
 
+    @Override
     public PlannerMainWindow getParent() {
         return _parent;
     }
@@ -60,11 +67,12 @@ public class DinerPanel extends JSplitPane {
         _mealItemHeading = new JLabel("Item");
         _mealServingsHeading = new JLabel("Servings");
 
-        JViewport mealview = new JViewport();
-        _mealPane = new JScrollPane(mealview);
+        _mealPane = new JScrollPane();
+        _mealPane.getHorizontalScrollBar().setUnitIncrement(3); //makes the arrows on the scroll bars scroll faster
+        _mealPane.getVerticalScrollBar().setUnitIncrement(3);
         _mealDisplay = new JPanel();
         _mealDisplay.setLayout(new BoxLayout(_mealDisplay, BoxLayout.Y_AXIS));
-        mealview.setView(_mealDisplay);
+        _mealPane.setViewportView(_mealDisplay);
         JPanel headingPanel = new JPanel();
         headingPanel.add(_mealItemHeading);
         headingPanel.add(_mealServingsHeading);
@@ -76,11 +84,12 @@ public class DinerPanel extends JSplitPane {
         _mealPanel.add(_mealPane);
         this.setLeftComponent(_mealPanel);
 
-        JViewport menuview = new JViewport();
-        _menuPane = new JScrollPane(menuview);
+        _menuPane = new JScrollPane();
+        _menuPane.getHorizontalScrollBar().setUnitIncrement(3); //makes the arrows on the scroll bars scroll faster
+        _menuPane.getVerticalScrollBar().setUnitIncrement(3);
         _menuDisplay = new JPanel();
         _menuDisplay.setLayout(new BoxLayout(_menuDisplay, BoxLayout.Y_AXIS));
-        menuview.setView(_menuDisplay);
+        _menuPane.setViewportView(_menuDisplay);
 
         _menuPanel = new JPanel();
         _menuPanel.setLayout(new BoxLayout(_menuPanel, BoxLayout.Y_AXIS));
@@ -88,11 +97,14 @@ public class DinerPanel extends JSplitPane {
         _menuPanel.add(_menuPane);
         this.setBottomComponent(_menuPanel);
 
-        this.setDividerLocation(300);
+        this.setDividerLocation(350);
     }
 
     //displays the meal with likes at the top and dislikes at the bottom.
     public void displayMeal(List<MarkedDish> meal) {
+        //alphabetize by dish name
+        alphabetizeMeal(meal);
+
         //sort items by preference
         ArrayList<MarkedDish> likes = new ArrayList<MarkedDish>();
         ArrayList<MarkedDish> dislikes = new ArrayList<MarkedDish>();
@@ -111,7 +123,7 @@ public class DinerPanel extends JSplitPane {
                 ArrayList<String> ingredients = d.getIngredients();
                 for(int j = 0; j < ingredients.size(); j++)
                 {
-                    if(ingredients.get(j).contains(allergy))
+                    if(ingredients.get(j).toLowerCase().contains(allergy))
                     {
                         allergic = true;
                         break;
@@ -119,22 +131,23 @@ public class DinerPanel extends JSplitPane {
                 }
             }
 
-            if (_windowManager.getUser().getDislikes().contains(d.getName())) {
+            if(allergic)
+            {
+                allergies.add(d);
+            }
+            else if (_windowManager.getUser().getDislikes().contains(d.getName())) {
                 dislikes.add(d);
             }
             else if (_windowManager.getUser().getLikes().contains(d.getName())) {
                 likes.add(d);
-            }
-            else if(allergic)
-            {
-                allergies.add(d);
             }
             else
             {
                 noPrefs.add(d);
             }
         }
-        
+
+        Dimension spinnerSize = new Dimension(40, 20);
         //display likes
         for(int i = 0; i < likes.size(); i++)
         {
@@ -146,6 +159,12 @@ public class DinerPanel extends JSplitPane {
             int servings = d.getServings();
             SpinnerNumberModel spinnerModel = new SpinnerNumberModel(servings, 0, Integer.MAX_VALUE, 1);
             JSpinner servingsSpinner = new JSpinner(spinnerModel);
+            servingsSpinner.setPreferredSize(spinnerSize);
+            DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
+            DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
+            formatter.setCommitsOnValidEdit(true);
+            //removeSpinnerButtons(servingsSpinner);
+            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
@@ -161,6 +180,12 @@ public class DinerPanel extends JSplitPane {
             int servings = d.getServings();
             SpinnerNumberModel spinnerModel = new SpinnerNumberModel(servings, 0, Integer.MAX_VALUE, 1);
             JSpinner servingsSpinner = new JSpinner(spinnerModel);
+            servingsSpinner.setPreferredSize(spinnerSize);
+            DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
+            DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
+            formatter.setCommitsOnValidEdit(true);
+            //removeSpinnerButtons(servingsSpinner);
+            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
@@ -177,12 +202,56 @@ public class DinerPanel extends JSplitPane {
             int servings = d.getServings();
             SpinnerNumberModel spinnerModel = new SpinnerNumberModel(servings, 0, Integer.MAX_VALUE, 1);
             JSpinner servingsSpinner = new JSpinner(spinnerModel);
+            servingsSpinner.setPreferredSize(spinnerSize);
+            DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
+            DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
+            formatter.setCommitsOnValidEdit(true);
+           // removeSpinnerButtons(servingsSpinner);
+            //editor.getTextField().addFocusListener(new SpinnerListener(this));
+            servingsSpinner.addChangeListener(new SpinnerListener(this));
+            itemPanel.add(servingsSpinner);
+            _mealDisplay.add(itemPanel);
+        }
+
+        //display allergies
+        for(int i = 0; i < allergies.size(); i++)
+        {
+            JPanel itemPanel = new JPanel();
+            MarkedDish d = allergies.get(i);
+            JLabel dishLabel = new JLabel(d.getName());
+            dishLabel.setForeground(Color.ORANGE);
+            itemPanel.add(dishLabel);
+            int servings = d.getServings();
+            SpinnerNumberModel spinnerModel = new SpinnerNumberModel(servings, 0, Integer.MAX_VALUE, 1);
+            JSpinner servingsSpinner = new JSpinner(spinnerModel);
+            servingsSpinner.setPreferredSize(spinnerSize);
+            DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
+            DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
+            formatter.setCommitsOnValidEdit(true);
+            //removeSpinnerButtons(servingsSpinner);
+            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
         }
         
         _mealPanel.paintAll(_mealPanel.getGraphics());
+    }
+
+    private void alphabetizeMeal(List meal)
+    {
+        Collections.sort(meal, new MarkedDishComparator());
+    }
+
+    class MarkedDishComparator implements Comparator<MarkedDish>{
+
+        public int compare(MarkedDish o1, MarkedDish o2)
+        {
+            String name1 = o1.getName();
+            String name2 = o2.getName();
+
+            return name1.compareTo(name2);
+        }
     }
 
     //gets the menu to display from the main window (_parent) and displays the dishes in order:
@@ -206,7 +275,7 @@ public class DinerPanel extends JSplitPane {
                 ArrayList<String> ingredients = d.getIngredients();
                 for(int i = 0; i < ingredients.size(); i++)
                 {
-                    if(ingredients.get(i).contains(allergy))
+                    if(ingredients.get(i).toLowerCase().contains(allergy))
                     {
                         allergic = true;
                         break;
@@ -249,7 +318,7 @@ public class DinerPanel extends JSplitPane {
         for (int i = 0; i < allergies.size(); i++) {
             Dish d = allergies.get(i);
             JLabel dishLabel = new JLabel(d.getName());
-            dishLabel.setForeground(Color.YELLOW);
+            dishLabel.setForeground(Color.ORANGE);
             dishLabel.addMouseListener(new DishListener(this));
             _menuDisplay.add(dishLabel);
         }
@@ -394,6 +463,8 @@ public class DinerPanel extends JSplitPane {
         }
 
         public void stateChanged(ChangeEvent e) {
+//            JFormattedTextField textField = (JFormattedTextField) e.getComponent();
+//            JSpinner sp = (JSpinner) textField.getParent().getParent();
             JSpinner sp = (JSpinner) e.getSource();
 
             Iterator<Dish> itr = _panel.getParent().getMenu().iterator();
@@ -425,6 +496,11 @@ public class DinerPanel extends JSplitPane {
             _panel.getWindowManager().getDatabase().updateUser(_panel.getWindowManager().getUser());
             _panel.redisplayMeal();
             _panel.getParent().updateNutritionSliders();
+        }
+
+        public void focusGained(FocusEvent evt)
+        {
+            //do nothing
         }
     }
 }
