@@ -22,8 +22,16 @@ should always be aware that any food may contain allergens whether or not the di
 flagged by the program and act accordingly.
 
 **************************************************************************************
-Running the Program
+To Build/Run the Program
 **************************************************************************************
+
+Enter MealPlanner directory. To build a jar file of the program, Enter
+
+$ ant
+
+To run the program, enter
+
+$ java -jar dist/Main.jar
 
 **************************************************************************************
 Testing
@@ -51,7 +59,12 @@ or if files do not exist.Note that when run this JUnit file should have a
 popup box appear for one of the test cases.
 
 The database backend contains two tables: dishes and users. Unit tests exist for
-testing both tables under a variety of querying semantics.
+testing both tables under a variety of querying semantics. To run the automatic
+unit tests for the database, enter
+
+$ ant test
+
+on the command-line in the MealPlanner directory.
 
 Manual Testing:
 The PDFParser, Emailer, and EateryReader were all checked together as well
