@@ -1,4 +1,4 @@
     #!/bin/bash
     chmod +r /tmp/email.txt
     echo $1;
-    mutt -s "Brown University Dining Information Update" $1 < /tmp/email.txt;
+    mutt -s "Brown University Dining Information Update" $1 < email.txt;

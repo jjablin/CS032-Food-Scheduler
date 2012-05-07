@@ -23,7 +23,7 @@ import javax.swing.JOptionPane;
  */
 
 public class Emailer {
-    private static String EMAIL_TEXT_FILE="/tmp/email.txt";
+    private static String EMAIL_TEXT_FILE="email.txt";
     private FileWriter _writer;
     private BufferedWriter _fwriter;;
     public Emailer(){
@@ -31,7 +31,6 @@ public class Emailer {
             _writer = new FileWriter(EMAIL_TEXT_FILE);
             _fwriter = new BufferedWriter(_writer);
         } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
