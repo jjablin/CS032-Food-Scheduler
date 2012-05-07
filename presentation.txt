@@ -1,0 +1,49 @@
+Overview of program following slides (SHOULD NOT TAKE MORE THAN 5 MINUTES, KEEP IT FAST AND SIMPLE IF THEY
+HAVE QUESTIONS THEY CAN ASK THEM AT THE END, DO NOT NEED TO GET SPECIFIC)
+
+Starting without a backend, run program
+
+Attempt to login and show that you cannot until an account is made
+
+create a new account
+
+(should update the menu and show the user the updating message)
+
+"like" a common item
+
+(no dislikes yet)
+
+choose a common allergy we know works
+
+show the green and yellow highlighted items as proof that these features are functional
+
+click update preferences
+
+choose a dish to dislike
+
+show that this disliked dish is now red on the bottom of the list
+
+Show how nutrition facts are shown when mouse pans over
+
+show intuitive way of choosing what options are presented (i.e. scroll between eateries and meals to show that 
+things change accordingly"
+
+go to nutrition goals, and set some goals
+
+create a meal and show how the goal bars are filled
+
+add item until a goal bar goes red
+
+exit program
+
+open program, log in with wrong password/user to show it doesn't work
+
+log in as user
+
+point out that the backend did not update as there was no need to update
+
+Go to goals to show saved information
+
+Show saved meal
+
+Open up email and show the email that was sent (it will be the welcoming email)

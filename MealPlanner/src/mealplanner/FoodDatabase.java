@@ -83,9 +83,11 @@ public class FoodDatabase {
   }
 
   public static String CalendarToString(Calendar now) {
-    return new String(now.get(Calendar.MONTH) + "/" +
-                      now.get(Calendar.DATE) + "/" +
-                      now.get(Calendar.YEAR));
+    String month = Integer.toString(now.get(Calendar.MONTH));
+    if(month.length() == 1) month = "0" + month;
+    String date = Integer.toString(now.get(Calendar.DATE));
+    if(date.length() == 1) date = "0" + date;
+    return new String(month + "/" + date + "/" + now.get(Calendar.YEAR));
   }
 
   public boolean addDish(Dish dish) {
