@@ -42,7 +42,7 @@ public class AllergyWindow extends javax.swing.JFrame {
             milkBox.setSelected(true);
         if(allergies.contains(Allergy.MSG))
             msgBox.setSelected(true);
-        if(allergies.contains(Allergy.OATS))
+        if(allergies.contains(Allergy.OAT))
             oatsBox.setSelected(true);
         if(allergies.contains(Allergy.PEANUT))
             peanutsBox.setSelected(true);
@@ -239,9 +239,9 @@ public class AllergyWindow extends javax.swing.JFrame {
         else
             _windowManager.getUser().removeAllergy(Allergy.MSG);
         if(oatsBox.isSelected())
-            _windowManager.getUser().addAllergy(Allergy.OATS);
+            _windowManager.getUser().addAllergy(Allergy.OAT);
         else
-            _windowManager.getUser().removeAllergy(Allergy.OATS);
+            _windowManager.getUser().removeAllergy(Allergy.OAT);
         if(peanutsBox.isSelected())
             _windowManager.getUser().addAllergy(Allergy.PEANUT);
         else

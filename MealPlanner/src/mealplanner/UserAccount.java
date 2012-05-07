@@ -37,10 +37,7 @@ public class UserAccount extends NullAccount implements Comparable {
     _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
-    _fatGoal = 0;
-    _proteinGoal = 0;
-    _carbGoal = 0;
-    _calGoal = 0;
+    setNutritionGoalsToReccomended();
   }
 
   public UserAccount(String username, String password) {
@@ -54,10 +51,7 @@ public class UserAccount extends NullAccount implements Comparable {
     _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
-    _fatGoal = 0;
-    _proteinGoal = 0;
-    _carbGoal = 0;
-    _calGoal = 0;
+    setNutritionGoalsToReccomended();
   }
 
   public UserAccount(String username, String password,
@@ -73,10 +67,16 @@ public class UserAccount extends NullAccount implements Comparable {
     _email = "";
     _dishes = new TreeMap< MarkedDishKey, ArrayList< MarkedDish >>();
     _selectedLocations = new TreeMap< String, Location >();
-    _fatGoal = 0; 
-    _proteinGoal = 0; 
-    _carbGoal = 0; 
-    _calGoal = 0; 
+    setNutritionGoalsToReccomended();
+  }
+
+  //values based on reccomendations for a 2000 calorie diet: http://www.netrition.com/rdi_page.html
+  public void setNutritionGoalsToReccomended()
+  {
+      _fatGoal = 66.67;
+      _proteinGoal = 50;
+      _carbGoal = 300;
+      _calGoal = 2000;
   }
 
   public String getEmail()

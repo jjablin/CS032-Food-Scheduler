@@ -69,7 +69,9 @@ public class DinerPanel extends JSplitPane {
 
         _mealPane = new JScrollPane();
         _mealPane.getHorizontalScrollBar().setUnitIncrement(3); //makes the arrows on the scroll bars scroll faster
+        _mealPane.getHorizontalScrollBar().setBlockIncrement(10);
         _mealPane.getVerticalScrollBar().setUnitIncrement(3);
+        _mealPane.getVerticalScrollBar().setBlockIncrement(10);
         _mealDisplay = new JPanel();
         _mealDisplay.setLayout(new BoxLayout(_mealDisplay, BoxLayout.Y_AXIS));
         _mealPane.setViewportView(_mealDisplay);
@@ -86,7 +88,9 @@ public class DinerPanel extends JSplitPane {
 
         _menuPane = new JScrollPane();
         _menuPane.getHorizontalScrollBar().setUnitIncrement(3); //makes the arrows on the scroll bars scroll faster
+        _menuPane.getHorizontalScrollBar().setBlockIncrement(10);
         _menuPane.getVerticalScrollBar().setUnitIncrement(3);
+        _menuPane.getVerticalScrollBar().setBlockIncrement(10);
         _menuDisplay = new JPanel();
         _menuDisplay.setLayout(new BoxLayout(_menuDisplay, BoxLayout.Y_AXIS));
         _menuPane.setViewportView(_menuDisplay);
@@ -463,10 +467,7 @@ public class DinerPanel extends JSplitPane {
         }
 
         public void stateChanged(ChangeEvent e) {
-//            JFormattedTextField textField = (JFormattedTextField) e.getComponent();
-//            JSpinner sp = (JSpinner) textField.getParent().getParent();
             JSpinner sp = (JSpinner) e.getSource();
-
             Iterator<Dish> itr = _panel.getParent().getMenu().iterator();
             JLabel dishLabel = (JLabel) sp.getParent().getComponent(0);
             String dishName = dishLabel.getText();
@@ -478,29 +479,25 @@ public class DinerPanel extends JSplitPane {
                     break;
                 }
             }
-
             int servings = (Integer) sp.getValue();
-            if (servings == 0) 
-            { //we want to remove the dish from the meal
+            if(servings == 0)
+            {
+                //remove the dish from the meal
                 _panel.getWindowManager().getUser().removeMarkedDish(dish);
+                //redisplay the meal
+                _panel.redisplayMeal();
             }
             else
-            {//we want to change the number of servings of that dish in the meal
-                MarkedDish md = new MarkedDish(dish, servings);
-                //remove the old dish from the meal
+            {
+                //remove the dish from the meal
                 _panel.getWindowManager().getUser().removeMarkedDish(dish);
-                //add the dish to the meal with the new serving number
-                _panel.getWindowManager().getUser().addMarkedDish(md);
+                //add a new dish with the new number of servings
+                 _panel.getWindowManager().getUser().addMarkedDish(new MarkedDish(dish, servings));
             }
             //update the database and display
             _panel.getWindowManager().getDatabase().updateUser(_panel.getWindowManager().getUser());
-            _panel.redisplayMeal();
             _panel.getParent().updateNutritionSliders();
-        }
 
-        public void focusGained(FocusEvent evt)
-        {
-            //do nothing
         }
     }
 }

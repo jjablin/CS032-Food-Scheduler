@@ -46,7 +46,7 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="backButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="257" max="32767" attributes="0"/>
+                      <EmptySpace pref="365" max="32767" attributes="0"/>
                       <Component id="nextButton" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -91,7 +91,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="instructionLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="To sign up for email notifications of when your favorite"/>
+        <Property name="text" type="java.lang.String" value="To sign up for email notifications of when your favorite dishes are on"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="emailLabel">
@@ -145,7 +145,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="instructionLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="dishes are on the menu, enter your email below."/>
+        <Property name="text" type="java.lang.String" value="the menu, enter your email below."/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="backButton">

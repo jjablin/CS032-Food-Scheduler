@@ -20,10 +20,12 @@ import java.text.DecimalFormat;
 public class GoalsWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;
+    private DecimalFormat _format;
 
     /** Creates new form GoalsWindow */
     public GoalsWindow(WindowManager wm) {
         _windowManager = wm;
+        _format = new DecimalFormat("#.#");
         initComponents();
         displayValues();
     }
@@ -49,19 +51,25 @@ public class GoalsWindow extends javax.swing.JFrame {
     public double fatGramsToCals(double grams)
     {
         double calsPerGram = 9; //http://en.wikipedia.org/wiki/Food_energy
-        return grams * calsPerGram;
+        double cals = grams * calsPerGram;
+        String formatted = _format.format(cals);
+        return Double.parseDouble(formatted);
     }
 
     public double proteinGramsToCals(double grams)
     {
         double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
-        return grams * calsPerGram;
+        double cals = grams * calsPerGram;
+        String formatted = _format.format(cals);
+        return Double.parseDouble(formatted);
     }
 
     public double carbGramsToCals(double grams)
     {
         double calsPerGram = 4; //http://en.wikipedia.org/wiki/Food_energy
-        return grams * calsPerGram;
+        double cals = grams * calsPerGram;
+        String formatted = _format.format(cals);
+        return Double.parseDouble(formatted);
     }
 
     public double fatCalsToGrams(double cals)
@@ -113,6 +121,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         totalCalsLabel = new javax.swing.JLabel();
         totalCalsField = new javax.swing.JTextField();
         toPlannerButton = new javax.swing.JButton();
+        resetButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -193,13 +202,20 @@ public class GoalsWindow extends javax.swing.JFrame {
             }
         });
 
+        resetButton.setText("Recommended Values");
+        resetButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                resetButtonMouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(instructionLabel)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -240,7 +256,10 @@ public class GoalsWindow extends javax.swing.JFrame {
                             .addComponent(calLabel3)
                             .addComponent(calLabel2)
                             .addComponent(calLabel1)))
-                    .addComponent(toPlannerButton, javax.swing.GroupLayout.Alignment.TRAILING))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(resetButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(toPlannerButton)))
                 .addGap(22, 22, 22))
         );
         layout.setVerticalGroup(
@@ -277,7 +296,9 @@ public class GoalsWindow extends javax.swing.JFrame {
                     .addComponent(totalCalsLabel)
                     .addComponent(totalCalsField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(toPlannerButton)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(toPlannerButton)
+                    .addComponent(resetButton))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
@@ -304,12 +325,11 @@ public class GoalsWindow extends javax.swing.JFrame {
             fatGramsField.setText("0");
         }
         double cals = fatGramsToCals(grams);
-        DecimalFormat format = new DecimalFormat("#.#");
-        fatCalsField.setText(format.format(cals));
+        fatCalsField.setText(_format.format(cals));
         updateTotalCals();
 
         //update the database
-        String formatedGrams = format.format(grams);
+        String formatedGrams = _format.format(grams);
         _windowManager.getUser().setFatGoal(Double.parseDouble(formatedGrams));
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_fatGramsFieldFocusLost
@@ -330,13 +350,12 @@ public class GoalsWindow extends javax.swing.JFrame {
             proteinGramsField.setText("0");
         }
         double cals = proteinGramsToCals(grams);
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(cals);
+        String formatedCals = _format.format(cals);
         proteinCalsField.setText(formatedCals);
         updateTotalCals();
 
         //update database
-        String formatedGrams = format.format(grams);
+        String formatedGrams = _format.format(grams);
         _windowManager.getUser().setProteinGoal(Double.parseDouble(formatedGrams));
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_proteinGramsFieldFocusLost
@@ -357,13 +376,12 @@ public class GoalsWindow extends javax.swing.JFrame {
             carbGramsField.setText("0");
         }
         double cals = carbGramsToCals(grams);
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(cals);
+        String formatedCals = _format.format(cals);
         carbCalsField.setText(formatedCals);
         updateTotalCals();
 
         //update the database
-        String formatedGrams = format.format(grams);
+        String formatedGrams = _format.format(grams);
         _windowManager.getUser().setCarbGoal(Double.parseDouble(formatedGrams));
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_carbGramsFieldFocusLost
@@ -371,8 +389,7 @@ public class GoalsWindow extends javax.swing.JFrame {
     private void fatCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_fatCalsFieldFocusLost
         double cals = getFatCals();
         double grams = fatCalsToGrams(cals);
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedGrams = format.format(grams);
+        String formatedGrams = _format.format(grams);
         fatGramsField.setText(formatedGrams);
         updateTotalCals();
 
@@ -384,8 +401,7 @@ public class GoalsWindow extends javax.swing.JFrame {
     private void proteinCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_proteinCalsFieldFocusLost
         double cals = getProteinCals();
         double grams = proteinCalsToGrams(cals);
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedGrams = format.format(grams);
+        String formatedGrams = _format.format(grams);
         proteinGramsField.setText(formatedGrams);
         updateTotalCals();
 
@@ -397,8 +413,7 @@ public class GoalsWindow extends javax.swing.JFrame {
     private void carbCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carbCalsFieldFocusLost
         double cals = getCarbCals();
         double grams = carbCalsToGrams(cals);
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedGrams = format.format(grams);
+        String formatedGrams = _format.format(grams);
         carbGramsField.setText(formatedGrams);
         updateTotalCals();
 
@@ -420,8 +435,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         if(totalCals != calorieSum)
         {
             double oneThirdCals = totalCals / 3;
-            DecimalFormat format = new DecimalFormat("#.#");
-            String formated = format.format(oneThirdCals);
+            String formated = _format.format(oneThirdCals);
             fatCalsField.setText(formated);
             fatCalsFieldFocusLost(null); //updates the grams field as well
             proteinCalsField.setText(formated);
@@ -430,6 +444,12 @@ public class GoalsWindow extends javax.swing.JFrame {
             carbCalsFieldFocusLost(null);
         }
     }//GEN-LAST:event_totalCalsFieldFocusLost
+
+    private void resetButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resetButtonMouseClicked
+        _windowManager.getUser().setNutritionGoalsToReccomended();
+        _windowManager.getDatabase().updateUser(_windowManager.getUser());
+        displayValues();
+    }//GEN-LAST:event_resetButtonMouseClicked
 
     //returns the double representation of the value of the text in fatCalsField
     //if it can not be parsed to a double or is a negative value, returns 0 and sets the text to 0
@@ -448,8 +468,7 @@ public class GoalsWindow extends javax.swing.JFrame {
             fatCals = 0;
             fatCalsField.setText("0");
         }
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(fatCals);
+        String formatedCals = _format.format(fatCals);
         return Double.parseDouble(formatedCals);
     }
 
@@ -470,8 +489,7 @@ public class GoalsWindow extends javax.swing.JFrame {
             proteinCals = 0;
             proteinCalsField.setText("0");
         }
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(proteinCals);
+        String formatedCals = _format.format(proteinCals);
         return Double.parseDouble(formatedCals);
     }
 
@@ -492,8 +510,7 @@ public class GoalsWindow extends javax.swing.JFrame {
             carbCals = 0;
             carbCalsField.setText("0");
         }
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(carbCals);
+        String formatedCals = _format.format(carbCals);
         return Double.parseDouble(formatedCals);
     }
 
@@ -512,8 +529,7 @@ public class GoalsWindow extends javax.swing.JFrame {
             cals = 0;
             totalCalsField.setText("0");
         }
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(cals);
+        String formatedCals = _format.format(cals);
         return Double.parseDouble(formatedCals);
     }
 
@@ -521,8 +537,7 @@ public class GoalsWindow extends javax.swing.JFrame {
     private void updateTotalCals()
     {
         double totalCals = getFatCals() + getProteinCals() + getCarbCals();
-        DecimalFormat format = new DecimalFormat("#.#");
-        String formatedCals = format.format(totalCals);
+        String formatedCals = _format.format(totalCals);
         totalCalsField.setText(formatedCals);
 
         //update the database
@@ -561,6 +576,7 @@ public class GoalsWindow extends javax.swing.JFrame {
     private javax.swing.JTextField proteinCalsField;
     private javax.swing.JTextField proteinGramsField;
     private javax.swing.JLabel proteinLabel;
+    private javax.swing.JButton resetButton;
     private javax.swing.JButton toPlannerButton;
     private javax.swing.JTextField totalCalsField;
     private javax.swing.JLabel totalCalsLabel;

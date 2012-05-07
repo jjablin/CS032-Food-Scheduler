@@ -50,7 +50,6 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     {
       Calendar day = Calendar.getInstance();
       day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK) - 2));
-      System.out.println(day.getTime());
       TreeSet<Dish> menu = _windowManager.getDatabase().getDishes(_diningHall, _meal, day);
       _menu = menu;
     }
@@ -90,7 +89,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         while(itr.hasNext())
         {
             MarkedDish md = (MarkedDish) itr.next();
-            totalFat = totalFat + md.getFat();
+            totalFat = totalFat + md.getFat() * md.getServings();
             totalProtein = totalProtein + md.getProtein() * md.getServings();
             totalCarbs = totalCarbs + md.getCarbs() * md.getServings();
             totalCals = totalCals + md.getCalories() * md.getServings();
@@ -127,19 +126,31 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         if(fatProgress > 100)
         { //they've exceeded their goal
             fatProgress = 100;
+            fatProgressBar.setForeground(Color.RED);
         }
+        else
+           fatProgressBar.setForeground(Color.BLUE);
         if(proteinProgress > 100)
         { //they've exceeded their goal
             proteinProgress = 100;
+            proteinProgressBar.setForeground(Color.RED);
         }
+        else
+            proteinProgressBar.setForeground(Color.BLUE);
         if(carbProgress > 100)
         { //they've exceeded their goal
             carbProgress = 100;
+            carbsProgressBar.setForeground(Color.RED);
         }
+        else
+            carbsProgressBar.setForeground(Color.BLUE);
         if(calProgress > 100)
         { //they've exceeded their goal
             calProgress = 100;
+            calsProgressBar.setForeground(Color.RED);
         }
+        else
+           calsProgressBar.setForeground(Color.BLUE);
 
         fatProgressBar.setValue((int) fatProgress);
         proteinProgressBar.setValue((int) proteinProgress);

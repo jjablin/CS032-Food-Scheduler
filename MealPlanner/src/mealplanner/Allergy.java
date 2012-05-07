@@ -8,7 +8,7 @@ package mealplanner;
 // http://en.wikipedia.org/wiki/List_of_food_allergies -
 // a list of food allergies.
 public enum Allergy {
-  CORN, GARLIC, OATS, MILK, PEANUT, SOY, NUT, WHEAT, EGG, MSG;
+  CORN, GARLIC, OAT, MILK, PEANUT, SOY, NUT, WHEAT, EGG, MSG;
 
   public String getName() {
         return this.toString().toLowerCase();

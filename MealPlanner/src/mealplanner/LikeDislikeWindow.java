@@ -79,6 +79,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         //display changes
         likesPane.paintAll(likesPane.getGraphics());
         dislikesPane.paintAll(dislikesPane.getGraphics());
+        JScrollBar horizontal = likesPane.getHorizontalScrollBar();
     }
 
     /** This method is called from within the constructor to

@@ -2,7 +2,6 @@
 
 package mealplanner;
 
-import java.awt.FlowLayout;
 
 public class EmailWindow extends javax.swing.JFrame {
 
@@ -12,6 +11,17 @@ public class EmailWindow extends javax.swing.JFrame {
     public EmailWindow(WindowManager wm) {
         _windowManager = wm;
         initComponents();
+        showEmailAddress();
+    }
+
+    private void showEmailAddress()
+    {
+        String email = _windowManager.getUser().getEmail();
+        if(!email.isEmpty())
+        {
+            notificationLabel.setText("You are subscribed with the email address " + email + ".");
+            notificationLabel.setVisible(true);
+        }
     }
 
     /** This method is called from within the constructor to
@@ -37,7 +47,7 @@ public class EmailWindow extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        instructionLabel1.setText("To sign up for email notifications of when your favorite");
+        instructionLabel1.setText("To sign up for email notifications of when your favorite dishes are on");
 
         emailLabel.setText("Email:");
 
@@ -68,7 +78,7 @@ public class EmailWindow extends javax.swing.JFrame {
             }
         });
 
-        instructionLabel2.setText("dishes are on the menu, enter your email below.");
+        instructionLabel2.setText("the menu, enter your email below.");
 
         backButton.setText("Back");
         backButton.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -101,7 +111,7 @@ public class EmailWindow extends javax.swing.JFrame {
                         .addComponent(signUpButton))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(backButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 257, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 365, Short.MAX_VALUE)
                         .addComponent(nextButton)))
                 .addContainerGap())
         );
@@ -155,6 +165,9 @@ public class EmailWindow extends javax.swing.JFrame {
             _windowManager.getDatabase().updateUser(_windowManager.getUser());
             notificationLabel.setText("You've been signed up!");
             notificationLabel.setVisible(true);
+            //send them their first email
+            Emailer e = new Emailer();
+            e.sendEmail(email, _windowManager.getUser().getLikes());
         }
         else
         {
