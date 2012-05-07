@@ -11,9 +11,17 @@ create a new account
 
 "like" a common item
 
-(no dislikes yet)
+dislike an item
 
 choose a common allergy we know works
+
+log out and create a second user
+
+point out that we did not update
+
+like an item
+
+choose an allergy we know works (corn)
 
 show the green and yellow highlighted items as proof that these features are functional
 
@@ -22,6 +30,8 @@ click update preferences
 choose a dish to dislike
 
 show that this disliked dish is now red on the bottom of the list
+
+show that clearing dislikes works
 
 Show how nutrition facts are shown when mouse pans over
 
@@ -47,3 +57,5 @@ Go to goals to show saved information
 Show saved meal
 
 Open up email and show the email that was sent (it will be the welcoming email)
+
+log out and log in as user 1
