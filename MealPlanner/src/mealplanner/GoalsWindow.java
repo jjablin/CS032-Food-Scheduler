@@ -1,22 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * GoalsWindow.java
- *
- * Created on Apr 23, 2012, 5:41:31 PM
- */
 
 package mealplanner;
 
 import java.text.DecimalFormat;
 
-/**
- *
- * @author seadams
- */
+
 public class GoalsWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;
@@ -30,6 +17,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         displayValues();
     }
 
+    //displays the user's current goals in the appropriate text fields.
     private void displayValues()
     {
         double fatGrams = _windowManager.getUser().getFatGoal();
@@ -309,6 +297,8 @@ public class GoalsWindow extends javax.swing.JFrame {
         _windowManager.showPlannerMainWindow();
     }//GEN-LAST:event_toPlannerButtonMouseClicked
 
+    //updates the fatCals field and total cals field to correspond to the value in the fat grams field
+    //invalid inputs are changed to be 0, and the database is updated.
     private void fatGramsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_fatGramsFieldFocusLost
         String gramsString = fatGramsField.getText();
         double grams;
@@ -334,6 +324,8 @@ public class GoalsWindow extends javax.swing.JFrame {
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_fatGramsFieldFocusLost
 
+    //updates the proteinCals field and total cals field to correspond to the value in the protein grams field
+    //invalid inputs are changed to be 0, and the database is updated.
     private void proteinGramsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_proteinGramsFieldFocusLost
         String gramsString = proteinGramsField.getText();
         double grams;
@@ -360,6 +352,8 @@ public class GoalsWindow extends javax.swing.JFrame {
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_proteinGramsFieldFocusLost
 
+    //updates the carbCals field and total cals field to correspond to the value in the carb grams field
+    //invalid inputs are changed to be 0, and the database is updated.
     private void carbGramsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carbGramsFieldFocusLost
         String gramsString = carbGramsField.getText();
         double grams;
@@ -386,6 +380,8 @@ public class GoalsWindow extends javax.swing.JFrame {
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_carbGramsFieldFocusLost
 
+    //updates the fatGrams field and total cals field to correspond to the value in the fatCals field
+    //invalid inputs are changed to be 0, and the database is updated.
     private void fatCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_fatCalsFieldFocusLost
         double cals = getFatCals();
         double grams = fatCalsToGrams(cals);
@@ -398,6 +394,8 @@ public class GoalsWindow extends javax.swing.JFrame {
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_fatCalsFieldFocusLost
 
+    //updates the proteinGrams field and total cals field to correspond to the value in the proteinCals field
+    //invalid inputs are changed to be 0, and the database is updated.
     private void proteinCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_proteinCalsFieldFocusLost
         double cals = getProteinCals();
         double grams = proteinCalsToGrams(cals);
@@ -410,6 +408,8 @@ public class GoalsWindow extends javax.swing.JFrame {
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
     }//GEN-LAST:event_proteinCalsFieldFocusLost
 
+    //updates the carbGrams field and total cals field to correspond to the value in the carbCals field
+    //invalid inputs are changed to be 0, and the database is updated.
     private void carbCalsFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carbCalsFieldFocusLost
         double cals = getCarbCals();
         double grams = carbCalsToGrams(cals);
@@ -445,6 +445,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_totalCalsFieldFocusLost
 
+    //sets the user's goals to the recommended values and updates the database and gui
     private void resetButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resetButtonMouseClicked
         _windowManager.getUser().setNutritionGoalsToReccomended();
         _windowManager.getDatabase().updateUser(_windowManager.getUser());

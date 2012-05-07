@@ -1,12 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package mealplanner;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.event.FocusEvent;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
@@ -105,7 +101,8 @@ public class DinerPanel extends JSplitPane {
         this.setDividerLocation(350);
     }
 
-    //displays the meal with likes at the top and dislikes at the bottom.
+    //displays the meal in the following order: likes, no preference, dislikes,
+    //allergies.  All dishes are in alphabetical order within their section.
     public void displayMeal(List<MarkedDish> meal) {
         //alphabetize by dish name
         alphabetizeMeal(meal);
@@ -168,8 +165,6 @@ public class DinerPanel extends JSplitPane {
             DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
             DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
             formatter.setCommitsOnValidEdit(true);
-            //removeSpinnerButtons(servingsSpinner);
-            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
@@ -189,8 +184,6 @@ public class DinerPanel extends JSplitPane {
             DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
             DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
             formatter.setCommitsOnValidEdit(true);
-            //removeSpinnerButtons(servingsSpinner);
-            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
@@ -211,8 +204,6 @@ public class DinerPanel extends JSplitPane {
             DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
             DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
             formatter.setCommitsOnValidEdit(true);
-           // removeSpinnerButtons(servingsSpinner);
-            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
@@ -233,8 +224,6 @@ public class DinerPanel extends JSplitPane {
             DefaultEditor editor = (DefaultEditor) servingsSpinner.getEditor();
             DefaultFormatter formatter = (DefaultFormatter) editor.getTextField().getFormatter();
             formatter.setCommitsOnValidEdit(true);
-            //removeSpinnerButtons(servingsSpinner);
-            //editor.getTextField().addFocusListener(new SpinnerListener(this));
             servingsSpinner.addChangeListener(new SpinnerListener(this));
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
@@ -243,13 +232,16 @@ public class DinerPanel extends JSplitPane {
         _mealPanel.paintAll(_mealPanel.getGraphics());
     }
 
+    //sorts the meal by name of the MarkedDishes
     private void alphabetizeMeal(List meal)
     {
         Collections.sort(meal, new MarkedDishComparator());
     }
 
+    //class used by alphabetizeMeal()
     class MarkedDishComparator implements Comparator<MarkedDish>{
 
+        //compares two dishes by their names
         public int compare(MarkedDish o1, MarkedDish o2)
         {
             String name1 = o1.getName();
@@ -262,73 +254,81 @@ public class DinerPanel extends JSplitPane {
     //gets the menu to display from the main window (_parent) and displays the dishes in order:
     //liked dishes in green at the top, no preference dishes in black in the middle,
     //and disliked dishes in red at the bottom
+    //if the menu has no items, it displays a notification to the user in the menu display
     public void displayMenu() {
         TreeSet<Dish> menu = _parent.getMenu();
-        ArrayList<Dish> noPreferences = new ArrayList<Dish>();
-        ArrayList<Dish> dislikes = new ArrayList<Dish>();
-        ArrayList<Dish> allergies = new ArrayList<Dish>();
-        //sort the dishes by preference and display the liked dishes
-        Iterator itr = menu.iterator();
-        while (itr.hasNext()) {
-            Dish d = (Dish) itr.next();
-            //check if it has allergins
-            boolean allergic = false;
-            Iterator<Allergy> allergyItr = _windowManager.getUser().getAllergies().iterator();
-            while (allergyItr.hasNext()) {
-                Allergy next = allergyItr.next();
-                String allergy = next.getName();
-                ArrayList<String> ingredients = d.getIngredients();
-                for(int i = 0; i < ingredients.size(); i++)
-                {
-                    if(ingredients.get(i).toLowerCase().contains(allergy))
+        if(menu.isEmpty())
+        {
+            JLabel label = new JLabel("No menu is available.");
+            _menuDisplay.add(label);
+        }
+        else
+        {
+            ArrayList<Dish> noPreferences = new ArrayList<Dish>();
+            ArrayList<Dish> dislikes = new ArrayList<Dish>();
+            ArrayList<Dish> allergies = new ArrayList<Dish>();
+            //sort the dishes by preference and display the liked dishes
+            Iterator itr = menu.iterator();
+            while (itr.hasNext()) {
+                Dish d = (Dish) itr.next();
+                //check if it has allergins
+                boolean allergic = false;
+                Iterator<Allergy> allergyItr = _windowManager.getUser().getAllergies().iterator();
+                while (allergyItr.hasNext()) {
+                    Allergy next = allergyItr.next();
+                    String allergy = next.getName();
+                    ArrayList<String> ingredients = d.getIngredients();
+                    for(int i = 0; i < ingredients.size(); i++)
                     {
-                        allergic = true;
-                        break;
+                        if(ingredients.get(i).toLowerCase().contains(allergy))
+                        {
+                            allergic = true;
+                            break;
+                        }
                     }
                 }
-            }
 
-            if(allergic)
-            {
-                allergies.add(d);
+                if(allergic)
+                {
+                    allergies.add(d);
+                }
+                else if (_windowManager.getUser().getDislikes().contains(d.getName())) {
+                    dislikes.add(d);
+                } else if (_windowManager.getUser().getLikes().contains(d.getName())) {
+                    JLabel dishLabel = new JLabel(d.getName());
+                    dishLabel.setForeground(Color.GREEN);
+                    dishLabel.addMouseListener(new DishListener(this));
+                    _menuDisplay.add(dishLabel);
+                } else {
+                    noPreferences.add(d);
+                }
             }
-            else if (_windowManager.getUser().getDislikes().contains(d.getName())) {
-                dislikes.add(d);
-            } else if (_windowManager.getUser().getLikes().contains(d.getName())) {
+            //display the no preference dishes
+            for (int i = 0; i < noPreferences.size(); i++) {
+                Dish d = noPreferences.get(i);
                 JLabel dishLabel = new JLabel(d.getName());
-                dishLabel.setForeground(Color.GREEN);
                 dishLabel.addMouseListener(new DishListener(this));
                 _menuDisplay.add(dishLabel);
-            } else {
-                noPreferences.add(d);
+            }
+            //display the disliked dishes
+            for (int i = 0; i < dislikes.size(); i++) {
+                Dish d = dislikes.get(i);
+                JLabel dishLabel = new JLabel(d.getName());
+                dishLabel.setForeground(Color.RED);
+                dishLabel.addMouseListener(new DishListener(this));
+                _menuDisplay.add(dishLabel);
+            }
+
+            //display the allergy dishes
+            for (int i = 0; i < allergies.size(); i++) {
+                Dish d = allergies.get(i);
+                JLabel dishLabel = new JLabel(d.getName());
+                dishLabel.setForeground(Color.ORANGE);
+                dishLabel.addMouseListener(new DishListener(this));
+                _menuDisplay.add(dishLabel);
             }
         }
-        //display the no preference dishes
-        for (int i = 0; i < noPreferences.size(); i++) {
-            Dish d = noPreferences.get(i);
-            JLabel dishLabel = new JLabel(d.getName());
-            dishLabel.addMouseListener(new DishListener(this));
-            _menuDisplay.add(dishLabel);
-        }
-        //display the disliked dishes
-        for (int i = 0; i < dislikes.size(); i++) {
-            Dish d = dislikes.get(i);
-            JLabel dishLabel = new JLabel(d.getName());
-            dishLabel.setForeground(Color.RED);
-            dishLabel.addMouseListener(new DishListener(this));
-            _menuDisplay.add(dishLabel);
-        }
 
-        //display the allergy dishes
-        for (int i = 0; i < allergies.size(); i++) {
-            Dish d = allergies.get(i);
-            JLabel dishLabel = new JLabel(d.getName());
-            dishLabel.setForeground(Color.ORANGE);
-            dishLabel.addMouseListener(new DishListener(this));
-            _menuDisplay.add(dishLabel);
-        }
-
-        //_menuDisplay.repaint();
         _menuPanel.paintAll(_menuPanel.getGraphics());
     }
 
@@ -344,6 +344,7 @@ public class DinerPanel extends JSplitPane {
         displayMeal(savedMeal);
     }
 
+    //clears the meal display
     public void clearMeal() {
         //remove all meal items (the first component is the header)
         int components = _mealDisplay.getComponentCount();
@@ -352,16 +353,13 @@ public class DinerPanel extends JSplitPane {
         }
     }
 
+    //clears the meal and menu displays
     public void clearMealAndMenu() {
         //remove all menu items
         int components = _menuDisplay.getComponentCount();
         for (int i = 0; i < components; i++) {
             _menuDisplay.remove(0);
         }
-
-        _menuDisplay.repaint();
-        _menuPanel.repaint();
-        _menuPane.repaint();
 
         clearMeal();
         _menuPanel.paintAll(_menuPanel.getGraphics());
@@ -409,12 +407,12 @@ public class DinerPanel extends JSplitPane {
         public void mouseClicked(MouseEvent e) {
             //get the dish
             Dish dish = new Dish("");
-            Iterator itr = _panel.getParent().getMenu().iterator();
+            Iterator<Dish> itr = _panel.getParent().getMenu().iterator();
             JLabel dishLabel = (JLabel) e.getComponent();
             String dishName = dishLabel.getText();
             while (itr.hasNext())
             {
-                Dish d = (Dish) itr.next();
+                Dish d = itr.next();
                 if (d.getName().equals(dishName))
                 {
                     dish = d;
@@ -426,7 +424,8 @@ public class DinerPanel extends JSplitPane {
             Location location = _panel.getParent().getDiningHall();
             Meal meal = _panel.getParent().getMeal();
             Calendar day = Calendar.getInstance();
-            day.add(Calendar.DATE, Day.toInt(_panel.getParent().getDay()) - (day.get(Calendar.DAY_OF_WEEK) - 2));
+            if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_panel.getParent().getDay()))
+                day.add(Calendar.DATE, Day.toInt(_panel.getParent().getDay()) - (day.get(Calendar.DAY_OF_WEEK)));
             List<MarkedDish> currentMeal = _panel.getWindowManager().getUser().getMarkedDishes(location, meal, day);
             boolean alreadyInMeal = false;
             Iterator<MarkedDish> iterator = currentMeal.iterator();

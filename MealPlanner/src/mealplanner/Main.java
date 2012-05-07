@@ -12,7 +12,6 @@ public class Main {
         FoodDatabase fd = new FoodDatabase("./database/database");
         fd.createUsersTable();
         fd.createDishesTable();
-        //fd.writeDishesCSV("dishes_table");
         WindowManager wm = new WindowManager(fd);
     }
 

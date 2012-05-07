@@ -1,23 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * LoginWindow.java
- *
- * Created on Apr 9, 2012, 6:21:27 PM
- */
 
 package mealplanner;
 
 import java.awt.Cursor;
 import java.awt.event.KeyEvent;
 
-/**
- *
- * @author seadams
- */
+
 public class LoginWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;
@@ -144,7 +131,9 @@ public class LoginWindow extends javax.swing.JFrame {
    }//GEN-LAST:event_newAccountButtonMouseClicked
 
 
-//this can be (and is) called with evt as null because evt is not used.
+    //this can be (and is) called with evt as null because evt is not used.
+    //checks that the username and password match and logs the user in.
+    //if they are not valid, displays an error message
     private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
         String username = usernameField.getText();
         if(username.isEmpty())
@@ -204,6 +193,8 @@ public class LoginWindow extends javax.swing.JFrame {
         usernameLabel.setVisible(false);
     }
 
+    //hides all components except a label asking the user to wait while menus are updated
+    //sets the window title and changes the cursor to a wait cursor
     private void becomeUpdatingWindow()
     {
         hideAll();

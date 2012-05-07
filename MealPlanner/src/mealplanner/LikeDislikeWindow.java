@@ -1,13 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * LikeDislikeWindow.java
- *
- * Created on Apr 10, 2012, 3:21:03 PM
- */
 
 package mealplanner;
 
@@ -23,10 +13,7 @@ import java.util.Set;
 import java.util.TreeSet;
 import javax.swing.*;
 
-/**
- *
- * @author seadams
- */
+
 public class LikeDislikeWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;

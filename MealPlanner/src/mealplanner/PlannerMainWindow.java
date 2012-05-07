@@ -1,13 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/*
- * PlannerMainWindow.java
- *
- * Created on Apr 23, 2012, 1:18:32 PM
- */
 package mealplanner;
 
 import java.awt.Color;
@@ -19,10 +10,7 @@ import java.util.List;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-/**
- *
- * @author seadams
- */
+
 public class PlannerMainWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;
@@ -36,7 +24,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         this.setCursor(Cursor.getDefaultCursor());
         _windowManager = wm;
         _meal = new Meal("breakfast");
-        _day = Day.MONDAY; //this should be the current day
+        _day = Day.MONDAY;
         _diningHall = new Location("Ratty");
         setMenu();
         initComponents();
@@ -161,6 +149,8 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         calsProgressBar.setValue((int) calProgress);
     }
 
+    //sets the selected day button to be red, all others to be brown, and sets
+    //the date displayed
     private void colorDayButtons() {
         Color brown = new Color(139, 69, 19);
         Color red = new Color(178, 34, 34);
@@ -195,8 +185,16 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                 sunButton.setBackground(red);
                 break;
         }
+
+        Calendar day = Calendar.getInstance();
+        if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_day))
+            day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK)));
+        dateLabel.setText("Date being planned: " +
+                day.getTime().toString().substring(4, 10) + ", " +
+                day.getTime().toString().substring(24));
     }
 
+    //displays the nutrition information for dish
     public void showNutritionInfo(Dish dish)
     {
         dishnameLabel.setText(dish.getName());
@@ -338,6 +336,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         totalProteinLabel = new javax.swing.JLabel();
         proteinValLabel = new javax.swing.JLabel();
         logOutButton = new javax.swing.JButton();
+        dateLabel = new javax.swing.JLabel();
 
         mealGroup.add(breakfastRB);
         mealGroup.add(lunchRB);
@@ -522,6 +521,8 @@ public class PlannerMainWindow extends javax.swing.JFrame {
             }
         });
 
+        dateLabel.setText("Date being planned:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -538,22 +539,24 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                     .addComponent(dinnerRB)
                     .addComponent(selectMealButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(monButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(tueButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(wedButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(thurButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(friButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(satButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(sunButton))
-                    .addComponent(dinerTabs))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(monButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(tueButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(wedButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(thurButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(friButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(satButton)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(sunButton))
+                        .addComponent(dinerTabs))
+                    .addComponent(dateLabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(totalFatLabel, javax.swing.GroupLayout.Alignment.LEADING)
@@ -594,10 +597,10 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                             .addComponent(fatLabel))
                         .addGap(31, 31, 31)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(fatProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, 267, Short.MAX_VALUE)
-                            .addComponent(proteinProgressBar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 267, Short.MAX_VALUE)
-                            .addComponent(carbsProgressBar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 267, Short.MAX_VALUE)
-                            .addComponent(calsProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, 267, Short.MAX_VALUE)))
+                            .addComponent(fatProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE)
+                            .addComponent(proteinProgressBar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE)
+                            .addComponent(carbsProgressBar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE)
+                            .addComponent(calsProgressBar, javax.swing.GroupLayout.DEFAULT_SIZE, 261, Short.MAX_VALUE)))
                     .addComponent(logOutButton))
                 .addContainerGap())
         );
@@ -616,7 +619,9 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                             .addComponent(thurButton)
                             .addComponent(friButton)
                             .addComponent(satButton)
-                            .addComponent(sunButton)))
+                            .addComponent(sunButton))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(dateLabel))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(toPreferencesButton)
@@ -651,39 +656,36 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                                         .addGap(9, 9, 9)
                                         .addComponent(totalCalsLabel)))))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(18, 18, 18)
-                                    .addComponent(dishnameLabel)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(servingLabel)
-                                        .addComponent(servingSizeValLabel))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(calsLabel)
-                                        .addComponent(caloriesValLabel))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(totalFatLabel)
-                                        .addComponent(totalFatValLabel))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(satFatLabel)
-                                        .addComponent(satFatValLabel))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(cholesterolLabel)
-                                        .addComponent(cholesterolValLabel)))
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 104, Short.MAX_VALUE)
-                                    .addComponent(selectMealButton)
-                                    .addGap(70, 70, 70)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(dishnameLabel)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(servingLabel)
+                                    .addComponent(servingSizeValLabel))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(calsLabel)
+                                    .addComponent(caloriesValLabel))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(totalFatLabel)
+                                    .addComponent(totalFatValLabel))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(satFatLabel)
+                                    .addComponent(satFatValLabel))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(cholesterolLabel)
+                                    .addComponent(cholesterolValLabel)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(59, 59, 59)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGap(64, 64, 64)
+                                        .addGap(7, 7, 7)
+                                        .addComponent(selectMealButton)
+                                        .addGap(30, 30, 30)
                                         .addComponent(totalProteinLabel))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
@@ -701,9 +703,9 @@ public class PlannerMainWindow extends javax.swing.JFrame {
                                                 .addComponent(fiberValLabel)))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(proteinValLabel)))))))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addGap(29, 29, 29))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(410, Short.MAX_VALUE)
+                .addContainerGap(435, Short.MAX_VALUE)
                 .addComponent(logOutButton)
                 .addContainerGap())
         );
@@ -790,6 +792,8 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_dinnerRBMouseClicked
 
+    //sets the current meal to be the selected meal for the current day and meal
+    //(breakfast, lunch, or dinner).  Updates the progress bars accordingly
     private void selectMealButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_selectMealButtonMouseClicked
         //set current meal as selected meal for current day and Meal
         Calendar day = Calendar.getInstance();
@@ -870,6 +874,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     private javax.swing.JProgressBar carbsProgressBar;
     private javax.swing.JLabel cholesterolLabel;
     private javax.swing.JLabel cholesterolValLabel;
+    private javax.swing.JLabel dateLabel;
     private javax.swing.JTabbedPane dinerTabs;
     private javax.swing.JRadioButton dinnerRB;
     private javax.swing.JLabel dishnameLabel;

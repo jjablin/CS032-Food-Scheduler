@@ -1,8 +1,6 @@
 package mealplanner;
 
-import java.io.*;
 import java.security.*;
-import java.util.*;
 
 public class SHAHash {
 

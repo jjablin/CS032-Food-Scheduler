@@ -1,22 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * AllergyWindow.java
- *
- * Created on Apr 22, 2012, 8:25:48 PM
- */
 
 package mealplanner;
 
 import java.util.Set;
 
-/**
- *
- * @author seadams
- */
+
 public class AllergyWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;

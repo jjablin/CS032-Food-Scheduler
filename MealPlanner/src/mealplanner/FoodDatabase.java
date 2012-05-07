@@ -1,9 +1,7 @@
 package mealplanner;
 
-import java.io.*;
 import java.sql.*;
 import java.util.*;
-import org.h2.jdbcx.*;
 
 public class FoodDatabase {
   String _fileURL;

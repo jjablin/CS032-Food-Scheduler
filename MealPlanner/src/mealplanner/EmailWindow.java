@@ -14,6 +14,8 @@ public class EmailWindow extends javax.swing.JFrame {
         showEmailAddress();
     }
 
+    //notifies the user if they have already signed up for emails and displays
+    //the address the have signed up with.
     private void showEmailAddress()
     {
         String email = _windowManager.getUser().getEmail();

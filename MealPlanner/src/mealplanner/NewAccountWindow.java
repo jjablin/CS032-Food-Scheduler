@@ -1,25 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * newAccountWindow.java
- *
- * Created on Apr 9, 2012, 6:22:53 PM
- */
 
 package mealplanner;
 
 import java.awt.Cursor;
-import java.awt.FlowLayout;
 import java.awt.event.KeyEvent;
-import javax.swing.JLabel;
 
-/**
- *
- * @author seadams
- */
+
 public class NewAccountWindow extends javax.swing.JFrame {
 
     private WindowManager _windowManager;
@@ -246,8 +231,6 @@ public class NewAccountWindow extends javax.swing.JFrame {
                 //update database if necessary
                 java.util.Calendar now = java.util.Calendar.getInstance();
                 java.util.Calendar dbDate = _windowManager.getDatabase().getCurrentDate();
-                System.out.println(now.getTime());
-                System.out.println(dbDate.getTime());
                 int days = now.get(java.util.Calendar.DAY_OF_YEAR) - dbDate.get(java.util.Calendar.DAY_OF_YEAR);
                 if(days > 0){
                     becomeUpdatingWindow();
@@ -282,6 +265,8 @@ public class NewAccountWindow extends javax.swing.JFrame {
         welcomeLabel.setVisible(false);
     }
 
+    //hides all components except a label asking the user to wait while menus are updated
+    //sets the window title and changes the cursor to a wait cursor
     private void becomeUpdatingWindow()
     {
         hideAll();

@@ -1,16 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package mealplanner;
 
 import javax.swing.JFrame;
 
-/**
- *
- * @author seadams
- */
+
 public class WindowManager {
     
     private JFrame _frame;
