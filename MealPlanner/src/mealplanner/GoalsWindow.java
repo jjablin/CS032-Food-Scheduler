@@ -112,6 +112,7 @@ public class GoalsWindow extends javax.swing.JFrame {
         resetButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Meal Planner - Goals");
 
         instructionLabel.setText("Enter your dietary goals in grams or calories per day:");
 

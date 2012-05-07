@@ -48,6 +48,7 @@ public class EmailWindow extends javax.swing.JFrame {
         backButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Meal Planner - Preferences");
 
         instructionLabel1.setText("To sign up for email notifications of when your favorite dishes are on");
 

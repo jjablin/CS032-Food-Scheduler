@@ -30,6 +30,7 @@ public class PlannerMainWindow extends javax.swing.JFrame {
         initComponents();
         colorDayButtons();
         updateNutritionSliders();
+        this.setTitle("Meal Planner");
     }
 
     //queries the data base for the meal using the current values of _diningHall,

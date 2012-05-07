@@ -95,6 +95,7 @@ public class LikeDislikeWindow extends javax.swing.JFrame {
         dislikesPanel = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Meal Planner - Preferences");
 
         instructionLabel.setText("Search for and enter your likes and dislikes below");
         instructionLabel.setAlignmentY(this.CENTER_ALIGNMENT);

@@ -69,6 +69,7 @@ public class AllergyWindow extends javax.swing.JFrame {
         warningLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Meal Planner - Preferences");
 
         instructionLabel.setText("Select your allergies below");
 
