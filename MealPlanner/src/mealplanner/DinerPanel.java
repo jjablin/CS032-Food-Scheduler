@@ -44,7 +44,8 @@ public class DinerPanel extends JSplitPane {
         initComponents();
         displayMenu();
         Calendar day = Calendar.getInstance();
-        day.add(Calendar.DATE, Day.toInt(_parent.getDay()) - (day.get(Calendar.DAY_OF_WEEK) - 2));
+        if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_parent.getDay()))
+          day.add(Calendar.DATE, Day.toInt(_parent.getDay()) - (day.get(Calendar.DAY_OF_WEEK)));
         List<MarkedDish> savedMeal = _windowManager.getUser().getMarkedDishes(
                 _parent.getDiningHall(),
                 _parent.getMeal(),
@@ -238,7 +239,7 @@ public class DinerPanel extends JSplitPane {
             itemPanel.add(servingsSpinner);
             _mealDisplay.add(itemPanel);
         }
-        
+
         _mealPanel.paintAll(_mealPanel.getGraphics());
     }
 
@@ -334,7 +335,8 @@ public class DinerPanel extends JSplitPane {
     public void redisplayMeal() {
         clearMeal();
         Calendar day = Calendar.getInstance();
-        day.add(Calendar.DATE, Day.toInt(_parent.getDay()) - (day.get(Calendar.DAY_OF_WEEK) - 2));
+        if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_parent.getDay()))
+          day.add(Calendar.DATE, Day.toInt(_parent.getDay()) - (day.get(Calendar.DAY_OF_WEEK)));
         List<MarkedDish> savedMeal = _windowManager.getUser().getMarkedDishes(
                 _parent.getDiningHall(),
                 _parent.getMeal(),

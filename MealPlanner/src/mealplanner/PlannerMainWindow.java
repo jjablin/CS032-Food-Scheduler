@@ -76,7 +76,8 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     public void updateNutritionSliders()
     {
         Calendar day = Calendar.getInstance();
-        day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK) - 2));
+        if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_day))
+          day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK)));
         Location breakfastLoc = _windowManager.getUser().getSelectedLocation(day, new Meal("breakfast"));
         Location lunchLoc = _windowManager.getUser().getSelectedLocation(day, new Meal("lunch"));
         Location dinnerLoc = _windowManager.getUser().getSelectedLocation(day, new Meal("dinner"));
@@ -792,7 +793,8 @@ public class PlannerMainWindow extends javax.swing.JFrame {
     private void selectMealButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_selectMealButtonMouseClicked
         //set current meal as selected meal for current day and Meal
         Calendar day = Calendar.getInstance();
-        day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK) - 2));
+        if(day.get(Calendar.DAY_OF_WEEK) != Day.toInt(_day))
+          day.add(Calendar.DATE, Day.toInt(_day) - (day.get(Calendar.DAY_OF_WEEK)));
         _windowManager.getUser().setSelectedLocation(day, _meal, _diningHall);
         _windowManager.getDatabase().updateUser(_windowManager.getUser());
         //update sliders
