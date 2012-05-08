@@ -88,3 +88,25 @@ Within the EateryReader object a text file was created and printed with meal inf
 for weeks prior to the handin of this project. This text file was juxtaposed with the online PDF information for the week and compared to ensure that the information had been parsed accurately. An example of such a text file can be found at the following location:
 CS032-Food-Scheduler/MealPlanner/parsedivy.txt
 
+
+GUI Testing:
+The front end has been tested extensively by hand.  Tests for the following requirements were done:
+-Correct windows appear on button clicks
+-Graphics are cleanly layed out
+-Resizing the windows keeps the graphics layouts in tact: the only elements that change size when a window is resized are the nutrition progress bars in the main window.  This lets the user expand the window to see an effectively higher resolution display of their progress towards their goals.  The components that move when a window size is adjusted are the next, back, log out, etc buttons at the bottom of the windows.
+-Correct error messages are displayed when a user unsuccessfully attempts to create a new account.
+-An error message is displayed when a user unsuccessfully attempts to log in.
+-Progress bars include both the dishes and the number of servings of each dish in calculating the user's progress towards their nutritional goals.
+-When users create meals that exceed a nutritional goal, the appropriate progress bar turns red.  When they change their meal to no longer exceed the goal, it returns to blue.
+-User can change which meal is selected for a given date and meal, and the progress bars change appropriately.
+-Goals window: Negative numbers and inputs which can not be parsed to numbers are displayed as "0".
+-Goals window: numbers displayed after a text field loses focus will never exceed 2 decimal places to avoid a messy appearance of numbers which exceed the size of the text box.
+-Users can not choose negative servings for dishes in their meals.
+-When a user sets the number of servings of a dish to 0, the dish is removed from their meal, and the display is updated to reflect this.
+When a user clicks on a dish in the menu which is already part of their meal, it increments the number of servings of that dish by 1.
+-When the user changes days, the day buttons are highlighted appropriately, the date displayed changes, the progress bars change, and the menu and meal display change.
+-The correct date is always used when querying the database.  This requires correctly converting the day of the week the user has selected into the correct date.
+-The user is sent an email notification upon signing up for emails.  When the user returns to the email signup window, they are notified of what email address they have already signed up with.
+-Dishes in the meal and menu displays are highlighted properly: green for likes, red for dislikes, yellow-orange for dishes containing allergens.  Sometimes dishes that don't contain allergens are still marked because they contain an ingredient with a similar word to the allergen.  This mostly occurs with oats, and is unavoidable, but better than making our search criteria more narrow and not marking dishes that do contain an allergen.
+-Users can log out and log in as a different user, and the information displayed will be the current user's info.
+
